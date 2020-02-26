@@ -1,0 +1,1613 @@
+{
+ "aggregations": {
+  "access_right": {
+   "buckets": [
+    {
+     "doc_count": 10221,
+     "key": "open"
+    },
+    {
+     "doc_count": 1293,
+     "key": "closed"
+    },
+    {
+     "doc_count": 28,
+     "key": "restricted"
+    },
+    {
+     "doc_count": 7,
+     "key": "embargoed"
+    }
+   ],
+   "doc_count_error_upper_bound": 0,
+   "sum_other_doc_count": 0
+  },
+  "communities": {
+   "buckets": [
+    {
+     "doc_count": 1674,
+     "key": "biosyslit"
+    },
+    {
+     "doc_count": 626,
+     "key": "waset"
+    },
+    {
+     "doc_count": 209,
+     "key": "hsr"
+    },
+    {
+     "doc_count": 176,
+     "key": "ecfunded"
+    },
+    {
+     "doc_count": 120,
+     "key": "fp7-bmc"
+    },
+    {
+     "doc_count": 56,
+     "key": "zenodo"
+    },
+    {
+     "doc_count": 31,
+     "key": "kbnl"
+    },
+    {
+     "doc_count": 24,
+     "key": "rehabmove2018"
+    },
+    {
+     "doc_count": 23,
+     "key": "pasteur4oa"
+    },
+    {
+     "doc_count": 22,
+     "key": "inmind"
+    }
+   ],
+   "doc_count_error_upper_bound": 0,
+   "sum_other_doc_count": 711
+  },
+  "file_type": {
+   "buckets": [
+    {
+     "doc_count": 9358,
+     "key": "pdf"
+    },
+    {
+     "doc_count": 267,
+     "key": "zip"
+    },
+    {
+     "doc_count": 198,
+     "key": "jpg"
+    },
+    {
+     "doc_count": 140,
+     "key": "xml"
+    },
+    {
+     "doc_count": 115,
+     "key": "png"
+    },
+    {
+     "doc_count": 112,
+     "key": "meta"
+    },
+    {
+     "doc_count": 62,
+     "key": "html"
+    },
+    {
+     "doc_count": 61,
+     "key": "docx"
+    },
+    {
+     "doc_count": 59,
+     "key": "xlsx"
+    },
+    {
+     "doc_count": 44,
+     "key": "txt"
+    }
+   ],
+   "doc_count_error_upper_bound": 0,
+   "sum_other_doc_count": 349
+  },
+  "keywords": {
+   "buckets": [
+    {
+     "doc_count": 1479,
+     "key": "Taxonomy"
+    },
+    {
+     "doc_count": 1415,
+     "key": "Animalia"
+    },
+    {
+     "doc_count": 1415,
+     "key": "Biodiversity"
+    },
+    {
+     "doc_count": 1036,
+     "key": "Arthropoda"
+    },
+    {
+     "doc_count": 655,
+     "key": "Insecta"
+    },
+    {
+     "doc_count": 260,
+     "key": "Hemiptera"
+    },
+    {
+     "doc_count": 201,
+     "key": "Chordata"
+    },
+    {
+     "doc_count": 188,
+     "key": "Arachnida"
+    },
+    {
+     "doc_count": 148,
+     "key": "Fauna Europaea"
+    },
+    {
+     "doc_count": 139,
+     "key": "Taxonomic indexing"
+    }
+   ],
+   "doc_count_error_upper_bound": 0,
+   "sum_other_doc_count": 19149
+  },
+  "type": {
+   "buckets": [
+    {
+     "doc_count": 10442,
+     "key": "publication",
+     "subtype": {
+      "buckets": [
+       {
+        "doc_count": 9815,
+        "key": "article"
+       },
+       {
+        "doc_count": 215,
+        "key": "conferencepaper"
+       },
+       {
+        "doc_count": 74,
+        "key": "deliverable"
+       },
+       {
+        "doc_count": 60,
+        "key": "section"
+       },
+       {
+        "doc_count": 58,
+        "key": "report"
+       },
+       {
+        "doc_count": 53,
+        "key": "taxonomictreatment"
+       },
+       {
+        "doc_count": 50,
+        "key": "thesis"
+       },
+       {
+        "doc_count": 49,
+        "key": "workingpaper"
+       },
+       {
+        "doc_count": 27,
+        "key": "other"
+       },
+       {
+        "doc_count": 15,
+        "key": "book"
+       }
+      ],
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 26
+     }
+    },
+    {
+     "doc_count": 356,
+     "key": "dataset",
+     "subtype": {
+      "buckets": [],
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 0
+     }
+    },
+    {
+     "doc_count": 293,
+     "key": "image",
+     "subtype": {
+      "buckets": [
+       {
+        "doc_count": 285,
+        "key": "figure"
+       },
+       {
+        "doc_count": 7,
+        "key": "photo"
+       },
+       {
+        "doc_count": 1,
+        "key": "other"
+       }
+      ],
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 0
+     }
+    },
+    {
+     "doc_count": 202,
+     "key": "presentation",
+     "subtype": {
+      "buckets": [],
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 0
+     }
+    },
+    {
+     "doc_count": 161,
+     "key": "software",
+     "subtype": {
+      "buckets": [],
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 0
+     }
+    },
+    {
+     "doc_count": 62,
+     "key": "poster",
+     "subtype": {
+      "buckets": [],
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 0
+     }
+    },
+    {
+     "doc_count": 19,
+     "key": "other",
+     "subtype": {
+      "buckets": [],
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 0
+     }
+    },
+    {
+     "doc_count": 9,
+     "key": "video",
+     "subtype": {
+      "buckets": [],
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 0
+     }
+    },
+    {
+     "doc_count": 5,
+     "key": "lesson",
+     "subtype": {
+      "buckets": [],
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 0
+     }
+    }
+   ],
+   "doc_count_error_upper_bound": 0,
+   "sum_other_doc_count": 0
+  }
+ },
+ "hits": {
+  "hits": [
+   {
+    "conceptdoi": "10.5281/zenodo.3359539",
+    "conceptrecid": "3359539",
+    "created": "2019-08-03T11:54:06.498346+00:00",
+    "doi": "10.5281/zenodo.3359540",
+    "files": [
+     {
+      "bucket": "a8c3fc1a-3dca-4b81-94a2-65985915ba2e",
+      "checksum": "md5:aa2dbd84cadecb48824d589f0dd327cd",
+      "key": "Hendrik Zwaardemaker en zijn bioradioactiviteit.pdf",
+      "links": {
+       "self": "https://zenodo.org/api/files/a8c3fc1a-3dca-4b81-94a2-65985915ba2e/Hendrik%20Zwaardemaker%20en%20zijn%20bioradioactiviteit.pdf"
+      },
+      "size": 1723351,
+      "type": "pdf"
+     }
+    ],
+    "id": 3359540,
+    "links": {
+     "badge": "https://zenodo.org/badge/doi/10.5281/zenodo.3359540.svg",
+     "bucket": "https://zenodo.org/api/files/a8c3fc1a-3dca-4b81-94a2-65985915ba2e",
+     "conceptbadge": "https://zenodo.org/badge/doi/10.5281/zenodo.3359539.svg",
+     "conceptdoi": "https://doi.org/10.5281/zenodo.3359539",
+     "doi": "https://doi.org/10.5281/zenodo.3359540",
+     "html": "https://zenodo.org/record/3359540",
+     "latest": "https://zenodo.org/api/records/3359540",
+     "latest_html": "https://zenodo.org/record/3359540",
+     "self": "https://zenodo.org/api/records/3359540"
+    },
+    "metadata": {
+     "access_right": "open",
+     "access_right_category": "success",
+     "communities": [
+      {
+       "id": "wwwradhis"
+      }
+     ],
+     "creators": [
+      {
+       "name": "Simon, K.J."
+      }
+     ],
+     "description": "<p>The physiologist Zwaardemaker (1857-1930) conducted extensive research into the relationship between radioactivity and the functioning of the heart, later in a broader sense also called bioradioactivity. For 15 years, from 1915 until his death in 1930, Zwaardemaker worked on this project and about 25 dissertations were devoted to it. The very extensive research project ended abruptly at his death. What exactly did the investigation entail and why was it not continued?</p>",
+     "doi": "10.5281/zenodo.3359540",
+     "keywords": [
+      "Radium",
+      "Heart",
+      "Potassium",
+      "Kalium",
+      "Radioactivity"
+     ],
+     "language": "nld",
+     "license": {
+      "id": "CC-BY-4.0"
+     },
+     "notes": "scriptie (thesis) master-traject medische geschiedenis Vrije Universiteit Amsterdam",
+     "publication_date": "2019-06-01",
+     "related_identifiers": [
+      {
+       "identifier": "10.5281/zenodo.3359539",
+       "relation": "isVersionOf",
+       "scheme": "doi"
+      }
+     ],
+     "relations": {
+      "version": [
+       {
+        "count": 1,
+        "index": 0,
+        "is_last": true,
+        "last_child": {
+         "pid_type": "recid",
+         "pid_value": "3359540"
+        },
+        "parent": {
+         "pid_type": "recid",
+         "pid_value": "3359539"
+        }
+       }
+      ]
+     },
+     "resource_type": {
+      "subtype": "other",
+      "title": "Other",
+      "type": "publication"
+     },
+     "title": "Hendrik Zwaardemaker en zijn bioradioactiviteit. Een wetenschapshistorische verkenning van een experiment."
+    },
+    "owners": [
+     73810
+    ],
+    "revision": 5,
+    "stats": {
+     "downloads": 12.0,
+     "unique_downloads": 11.0,
+     "unique_views": 12.0,
+     "version_downloads": 12.0,
+     "version_unique_downloads": 11.0,
+     "version_unique_views": 12.0,
+     "version_views": 18.0,
+     "version_volume": 20680212.0,
+     "views": 18.0,
+     "volume": 20680212.0
+    },
+    "updated": "2020-01-20T17:00:49.293313+00:00"
+   },
+   {
+    "conceptrecid": "3395742",
+    "created": "2019-09-06T08:23:26.010164+00:00",
+    "doi": "10.5117/mab.57.16130",
+    "files": [
+     {
+      "bucket": "36441cd9-cd40-4bfc-ac00-716635beae53",
+      "checksum": "md5:e70ef26374581b647745e94414f34f2d",
+      "key": "16130__1_227892_LE_335210.pdf",
+      "links": {
+       "self": "https://zenodo.org/api/files/36441cd9-cd40-4bfc-ac00-716635beae53/16130__1_227892_LE_335210.pdf"
+      },
+      "size": 23019,
+      "type": "pdf"
+     }
+    ],
+    "id": 3395743,
+    "links": {
+     "badge": "https://zenodo.org/badge/doi/10.5117/mab.57.16130.svg",
+     "bucket": "https://zenodo.org/api/files/36441cd9-cd40-4bfc-ac00-716635beae53",
+     "doi": "https://doi.org/10.5117/mab.57.16130",
+     "html": "https://zenodo.org/record/3395743",
+     "latest": "https://zenodo.org/api/records/3395743",
+     "latest_html": "https://zenodo.org/record/3395743",
+     "self": "https://zenodo.org/api/records/3395743"
+    },
+    "metadata": {
+     "access_right": "open",
+     "access_right_category": "success",
+     "creators": [
+      {
+       "name": "MAB,"
+      }
+     ],
+     "description": "Vijfentwintig jaren accountantsopleiding aan de Vrije Universiteit",
+     "doi": "10.5117/mab.57.16130",
+     "imprint": {
+      "publisher": "Amsterdam University Press"
+     },
+     "journal": {
+      "issue": "(4)",
+      "pages": "130-130",
+      "title": "Maandblad Voor Accountancy en Bedrijfseconomie",
+      "volume": "57"
+     },
+     "keywords": [],
+     "license": {
+      "id": "CC-BY-4.0"
+     },
+     "publication_date": "1983-04-01",
+     "relations": {
+      "version": [
+       {
+        "count": 1,
+        "index": 0,
+        "is_last": true,
+        "last_child": {
+         "pid_type": "recid",
+         "pid_value": "3395743"
+        },
+        "parent": {
+         "pid_type": "recid",
+         "pid_value": "3395742"
+        }
+       }
+      ]
+     },
+     "resource_type": {
+      "subtype": "article",
+      "title": "Journal article",
+      "type": "publication"
+     },
+     "title": "Vijfentwintig jaren accountantsopleiding aan de Vrije Universiteit"
+    },
+    "owners": [
+     22270
+    ],
+    "revision": 4,
+    "stats": {
+     "downloads": 8.0,
+     "unique_downloads": 7.0,
+     "unique_views": 2.0,
+     "version_downloads": 8.0,
+     "version_unique_downloads": 7.0,
+     "version_unique_views": 2.0,
+     "version_views": 2.0,
+     "version_volume": 184152.0,
+     "views": 2.0,
+     "volume": 184152.0
+    },
+    "updated": "2020-01-20T14:04:40.573959+00:00"
+   },
+   {
+    "conceptrecid": "756304",
+    "created": "2017-02-03T15:51:21.626618+00:00",
+    "doi": "10.5281/zenodo.268416",
+    "files": [
+     {
+      "bucket": "e2c5868e-4224-459d-b5ab-509a3a9d98a5",
+      "checksum": "md5:18a519044ec9858e1636c45895079fa7",
+      "key": "GPCR_mutations_chemokine.xlsx",
+      "links": {
+       "self": "https://zenodo.org/api/files/e2c5868e-4224-459d-b5ab-509a3a9d98a5/GPCR_mutations_chemokine.xlsx"
+      },
+      "size": 4492621,
+      "type": "xlsx"
+     }
+    ],
+    "id": 268416,
+    "links": {
+     "badge": "https://zenodo.org/badge/doi/10.5281/zenodo.268416.svg",
+     "bucket": "https://zenodo.org/api/files/e2c5868e-4224-459d-b5ab-509a3a9d98a5",
+     "doi": "https://doi.org/10.5281/zenodo.268416",
+     "html": "https://zenodo.org/record/268416",
+     "latest": "https://zenodo.org/api/records/268416",
+     "latest_html": "https://zenodo.org/record/268416",
+     "self": "https://zenodo.org/api/records/268416"
+    },
+    "metadata": {
+     "access_right": "open",
+     "access_right_category": "success",
+     "communities": [
+      {
+       "id": "zenodo"
+      }
+     ],
+     "creators": [
+      {
+       "affiliation": "Vrije Universiteit Amsterdam",
+       "name": "Arimont, Marta"
+      },
+      {
+       "affiliation": "Vrije Universiteit Amsterdam",
+       "name": "Sun, Shanliang"
+      },
+      {
+       "affiliation": "Vrije Universiteit Amsterdam",
+       "name": "Vass, Marton"
+      },
+      {
+       "affiliation": "Vrije Universiteit Amsterdam",
+       "name": "Smit, Martine"
+      },
+      {
+       "affiliation": "Vrije Universiteit Amsterdam",
+       "name": "Leurs, Rob"
+      },
+      {
+       "affiliation": "Vrije Universiteit Amsterdam",
+       "name": "de Esch, Iwan J.P."
+      },
+      {
+       "affiliation": "Vrije Universiteit Amsterdam",
+       "name": "de Graaf, Chris"
+      }
+     ],
+     "description": "<p>Curated set of 2004\u00a0quantitative mutation data points covering 10 chemokine G protein-coupled receptors, annotated according to GPCRdb standards (http://gpcrdb.org/) building from the data set published by Scholten et al. in BJP 2012, 165, 1617.</p>\n\n<p>Errors in the previous version were corrected and new data points for CCR2 and CCR9 were added.</p>",
+     "doi": "10.5281/zenodo.268416",
+     "keywords": [
+      "GPCRs",
+      "site directed mutagenesis",
+      "mutations",
+      "G protein-coupled receptors",
+      "chemokine"
+     ],
+     "license": {
+      "id": "CC-BY-4.0"
+     },
+     "publication_date": "2017-02-03",
+     "related_identifiers": [
+      {
+       "identifier": "10.5281/zenodo.58160",
+       "relation": "isNewVersionOf",
+       "scheme": "doi"
+      },
+      {
+       "identifier": "10.1021/acs.jmedchem.6b01309",
+       "relation": "cites",
+       "scheme": "doi"
+      },
+      {
+       "identifier": "10.1111/j.1476-5381.2011.01551.x",
+       "relation": "cites",
+       "scheme": "doi"
+      }
+     ],
+     "relations": {
+      "version": [
+       {
+        "count": 1,
+        "index": 0,
+        "is_last": true,
+        "last_child": {
+         "pid_type": "recid",
+         "pid_value": "268416"
+        },
+        "parent": {
+         "pid_type": "recid",
+         "pid_value": "756304"
+        }
+       }
+      ]
+     },
+     "resource_type": {
+      "title": "Dataset",
+      "type": "dataset"
+     },
+     "title": "Chemokine G protein-coupled receptor (GPCR) mutation data set - revision"
+    },
+    "owners": [
+     23325
+    ],
+    "revision": 7,
+    "stats": {
+     "downloads": 8.0,
+     "unique_downloads": 8.0,
+     "unique_views": 51.0,
+     "version_downloads": 8.0,
+     "version_unique_downloads": 8.0,
+     "version_unique_views": 51.0,
+     "version_views": 65.0,
+     "version_volume": 35940968.0,
+     "views": 65.0,
+     "volume": 35940968.0
+    },
+    "updated": "2020-01-24T19:25:22.673896+00:00"
+   },
+   {
+    "conceptrecid": "638899",
+    "created": "2016-07-26T07:41:54+00:00",
+    "doi": "10.5281/zenodo.58160",
+    "files": [
+     {
+      "bucket": "f576c223-79e6-4665-a5c1-8e241c7fef0a",
+      "checksum": "md5:312289c5ac513abcf802e2e96193d243",
+      "key": "GPCR_mutations_chemokine.xlsx",
+      "links": {
+       "self": "https://zenodo.org/api/files/f576c223-79e6-4665-a5c1-8e241c7fef0a/GPCR_mutations_chemokine.xlsx"
+      },
+      "size": 4826585,
+      "type": "xlsx"
+     }
+    ],
+    "id": 58160,
+    "links": {
+     "badge": "https://zenodo.org/badge/doi/10.5281/zenodo.58160.svg",
+     "bucket": "https://zenodo.org/api/files/f576c223-79e6-4665-a5c1-8e241c7fef0a",
+     "doi": "https://doi.org/10.5281/zenodo.58160",
+     "html": "https://zenodo.org/record/58160",
+     "latest": "https://zenodo.org/api/records/58160",
+     "latest_html": "https://zenodo.org/record/58160",
+     "self": "https://zenodo.org/api/records/58160"
+    },
+    "metadata": {
+     "access_right": "open",
+     "access_right_category": "success",
+     "creators": [
+      {
+       "affiliation": "Vrije Universiteit Amsterdam",
+       "name": "Arimont, Marta"
+      },
+      {
+       "affiliation": "Vrije Universiteit Amsterdam",
+       "name": "Sun, Shanliang"
+      },
+      {
+       "affiliation": "Vrije Universiteit Amsterdam",
+       "name": "Vass, Marton"
+      },
+      {
+       "affiliation": "Vrije Universiteit Amsterdam",
+       "name": "Smit, Martine"
+      },
+      {
+       "affiliation": "Vrije Universiteit Amsterdam",
+       "name": "Leurs, Rob"
+      },
+      {
+       "affiliation": "Vrije Universiteit Amsterdam",
+       "name": "de Esch, Iwan J.P."
+      },
+      {
+       "affiliation": "Vrije Universiteit Amsterdam",
+       "name": "de Graaf, Chris"
+      }
+     ],
+     "description": "<p>Curated set of 2004\u00a0quantitative mutation data points covering 10 chemokine G protein-coupled receptors, annotated according to GPCRdb standards (http://gpcrdb.org/) building from the data set published by Scholten et al. in BJP 2012, 165, 1617.</p>",
+     "doi": "10.5281/zenodo.58160",
+     "keywords": [
+      "GPCRs",
+      "site directed mutagenesis",
+      "mutations",
+      "G protein-coupled receptors",
+      "chemokine"
+     ],
+     "license": {
+      "id": "CC0-1.0"
+     },
+     "publication_date": "2016-07-17",
+     "related_identifiers": [
+      {
+       "identifier": "10.1111/j.1476-5381.2011.01551.x",
+       "relation": "cites",
+       "scheme": "doi"
+      },
+      {
+       "identifier": "10.5281/zenodo.268416",
+       "relation": "isPreviousVersionOf",
+       "scheme": "doi"
+      }
+     ],
+     "relations": {
+      "version": [
+       {
+        "count": 1,
+        "index": 0,
+        "is_last": true,
+        "last_child": {
+         "pid_type": "recid",
+         "pid_value": "58160"
+        },
+        "parent": {
+         "pid_type": "recid",
+         "pid_value": "638899"
+        }
+       }
+      ]
+     },
+     "resource_type": {
+      "title": "Dataset",
+      "type": "dataset"
+     },
+     "title": "Chemokine G protein-coupled receptor (GPCR) mutation data set"
+    },
+    "owners": [
+     23325
+    ],
+    "revision": 11,
+    "stats": {
+     "downloads": 18.0,
+     "unique_downloads": 17.0,
+     "unique_views": 118.0,
+     "version_downloads": 18.0,
+     "version_unique_downloads": 17.0,
+     "version_unique_views": 118.0,
+     "version_views": 123.0,
+     "version_volume": 86878530.0,
+     "views": 123.0,
+     "volume": 86878530.0
+    },
+    "updated": "2020-01-24T19:25:48.109823+00:00"
+   },
+   {
+    "conceptdoi": "10.5281/zenodo.2546809",
+    "conceptrecid": "2546809",
+    "created": "2019-01-22T15:02:54.669433+00:00",
+    "doi": "10.5281/zenodo.2546810",
+    "files": [
+     {
+      "bucket": "ea56ee32-5f35-487c-a7dc-56e9de57e7b9",
+      "checksum": "md5:6dc33910bd996fc316e8a6df0c2f4c36",
+      "key": "WebSci18_Poster_Optimistic_Bias.pdf",
+      "links": {
+       "self": "https://zenodo.org/api/files/ea56ee32-5f35-487c-a7dc-56e9de57e7b9/WebSci18_Poster_Optimistic_Bias.pdf"
+      },
+      "size": 8918115,
+      "type": "pdf"
+     }
+    ],
+    "id": 2546810,
+    "links": {
+     "badge": "https://zenodo.org/badge/doi/10.5281/zenodo.2546810.svg",
+     "bucket": "https://zenodo.org/api/files/ea56ee32-5f35-487c-a7dc-56e9de57e7b9",
+     "conceptbadge": "https://zenodo.org/badge/doi/10.5281/zenodo.2546809.svg",
+     "conceptdoi": "https://doi.org/10.5281/zenodo.2546809",
+     "doi": "https://doi.org/10.5281/zenodo.2546810",
+     "html": "https://zenodo.org/record/2546810",
+     "latest": "https://zenodo.org/api/records/2546810",
+     "latest_html": "https://zenodo.org/record/2546810",
+     "self": "https://zenodo.org/api/records/2546810"
+    },
+    "metadata": {
+     "access_right": "open",
+     "access_right_category": "success",
+     "communities": [
+      {
+       "id": "niaaproceedings1718"
+      }
+     ],
+     "creators": [
+      {
+       "affiliation": "Vrije Universiteit Amsterdam",
+       "name": "Suzana Ba\u0161i\u0107"
+      },
+      {
+       "affiliation": "Vrije Universiteit Amsterdam",
+       "name": "Benthe S. Spijkers"
+      },
+      {
+       "affiliation": "Vrije Universiteit Amsterdam",
+       "name": "Jaap W. Ouwerkerk"
+      },
+      {
+       "affiliation": "Vrije Universiteit Amsterdam",
+       "name": "Ivar E. Vermeulen"
+      },
+      {
+       "affiliation": "Vrije Universiteit Amsterdam",
+       "name": "Guido M. van Koningsbruggen"
+      },
+      {
+       "affiliation": "Vrije Universiteit Amsterdam",
+       "name": "Antske Fokkens"
+      }
+     ],
+     "description": "<p>Consistent with psychological theory and research, in the present study we demonstrate that people display a generic optimistic bias by showing more positive sentiment in social media messages about the future rather than the past. In addition, we outline a method for evaluating the validity of the commercial monitoring tool used for the automated sentiment analysis, thereby assessing the usefulness of such a tool in web-based research into human behavior<br>\n&nbsp;</p>",
+     "doi": "10.5281/zenodo.2546810",
+     "keywords": [
+      "optimistic bias",
+      "social media analysis",
+      "sentiment analysis"
+     ],
+     "license": {
+      "id": "CC-BY-4.0"
+     },
+     "publication_date": "2019-01-22",
+     "related_identifiers": [
+      {
+       "identifier": "10.5281/zenodo.2546809",
+       "relation": "isVersionOf",
+       "scheme": "doi"
+      }
+     ],
+     "relations": {
+      "version": [
+       {
+        "count": 1,
+        "index": 0,
+        "is_last": true,
+        "last_child": {
+         "pid_type": "recid",
+         "pid_value": "2546810"
+        },
+        "parent": {
+         "pid_type": "recid",
+         "pid_value": "2546809"
+        }
+       }
+      ]
+     },
+     "resource_type": {
+      "subtype": "article",
+      "title": "Journal article",
+      "type": "publication"
+     },
+     "title": "Assessment of an Optimistic Bias in Social Media Messages"
+    },
+    "owners": [
+     55597
+    ],
+    "revision": 4,
+    "stats": {
+     "downloads": 48.0,
+     "unique_downloads": 40.0,
+     "unique_views": 49.0,
+     "version_downloads": 48.0,
+     "version_unique_downloads": 40.0,
+     "version_unique_views": 49.0,
+     "version_views": 60.0,
+     "version_volume": 428069520.0,
+     "views": 60.0,
+     "volume": 428069520.0
+    },
+    "updated": "2020-01-20T14:02:12.842933+00:00"
+   },
+   {
+    "conceptrecid": "629797",
+    "created": "2016-02-26T10:36:23+00:00",
+    "doi": "10.5281/zenodo.45774",
+    "files": [
+     {
+      "bucket": "c2305ead-fbf8-4fc0-996b-900381b1962b",
+      "checksum": "md5:ffe453e6d26d4d69bb1d0751a8ff5e94",
+      "key": "PDE_dataset.tgz",
+      "links": {
+       "self": "https://zenodo.org/api/files/c2305ead-fbf8-4fc0-996b-900381b1962b/PDE_dataset.tgz"
+      },
+      "size": 363892999,
+      "type": "tgz"
+     }
+    ],
+    "id": 45774,
+    "links": {
+     "badge": "https://zenodo.org/badge/doi/10.5281/zenodo.45774.svg",
+     "bucket": "https://zenodo.org/api/files/c2305ead-fbf8-4fc0-996b-900381b1962b",
+     "doi": "https://doi.org/10.5281/zenodo.45774",
+     "html": "https://zenodo.org/record/45774",
+     "latest": "https://zenodo.org/api/records/45774",
+     "latest_html": "https://zenodo.org/record/45774",
+     "self": "https://zenodo.org/api/records/45774"
+    },
+    "metadata": {
+     "access_right": "open",
+     "access_right_category": "success",
+     "communities": [
+      {
+       "id": "ecfunded"
+      }
+     ],
+     "creators": [
+      {
+       "affiliation": "Vrije Universiteit Amsterdam",
+       "name": "Jansen, Chimed"
+      },
+      {
+       "affiliation": "Vrije Universiteit Amsterdam",
+       "name": "Kooistra, Albert J."
+      },
+      {
+       "affiliation": "Vrije Universiteit Amsterdam",
+       "name": "Kanev, Georgi K."
+      },
+      {
+       "affiliation": "Vrije Universiteit Amsterdam",
+       "name": "Leurs, Rob"
+      },
+      {
+       "affiliation": "Vrije Universiteit Amsterdam",
+       "name": "de Esch, Iwan J.P."
+      },
+      {
+       "affiliation": "Vrije Universiteit Amsterdam",
+       "name": "de Graaf, Chris"
+      }
+     ],
+     "description": "<p>A systematic analysis is presented of the 220 phosphodiesterase (PDE) catalytic domain crystal structures present in the Protein Data Bank (PDB) with a focus on PDE-ligand interactions. The consistent structural alignment of 57 PDE ligand binding site residues enables the systematic analysis of PDE-ligand Interaction FingerPrints (IFPs), the identification of subtype-specific PDE-ligand interaction features, and the classification of ligands according to their binding modes. We illustrate how systematic mining of this phosphodiesterase structure and ligand interaction annotated (PDEStrIAn) database provides new insights into how conserved and selective PDE interaction hot spots can accommodate the large diversity of chemical scaffolds in PDE ligands. A substructure analysis of the co-crystalized PDE ligands in combination with those in the ChEMBL database provides a toolbox for scaffold hopping and ligand design. These analyses lead to an improved understanding of the structural requirements of PDE binding that will be useful in future drug discovery studies.</p>",
+     "doi": "10.5281/zenodo.45774",
+     "grants": [
+      {
+       "acronym": "PDE4NPD",
+       "code": "602666",
+       "funder": {
+        "acronyms": [],
+        "doi": "10.13039/501100000780",
+        "links": {
+         "self": "https://zenodo.org/api/funders/10.13039/501100000780"
+        },
+        "name": "European Commission"
+       },
+       "links": {
+        "self": "https://zenodo.org/api/grants/10.13039/501100000780::602666"
+       },
+       "program": "FP7",
+       "title": "Parasite-specific cyclic nucleotide phosphodiesterase inhibitors to target Neglected Parasitic Diseases"
+      }
+     ],
+     "keywords": [
+      "phosphodiesterases",
+      "crystal structures",
+      "drug design",
+      "structure-based drug design",
+      "PDEs"
+     ],
+     "license": {
+      "id": "CC0-1.0"
+     },
+     "notes": "The newest version of PDEStrIAn is available at http://pdestrian.vu-compmedchem.nl",
+     "publication_date": "2016-02-08",
+     "related_identifiers": [
+      {
+       "identifier": "http://pdestrian.vu-compmedchem.nl",
+       "relation": "isPreviousVersionOf",
+       "scheme": "url"
+      },
+      {
+       "identifier": "http://www.pde4npd.eu",
+       "relation": "cites",
+       "scheme": "url"
+      },
+      {
+       "identifier": "10.1021/acs.jmedchem.5b01813",
+       "relation": "isPartOf",
+       "scheme": "doi"
+      },
+      {
+       "identifier": "26908025",
+       "relation": "isPartOf",
+       "scheme": "pmid"
+      }
+     ],
+     "relations": {
+      "version": [
+       {
+        "count": 1,
+        "index": 0,
+        "is_last": true,
+        "last_child": {
+         "pid_type": "recid",
+         "pid_value": "45774"
+        },
+        "parent": {
+         "pid_type": "recid",
+         "pid_value": "629797"
+        }
+       }
+      ]
+     },
+     "resource_type": {
+      "title": "Dataset",
+      "type": "dataset"
+     },
+     "title": "PDEStrIAn: A phosphodiesterase structure and ligand interaction annotated database as a tool for structure-based drug design"
+    },
+    "owners": [
+     20180
+    ],
+    "revision": 11,
+    "stats": {
+     "downloads": 14.0,
+     "unique_downloads": 14.0,
+     "unique_views": 119.0,
+     "version_downloads": 14.0,
+     "version_unique_downloads": 14.0,
+     "version_unique_views": 119.0,
+     "version_views": 122.0,
+     "version_volume": 5094501986.0,
+     "views": 122.0,
+     "volume": 5094501986.0
+    },
+    "updated": "2020-01-24T19:26:00.072825+00:00"
+   },
+   {
+    "conceptrecid": "629759",
+    "created": "2016-02-02T09:38:17+00:00",
+    "doi": "10.5281/zenodo.45414",
+    "files": [
+     {
+      "bucket": "45da4ec7-b6ae-4204-a37d-7a089e065c4b",
+      "checksum": "md5:14c2738c7b5152938598d323d61bf441",
+      "key": "klifs_v1.zip",
+      "links": {
+       "self": "https://zenodo.org/api/files/45da4ec7-b6ae-4204-a37d-7a089e065c4b/klifs_v1.zip"
+      },
+      "size": 1436985739,
+      "type": "zip"
+     }
+    ],
+    "id": 45414,
+    "links": {
+     "badge": "https://zenodo.org/badge/doi/10.5281/zenodo.45414.svg",
+     "bucket": "https://zenodo.org/api/files/45da4ec7-b6ae-4204-a37d-7a089e065c4b",
+     "doi": "https://doi.org/10.5281/zenodo.45414",
+     "html": "https://zenodo.org/record/45414",
+     "latest": "https://zenodo.org/api/records/45414",
+     "latest_html": "https://zenodo.org/record/45414",
+     "self": "https://zenodo.org/api/records/45414"
+    },
+    "metadata": {
+     "access_right": "open",
+     "access_right_category": "success",
+     "creators": [
+      {
+       "affiliation": "Vrije Universiteit Amsterdam",
+       "name": "van Linden, Oscar P. J."
+      },
+      {
+       "affiliation": "Vrije Universiteit Amsterdam",
+       "name": "Kooistra, Albert J."
+      },
+      {
+       "affiliation": "Vrije Universiteit Amsterdam",
+       "name": "Leurs, Rob"
+      },
+      {
+       "affiliation": "Vrije Universiteit Amsterdam",
+       "name": "de Esch, Iwan J. P."
+      },
+      {
+       "affiliation": "Vrije Universiteit Amsterdam",
+       "name": "de Graaf, Chris"
+      }
+     ],
+     "description": "<p>The Kinase-Ligand Interaction Fingerprints and Structure database (KLIFS) contains a consistent structural alignment and deconstruction of the kinase domains from&nbsp;over 1734 PDB structures covering 190 different human kinases.&nbsp;</p>\n\n<p>Every crystal structure was structurally aligned in a consistent manner, subsequently broken down from the full complex into separate structural parts: the protein, the orthosteric ligand-binding pocket (85 aligned residues covering the catalytic cleft), orthosteric and allosteric ligand(s), ions, organometallics, cofactors, and waters. By combining the pocket with the orthosteric ligand all interactions are annotated using Interactions FingerPrints (IFPs) for systematic comparison.</p>",
+     "doi": "10.5281/zenodo.45414",
+     "journal": {
+      "issue": "2",
+      "pages": "249\u2013277",
+      "title": "Journal of Medicinal Chemistry",
+      "volume": "57",
+      "year": "2013"
+     },
+     "keywords": [
+      "kinases",
+      "Crystal structures",
+      "Kinase-ligand interactions"
+     ],
+     "license": {
+      "id": "CC0-1.0"
+     },
+     "notes": "This dataset is part of a 2013 publication in Journal of Medicinal Chemistry (doi: 10.1021/jm400378w). For the new, web-based, and automatically updated version of KLIFS please go to http://klifs.vu-compmedchem.nl as published in the 2016 database issue of Nucleic Acids Research (doi: 10.1093/nar/gkv1082).",
+     "publication_date": "2013-08-13",
+     "related_identifiers": [
+      {
+       "identifier": "10.1021/jm400378w",
+       "relation": "isPartOf",
+       "scheme": "doi"
+      },
+      {
+       "identifier": "23941661",
+       "relation": "isPartOf",
+       "scheme": "pmid"
+      },
+      {
+       "identifier": "10.1093/nar/gkv1082",
+       "relation": "isPreviousVersionOf",
+       "scheme": "doi"
+      },
+      {
+       "identifier": "http://klifs.vu-compmedchem.nl",
+       "relation": "isPreviousVersionOf",
+       "scheme": "url"
+      }
+     ],
+     "relations": {
+      "version": [
+       {
+        "count": 1,
+        "index": 0,
+        "is_last": true,
+        "last_child": {
+         "pid_type": "recid",
+         "pid_value": "45414"
+        },
+        "parent": {
+         "pid_type": "recid",
+         "pid_value": "629759"
+        }
+       }
+      ]
+     },
+     "resource_type": {
+      "title": "Dataset",
+      "type": "dataset"
+     },
+     "title": "KLIFS: A Knowledge-Based Structural Database To Navigate Kinase\u2013Ligand Interaction Space"
+    },
+    "owners": [
+     20180
+    ],
+    "revision": 11,
+    "stats": {
+     "downloads": 53.0,
+     "unique_downloads": 30.0,
+     "unique_views": 106.0,
+     "version_downloads": 53.0,
+     "version_unique_downloads": 30.0,
+     "version_unique_views": 106.0,
+     "version_views": 115.0,
+     "version_volume": 76160244167.0,
+     "views": 115.0,
+     "volume": 76160244167.0
+    },
+    "updated": "2020-01-24T19:25:41.316435+00:00"
+   },
+   {
+    "conceptdoi": "10.5281/zenodo.2604323",
+    "conceptrecid": "2604323",
+    "created": "2019-03-23T22:16:24.781207+00:00",
+    "doi": "10.5281/zenodo.2604324",
+    "files": [
+     {
+      "bucket": "5a52fc6b-425b-4a5d-8783-5d5bc36192f0",
+      "checksum": "md5:ea3834ef482a9468db451aa6671123a5",
+      "key": "Poster Jesium 2.3.pdf",
+      "links": {
+       "self": "https://zenodo.org/api/files/5a52fc6b-425b-4a5d-8783-5d5bc36192f0/Poster%20Jesium%202.3.pdf"
+      },
+      "size": 75970386,
+      "type": "pdf"
+     }
+    ],
+    "id": 2604324,
+    "links": {
+     "badge": "https://zenodo.org/badge/doi/10.5281/zenodo.2604324.svg",
+     "bucket": "https://zenodo.org/api/files/5a52fc6b-425b-4a5d-8783-5d5bc36192f0",
+     "conceptbadge": "https://zenodo.org/badge/doi/10.5281/zenodo.2604323.svg",
+     "conceptdoi": "https://doi.org/10.5281/zenodo.2604323",
+     "doi": "https://doi.org/10.5281/zenodo.2604324",
+     "html": "https://zenodo.org/record/2604324",
+     "latest": "https://zenodo.org/api/records/2604324",
+     "latest_html": "https://zenodo.org/record/2604324",
+     "self": "https://zenodo.org/api/records/2604324"
+    },
+    "metadata": {
+     "access_right": "open",
+     "access_right_category": "success",
+     "contributors": [],
+     "creators": [
+      {
+       "affiliation": "Vrije Universiteit Amsterdam",
+       "name": "Esther Plomp",
+       "orcid": "0000-0003-3625-1357"
+      },
+      {
+       "affiliation": "Vrije Universiteit Amsterdam",
+       "name": "Isabella von Holstein",
+       "orcid": "0000-0002-2538-8457"
+      },
+      {
+       "affiliation": "Vrije Universiteit Amsterdam",
+       "name": "Laura Font"
+      },
+      {
+       "affiliation": "Vrije Universiteit Amsterdam",
+       "name": "Janne Koornneef",
+       "orcid": "0000-0003-4090-8315"
+      },
+      {
+       "affiliation": "Vrije Universiteit Amsterdam",
+       "name": "Gareth Davies",
+       "orcid": "0000-0002-6136-9202"
+      }
+     ],
+     "description": "<p>The addition of another isotope system to the human provenance repertoire can potentially provide us with more specific information on the region of origin of a person, as well as address some of the limitations that are currently still related to the now commonly used isotopic techniques: oxygen (O), hydrogen (H), strontium (Sr) and lead (Pb). This study reports on the viability of using neodymium isotopes (<sup>143</sup>Nd/<sup>144</sup>Nd) as a possible tool to track the origins of humans. Nd is a light rare earth element (REE), which is, in contrast to what the name suggests, widely distributed in the Earth&rsquo;s crust. Due to the isotopic variations in the crust Nd isotopes have previously been successfully applied to identify the production centres of glass archaeological artefacts (Ganio et al. 2013). The tendency of the human body to filter out non-essential elements means that REE concentrations are very low in human teeth (Nd &lt;0.1 ppm), making previous Nd isotope analysis of human tissue impossible. Due to recent developments in mass spectrometry the analysis of Nd has become achievable and results can be used to complement information derived from other isotope systems. We report the optimisation of chromatographic methods to separate Nd from bio-apatite. Sub-nanogram amounts of Nd were analysed using a latest generation thermal ionization mass spectrometer (TRITON-Plus) equipped with 10<sup>13</sup> &Omega; resistors at the Vrije Universiteit Amsterdam (Koornneef et al. 2014; 2015). This study presents the neodymium results of third molars from modern Dutch residents. These results will then be compared to O, Sr and Pb data, demonstrating the possibilities for Nd as a new forensic and an archaeological human provenancing tool.</p>",
+     "doi": "10.5281/zenodo.2604324",
+     "grants": [
+      {
+       "acronym": "NEXUS1492",
+       "code": "319209",
+       "funder": {
+        "acronyms": [],
+        "doi": "10.13039/501100000780",
+        "links": {
+         "self": "https://zenodo.org/api/funders/10.13039/501100000780"
+        },
+        "name": "European Commission"
+       },
+       "links": {
+        "self": "https://zenodo.org/api/grants/10.13039/501100000780::319209"
+       },
+       "program": "FP7",
+       "title": "NEXUS 1492. New World Encounters in a Globalising World."
+      }
+     ],
+     "keywords": [
+      "Neodymium",
+      "Isotope",
+      "143Nd/144Nd",
+      "Thermal Ionisation Mass Spectrometry",
+      "Forensic",
+      "Archaeology",
+      "Human",
+      "provenance",
+      "dentine",
+      "enamel",
+      "tooth",
+      "TIMS"
+     ],
+     "language": "eng",
+     "license": {
+      "id": "CC-BY-4.0"
+     },
+     "meeting": {
+      "acronym": "JESIUM",
+      "dates": "4-9 September 2016",
+      "place": "Ghent",
+      "session": "Biogeochemistry",
+      "title": "Joint European Stable Isotope Users group Meeting"
+     },
+     "publication_date": "2016-09-08",
+     "references": [
+      "Font, L., G. Jonker, P.A. van Aalderen, E.F. Schiltmans, G.R. Davies 2014. Provenancing of unidentied World War II casualties: Application of strontium and oxygen isotope analysis in tooth enamel, Sci Justice, 10.1016/j.scijus.2014.02.005",
+      "Neuberger, F.M., E. Jopp, M. Graw, K. P\u00fcschel and G. Grupe, 2013. Signs of malnutrition and starvation: Reconstruction of nutritional life histories by serial isotopic analyses of hair. Forensic Sci Int 226, 22\u201332, 0.1016/j.forsciint.2012.10.037",
+      "Degryse and Schneider 2008. Pliny the Elder and Sr Nd isotopes: tracing the provenance of raw materials for Roman glass production. J Archaeol Sci 35, 1993-2000.10.1016/j.jas.2008.01.002",
+      "Laoon, J.E., E. Plomp, G.R. Davies, M.L.P. Hoogland and C.L. Hofman, 2013. The movement and exchange of dogs in the Prehistoric Caribbean: an isotopic investigation. Int J of Osteoarchaeol.",
+      "Banner, J.L., 2004. Radiogenic isotopes: systematics and applications to earth surface processes and chemical stratigraphy. Earth-Sci Rev 65, 141\u2013194",
+      "Jeandel, C., T. Arsouze, F. Lacan, P. Techine and J. Dutay, 2007. Isotopic Nd compositions and concentrations of the lithogenic inputs into the ocean: A compilation, with an emphasis on the margins. Chem Geo 239, 156\u2013164",
+      "T\u00fctken, T., T.W. Vennemann and H.-U. Pfretzschner, 2011. Nd and Sr isotope compositions in modern and fossil bones \u2013 Proxies for vertebrate provenance and taphonomy. Geochim  Cosmochimi Ac 75, 5951\u20135970",
+      "Trickett, M.A., P. Budd, J. Montgomery and J. Evans, 2003. An assessment of solubility proling as a decontamination procedure for the 87Sr/86Sr analysis of archaeological human skeletal tissue. Appl Geochem 18, 653\u2013658",
+      "Hillson S. 1996. Dental Anthropology. Cambridge University Press: Cambridge",
+      "Koornneef, J.M., C. Bouman, J.B. Schwieters and G.R. Davies, 2014. Measurement of small ion beams by thermal ionisation mass spectrometry using new 1013 Ohm resistors. Anal Chim Acta 819, 49\u201355.",
+      "Kuhlmann, G., P.L. de Boer, R.B. Pedersen and T.E. Wong, 2004. Provenance of Pliocene sediments and paleoenvironmental changes in the southern North Sea region using Samarium\u2013Neodymium (Sm/Nd) provenance ages and clay mineralogy. Sediment Geol 171(1-4)",
+      "Bayon, G., S. Toucanne, C. Skonieczny, L. Andre, S. Bermell, B. Dennielou, J. Etoubleau, N. Freslon, T. Gauchery, S. Cheron, Y. Germain, S.J. Jorry, G.M\u00e9not, L. Monin, E. Ponzevera, M.-L. Rouget, K. Tachikawa, J.A. Barrat. 2015. Rare earth elements and neodymium isotopes in world river sediments revisited. Geochim  Cosmochimi Ac 170, 17-38."
+     ],
+     "related_identifiers": [
+      {
+       "identifier": "10.1016/j.scijus.2019.02.001",
+       "relation": "isDocumentedBy",
+       "scheme": "doi"
+      },
+      {
+       "identifier": "10.1039/C7JA00312A",
+       "relation": "isDocumentedBy",
+       "scheme": "doi"
+      },
+      {
+       "identifier": "10.4121/uuid:d541a402-2701-47b2-ac6a-eaaa14c8c111",
+       "relation": "isSupplementedBy",
+       "scheme": "doi"
+      },
+      {
+       "identifier": "10.5281/zenodo.2604323",
+       "relation": "isVersionOf",
+       "scheme": "doi"
+      }
+     ],
+     "relations": {
+      "version": [
+       {
+        "count": 1,
+        "index": 0,
+        "is_last": true,
+        "last_child": {
+         "pid_type": "recid",
+         "pid_value": "2604324"
+        },
+        "parent": {
+         "pid_type": "recid",
+         "pid_value": "2604323"
+        }
+       }
+      ]
+     },
+     "resource_type": {
+      "title": "Poster",
+      "type": "poster"
+     },
+     "subjects": [],
+     "title": "A new tool to human provenancing? Neodymium in a forensic and archaeological context."
+    },
+    "owners": [
+     63444
+    ],
+    "revision": 4,
+    "stats": {
+     "downloads": 29.0,
+     "unique_downloads": 20.0,
+     "unique_views": 19.0,
+     "version_downloads": 29.0,
+     "version_unique_downloads": 20.0,
+     "version_unique_views": 19.0,
+     "version_views": 23.0,
+     "version_volume": 2203141194.0,
+     "views": 23.0,
+     "volume": 2203141194.0
+    },
+    "updated": "2020-01-20T13:40:14.974788+00:00"
+   },
+   {
+    "conceptdoi": "10.5281/zenodo.2546799",
+    "conceptrecid": "2546799",
+    "created": "2019-01-22T14:51:29.479055+00:00",
+    "doi": "10.5281/zenodo.2546800",
+    "files": [
+     {
+      "bucket": "a8f97536-2891-4447-96ac-c241dc0c25d8",
+      "checksum": "md5:8a0e03aa13e80946c1b2947c7bfe5176",
+      "key": "5dilemmasNI-paper-frederik-john-sascha-ali.pdf",
+      "links": {
+       "self": "https://zenodo.org/api/files/a8f97536-2891-4447-96ac-c241dc0c25d8/5dilemmasNI-paper-frederik-john-sascha-ali.pdf"
+      },
+      "size": 363475,
+      "type": "pdf"
+     }
+    ],
+    "id": 2546800,
+    "links": {
+     "badge": "https://zenodo.org/badge/doi/10.5281/zenodo.2546800.svg",
+     "bucket": "https://zenodo.org/api/files/a8f97536-2891-4447-96ac-c241dc0c25d8",
+     "conceptbadge": "https://zenodo.org/badge/doi/10.5281/zenodo.2546799.svg",
+     "conceptdoi": "https://doi.org/10.5281/zenodo.2546799",
+     "doi": "https://doi.org/10.5281/zenodo.2546800",
+     "html": "https://zenodo.org/record/2546800",
+     "latest": "https://zenodo.org/api/records/2546800",
+     "latest_html": "https://zenodo.org/record/2546800",
+     "self": "https://zenodo.org/api/records/2546800"
+    },
+    "metadata": {
+     "access_right": "open",
+     "access_right_category": "success",
+     "communities": [
+      {
+       "id": "niaaproceedings1718"
+      }
+     ],
+     "creators": [
+      {
+       "affiliation": "Vrije Universiteit Amsterdam",
+       "name": "Frederik Lukas Koenig"
+      },
+      {
+       "affiliation": "Vrije Universiteit Amsterdam",
+       "name": "John Can Lokman"
+      },
+      {
+       "affiliation": "Vrije Universiteit Amsterdam",
+       "name": "Sascha Friesike"
+      },
+      {
+       "affiliation": "Vrije Universiteit Amsterdam",
+       "name": "Ali Khalili"
+      }
+     ],
+     "description": "<p>Interdisciplinary research receives increasing attention from academics, research organizations, and funding bodies. It is seen as a promising avenue to develop novel insights. However, it is also considered to be more complicated to set up and to conduct successfully. To make the scattered literature on the subject accessible and to derive implications for both individual researchers and policy makers, we propose that interdisciplinary research can be conceptualized as a set of five dilemmas. Based on an extensive and systematic literature review of 137 research articles we present these dilemmas to better structure the main promises and pitfalls of interdisciplinary research. The value of conceptualizing interdisciplinary research this way is three-fold: (1) it makes existing research on the topic accessible as it structures the highly dispersed debates, (2) it provides implications for individual researchers active in an increasingly interdisciplinary academic environment, and (3) it supports research organizations and funding bodies in developing strategies to support an interdisciplinary research ecosystem. We also present a data preprocessing, exploration, and analysis framework in later sections of the report. This technical framework is aimed at accelerating studies of interdisciplinarity (and for testing our framework in follow-up studies) by streamlining common tasks such as data cleaning and enrichment, and automatic detection of interdisciplinary bodies of work in large bibliometric databases.<br>\n&nbsp;</p>",
+     "doi": "10.5281/zenodo.2546800",
+     "keywords": [
+      "interdisciplinary research",
+      "systematic review",
+      "scientometrics",
+      "linked data"
+     ],
+     "license": {
+      "id": "CC-BY-4.0"
+     },
+     "publication_date": "2019-01-22",
+     "related_identifiers": [
+      {
+       "identifier": "10.5281/zenodo.2546799",
+       "relation": "isVersionOf",
+       "scheme": "doi"
+      }
+     ],
+     "relations": {
+      "version": [
+       {
+        "count": 1,
+        "index": 0,
+        "is_last": true,
+        "last_child": {
+         "pid_type": "recid",
+         "pid_value": "2546800"
+        },
+        "parent": {
+         "pid_type": "recid",
+         "pid_value": "2546799"
+        }
+       }
+      ]
+     },
+     "resource_type": {
+      "subtype": "article",
+      "title": "Journal article",
+      "type": "publication"
+     },
+     "title": "The five dilemmas of interdisciplinary research and how to deal with them: a review"
+    },
+    "owners": [
+     55597
+    ],
+    "revision": 5,
+    "stats": {
+     "downloads": 32.0,
+     "unique_downloads": 32.0,
+     "unique_views": 265.0,
+     "version_downloads": 32.0,
+     "version_unique_downloads": 32.0,
+     "version_unique_views": 265.0,
+     "version_views": 278.0,
+     "version_volume": 11631200.0,
+     "views": 278.0,
+     "volume": 11631200.0
+    },
+    "updated": "2020-01-20T15:30:16.594202+00:00"
+   },
+   {
+    "conceptdoi": "10.5281/zenodo.3227975",
+    "conceptrecid": "3227975",
+    "created": "2019-05-25T08:51:30.772070+00:00",
+    "doi": "10.5281/zenodo.3227976",
+    "files": [
+     {
+      "bucket": "7a1cb348-a782-4941-9553-86682f92bd8f",
+      "checksum": "md5:1546c60c84d57abd448478c0cc89bb86",
+      "key": "data.hdt",
+      "links": {
+       "self": "https://zenodo.org/api/files/7a1cb348-a782-4941-9553-86682f92bd8f/data.hdt"
+      },
+      "size": 35980254447,
+      "type": "hdt"
+     },
+     {
+      "bucket": "7a1cb348-a782-4941-9553-86682f92bd8f",
+      "checksum": "md5:39121f59c72b4f3ffcc63649bc5eb3fc",
+      "key": "data.hdt.index.v1-1",
+      "links": {
+       "self": "https://zenodo.org/api/files/7a1cb348-a782-4941-9553-86682f92bd8f/data.hdt.index.v1-1"
+      },
+      "size": 36997120717,
+      "type": "v1-1"
+     }
+    ],
+    "id": 3227976,
+    "links": {
+     "badge": "https://zenodo.org/badge/doi/10.5281/zenodo.3227976.svg",
+     "bucket": "https://zenodo.org/api/files/7a1cb348-a782-4941-9553-86682f92bd8f",
+     "conceptbadge": "https://zenodo.org/badge/doi/10.5281/zenodo.3227975.svg",
+     "conceptdoi": "https://doi.org/10.5281/zenodo.3227975",
+     "doi": "https://doi.org/10.5281/zenodo.3227976",
+     "html": "https://zenodo.org/record/3227976",
+     "latest": "https://zenodo.org/api/records/3227976",
+     "latest_html": "https://zenodo.org/record/3227976",
+     "self": "https://zenodo.org/api/records/3227976"
+    },
+    "metadata": {
+     "access_right": "open",
+     "access_right_category": "success",
+     "communities": [
+      {
+       "id": "linkeddata"
+      },
+      {
+       "id": "semantic-web"
+      }
+     ],
+     "creators": [
+      {
+       "affiliation": "Vrije Universiteit Amsterdam",
+       "name": "Beek, Wouter",
+       "orcid": "0000-0003-0250-9655"
+      },
+      {
+       "affiliation": "Vrije Universiteit Amsterdam",
+       "name": "Raad, Joe",
+       "orcid": "0000-0002-7891-7738"
+      },
+      {
+       "affiliation": "Vrije Universiteit Amsterdam",
+       "name": "Acar, Erman"
+      },
+      {
+       "affiliation": "Vrije Universiteit Amsterdam",
+       "name": "Van Harmelen, Frank",
+       "orcid": "0000-0002-7913-0048"
+      }
+     ],
+     "description": "<p>MetaLink is a dataset that contains metadata for a very large set of owl:sameAs links that are crawled from the LOD Cloud.&nbsp;MetaLink encodes a previously published error metric for each of these links <a href=\"https://www.cs.vu.nl/~frankh/postscript/ISWC2018.pdf\">[Raad et al., 2018]</a>. This error degree ranges&nbsp;from 0.0 (most likely correct) till 1.0 (most likely incorrect). The idea is that the more an owl:sameAs link is isolated in the network (of all owl:sameAs links), the higher&nbsp;error degree this link&nbsp;will have.&nbsp;Experiments shows that discarding the 1M owl:sameAs links with an error degree &gt;0.99 can significantly increase the quality of the transitive closure. Also by keeping only the 400M owl:sameAs links with error degree &lt;= 0.4, the resulting closure is 100% precise in several manually evaluated cases. The resulted equivalence classes from these different closures are <a href=\"https://zenodo.org/record/3345674\">publicly available online.</a></p>\n\n<p>MetaLink is published in combination with LOD-a-lot, a dataset that is based on a very large crawl of a subset of the LOD Cloud. By combining MetaLink and LOD-a-lot, applications are able to make informed decisions about whether or not to follow specific links on the LOD Cloud. This dataset contains 4,352,602,452 unique triples, and is available in HDT (Header Dictionary Triples) format. It can be navigated online using the TriplyDB Linked Data hosting platform:&nbsp;<a href=\"https://krr.triply.cc/krr/metalink\">https://krr.triply.cc/krr/metalink</a>.&nbsp;&nbsp;</p>\n\n<p>A figure describing&nbsp;the vocabulary of the MetaLink&nbsp;dataset can be found <a href=\"https://krr.triply.cc/krr/metalink/assets/5ced8dbfaea75b02bc98784f\">here</a>.&nbsp;Classes are displayed by circles and properties are displayed by arcs. The MetaLink-specific classes and properties are displayed in red, the blue classes and properties are reused from existing vocabularies.</p>",
+     "doi": "10.5281/zenodo.3227976",
+     "keywords": [
+      "Linked Open Data",
+      "Identity"
+     ],
+     "license": {
+      "id": "CC-BY-SA-3.0"
+     },
+     "publication_date": "2019-04-10",
+     "related_identifiers": [
+      {
+       "identifier": "10.5281/zenodo.3227975",
+       "relation": "isVersionOf",
+       "scheme": "doi"
+      }
+     ],
+     "relations": {
+      "version": [
+       {
+        "count": 1,
+        "index": 0,
+        "is_last": true,
+        "last_child": {
+         "pid_type": "recid",
+         "pid_value": "3227976"
+        },
+        "parent": {
+         "pid_type": "recid",
+         "pid_value": "3227975"
+        }
+       }
+      ]
+     },
+     "resource_type": {
+      "title": "Dataset",
+      "type": "dataset"
+     },
+     "title": "MetaLink - Closure and Error Degree of 556M owl:sameAs statements"
+    },
+    "owners": [
+     56833
+    ],
+    "revision": 13,
+    "stats": {
+     "downloads": 42.0,
+     "unique_downloads": 15.0,
+     "unique_views": 138.0,
+     "version_downloads": 42.0,
+     "version_unique_downloads": 15.0,
+     "version_unique_views": 137.0,
+     "version_views": 169.0,
+     "version_volume": 1545744139954.0,
+     "views": 170.0,
+     "volume": 1545744139954.0
+    },
+    "updated": "2020-01-24T19:23:04.907012+00:00"
+   }
+  ],
+  "total": 11549
+ },
+ "links": {
+  "next": "https://zenodo.org/api/records/?sort=bestmatch&q=Vrije+Universiteit+Amsterdam&page=2&size=10",
+  "self": "https://zenodo.org/api/records/?sort=bestmatch&q=Vrije+Universiteit+Amsterdam&page=1&size=10"
+ }
+}

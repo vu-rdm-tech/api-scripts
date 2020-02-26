@@ -1,0 +1,1500 @@
+{
+ "aggregations": {
+  "access_right": {
+   "buckets": [
+    {
+     "doc_count": 10373,
+     "key": "open"
+    },
+    {
+     "doc_count": 1405,
+     "key": "closed"
+    },
+    {
+     "doc_count": 25,
+     "key": "restricted"
+    },
+    {
+     "doc_count": 8,
+     "key": "embargoed"
+    }
+   ],
+   "doc_count_error_upper_bound": 0,
+   "sum_other_doc_count": 0
+  },
+  "communities": {
+   "buckets": [
+    {
+     "doc_count": 1991,
+     "key": "biosyslit"
+    },
+    {
+     "doc_count": 653,
+     "key": "waset"
+    },
+    {
+     "doc_count": 229,
+     "key": "hsr"
+    },
+    {
+     "doc_count": 134,
+     "key": "ecfunded"
+    },
+    {
+     "doc_count": 110,
+     "key": "fp7-bmc"
+    },
+    {
+     "doc_count": 49,
+     "key": "zenodo"
+    },
+    {
+     "doc_count": 27,
+     "key": "kbnl"
+    },
+    {
+     "doc_count": 24,
+     "key": "rehabmove2018"
+    },
+    {
+     "doc_count": 23,
+     "key": "pasteur4oa"
+    },
+    {
+     "doc_count": 20,
+     "key": "inmind"
+    }
+   ],
+   "doc_count_error_upper_bound": 0,
+   "sum_other_doc_count": 647
+  },
+  "file_type": {
+   "buckets": [
+    {
+     "doc_count": 9373,
+     "key": "pdf"
+    },
+    {
+     "doc_count": 252,
+     "key": "zip"
+    },
+    {
+     "doc_count": 244,
+     "key": "jpg"
+    },
+    {
+     "doc_count": 241,
+     "key": "png"
+    },
+    {
+     "doc_count": 152,
+     "key": "xml"
+    },
+    {
+     "doc_count": 105,
+     "key": "meta"
+    },
+    {
+     "doc_count": 66,
+     "key": "html"
+    },
+    {
+     "doc_count": 57,
+     "key": "docx"
+    },
+    {
+     "doc_count": 55,
+     "key": "xlsx"
+    },
+    {
+     "doc_count": 43,
+     "key": "pptx"
+    }
+   ],
+   "doc_count_error_upper_bound": 0,
+   "sum_other_doc_count": 301
+  },
+  "keywords": {
+   "buckets": [
+    {
+     "doc_count": 1762,
+     "key": "Taxonomy"
+    },
+    {
+     "doc_count": 1699,
+     "key": "Biodiversity"
+    },
+    {
+     "doc_count": 1656,
+     "key": "Animalia"
+    },
+    {
+     "doc_count": 1071,
+     "key": "Arthropoda"
+    },
+    {
+     "doc_count": 686,
+     "key": "Insecta"
+    },
+    {
+     "doc_count": 359,
+     "key": "Chordata"
+    },
+    {
+     "doc_count": 266,
+     "key": "Hemiptera"
+    },
+    {
+     "doc_count": 190,
+     "key": "Reptilia"
+    },
+    {
+     "doc_count": 185,
+     "key": "Squamata"
+    },
+    {
+     "doc_count": 182,
+     "key": "Arachnida"
+    }
+   ],
+   "doc_count_error_upper_bound": 0,
+   "sum_other_doc_count": 19879
+  },
+  "type": {
+   "buckets": [
+    {
+     "doc_count": 10592,
+     "key": "publication",
+     "subtype": {
+      "buckets": [
+       {
+        "doc_count": 10042,
+        "key": "article"
+       },
+       {
+        "doc_count": 221,
+        "key": "conferencepaper"
+       },
+       {
+        "doc_count": 59,
+        "key": "section"
+       },
+       {
+        "doc_count": 58,
+        "key": "taxonomictreatment"
+       },
+       {
+        "doc_count": 44,
+        "key": "thesis"
+       },
+       {
+        "doc_count": 42,
+        "key": "deliverable"
+       },
+       {
+        "doc_count": 31,
+        "key": "report"
+       },
+       {
+        "doc_count": 30,
+        "key": "workingpaper"
+       },
+       {
+        "doc_count": 25,
+        "key": "other"
+       },
+       {
+        "doc_count": 18,
+        "key": "preprint"
+       }
+      ],
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 22
+     }
+    },
+    {
+     "doc_count": 467,
+     "key": "image",
+     "subtype": {
+      "buckets": [
+       {
+        "doc_count": 463,
+        "key": "figure"
+       },
+       {
+        "doc_count": 3,
+        "key": "photo"
+       },
+       {
+        "doc_count": 1,
+        "key": "other"
+       }
+      ],
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 0
+     }
+    },
+    {
+     "doc_count": 338,
+     "key": "dataset",
+     "subtype": {
+      "buckets": [],
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 0
+     }
+    },
+    {
+     "doc_count": 179,
+     "key": "presentation",
+     "subtype": {
+      "buckets": [],
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 0
+     }
+    },
+    {
+     "doc_count": 145,
+     "key": "software",
+     "subtype": {
+      "buckets": [],
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 0
+     }
+    },
+    {
+     "doc_count": 60,
+     "key": "poster",
+     "subtype": {
+      "buckets": [],
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 0
+     }
+    },
+    {
+     "doc_count": 19,
+     "key": "other",
+     "subtype": {
+      "buckets": [],
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 0
+     }
+    },
+    {
+     "doc_count": 6,
+     "key": "video",
+     "subtype": {
+      "buckets": [],
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 0
+     }
+    },
+    {
+     "doc_count": 5,
+     "key": "lesson",
+     "subtype": {
+      "buckets": [],
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 0
+     }
+    }
+   ],
+   "doc_count_error_upper_bound": 0,
+   "sum_other_doc_count": 0
+  }
+ },
+ "hits": {
+  "hits": [
+   {
+    "conceptdoi": "10.5281/zenodo.2558288",
+    "conceptrecid": "2558288",
+    "created": "2019-02-06T15:17:18.030197+00:00",
+    "doi": "10.5281/zenodo.2558289",
+    "files": [
+     {
+      "bucket": "79f323d0-92fb-4c21-a9e2-0dd21f0384de",
+      "checksum": "md5:4339865348b72699cc4d7f682aea6908",
+      "key": "2019.02.04_MariaCruz_Building_RDM_Communties.pptx",
+      "links": {
+       "self": "https://zenodo.org/api/files/79f323d0-92fb-4c21-a9e2-0dd21f0384de/2019.02.04_MariaCruz_Building_RDM_Communties.pptx"
+      },
+      "size": 14129982,
+      "type": "pptx"
+     }
+    ],
+    "id": 2558289,
+    "links": {
+     "badge": "https://zenodo.org/badge/doi/10.5281/zenodo.2558289.svg",
+     "bucket": "https://zenodo.org/api/files/79f323d0-92fb-4c21-a9e2-0dd21f0384de",
+     "conceptbadge": "https://zenodo.org/badge/doi/10.5281/zenodo.2558288.svg",
+     "conceptdoi": "https://doi.org/10.5281/zenodo.2558288",
+     "doi": "https://doi.org/10.5281/zenodo.2558289",
+     "html": "https://zenodo.org/record/2558289",
+     "latest": "https://zenodo.org/api/records/2558289",
+     "latest_html": "https://zenodo.org/record/2558289",
+     "self": "https://zenodo.org/api/records/2558289"
+    },
+    "metadata": {
+     "access_right": "open",
+     "access_right_category": "success",
+     "creators": [
+      {
+       "affiliation": "VU Amsterdam",
+       "name": "Cruz, Maria",
+       "orcid": "0000-0001-9111-182X"
+      }
+     ],
+     "description": "<p>Presentation given to Library colleagues at VU Amsterdam, in the Netherlands, on 4 February 2019.</p>",
+     "doi": "10.5281/zenodo.2558289",
+     "keywords": [
+      "Research Data Management",
+      "Community Management",
+      "Research Data Services",
+      "Libraries for Research"
+     ],
+     "license": {
+      "id": "CC-BY-4.0"
+     },
+     "publication_date": "2019-02-06",
+     "related_identifiers": [
+      {
+       "identifier": "10.5281/zenodo.2558288",
+       "relation": "isVersionOf",
+       "scheme": "doi"
+      }
+     ],
+     "relations": {
+      "version": [
+       {
+        "count": 1,
+        "index": 0,
+        "is_last": true,
+        "last_child": {
+         "pid_type": "recid",
+         "pid_value": "2558289"
+        },
+        "parent": {
+         "pid_type": "recid",
+         "pid_value": "2558288"
+        }
+       }
+      ]
+     },
+     "resource_type": {
+      "title": "Presentation",
+      "type": "presentation"
+     },
+     "title": "The Community-Centred Library: Building RDM Communities at the VU Amsterdam"
+    },
+    "owners": [
+     42304
+    ],
+    "revision": 5,
+    "stats": {
+     "downloads": 21.0,
+     "unique_downloads": 18.0,
+     "unique_views": 75.0,
+     "version_downloads": 21.0,
+     "version_unique_downloads": 18.0,
+     "version_unique_views": 75.0,
+     "version_views": 79.0,
+     "version_volume": 296729622.0,
+     "views": 79.0,
+     "volume": 296729622.0
+    },
+    "updated": "2020-01-20T14:41:10.595983+00:00"
+   },
+   {
+    "conceptrecid": "1402472",
+    "created": "2018-08-23T10:13:29.555718+00:00",
+    "doi": "10.1037/pspp0000166",
+    "files": [
+     {
+      "bucket": "c160a948-6e6f-4eb9-a909-ed8e5826b7ff",
+      "checksum": "md5:f3dc59264b898dc2cfda67cfc6e90480",
+      "key": "Gerpott et al. 2017 Proofs.pdf",
+      "links": {
+       "self": "https://zenodo.org/api/files/c160a948-6e6f-4eb9-a909-ed8e5826b7ff/Gerpott%20et%20al.%202017%20Proofs.pdf"
+      },
+      "size": 369647,
+      "type": "pdf"
+     }
+    ],
+    "id": 1402473,
+    "links": {
+     "badge": "https://zenodo.org/badge/doi/10.1037/pspp0000166.svg",
+     "bucket": "https://zenodo.org/api/files/c160a948-6e6f-4eb9-a909-ed8e5826b7ff",
+     "doi": "https://doi.org/10.1037/pspp0000166",
+     "html": "https://zenodo.org/record/1402473",
+     "latest": "https://zenodo.org/api/records/1402473",
+     "latest_html": "https://zenodo.org/record/1402473",
+     "self": "https://zenodo.org/api/records/1402473"
+    },
+    "metadata": {
+     "access_right": "open",
+     "access_right_category": "success",
+     "creators": [
+      {
+       "affiliation": "VU Amsterdam",
+       "name": "F. H. Gerpott"
+      },
+      {
+       "affiliation": "VU Amsterdam",
+       "name": "D Balliet"
+      },
+      {
+       "affiliation": "VU Amsterdam",
+       "name": "S. Columbus"
+      },
+      {
+       "affiliation": "VU Amsterdam",
+       "name": "C. Molho"
+      },
+      {
+       "affiliation": "VU Amsterdam",
+       "name": "R. E. de Vries"
+      }
+     ],
+     "description": "<p>Interdependence is a fundamental characteristic of social interactions. Interdependence Theory states that<br>\n6 dimensions describe differences between social situations. Here we examine if these 6 dimensions<br>\ndescribe how people think about their interdependence with others in a situation. We find that people (in<br>\nsitu and ex situ) can reliably differentiate situations according to 5, but not 6, dimensions of interdependence:<br>\n(a) mutual dependence, (b) power, (c) conflict, (d) future interdependence, and (e) information<br>\ncertainty. This model offers a unique framework for understanding how people think about social<br>\nsituations compared to another recent model of situation construal (DIAMONDS). Furthermore, we<br>\nexamine factors that are theorized to shape perceptions of interdependence, such as situational cues (e.g.,<br>\nnonverbal behavior) and personality (e.g., HEXACO and Social Value Orientation). We also study the<br>\nimplications of subjective interdependence for emotions and cooperative behavior during social interactions.<br>\nThis model of subjective interdependence explains substantial variation in the emotions people<br>\nexperience in situations (i.e., happiness, sadness, anger, and disgust), and explains 24% of the variance<br>\nin cooperation, above and beyond the DIAMONDS model. Throughout these studies, we develop and<br>\nvalidate a multidimensional measure of subjective outcome interdependence that can be used in diverse<br>\nsituations and relationships&mdash;the Situational Interdependence Scale (SIS). We discuss how this model of<br>\ninterdependence can be used to better understand how people think about social situations encountered<br>\nin close relationships, organizations, and society.</p>",
+     "doi": "10.1037/pspp0000166",
+     "embargo_date": "2019-10-01",
+     "grants": [
+      {
+       "acronym": "COOPERATION",
+       "code": "635356",
+       "funder": {
+        "acronyms": [],
+        "doi": "10.13039/501100000780",
+        "links": {
+         "self": "https://zenodo.org/api/funders/10.13039/501100000780"
+        },
+        "name": "European Commission"
+       },
+       "links": {
+        "self": "https://zenodo.org/api/grants/10.13039/501100000780::635356"
+       },
+       "program": "H2020",
+       "title": "Releasing Prisoners Of The Paradigm: Understanding How Cooperation Varies Across Contexts In The Lab And Field"
+      }
+     ],
+     "license": {
+      "id": "CC-BY-4.0"
+     },
+     "publication_date": "2018-10-01",
+     "relations": {
+      "version": [
+       {
+        "count": 1,
+        "index": 0,
+        "is_last": true,
+        "last_child": {
+         "pid_type": "recid",
+         "pid_value": "1402473"
+        },
+        "parent": {
+         "pid_type": "recid",
+         "pid_value": "1402472"
+        }
+       }
+      ]
+     },
+     "resource_type": {
+      "subtype": "article",
+      "title": "Journal article",
+      "type": "publication"
+     },
+     "title": "How Do People Think About Interdependence? A Multidimensional Model of Subjective Outcome Interdependence."
+    },
+    "owners": [
+     51184
+    ],
+    "revision": 10,
+    "stats": {
+     "downloads": 6.0,
+     "unique_downloads": 5.0,
+     "unique_views": 10.0,
+     "version_downloads": 6.0,
+     "version_unique_downloads": 5.0,
+     "version_unique_views": 10.0,
+     "version_views": 11.0,
+     "version_volume": 2217882.0,
+     "views": 11.0,
+     "volume": 2217882.0
+    },
+    "updated": "2020-01-20T12:57:13.607847+00:00"
+   },
+   {
+    "conceptdoi": "10.5281/zenodo.3543733",
+    "conceptrecid": "3543733",
+    "created": "2019-11-19T10:11:39.529555+00:00",
+    "doi": "10.5281/zenodo.3543734",
+    "files": [
+     {
+      "bucket": "54570640-b8b9-487f-a33d-5162585b8e3a",
+      "checksum": "md5:7357ef6a783e2c6bcd451e0e2d359c7c",
+      "key": "2019-11-19_git-workshop_VU.pdf",
+      "links": {
+       "self": "https://zenodo.org/api/files/54570640-b8b9-487f-a33d-5162585b8e3a/2019-11-19_git-workshop_VU.pdf"
+      },
+      "size": 8207313,
+      "type": "pdf"
+     }
+    ],
+    "id": 3543734,
+    "links": {
+     "badge": "https://zenodo.org/badge/doi/10.5281/zenodo.3543734.svg",
+     "bucket": "https://zenodo.org/api/files/54570640-b8b9-487f-a33d-5162585b8e3a",
+     "conceptbadge": "https://zenodo.org/badge/doi/10.5281/zenodo.3543733.svg",
+     "conceptdoi": "https://doi.org/10.5281/zenodo.3543733",
+     "doi": "https://doi.org/10.5281/zenodo.3543734",
+     "html": "https://zenodo.org/record/3543734",
+     "latest": "https://zenodo.org/api/records/3543734",
+     "latest_html": "https://zenodo.org/record/3543734",
+     "self": "https://zenodo.org/api/records/3543734"
+    },
+    "metadata": {
+     "access_right": "open",
+     "access_right_category": "success",
+     "creators": [
+      {
+       "affiliation": "Delft University of Technology",
+       "name": "Kees den Heijer",
+       "orcid": "0000-0003-0314-2779"
+      }
+     ],
+     "description": "<p>Introductory presentation on the use of Git version control for reproducibility with a basic hands-on exercise&nbsp;held at VU Amsterdam.</p>",
+     "doi": "10.5281/zenodo.3543734",
+     "keywords": [
+      "data stewardship",
+      "version control",
+      "git",
+      "FAIR",
+      "RDM"
+     ],
+     "language": "eng",
+     "license": {
+      "id": "CC-BY-4.0"
+     },
+     "publication_date": "2019-11-19",
+     "related_identifiers": [
+      {
+       "identifier": "10.5281/zenodo.3543733",
+       "relation": "isVersionOf",
+       "scheme": "doi"
+      }
+     ],
+     "relations": {
+      "version": [
+       {
+        "count": 1,
+        "index": 0,
+        "is_last": true,
+        "last_child": {
+         "pid_type": "recid",
+         "pid_value": "3543734"
+        },
+        "parent": {
+         "pid_type": "recid",
+         "pid_value": "3543733"
+        }
+       }
+      ]
+     },
+     "resource_type": {
+      "title": "Presentation",
+      "type": "presentation"
+     },
+     "title": "How to use version control to improve reproducibility",
+     "version": "1.0"
+    },
+    "owners": [
+     41841
+    ],
+    "revision": 3,
+    "stats": {
+     "downloads": 125.0,
+     "unique_downloads": 111.0,
+     "unique_views": 163.0,
+     "version_downloads": 125.0,
+     "version_unique_downloads": 111.0,
+     "version_unique_views": 163.0,
+     "version_views": 177.0,
+     "version_volume": 1025914125.0,
+     "views": 177.0,
+     "volume": 1025914125.0
+    },
+    "updated": "2020-01-20T17:14:50.744672+00:00"
+   },
+   {
+    "conceptrecid": "1413154",
+    "created": "2018-09-11T09:20:00.598202+00:00",
+    "doi": "10.1002/per.2139",
+    "files": [
+     {
+      "bucket": "3040daa9-b467-409b-82f5-63dfce089d17",
+      "checksum": "md5:ab794a45a370cba4ce67994c61e326e1",
+      "key": "Pletzer_et_al-2018-European_Journal_of_Personality.pdf",
+      "links": {
+       "self": "https://zenodo.org/api/files/3040daa9-b467-409b-82f5-63dfce089d17/Pletzer_et_al-2018-European_Journal_of_Personality.pdf"
+      },
+      "size": 520164,
+      "type": "pdf"
+     }
+    ],
+    "id": 1413155,
+    "links": {
+     "badge": "https://zenodo.org/badge/doi/10.1002/per.2139.svg",
+     "bucket": "https://zenodo.org/api/files/3040daa9-b467-409b-82f5-63dfce089d17",
+     "doi": "https://doi.org/10.1002/per.2139",
+     "html": "https://zenodo.org/record/1413155",
+     "latest": "https://zenodo.org/api/records/1413155",
+     "latest_html": "https://zenodo.org/record/1413155",
+     "self": "https://zenodo.org/api/records/1413155"
+    },
+    "metadata": {
+     "access_right": "open",
+     "access_right_category": "success",
+     "creators": [
+      {
+       "affiliation": "VU Amsterdam",
+       "name": "Jan Luca Pletzer"
+      },
+      {
+       "affiliation": "VU Amsterdam",
+       "name": "Daniel Balliet"
+      },
+      {
+       "affiliation": "VU Amsterdam",
+       "name": "Jeff Joireman"
+      },
+      {
+       "affiliation": "VU Amsterdam",
+       "name": "D. Michael Kuhlman"
+      },
+      {
+       "affiliation": "VU Amsterdam",
+       "name": "Sven C. Voelpel"
+      },
+      {
+       "affiliation": "Van Lange",
+       "name": "Paul A. M."
+      }
+     ],
+     "description": "<p>Interdependent situations are pervasive in human life. In these situations, it is essential to form expectations<br>\nabout the others&rsquo; behaviour to adapt one&rsquo;s own behaviour to increase mutual outcomes and avoid exploitation. Social<br>\nvalue orientation, which describes the dispositional weights individuals attach to their own and to another person&rsquo;s<br>\noutcome, predicts these expectations of cooperation in social dilemmas&mdash;an interdependent situation involving a<br>\nconflict of interests. Yet, scientific evidence is inconclusive about the exact differences in expectations between<br>\nprosocials, individualists, and competitors. The present meta-analytic results show that, relative to proselfs (individualists<br>\nand competitors), prosocials expect more cooperation from others in social dilemmas, whereas individualists<br>\nand competitors do not significantly differ in their expectations. The importance of these expectations in the decision<br>\nprocess is further highlighted by the finding that they partially mediate the well-established relation between social<br>\nvalue orientation and cooperative behaviour in social dilemmas. In fact, even proselfs are more likely to cooperate<br>\nwhen they expect their partner to cooperate.&nbsp;</p>",
+     "doi": "10.1002/per.2139",
+     "embargo_date": "2019-02-14",
+     "license": {
+      "id": "CC-BY-4.0"
+     },
+     "publication_date": "2018-02-14",
+     "relations": {
+      "version": [
+       {
+        "count": 1,
+        "index": 0,
+        "is_last": true,
+        "last_child": {
+         "pid_type": "recid",
+         "pid_value": "1413155"
+        },
+        "parent": {
+         "pid_type": "recid",
+         "pid_value": "1413154"
+        }
+       }
+      ]
+     },
+     "resource_type": {
+      "subtype": "article",
+      "title": "Journal article",
+      "type": "publication"
+     },
+     "title": "Social Value Orientation, Expectations, and Cooperation in Social Dilemmas: A Meta-analysis"
+    },
+    "owners": [
+     51184
+    ],
+    "revision": 5,
+    "stats": {
+     "downloads": 4.0,
+     "unique_downloads": 4.0,
+     "unique_views": 8.0,
+     "version_downloads": 4.0,
+     "version_unique_downloads": 4.0,
+     "version_unique_views": 8.0,
+     "version_views": 8.0,
+     "version_volume": 2080656.0,
+     "views": 8.0,
+     "volume": 2080656.0
+    },
+    "updated": "2020-01-20T16:39:35.949819+00:00"
+   },
+   {
+    "conceptdoi": "10.5281/zenodo.3604117",
+    "conceptrecid": "3604117",
+    "created": "2020-01-10T13:40:41.759546+00:00",
+    "doi": "10.5281/zenodo.3604118",
+    "files": [
+     {
+      "bucket": "089197ed-7d60-4d46-b8ad-f5f7f904d252",
+      "checksum": "md5:9c406655ecc40397dbdb5e4225f0e965",
+      "key": "Raw_data_T88_3P.xlsx",
+      "links": {
+       "self": "https://zenodo.org/api/files/089197ed-7d60-4d46-b8ad-f5f7f904d252/Raw_data_T88_3P.xlsx"
+      },
+      "size": 158230,
+      "type": "xlsx"
+     }
+    ],
+    "id": 3604118,
+    "links": {
+     "badge": "https://zenodo.org/badge/doi/10.5281/zenodo.3604118.svg",
+     "bucket": "https://zenodo.org/api/files/089197ed-7d60-4d46-b8ad-f5f7f904d252",
+     "conceptbadge": "https://zenodo.org/badge/doi/10.5281/zenodo.3604117.svg",
+     "conceptdoi": "https://doi.org/10.5281/zenodo.3604117",
+     "doi": "https://doi.org/10.5281/zenodo.3604118",
+     "html": "https://zenodo.org/record/3604118",
+     "latest": "https://zenodo.org/api/records/3604118",
+     "latest_html": "https://zenodo.org/record/3604118",
+     "self": "https://zenodo.org/api/records/3604118"
+    },
+    "metadata": {
+     "access_right": "open",
+     "access_right_category": "success",
+     "creators": [
+      {
+       "affiliation": "NIOZ & VU Amsterdam",
+       "name": "Brummer, G.-J.A."
+      },
+      {
+       "affiliation": "VU Amsterdam & LSCE",
+       "name": "Metcalfe, B.",
+       "orcid": "0000-0002-5873-9815"
+      },
+      {
+       "affiliation": "VU Amsterdam",
+       "name": "Feldmeijer, W."
+      },
+      {
+       "affiliation": "VU Amsterdam",
+       "name": "Prins, M.A."
+      },
+      {
+       "name": "van 't Hoff, J."
+      },
+      {
+       "affiliation": "VU Amsterdam",
+       "name": "Ganssen, G.M."
+      }
+     ],
+     "description": "<p>Raw data for Brummer et al. (2020) published in Climate of the Past (https://doi.org/10.5194/cp-16-1-2020)</p>",
+     "doi": "10.5281/zenodo.3604118",
+     "grants": [
+      {
+       "acronym": "",
+       "code": "2300165588",
+       "funder": {
+        "acronyms": [],
+        "doi": "10.13039/501100003246",
+        "links": {
+         "self": "https://zenodo.org/api/funders/10.13039/501100003246"
+        },
+        "name": "Nederlandse Organisatie voor Wetenschappelijk Onderzoek"
+       },
+       "links": {
+        "self": "https://zenodo.org/api/grants/10.13039/501100003246::2300165588"
+       },
+       "program": "",
+       "title": "SCAN-2: Scanning Sediment and Coral Climate Archives Applications of Non-destructive Nature"
+      },
+      {
+       "acronym": "",
+       "code": "2300176799",
+       "funder": {
+        "acronyms": [],
+        "doi": "10.13039/501100003246",
+        "links": {
+         "self": "https://zenodo.org/api/funders/10.13039/501100003246"
+        },
+        "name": "Nederlandse Organisatie voor Wetenschappelijk Onderzoek"
+       },
+       "links": {
+        "self": "https://zenodo.org/api/grants/10.13039/501100003246::2300176799"
+       },
+       "program": "",
+       "title": "Digging for density: developing a micropaleontological proxy for seawater density"
+      }
+     ],
+     "journal": {
+      "pages": "1-18",
+      "title": "Climate of the Past",
+      "volume": "16"
+     },
+     "keywords": [
+      "Foraminifera",
+      "Palaeoclimate"
+     ],
+     "language": "eng",
+     "license": {
+      "id": "CC-BY-4.0"
+     },
+     "publication_date": "2020-01-10",
+     "related_identifiers": [
+      {
+       "identifier": "10.5281/zenodo.3604117",
+       "relation": "isVersionOf",
+       "scheme": "doi"
+      }
+     ],
+     "relations": {
+      "version": [
+       {
+        "count": 1,
+        "index": 0,
+        "is_last": true,
+        "last_child": {
+         "pid_type": "recid",
+         "pid_value": "3604118"
+        },
+        "parent": {
+         "pid_type": "recid",
+         "pid_value": "3604117"
+        }
+       }
+      ]
+     },
+     "resource_type": {
+      "title": "Dataset",
+      "type": "dataset"
+     },
+     "title": "Modal shift in North Atlantic seasonality during the last deglaciation",
+     "version": "1"
+    },
+    "owners": [
+     57825
+    ],
+    "revision": 2,
+    "stats": {
+     "downloads": 3.0,
+     "unique_downloads": 3.0,
+     "unique_views": 7.0,
+     "version_downloads": 3.0,
+     "version_unique_downloads": 3.0,
+     "version_unique_views": 7.0,
+     "version_views": 7.0,
+     "version_volume": 474690.0,
+     "views": 7.0,
+     "volume": 474690.0
+    },
+    "updated": "2020-01-24T19:23:53.169003+00:00"
+   },
+   {
+    "conceptdoi": "10.5281/zenodo.2602582",
+    "conceptrecid": "2602582",
+    "created": "2019-03-22T10:18:17.587995+00:00",
+    "doi": "10.5281/zenodo.2602583",
+    "files": [
+     {
+      "bucket": "c46a8bf8-2f13-46d7-bb5d-afe8e8af0edd",
+      "checksum": "md5:a6a2d6245d05a44cc04f8048dd20062c",
+      "key": "DMPs DTL Data Steward Interest Group meeting 22 March 2019.pdf",
+      "links": {
+       "self": "https://zenodo.org/api/files/c46a8bf8-2f13-46d7-bb5d-afe8e8af0edd/DMPs%20DTL%20Data%20Steward%20Interest%20Group%20meeting%2022%20March%202019.pdf"
+      },
+      "size": 2682641,
+      "type": "pdf"
+     }
+    ],
+    "id": 2602583,
+    "links": {
+     "badge": "https://zenodo.org/badge/doi/10.5281/zenodo.2602583.svg",
+     "bucket": "https://zenodo.org/api/files/c46a8bf8-2f13-46d7-bb5d-afe8e8af0edd",
+     "conceptbadge": "https://zenodo.org/badge/doi/10.5281/zenodo.2602582.svg",
+     "conceptdoi": "https://doi.org/10.5281/zenodo.2602582",
+     "doi": "https://doi.org/10.5281/zenodo.2602583",
+     "html": "https://zenodo.org/record/2602583",
+     "latest": "https://zenodo.org/api/records/2602583",
+     "latest_html": "https://zenodo.org/record/2602583",
+     "self": "https://zenodo.org/api/records/2602583"
+    },
+    "metadata": {
+     "access_right": "open",
+     "access_right_category": "success",
+     "creators": [
+      {
+       "affiliation": "VU Amsterdam",
+       "name": "Cruz, Maria",
+       "orcid": "0000-0001-9111-182X"
+      }
+     ],
+     "description": "<p>Presentation given by Maria Cruz (VU Amsterdam) at the DTL Data Stewards Interest Group Meeting on 22 March 2019 in Utrecht, The Netherlands</p>",
+     "doi": "10.5281/zenodo.2602583",
+     "keywords": [
+      "Data Management Plan, Research Data Management, Data Steward"
+     ],
+     "license": {
+      "id": "CC-BY-4.0"
+     },
+     "publication_date": "2019-03-22",
+     "related_identifiers": [
+      {
+       "identifier": "10.5281/zenodo.2602582",
+       "relation": "isVersionOf",
+       "scheme": "doi"
+      }
+     ],
+     "relations": {
+      "version": [
+       {
+        "count": 1,
+        "index": 0,
+        "is_last": true,
+        "last_child": {
+         "pid_type": "recid",
+         "pid_value": "2602583"
+        },
+        "parent": {
+         "pid_type": "recid",
+         "pid_value": "2602582"
+        }
+       }
+      ]
+     },
+     "resource_type": {
+      "title": "Presentation",
+      "type": "presentation"
+     },
+     "title": "Data Management Plans:  Love 'em or Hate 'em?"
+    },
+    "owners": [
+     42304
+    ],
+    "revision": 5,
+    "stats": {
+     "downloads": 65.0,
+     "unique_downloads": 60.0,
+     "unique_views": 120.0,
+     "version_downloads": 65.0,
+     "version_unique_downloads": 60.0,
+     "version_unique_views": 120.0,
+     "version_views": 128.0,
+     "version_volume": 174371665.0,
+     "views": 128.0,
+     "volume": 174371665.0
+    },
+    "updated": "2020-01-20T14:55:14.891117+00:00"
+   },
+   {
+    "conceptdoi": "10.5281/zenodo.3468500",
+    "conceptrecid": "3468500",
+    "created": "2019-10-02T06:34:39.230377+00:00",
+    "doi": "10.5281/zenodo.3468501",
+    "files": [
+     {
+      "bucket": "84f9e6c8-0fe5-44f2-9560-c8cf56f6bac4",
+      "checksum": "md5:2690225f07137943415cc58673139dcb",
+      "key": "Gas, Force, and Optotrak data.rar",
+      "links": {
+       "self": "https://zenodo.org/api/files/84f9e6c8-0fe5-44f2-9560-c8cf56f6bac4/Gas%2C%20Force%2C%20and%20Optotrak%20data.rar"
+      },
+      "size": 2264137804,
+      "type": "rar"
+     }
+    ],
+    "id": 3468501,
+    "links": {
+     "badge": "https://zenodo.org/badge/doi/10.5281/zenodo.3468501.svg",
+     "bucket": "https://zenodo.org/api/files/84f9e6c8-0fe5-44f2-9560-c8cf56f6bac4",
+     "conceptbadge": "https://zenodo.org/badge/doi/10.5281/zenodo.3468500.svg",
+     "conceptdoi": "https://doi.org/10.5281/zenodo.3468500",
+     "doi": "https://doi.org/10.5281/zenodo.3468501",
+     "html": "https://zenodo.org/record/3468501",
+     "latest": "https://zenodo.org/api/records/3468501",
+     "latest_html": "https://zenodo.org/record/3468501",
+     "self": "https://zenodo.org/api/records/3468501"
+    },
+    "metadata": {
+     "access_right": "open",
+     "access_right_category": "success",
+     "creators": [
+      {
+       "affiliation": "VU Amsterdam",
+       "name": "Mohammadreza Mahaki",
+       "orcid": "0000-0003-1439-2394"
+      },
+      {
+       "affiliation": "VU Amsterdam",
+       "name": "Sjoerd M. Bruijn",
+       "orcid": "0000-0003-0290-2131"
+      },
+      {
+       "affiliation": "VU Amsterdam",
+       "name": "Jaap H. van Die\u00ebn",
+       "orcid": "0000-0002-7719-5585"
+      }
+     ],
+     "description": "<p>Data and code for Mahaki et al. (2019):&nbsp;The effect of external lateral stabilization on the use of foot placement to control mediolateral stability in walking and running.</p>\n\n<p>The Gas, Force, and Optotrak data.rar&nbsp; folder contains three subfolders as follows:</p>\n\n<p><strong>Gasdata2</strong> - contains all oxygen data, plus a scripts to run the data.</p>\n\n<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - Subjectxx&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - folder with oxygen data</p>\n\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- MainMohammadRunning_EC - script to analyze the oxygen data.</p>\n\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- EC_walkRun_Stat&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;- script to statistically test the hypotheses in terms of energetic cost. The results have been presented in supplementary material (<strong>Fig. S5.</strong>)</p>\n\n<p><strong>KinData</strong> &nbsp;&nbsp;- contains all kinematic and kinetic data (one folder per subject)</p>\n\n<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - Marker.xlsx &nbsp;&nbsp;&nbsp; - info on which markers were placed where</p>\n\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Pointers.xlsx &nbsp; - info on which pointer trials contain which virtual markers</p>\n\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Trials.xlsx &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - info on which files contain which conditions</p>\n\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Subjectxx &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - folder with all the data.</p>\n\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- The *.ndf files contain the kinematics (can be read with readndf.m, available in a subfolder of the VU 3d model (see below)</p>\n\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- The *.afp files contain the raw voltage data from the force plates. These can be converted to forces and moments using the function FBW_dualbelt.m,&nbsp; available in a subfolder of the VU 3d model (see below).</p>\n\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- The _HS.mat files contain calculated events (see script A below), and are normal matlab files.</p>\n\n<p><strong>Software</strong> &nbsp; - contains all code used to get from the kinematic data to outcome variables, script were ran as:</p>\n\n<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;- A_Main_Heelstrikes &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;- script which calculates heelstrikes, and prompts the user to check these. Results are saved in the same folder (and under same name, but with extension HS.mat) as original data.</p>\n\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - B_Main_Calculate_step&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;- script which was used to calculate main outcomes for each subject and condition. results of this script are stored in foot_placement_thorax.mat and used in subsequent scripts.</p>\n\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - C_Combine_Test_Legs&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;- script which was used to statistically investigate the effect of leg and speed on R<sup>2</sup> time series (lines 67-69). The results have been presented in Supplementary Material file (<strong>Fig. S1.</strong>).</p>\n\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - D_main_plot_WalkRun_normalOnly&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- script which was used to check our second hypothesis which was the comparison between normal walking and running in terms of foot placement strategy. The results have been presented in <strong>Fig 4. &amp; 5.</strong>.</p>\n\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - E_main_plot_WalkRun&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;- script which was used to check our third and fourth hypotheses which we investigated the effect of external lateral stabilization on R<sup>2</sup> values in walking and running (hypothesis 3) and differences of external lateral stabilization effect between walking and running (i.e. mode of locomotion X condition interaction, hypothesis 4) during swing phase. The results have been presented in <strong>Fig 5. and Fig 7.</strong>.</p>\n\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - SW_SWvariability_WalkRun&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;script which was used to check our hypotheses in terms of step width and step width variability. The results have been presented in <strong>Fig 6</strong>.</p>\n\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - F_Supplementary_main_plot_run&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - script which was used to compare R<sup>2</sup> values between running trials (speed effect) and the results have been presented in supplementary material (<strong>Fig .S2.</strong>).</p>",
+     "doi": "10.5281/zenodo.3468501",
+     "journal": {
+      "title": "http://dx.doi.org/10.7717/peerj.7939"
+     },
+     "keywords": [
+      "foot placement strategy",
+      "balance",
+      "gait stability",
+      "walking",
+      "running",
+      "stepping strategy",
+      "external lateral stabilization"
+     ],
+     "language": "eng",
+     "license": {
+      "id": "CC-BY-4.0"
+     },
+     "meeting": {
+      "dates": "23-28 september",
+      "place": "Amsterdam",
+      "session": "Sports & Sports Injury",
+      "session_part": "1",
+      "title": "ESMAC/2019",
+      "url": "http://www.esmac2019.org/main-conference.htm"
+     },
+     "publication_date": "2019-10-01",
+     "related_identifiers": [
+      {
+       "identifier": "https://peerj.com/articles/7939/",
+       "relation": "isDocumentedBy",
+       "resource_type": "publication-article",
+       "scheme": "url"
+      },
+      {
+       "identifier": "https://peerj.com/preprints/27244/",
+       "relation": "isDocumentedBy",
+       "resource_type": "publication-preprint",
+       "scheme": "url"
+      },
+      {
+       "identifier": "https://osf.io/6fpg2/",
+       "relation": "isDocumentedBy",
+       "resource_type": "publication-proposal",
+       "scheme": "url"
+      },
+      {
+       "identifier": "https://surfdrive.surf.nl/files/index.php/s/MzdlDXoVQwzh50z?path=%2F",
+       "relation": "isNewVersionOf",
+       "resource_type": "dataset",
+       "scheme": "url"
+      },
+      {
+       "identifier": "https://www.instagram.com/stories/highlights/17861675272205920/",
+       "relation": "isSupplementedBy",
+       "resource_type": "video",
+       "scheme": "url"
+      },
+      {
+       "identifier": "10.5281/zenodo.3468500",
+       "relation": "isVersionOf",
+       "scheme": "doi"
+      }
+     ],
+     "relations": {
+      "version": [
+       {
+        "count": 1,
+        "index": 0,
+        "is_last": true,
+        "last_child": {
+         "pid_type": "recid",
+         "pid_value": "3468501"
+        },
+        "parent": {
+         "pid_type": "recid",
+         "pid_value": "3468500"
+        }
+       }
+      ]
+     },
+     "resource_type": {
+      "title": "Dataset",
+      "type": "dataset"
+     },
+     "title": "The effect of external lateral stabilization on the use of foot placement to control mediolateral stability in walking and running"
+    },
+    "owners": [
+     78729
+    ],
+    "revision": 10,
+    "stats": {
+     "downloads": 8.0,
+     "unique_downloads": 7.0,
+     "unique_views": 42.0,
+     "version_downloads": 8.0,
+     "version_unique_downloads": 7.0,
+     "version_unique_views": 42.0,
+     "version_views": 57.0,
+     "version_volume": 18113102432.0,
+     "views": 57.0,
+     "volume": 18113102432.0
+    },
+    "updated": "2020-01-24T19:23:49.053625+00:00"
+   },
+   {
+    "conceptrecid": "1402468",
+    "created": "2018-08-23T10:08:37.385086+00:00",
+    "doi": "10.1016/j.jesp.2017.02.008",
+    "files": [
+     {
+      "bucket": "94d365f7-6c53-4afc-9a1e-fea6110d5fdf",
+      "checksum": "md5:8d631b88e15e999cafc833b40638edbe",
+      "key": "Romano et al. JESP.pdf",
+      "links": {
+       "self": "https://zenodo.org/api/files/94d365f7-6c53-4afc-9a1e-fea6110d5fdf/Romano%20et%20al.%20JESP.pdf"
+      },
+      "size": 420137,
+      "type": "pdf"
+     }
+    ],
+    "id": 1402469,
+    "links": {
+     "badge": "https://zenodo.org/badge/doi/10.1016/j.jesp.2017.02.008.svg",
+     "bucket": "https://zenodo.org/api/files/94d365f7-6c53-4afc-9a1e-fea6110d5fdf",
+     "doi": "https://doi.org/10.1016/j.jesp.2017.02.008",
+     "html": "https://zenodo.org/record/1402469",
+     "latest": "https://zenodo.org/api/records/1402469",
+     "latest_html": "https://zenodo.org/record/1402469",
+     "self": "https://zenodo.org/api/records/1402469"
+    },
+    "metadata": {
+     "access_right": "open",
+     "access_right_category": "success",
+     "creators": [
+      {
+       "affiliation": "VU Amsterdam",
+       "name": "A. Romano"
+      },
+      {
+       "affiliation": "VU Amsterdam",
+       "name": "D. Balliet"
+      },
+      {
+       "affiliation": "VU Amsterdam",
+       "name": "J. Wu"
+      }
+     ],
+     "description": "<p>Bounded generalized reciprocity (BGR) predicts that people cooperate to maintain a positive reputation with<br>\ningroup, but not outgroup, members&mdash;and this explains ingroup favoritism in cooperation. We propose that<br>\nthe benefits of maintaining a positive reputation are not limited by group boundaries and so people may cooperate<br>\nto maintain a good reputation among outgroup members when they will meet and interactwith members of<br>\nthat group again. According to this unbounded indirect reciprocity perspective, reputation can promote cooperation<br>\nwith both ingroup and outgroup members. Alternatively, social identity theory (SIT) favors social identity<br>\nversus reputation as an explanation for cooperation among ingroup members. We test these hypotheses across<br>\nfive studies (Ns = 619, 607, 613, 360, and 615) that manipulate reputation, social identification, and partner&#39;s<br>\ngroup membership in a cooperative decision making task. Across our studies, people were more cooperative<br>\nwith both ingroup and outgroup members when their reputation was at stake (Studies 1&ndash;5), and reputational<br>\nconcern mediated the effect of cues of gossip on cooperation in interactions with ingroup and outgroup members<br>\n(Studies 1&ndash;4). Social identification did not affect cooperation with ingroup members.We discuss the theoretical<br>\nand practical implications of the indirect benefits of cooperation that can transcend group boundaries.</p>",
+     "doi": "10.1016/j.jesp.2017.02.008",
+     "grants": [
+      {
+       "acronym": "COOPERATION",
+       "code": "635356",
+       "funder": {
+        "acronyms": [],
+        "doi": "10.13039/501100000780",
+        "links": {
+         "self": "https://zenodo.org/api/funders/10.13039/501100000780"
+        },
+        "name": "European Commission"
+       },
+       "links": {
+        "self": "https://zenodo.org/api/grants/10.13039/501100000780::635356"
+       },
+       "program": "H2020",
+       "title": "Releasing Prisoners Of The Paradigm: Understanding How Cooperation Varies Across Contexts In The Lab And Field"
+      }
+     ],
+     "license": {
+      "id": "CC-BY-4.0"
+     },
+     "publication_date": "2017-08-01",
+     "relations": {
+      "version": [
+       {
+        "count": 1,
+        "index": 0,
+        "is_last": true,
+        "last_child": {
+         "pid_type": "recid",
+         "pid_value": "1402469"
+        },
+        "parent": {
+         "pid_type": "recid",
+         "pid_value": "1402468"
+        }
+       }
+      ]
+     },
+     "resource_type": {
+      "subtype": "article",
+      "title": "Journal article",
+      "type": "publication"
+     },
+     "title": "Unbounded indirect reciprocity: Is reputation-based cooperation bounded by group membership?"
+    },
+    "owners": [
+     51184
+    ],
+    "revision": 6,
+    "stats": {
+     "downloads": 75.0,
+     "unique_downloads": 73.0,
+     "unique_views": 14.0,
+     "version_downloads": 75.0,
+     "version_unique_downloads": 73.0,
+     "version_unique_views": 14.0,
+     "version_views": 14.0,
+     "version_volume": 31510275.0,
+     "views": 14.0,
+     "volume": 31510275.0
+    },
+    "updated": "2020-01-20T14:50:08.028748+00:00"
+   },
+   {
+    "conceptdoi": "10.5281/zenodo.1488218",
+    "conceptrecid": "1488218",
+    "created": "2018-12-10T19:50:41.803952+00:00",
+    "doi": "10.5281/zenodo.1488219",
+    "files": [
+     {
+      "bucket": "156394cd-2e13-4bf3-99be-fe1560d2a621",
+      "checksum": "md5:d8f88abe3ee4e0fefdc2def71881bee0",
+      "key": "RM2018_P48_Weijer.pdf",
+      "links": {
+       "self": "https://zenodo.org/api/files/156394cd-2e13-4bf3-99be-fe1560d2a621/RM2018_P48_Weijer.pdf"
+      },
+      "size": 214265,
+      "type": "pdf"
+     }
+    ],
+    "id": 1488219,
+    "links": {
+     "badge": "https://zenodo.org/badge/doi/10.5281/zenodo.1488219.svg",
+     "bucket": "https://zenodo.org/api/files/156394cd-2e13-4bf3-99be-fe1560d2a621",
+     "conceptbadge": "https://zenodo.org/badge/doi/10.5281/zenodo.1488218.svg",
+     "conceptdoi": "https://doi.org/10.5281/zenodo.1488218",
+     "doi": "https://doi.org/10.5281/zenodo.1488219",
+     "html": "https://zenodo.org/record/1488219",
+     "latest": "https://zenodo.org/api/records/1488219",
+     "latest_html": "https://zenodo.org/record/1488219",
+     "self": "https://zenodo.org/api/records/1488219"
+    },
+    "metadata": {
+     "access_right": "open",
+     "access_right_category": "success",
+     "communities": [
+      {
+       "id": "rehabmove2018"
+      }
+     ],
+     "creators": [
+      {
+       "affiliation": "VU Amsterdam, AMSTERDAM, Nederland",
+       "name": "Weijer, R.H.A."
+      },
+      {
+       "affiliation": "VU Amsterdam, AMSTERDAM, Nederland",
+       "name": "Hoozemans, M.H.M."
+      },
+      {
+       "affiliation": "VU Amsterdam, AMSTERDAM, Nederland",
+       "name": "van Die\u00ebn, J.H."
+      },
+      {
+       "affiliation": "VU Amsterdam, AMSTERDAM, Nederland",
+       "name": "Pijnappels, M."
+      }
+     ],
+     "description": "<p><strong>PURPOSE</strong>: Quality of gait during daily life activities and perceived gait stability are both independent risk factors for future falls in older adults. We investigated whether perceived gait stability modulates the association between gait quality and falling in older adults and aim to replicate our findings in an ongoing cohort.</p>\n\n<p><strong>METHODS:</strong> We used two prospective cohorts of older adults over 65 years of age, the FARAO (N = 272) and the ongoing VIBE (N &lt; 286) cohort. One-week daily-life trunk acceleration data was collected. Sample entropy (SE) of the 3D acceleration signals was calculated to quantify daily life gait quality. To quantify perceived gait stability, the level of concern about falling was assessed using the Falls Efficacy Scale International (FES-I) questionnaire and step length, estimated from the accelerometer data. A fall calendar was used to record fall incidence during a six-month follow up period. Logistic regression analyses were performed to study the association between falling and SE, step length or FES-I score, and their interactions.</p>\n\n<p><strong>RESULTS:</strong> From the FARAO cohort we showed that high (i.e., poor) SE in vertical direction was significantly associated with falling. FES-I scores significantly modulated this association, whereas step length did not. Subgroup analyses based on FES-I scores showed that high SE in the vertical direction was a risk factor for falls only in older adults who had a high (i.e. poor) FES-I score. The VIBE cohort is still ongoing and preliminary results will be presented at the congress in relation to the results from the FARAO cohort.</p>\n\n<p><strong>CONCLUSION:</strong> Perceived gait stability may modulate the association between gait quality and falls in older adults such that an association between gait quality and falling is only present when perceived gait stability is poor.</p>",
+     "doi": "10.5281/zenodo.1488219",
+     "keywords": [
+      "Falls",
+      "Older adults"
+     ],
+     "language": "eng",
+     "license": {
+      "id": "CC-BY-NC-ND-4.0"
+     },
+     "meeting": {
+      "dates": "12-14 December 2018",
+      "place": "Groningen, The Netherlands",
+      "title": "6th International RehabMove State-Of-The-Art Congress 2018",
+      "url": "http://rehabmove2018.com/"
+     },
+     "publication_date": "2018-12-10",
+     "related_identifiers": [
+      {
+       "identifier": "10.5281/zenodo.1488218",
+       "relation": "isVersionOf",
+       "scheme": "doi"
+      }
+     ],
+     "relations": {
+      "version": [
+       {
+        "count": 1,
+        "index": 0,
+        "is_last": true,
+        "last_child": {
+         "pid_type": "recid",
+         "pid_value": "1488219"
+        },
+        "parent": {
+         "pid_type": "recid",
+         "pid_value": "1488218"
+        }
+       }
+      ]
+     },
+     "resource_type": {
+      "subtype": "conferencepaper",
+      "title": "Conference paper",
+      "type": "publication"
+     },
+     "title": "RehabMove 2018: SELF-PERCEIVED GAIT STABILITY MODULATES THE EFFECT OF DAILY-LIFE GAIT-QUALITY ON FALLS IN OLDER ADULTS"
+    },
+    "owners": [
+     55622
+    ],
+    "revision": 5,
+    "stats": {
+     "downloads": 5.0,
+     "unique_downloads": 5.0,
+     "unique_views": 18.0,
+     "version_downloads": 5.0,
+     "version_unique_downloads": 5.0,
+     "version_unique_views": 18.0,
+     "version_views": 18.0,
+     "version_volume": 1071325.0,
+     "views": 18.0,
+     "volume": 1071325.0
+    },
+    "updated": "2020-01-20T16:53:22.837768+00:00"
+   },
+   {
+    "conceptdoi": "10.5281/zenodo.2476175",
+    "conceptrecid": "2476175",
+    "created": "2018-12-21T10:35:46.882931+00:00",
+    "doi": "10.5281/zenodo.2476176",
+    "files": [
+     {
+      "bucket": "ffea1891-0e79-4de7-83b0-aab1633b7876",
+      "checksum": "md5:86d5fef7ce0f10c1bcc994c5dcdce3ec",
+      "key": "Chamber_isotope_values_T_sacculifer.xlsx",
+      "links": {
+       "self": "https://zenodo.org/api/files/ffea1891-0e79-4de7-83b0-aab1633b7876/Chamber_isotope_values_T_sacculifer.xlsx"
+      },
+      "size": 13446,
+      "type": "xlsx"
+     },
+     {
+      "bucket": "ffea1891-0e79-4de7-83b0-aab1633b7876",
+      "checksum": "md5:426ffe0c5994c9e479301b069a059001",
+      "key": "Single_shell_measurements_Pracht_et_al.xlsx",
+      "links": {
+       "self": "https://zenodo.org/api/files/ffea1891-0e79-4de7-83b0-aab1633b7876/Single_shell_measurements_Pracht_et_al.xlsx"
+      },
+      "size": 14892,
+      "type": "xlsx"
+     },
+     {
+      "bucket": "ffea1891-0e79-4de7-83b0-aab1633b7876",
+      "checksum": "md5:22ef71e433f81e1e8aeade76aa620850",
+      "key": "Single_shell_measurements_T_sacculifer_Pracht_et_al.xlsx",
+      "links": {
+       "self": "https://zenodo.org/api/files/ffea1891-0e79-4de7-83b0-aab1633b7876/Single_shell_measurements_T_sacculifer_Pracht_et_al.xlsx"
+      },
+      "size": 55827,
+      "type": "xlsx"
+     }
+    ],
+    "id": 2476176,
+    "links": {
+     "badge": "https://zenodo.org/badge/doi/10.5281/zenodo.2476176.svg",
+     "bucket": "https://zenodo.org/api/files/ffea1891-0e79-4de7-83b0-aab1633b7876",
+     "conceptbadge": "https://zenodo.org/badge/doi/10.5281/zenodo.2476175.svg",
+     "conceptdoi": "https://doi.org/10.5281/zenodo.2476175",
+     "doi": "https://doi.org/10.5281/zenodo.2476176",
+     "html": "https://zenodo.org/record/2476176",
+     "latest": "https://zenodo.org/api/records/2476176",
+     "latest_html": "https://zenodo.org/record/2476176",
+     "self": "https://zenodo.org/api/records/2476176"
+    },
+    "metadata": {
+     "access_right": "open",
+     "access_right_category": "success",
+     "creators": [
+      {
+       "affiliation": "VU Amsterdam",
+       "name": "Pracht, Hilde"
+      },
+      {
+       "affiliation": "VU Amsterdam; LSCE",
+       "name": "Metcalfe, Brett",
+       "orcid": "0000-0002-5873-9815"
+      },
+      {
+       "affiliation": "VU Amsterdam",
+       "name": "Peeters, Frank"
+      }
+     ],
+     "description": "<p>Dataset from &quot;Oxygen isotope composition of final chamber of planktic foraminifera provides evidence for vertical migration and depth integrated growth&quot;. Three files that represent: all data (stable isotope, weight, size) for T. sacculifer;&nbsp;all data (stable isotope, weight, size) for G. ruber and N.dutertrei and&nbsp;&nbsp;individual final chamber and remaining shell for T. sacculifer.</p>",
+     "doi": "10.5281/zenodo.2476176",
+     "language": "eng",
+     "license": {
+      "id": "CC-BY-4.0"
+     },
+     "publication_date": "2018-12-21",
+     "related_identifiers": [
+      {
+       "identifier": "10.5281/zenodo.2476175",
+       "relation": "isVersionOf",
+       "scheme": "doi"
+      }
+     ],
+     "relations": {
+      "version": [
+       {
+        "count": 1,
+        "index": 0,
+        "is_last": true,
+        "last_child": {
+         "pid_type": "recid",
+         "pid_value": "2476176"
+        },
+        "parent": {
+         "pid_type": "recid",
+         "pid_value": "2476175"
+        }
+       }
+      ]
+     },
+     "resource_type": {
+      "title": "Dataset",
+      "type": "dataset"
+     },
+     "title": "DATA: Oxygen isotope composition of final chamber of planktic foraminifera provides evidence for vertical migration and depth integrated growth"
+    },
+    "owners": [
+     57825
+    ],
+    "revision": 5,
+    "stats": {
+     "downloads": 23.0,
+     "unique_downloads": 7.0,
+     "unique_views": 33.0,
+     "version_downloads": 23.0,
+     "version_unique_downloads": 7.0,
+     "version_unique_views": 33.0,
+     "version_views": 33.0,
+     "version_volume": 618939.0,
+     "views": 33.0,
+     "volume": 618939.0
+    },
+    "updated": "2020-01-24T19:23:47.984780+00:00"
+   }
+  ],
+  "total": 11811
+ },
+ "links": {
+  "next": "https://zenodo.org/api/records/?sort=bestmatch&q=VU+Amsterdam&page=2&size=10",
+  "self": "https://zenodo.org/api/records/?sort=bestmatch&q=VU+Amsterdam&page=1&size=10"
+ }
+}
