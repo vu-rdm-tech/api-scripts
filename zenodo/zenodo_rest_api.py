@@ -107,8 +107,8 @@ def writeAuthorsToExcel(metadata, filename):
     xldat.write_string(0, 1, 'Type', fmt_head)
     xldat.write_string(0, 2, 'Repository', fmt_head)
     xldat.write_string(0, 3, 'Count', fmt_head)
-    xldat.write_string(0, 4, 'URI', fmt_head)
-    xldat.write_string(0, 5, 'Affiliation', fmt_head)
+    xldat.write_string(0, 4, 'Affiliation', fmt_head)
+    xldat.write_string(0, 5, 'Last URI', fmt_head)
 
     authors = []
     author_cntr = {}
@@ -134,8 +134,8 @@ def writeAuthorsToExcel(metadata, filename):
                 xldat.write_string(cntr, 1, author_types[a])
                 xldat.write_string(cntr, 2, 'zenodo')
                 xldat.write_number(cntr, 3, author_cntr[a])
-                xldat.write_url(cntr, 4, 'http://doi.org/{}'.format(r))
-                xldat.write_string(cntr, 5, metadata[r]['query'])
+                xldat.write_string(cntr, 4, metadata[r]['query'])
+                xldat.write_url(cntr, 5, 'http://doi.org/{}'.format(r))
                 cntr += 1
                 authors.append(a)
     xls.close()
