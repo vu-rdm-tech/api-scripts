@@ -69,10 +69,11 @@ def get_records(query, data, affiliation_id=''):
         d = _do_request(query=query, page=page, affiliation_id=affiliation_id)
         for record in d['data']:
             # check first author
-            c=record['attributes']['creators'][0]
+            c = record['attributes']['creators'][0]
             # a bit of extra cleaning
             for a in c['affiliation']:
-                if a.lower().find('vu ') > -1 or a.lower().find('vrije') > -1:
+                if (a.lower().find('vu ') > -1 or a.lower().find('vrije') > -1) and (a.lower().find(
+                        'brussel') == -1 and a.lower().find('medical center') == -1):
                     data[record['id']] = record
     return data
 
@@ -81,7 +82,7 @@ today_str = datetime.now().strftime('%Y%m%d')
 data = {}
 
 # cast a wide net, we will filter later
-affs = ['*vrije*', '*vu*', '*free*', '*VU*', '*Vrije*', '*Free*']
+affs = ['*vrije*', '*vu*', '*VU*', '*Vrije*']
 for affiliation in affs:
     query = f'creators.affiliation.name:{affiliation}'
     data = get_records(query, data)

@@ -9,7 +9,6 @@ import csv
 
 
 def create_csv(json_file):
-    today_str = datetime.now().strftime('%Y%m%d')
     data = json.load(open(json_file))
     pubcount = {}
     with open(json_file.replace('.json', '.csv'), mode='w', newline='', encoding='utf-8') as datafile:
@@ -24,10 +23,10 @@ def create_csv(json_file):
             else:
                 pubcount[publisher] = 1
             c=record['attributes']['creators'][0]
-            for a in c['affiliation']:
-                print(a)
-                w.writerow([id, c['name'], a, publisher])
+            a=('; ').join(c['affiliation'])
+            print(a)
+            w.writerow([id, c['name'], a, publisher])
     print(pubcount)
 
 
-create_csv('datacite20200227.json')
+create_csv('datacite20200228.json')
