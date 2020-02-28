@@ -77,7 +77,8 @@ def extractMetadata(res, db, query):
         if VALID:
             db[r_['metadata']['doi']] = {'pubdate' : r_['metadata']['publication_date'],
                                          'authors' : vu_auth_list,
-                                         'type' : r_['metadata']['resource_type']['type']
+                                         'type' : r_['metadata']['resource_type']['type'],
+                                         'query' : query
                                          }
     return db
 
