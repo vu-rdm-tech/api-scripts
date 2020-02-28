@@ -24,17 +24,20 @@ def testAPI(token, url):
     print(r.status_code)
     print(r.json())
 
-def recordsGet(token, query):
+def recordsGet(token, query, hits=100):
     """
-    Get request, searches records for query string and returns json formatted results
+    Get request, searches records for query string and returns json formatted results. Don't go insane
+    on the hits or Zenodo might start getting twitchy.
 
+    - **token** Zenodo API token
     - **query** the institution query string
-
+    - **hits** the number of hits to return (Zenodo API size)
 
     """
     time.sleep(random.randint(1, 4))
     params = {'access_token' : token,
-              'q' : query
+              'q' : query,
+              'size' : hits
               }
 
     r = requests.get("https://zenodo.org/api/records", params=params)
@@ -61,8 +64,10 @@ def extractMetadata(res, db, query):
     - **query** the institution query string
 
     """
-    results = res['hits']['hits']
-    for r_ in results:
+    #dbnew = {}
+
+    print('\nProcessing metadata for {} potential hits for query: \"{}\"!'.format(len(res['hits']['hits']), query))
+    for r_ in res['hits']['hits']:
         VALID = False
         auth_list = r_['metadata']['creators']
         vu_auth_list = []
@@ -75,11 +80,15 @@ def extractMetadata(res, db, query):
                     name = '{} {}'.format(sname[1].strip(), sname[0].strip())
                 vu_auth_list.append(name)
         if VALID:
+            if r_['metadata']['doi'] in db:
+                print('Duplicate DOI detected: {} overwriting.'.format(r_['metadata']['doi']))
+
             db[r_['metadata']['doi']] = {'pubdate' : r_['metadata']['publication_date'],
                                          'authors' : vu_auth_list,
                                          'type' : r_['metadata']['resource_type']['type'],
                                          'query' : query
                                          }
+    #db[query] = dbnew
     return db
 
 if __name__ == '__main__':
@@ -99,22 +108,36 @@ if __name__ == '__main__':
     #testAPI(ZENODO_API_KEY, "https://zenodo.org/api/deposit/depositions")
 
     metadata = {}
+    timing = []
 
     # define some queries
     queries = ["Vrije Universiteit Amsterdam", "VU University Amsterdam", "VU Amsterdam"]
     #queries = ["Vrije Universiteit Amsterdam"]
 
-    # and hit Zenodo exporting results per query
+    # and hit Zenodo exporting results per query, seems to be no advantage to use more than 500 hits.
     for query in queries:
-        res = recordsGet(ZENODO_API_KEY, query)
+        time0 = time.time()
+        res = recordsGet(ZENODO_API_KEY, query, hits=500)
+        timeGet = time.time()
         metadata = extractMetadata(res, metadata, query)
+        timeExt = time.time()
         writeRecordsToFile(res, os.path.join(raw_data_path, query.replace(' ', '_').strip()))
+        timeWrite = time.time()
+        timing.append('Query: {}\n Get: {:03.2f}s\n Extract: {:03.2f}s\n Write: {:03.2f}s\n'.format(query,\
+                                                                    timeGet-time0, timeExt-timeGet, timeWrite-timeExt))
+
 
     # dump metadata as a json dict
     with open('zenodo_search_results.json', 'w') as F:
         json.dump(metadata, F, indent=1)
 
-    pprint.pprint(metadata)
+    #pprint.pprint(metadata)
+    print('')
+    for t in timing:
+        print(t)
+
+    print('\n\nZenodo returned {} results from the requested search queries: \"{}\".'.format(len(metadata), queries))
+
 
 
 

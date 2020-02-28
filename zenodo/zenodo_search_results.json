@@ -10,7 +10,8 @@
    "Iwan J.P. de Esch",
    "Chris de Graaf"
   ],
-  "type": "dataset"
+  "type": "dataset",
+  "query": "Vrije Universiteit Amsterdam"
  },
  "10.5281/zenodo.58160": {
   "pubdate": "2016-07-17",
@@ -23,7 +24,8 @@
    "Iwan J.P. de Esch",
    "Chris de Graaf"
   ],
-  "type": "dataset"
+  "type": "dataset",
+  "query": "Vrije Universiteit Amsterdam"
  },
  "10.5281/zenodo.2546810": {
   "pubdate": "2019-01-22",
@@ -35,7 +37,8 @@
    "Guido M. van Koningsbruggen",
    "Antske Fokkens"
   ],
-  "type": "publication"
+  "type": "publication",
+  "query": "Vrije Universiteit Amsterdam"
  },
  "10.5281/zenodo.45774": {
   "pubdate": "2016-02-08",
@@ -47,7 +50,8 @@
    "Iwan J.P. de Esch",
    "Chris de Graaf"
   ],
-  "type": "dataset"
+  "type": "dataset",
+  "query": "Vrije Universiteit Amsterdam"
  },
  "10.5281/zenodo.45414": {
   "pubdate": "2013-08-13",
@@ -58,7 +62,8 @@
    "Iwan J. P. de Esch",
    "Chris de Graaf"
   ],
-  "type": "dataset"
+  "type": "dataset",
+  "query": "Vrije Universiteit Amsterdam"
  },
  "10.5281/zenodo.2604324": {
   "pubdate": "2016-09-08",
@@ -69,7 +74,8 @@
    "Janne Koornneef",
    "Gareth Davies"
   ],
-  "type": "poster"
+  "type": "poster",
+  "query": "Vrije Universiteit Amsterdam"
  },
  "10.5281/zenodo.2546800": {
   "pubdate": "2019-01-22",
@@ -79,7 +85,866 @@
    "Sascha Friesike",
    "Ali Khalili"
   ],
-  "type": "publication"
+  "type": "publication",
+  "query": "Vrije Universiteit Amsterdam"
+ },
+ "10.5281/zenodo.3227976": {
+  "pubdate": "2019-04-10",
+  "authors": [
+   "Wouter Beek",
+   "Joe Raad",
+   "Erman Acar",
+   "Frank Van Harmelen"
+  ],
+  "type": "dataset",
+  "query": "Vrije Universiteit Amsterdam"
+ },
+ "10.5281/zenodo.60413": {
+  "pubdate": "2016-08-17",
+  "authors": [
+   "Maurice Vanderfeesten",
+   "Matthijs de Zwaan",
+   "Michiel Cock",
+   "Marjet Elemans"
+  ],
+  "type": "publication",
+  "query": "Vrije Universiteit Amsterdam"
+ },
+ "10.5281/zenodo.1973099": {
+  "pubdate": "2018-06-03",
+  "authors": [
+   "Wouter Beek",
+   "Joe Raad",
+   "Jan Wielemaker",
+   "Frank Van Harmelen"
+  ],
+  "type": "dataset",
+  "query": "Vrije Universiteit Amsterdam"
+ },
+ "10.5281/zenodo.3627118": {
+  "pubdate": "2020-01-24",
+  "authors": [
+   "Floris den Hengst",
+   "Eoin Grua",
+   "Ali el Hassouni",
+   "Mark Hoogendoorn"
+  ],
+  "type": "dataset",
+  "query": "Vrije Universiteit Amsterdam"
+ },
+ "10.5281/zenodo.2546802": {
+  "pubdate": "2019-01-22",
+  "authors": [
+   "Etienne P. van de Bijl",
+   "Cody Kingham",
+   "Wido van Peursen",
+   "Sandjai Bhulai"
+  ],
+  "type": "publication",
+  "query": "Vrije Universiteit Amsterdam"
+ },
+ "10.5281/zenodo.3582928": {
+  "pubdate": "2019-12-12",
+  "authors": [
+   "Ren\u00e9 Otten",
+   "Ralph de Vries",
+   "Linda Schoonmade"
+  ],
+  "type": "publication",
+  "query": "Vrije Universiteit Amsterdam"
+ },
+ "10.5281/zenodo.1043882": {
+  "pubdate": "2016-12-05",
+  "authors": [
+   "Felipe Zapata",
+   "Satesh Gangarapu",
+   "Ivan Infante",
+   "Lucas Visscher"
+  ],
+  "type": "poster",
+  "query": "Vrije Universiteit Amsterdam"
+ },
+ "10.5281/zenodo.1043895": {
+  "pubdate": "2016-09-05",
+  "authors": [
+   "Felipe zapata",
+   "Satesh Gangarapu",
+   "Ivan Infante",
+   "Lucas Visscher"
+  ],
+  "type": "poster",
+  "query": "Vrije Universiteit Amsterdam"
+ },
+ "10.5281/zenodo.3345674": {
+  "pubdate": "2019-01-28",
+  "authors": [
+   "Joe Raad",
+   "Wouter Beek",
+   "Frank Van Harmelen",
+   "Jan Wielemaker"
+  ],
+  "type": "dataset",
+  "query": "Vrije Universiteit Amsterdam"
+ },
+ "10.5281/zenodo.3567750": {
+  "pubdate": "2019-12-01",
+  "authors": [
+   "Christos Giovanopoulos",
+   "Yiannis Kallianos",
+   "Dimitris Dalakoglou"
+  ],
+  "type": "dataset",
+  "query": "Vrije Universiteit Amsterdam"
+ },
+ "10.5281/zenodo.1326426": {
+  "pubdate": "2018-08-02",
+  "authors": [
+   "Pieter Hijma",
+   "Ceriel Jacobs"
+  ],
+  "type": "software",
+  "query": "Vrije Universiteit Amsterdam"
+ },
+ "10.5281/zenodo.3356796": {
+  "pubdate": "2019-07-31",
+  "authors": [
+   "Pieter Hijma",
+   "Ceriel Jacobs"
+  ],
+  "type": "software",
+  "query": "Vrije Universiteit Amsterdam"
+ },
+ "10.5281/zenodo.1495079": {
+  "pubdate": "2018-11-23",
+  "authors": [
+   "Pieter Hijma",
+   "Ceriel Jacobs"
+  ],
+  "type": "software",
+  "query": "Vrije Universiteit Amsterdam"
+ },
+ "10.5281/zenodo.579603": {
+  "pubdate": "2017-05-09",
+  "authors": [
+   "Albert Mero\u00f1o-Pe\u00f1uela",
+   "Rinke Hoekstra"
+  ],
+  "type": "dataset",
+  "query": "Vrije Universiteit Amsterdam"
+ },
+ "10.5281/zenodo.1045839": {
+  "pubdate": "2017-11-03",
+  "authors": [
+   "Maurice Vanderfeesten",
+   "Ren\u00e9 Otten"
+  ],
+  "type": "presentation",
+  "query": "Vrije Universiteit Amsterdam"
+ },
+ "10.5281/zenodo.3674738": {
+  "pubdate": "2020-02-19",
+  "authors": [
+   "A. Filyushkina",
+   "P. Verburg"
+  ],
+  "type": "publication",
+  "query": "Vrije Universiteit Amsterdam"
+ },
+ "10.5281/zenodo.2546804": {
+  "pubdate": "2019-01-22",
+  "authors": [
+   "Lesia Tkacz",
+   "Robin Kumar Sharma",
+   "Chantal van Son"
+  ],
+  "type": "publication",
+  "query": "Vrije Universiteit Amsterdam"
+ },
+ "10.5281/zenodo.1262053": {
+  "pubdate": "2018-06-04",
+  "authors": [
+   "Maarten Bobbert",
+   "Dinant Kistemaker"
+  ],
+  "type": "dataset",
+  "query": "Vrije Universiteit Amsterdam"
+ },
+ "10.5281/zenodo.3523939": {
+  "pubdate": "2019-10-31",
+  "authors": [
+   "Victor van der Veen",
+   "Dennis Andriesse",
+   "Cristiano Giuffrida",
+   "Herbert Bos"
+  ],
+  "type": "dataset",
+  "query": "Vrije Universiteit Amsterdam"
+ },
+ "10.5281/zenodo.1304310": {
+  "pubdate": "2018-07-03",
+  "authors": [
+   "Anca Dumitrache",
+   "Oana Inel",
+   "Lora Aroyo"
+  ],
+  "type": "software",
+  "query": "Vrije Universiteit Amsterdam"
+ },
+ "10.5281/zenodo.1472345": {
+  "pubdate": "2018-10-26",
+  "authors": [
+   "Anca Dumitrache",
+   "Lora Aroyo"
+  ],
+  "type": "dataset",
+  "query": "Vrije Universiteit Amsterdam"
+ },
+ "10.5281/zenodo.1472330": {
+  "pubdate": "2018-10-26",
+  "authors": [
+   "Anca Dumitrache",
+   "Lora Aroyo"
+  ],
+  "type": "dataset",
+  "query": "Vrije Universiteit Amsterdam"
+ },
+ "10.5281/zenodo.50676": {
+  "pubdate": "2016-04-29",
+  "authors": [
+   "Anca Dumitrache",
+   "Lora Aroyo"
+  ],
+  "type": "dataset",
+  "query": "Vrije Universiteit Amsterdam"
+ },
+ "10.5281/zenodo.2713721": {
+  "pubdate": "2019-05-10",
+  "authors": [
+   "Per Fuchs",
+   "Pieter Hijma"
+  ],
+  "type": "software",
+  "query": "Vrije Universiteit Amsterdam"
+ },
+ "10.5281/zenodo.58104": {
+  "pubdate": "2016-07-17",
+  "authors": [
+   "Marton Vass",
+   "Albert J. Kooistra",
+   "Sebastiaan Kuhne",
+   "Rob Leurs",
+   "Iwan J.P. de Esch",
+   "Chris de Graaf"
+  ],
+  "type": "dataset",
+  "query": "Vrije Universiteit Amsterdam"
+ },
+ "10.5281/zenodo.3258170": {
+  "pubdate": "2019-06-27",
+  "authors": [
+   "George Kanev",
+   "Marton Vass",
+   "Chris de Graaf"
+  ],
+  "type": "software",
+  "query": "Vrije Universiteit Amsterdam"
+ },
+ "10.5281/zenodo.1209369": {
+  "pubdate": "2018-03-28",
+  "authors": [
+   "Albert J. Kooistra",
+   "Marton Vass",
+   "Chris de Graaf"
+  ],
+  "type": "software",
+  "query": "Vrije Universiteit Amsterdam"
+ },
+ "10.5281/zenodo.238686": {
+  "pubdate": "2017-01-11",
+  "authors": [
+   "Victor van der Veen",
+   "Chris Ouwehand",
+   "Herbert Bos",
+   "Cristiano Giuffrida"
+  ],
+  "type": "dataset",
+  "query": "Vrije Universiteit Amsterdam"
+ },
+ "10.5281/zenodo.375506": {
+  "pubdate": "2016-10-24",
+  "authors": [
+   "Victor van der Veen",
+   "Herbert Bos",
+   "Kaveh Razavi",
+   "Cristiano Giuffrida"
+  ],
+  "type": "publication",
+  "query": "Vrije Universiteit Amsterdam"
+ },
+ "10.5281/zenodo.3523941": {
+  "pubdate": "2019-12-01",
+  "authors": [
+   "Christos Giovanopoulos",
+   "Dimitris Dalakoglou"
+  ],
+  "type": "dataset",
+  "query": "Vrije Universiteit Amsterdam"
+ },
+ "10.5281/zenodo.2511818": {
+  "pubdate": "2019-02-10",
+  "authors": [
+   "Jesse Donkervliet",
+   "Alexandru Iosup"
+  ],
+  "type": "software",
+  "query": "Vrije Universiteit Amsterdam"
+ },
+ "10.5281/zenodo.2551803": {
+  "pubdate": "2019-01-28",
+  "authors": [
+   "Pim Cuijpers",
+   "David Ebert"
+  ],
+  "type": "publication",
+  "query": "Vrije Universiteit Amsterdam"
+ },
+ "10.5281/zenodo.1880445": {
+  "pubdate": "2018-12-03",
+  "authors": [
+   "Franz-Xaver Geiger",
+   "Ivano Malavolta"
+  ],
+  "type": "publication",
+  "query": "Vrije Universiteit Amsterdam"
+ },
+ "10.5281/zenodo.1880441": {
+  "pubdate": "2018-05-27",
+  "authors": [
+   "Franz-Xaver Geiger",
+   "Ivano Malavolta"
+  ],
+  "type": "publication",
+  "query": "Vrije Universiteit Amsterdam"
+ },
+ "10.5281/zenodo.55254": {
+  "pubdate": "2016-06-09",
+  "authors": [
+   "Marton Vass",
+   "Chris de Graaf"
+  ],
+  "type": "dataset",
+  "query": "Vrije Universiteit Amsterdam"
+ },
+ "10.5281/zenodo.45265": {
+  "pubdate": "2016-01-28",
+  "authors": [
+   "Marton Vass",
+   "Chris de Graaf"
+  ],
+  "type": "software",
+  "query": "Vrije Universiteit Amsterdam"
+ },
+ "10.5281/zenodo.45270": {
+  "pubdate": "2016-01-28",
+  "authors": [
+   "Marton Vass",
+   "Chris de Graaf"
+  ],
+  "type": "software",
+  "query": "Vrije Universiteit Amsterdam"
+ },
+ "10.5281/zenodo.50835": {
+  "pubdate": "2016-05-03",
+  "authors": [
+   "Marton Vass",
+   "Chris de Graaf"
+  ],
+  "type": "dataset",
+  "query": "Vrije Universiteit Amsterdam"
+ },
+ "10.5281/zenodo.3257972": {
+  "pubdate": "2019-06-27",
+  "authors": [
+   "Marton Vass",
+   "Chris de Graaf"
+  ],
+  "type": "software",
+  "query": "Vrije Universiteit Amsterdam"
+ },
+ "10.5281/zenodo.3531924": {
+  "pubdate": "2019-11-07",
+  "authors": [
+   "Marton Vass",
+   "Chris de Graaf"
+  ],
+  "type": "software",
+  "query": "Vrije Universiteit Amsterdam"
+ },
+ "10.5281/zenodo.3258131": {
+  "pubdate": "2019-06-27",
+  "authors": [
+   "Marton Vass",
+   "Chris de Graaf"
+  ],
+  "type": "software",
+  "query": "Vrije Universiteit Amsterdam"
+ },
+ "10.5281/zenodo.1479491": {
+  "pubdate": "2018-11-07",
+  "authors": [
+   "Eep Talstra"
+  ],
+  "type": "dataset",
+  "query": "Vrije Universiteit Amsterdam"
+ },
+ "10.5281/zenodo.3597329": {
+  "pubdate": "2020-01-04",
+  "authors": [
+   "Nick Kluft"
+  ],
+  "type": "publication",
+  "query": "Vrije Universiteit Amsterdam"
+ },
+ "10.5281/zenodo.3228161": {
+  "pubdate": "2019-05-24",
+  "authors": [
+   "Pieter Hijma"
+  ],
+  "type": "software",
+  "query": "Vrije Universiteit Amsterdam"
+ },
+ "10.5281/zenodo.2563690": {
+  "pubdate": "2019-02-13",
+  "authors": [
+   "Lourens de Vries"
+  ],
+  "type": "publication",
+  "query": "Vrije Universiteit Amsterdam"
+ },
+ "10.5281/zenodo.3634367": {
+  "pubdate": "2020-02-03",
+  "authors": [
+   "Yasin Gunes"
+  ],
+  "type": "software",
+  "query": "Vrije Universiteit Amsterdam"
+ },
+ "10.5281/zenodo.3475120": {
+  "pubdate": "2019-10-07",
+  "authors": [
+   "Timothy Tiggeloven"
+  ],
+  "type": "dataset",
+  "query": "Vrije Universiteit Amsterdam"
+ },
+ "10.5281/zenodo.2635715": {
+  "pubdate": "2019-04-10",
+  "authors": [
+   "Ed Tan"
+  ],
+  "type": "publication",
+  "query": "Vrije Universiteit Amsterdam"
+ },
+ "10.5281/zenodo.60790": {
+  "pubdate": "2016-08-24",
+  "authors": [
+   "Chris de Graaf"
+  ],
+  "type": "dataset",
+  "query": "Vrije Universiteit Amsterdam"
+ },
+ "10.5281/zenodo.3668738": {
+  "pubdate": "2013-12-31",
+  "authors": [
+   "HJ Van der Woerd"
+  ],
+  "type": "publication",
+  "query": "Vrije Universiteit Amsterdam"
+ },
+ "10.5281/zenodo.1215905": {
+  "pubdate": "2018-04-10",
+  "authors": [
+   "Eoin Martino and Hoogendoorn Grua"
+  ],
+  "type": "dataset",
+  "query": "Vrije Universiteit Amsterdam"
+ },
+ "10.5281/zenodo.2654357": {
+  "pubdate": "2019-04-30",
+  "authors": [
+   "Bart Karstens"
+  ],
+  "type": "publication",
+  "query": "Vrije Universiteit Amsterdam"
+ },
+ "10.5281/zenodo.1228735": {
+  "pubdate": "2006-12-01",
+  "authors": [
+   "Bryan C. Lougheed"
+  ],
+  "type": "publication",
+  "query": "Vrije Universiteit Amsterdam"
+ },
+ "10.5281/zenodo.3662371": {
+  "pubdate": "2020-02-18",
+  "authors": [
+   "Petrescu A.M.R."
+  ],
+  "type": "dataset",
+  "query": "Vrije Universiteit Amsterdam"
+ },
+ "10.5281/zenodo.47208": {
+  "pubdate": "2016-02-24",
+  "authors": [
+   "Marton Vass",
+   "Iwan de Esch",
+   "Rob Leurs",
+   "Chris de Graaf"
+  ],
+  "type": "poster",
+  "query": "Vrije Universiteit Amsterdam"
+ },
+ "10.5281/zenodo.3257985": {
+  "pubdate": "2019-06-27",
+  "authors": [
+   "Marton Vass",
+   "Chris de Graaf"
+  ],
+  "type": "software",
+  "query": "Vrije Universiteit Amsterdam"
+ },
+ "10.5281/zenodo.3460479": {
+  "pubdate": "2019-09-25",
+  "authors": [
+   "Marton Vass",
+   "Chris de Graaf"
+  ],
+  "type": "software",
+  "query": "Vrije Universiteit Amsterdam"
+ },
+ "10.5281/zenodo.3576604": {
+  "pubdate": "2019-12-15",
+  "authors": [
+   "Alexandru Uta",
+   "Alexandru Custura",
+   "Alexandru Iosup"
+  ],
+  "type": "dataset",
+  "query": "Vrije Universiteit Amsterdam"
+ },
+ "10.5281/zenodo.1436482": {
+  "pubdate": "2018-09-27",
+  "authors": [
+   "Marton Vass",
+   "Chris de Graaf"
+  ],
+  "type": "software",
+  "query": "Vrije Universiteit Amsterdam"
+ },
+ "10.5281/zenodo.3384377": {
+  "pubdate": "2019-09-03",
+  "authors": [
+   "Antoine Isaac"
+  ],
+  "type": "dataset",
+  "query": "Vrije Universiteit Amsterdam"
+ },
+ "10.5281/zenodo.1446392": {
+  "pubdate": "2018-10-05",
+  "authors": [
+   "Lora Aroyo"
+  ],
+  "type": "software",
+  "query": "VU University Amsterdam"
+ },
+ "10.5281/zenodo.1051030": {
+  "pubdate": "2017-11-08",
+  "authors": [
+   "Ivan Infante"
+  ],
+  "type": "software",
+  "query": "Vrije Universiteit Amsterdam"
+ },
+ "10.5281/zenodo.1326421": {
+  "pubdate": "2018-08-02",
+  "authors": [
+   "Pieter Hijma"
+  ],
+  "type": "software",
+  "query": "Vrije Universiteit Amsterdam"
+ },
+ "10.5281/zenodo.3265139": {
+  "pubdate": "2019-07-01",
+  "authors": [
+   "Albert Mero\u00f1o-Pe\u00f1uela"
+  ],
+  "type": "dataset",
+  "query": "Vrije Universiteit Amsterdam"
+ },
+ "10.5281/zenodo.3633099": {
+  "pubdate": "2020-01-31",
+  "authors": [
+   "IE Bonestroo"
+  ],
+  "type": "dataset",
+  "query": "Vrije Universiteit Amsterdam"
+ },
+ "10.5281/zenodo.3633108": {
+  "pubdate": "2020-01-31",
+  "authors": [
+   "IE Bonestroo"
+  ],
+  "type": "dataset",
+  "query": "Vrije Universiteit Amsterdam"
+ },
+ "10.5281/zenodo.3379659": {
+  "pubdate": "2019-08-28",
+  "authors": [
+   "Elco Koks"
+  ],
+  "type": "software",
+  "query": "Vrije Universiteit Amsterdam"
+ },
+ "10.5281/zenodo.231327": {
+  "pubdate": "2017-01-05",
+  "authors": [
+   "Lennart F. Hoogerheide"
+  ],
+  "type": "software",
+  "query": "Vrije Universiteit Amsterdam"
+ },
+ "10.5281/zenodo.2583746": {
+  "pubdate": "2019-03-07",
+  "authors": [
+   "Elco Koks"
+  ],
+  "type": "dataset",
+  "query": "Vrije Universiteit Amsterdam"
+ },
+ "10.5281/zenodo.1298640": {
+  "pubdate": "2018-06-26",
+  "authors": [
+   "Alexandru Iosup"
+  ],
+  "type": "dataset",
+  "query": "Vrije Universiteit Amsterdam"
+ },
+ "10.5281/zenodo.3406334": {
+  "pubdate": "2019-09-12",
+  "authors": [
+   "Bas de Boer"
+  ],
+  "type": "dataset",
+  "query": "Vrije Universiteit Amsterdam"
+ },
+ "10.5281/zenodo.3240467": {
+  "pubdate": "2019-06-06",
+  "authors": [
+   "Laurens Versluis",
+   "Lucian Toader",
+   "Alexandru Iosup"
+  ],
+  "type": "dataset",
+  "query": "Vrije Universiteit Amsterdam"
+ },
+ "10.5281/zenodo.3661036": {
+  "pubdate": "2020-02-10",
+  "authors": [
+   "Ivan Infante"
+  ],
+  "type": "software",
+  "query": "Vrije Universiteit Amsterdam"
+ },
+ "10.5281/zenodo.846289": {
+  "pubdate": "2017-08-16",
+  "authors": [
+   "Michiel Cock"
+  ],
+  "type": "publication",
+  "query": "Vrije Universiteit Amsterdam"
+ },
+ "10.31014/aior.1992.01.01.6": {
+  "pubdate": "2018-04-04",
+  "authors": [
+   "Denyse Snelder"
+  ],
+  "type": "publication",
+  "query": "Vrije Universiteit Amsterdam"
+ },
+ "10.5281/zenodo.1033753": {
+  "pubdate": "2017-10-20",
+  "authors": [
+   "Albert J. Kooistra"
+  ],
+  "type": "software",
+  "query": "Vrije Universiteit Amsterdam"
+ },
+ "10.5281/zenodo.3268518": {
+  "pubdate": "2019-07-04",
+  "authors": [
+   "Maurice Vanderfeesten",
+   "Ren\u00e9 Otten",
+   "Joeri Both"
+  ],
+  "type": "video",
+  "query": "Vrije Universiteit Amsterdam"
+ },
+ "10.5281/zenodo.1443367": {
+  "pubdate": "2018-10-03",
+  "authors": [
+   "Maria J. Cruz"
+  ],
+  "type": "presentation",
+  "query": "Vrije Universiteit Amsterdam"
+ },
+ "10.5281/zenodo.3688392": {
+  "pubdate": "2020-02-26",
+  "authors": [
+   "Bep Schrammeijer"
+  ],
+  "type": "dataset",
+  "query": "Vrije Universiteit Amsterdam"
+ },
+ "10.5281/zenodo.2562796": {
+  "pubdate": "2019-02-12",
+  "authors": [
+   "Alice Limonciel",
+   "Paul Jennings"
+  ],
+  "type": "publication",
+  "query": "Vrije Universiteit Amsterdam"
+ },
+ "10.5281/zenodo.1068252": {
+  "pubdate": "2016-05-05",
+  "authors": [
+   "Antonis Loizou"
+  ],
+  "type": "software",
+  "query": "VU University Amsterdam"
+ },
+ "10.5281/zenodo.1472945": {
+  "pubdate": "2018-10-28",
+  "authors": [
+   "Maria J. Cruz"
+  ],
+  "type": "presentation",
+  "query": "Vrije Universiteit Amsterdam"
+ },
+ "10.5281/zenodo.1479127": {
+  "pubdate": "2018-11-07",
+  "authors": [
+   "Paul Jennings",
+   "Daan Geerke"
+  ],
+  "type": "publication",
+  "query": "Vrije Universiteit Amsterdam"
+ },
+ "10.5281/zenodo.3670904": {
+  "pubdate": "2020-02-17",
+  "authors": [
+   "Bep Schrammeijer"
+  ],
+  "type": "publication",
+  "query": "Vrije Universiteit Amsterdam"
+ },
+ "10.5281/zenodo.3677485": {
+  "pubdate": "2020-02-20",
+  "authors": [
+   "Jampel Dell'Angelo"
+  ],
+  "type": "dataset",
+  "query": "Vrije Universiteit Amsterdam"
+ },
+ "10.5281/zenodo.2566255": {
+  "pubdate": "2019-02-20",
+  "authors": [
+   "Eli Brenner"
+  ],
+  "type": "dataset",
+  "query": "Vrije Universiteit Amsterdam"
+ },
+ "10.5281/zenodo.2645216": {
+  "pubdate": "2019-04-18",
+  "authors": [
+   "Brett G Olivier"
+  ],
+  "type": "software",
+  "query": "Vrije Universiteit Amsterdam"
+ },
+ "10.5281/zenodo.1095483": {
+  "pubdate": "2017-12-07",
+  "authors": [
+   "Brett Olivier"
+  ],
+  "type": "software",
+  "query": "Vrije Universiteit Amsterdam"
+ },
+ "10.5281/zenodo.3606813": {
+  "pubdate": "2020-01-13",
+  "authors": [
+   "Albert Mero\u00f1o-Pe\u00f1uela"
+  ],
+  "type": "software",
+  "query": "Vrije Universiteit Amsterdam"
+ },
+ "10.5281/zenodo.1168896": {
+  "pubdate": "2018-02-08",
+  "authors": [
+   "Brett G Olivier"
+  ],
+  "type": "software",
+  "query": "Vrije Universiteit Amsterdam"
+ },
+ "10.5281/zenodo.2596999": {
+  "pubdate": "2019-03-18",
+  "authors": [
+   "Daan Geerke"
+  ],
+  "type": "publication",
+  "query": "Vrije Universiteit Amsterdam"
+ },
+ "10.5281/zenodo.3534940": {
+  "pubdate": "2019-11-11",
+  "authors": [
+   "Bas de Boer"
+  ],
+  "type": "dataset",
+  "query": "Vrije Universiteit Amsterdam"
+ },
+ "10.5281/zenodo.3670930": {
+  "pubdate": "2020-02-17",
+  "authors": [
+   "Bep Schrammeijer"
+  ],
+  "type": "publication",
+  "query": "Vrije Universiteit Amsterdam"
+ },
+ "10.5281/zenodo.3268445": {
+  "pubdate": "2019-07-04",
+  "authors": [
+   "Hilde van Wijngaarden"
+  ],
+  "type": "publication",
+  "query": "Vrije Universiteit Amsterdam"
+ },
+ "10.1016/j.scitotenv.2017.06.032": {
+  "pubdate": "2017-06-15",
+  "authors": [
+   "Sara Tufi",
+   "Xiyu Ouyangm",
+   "Pim Leonards",
+   "Marja Lamoree"
+  ],
+  "type": "dataset",
+  "query": "Vrije Universiteit Amsterdam"
+ },
+ "10.5281/zenodo.3678778": {
+  "pubdate": "2020-02-21",
+  "authors": [
+   "Laurens Versluis"
+  ],
+  "type": "software",
+  "query": "Vrije Universiteit Amsterdam"
  },
  "10.5281/zenodo.3229937": {
   "pubdate": "2016-09-04",
@@ -89,14 +954,100 @@
    "Nico P. E. Vermeulen",
    "Daan P. Geerke"
   ],
-  "type": "poster"
+  "type": "poster",
+  "query": "VU University Amsterdam"
+ },
+ "10.5281/zenodo.1187072": {
+  "pubdate": "2018-03-02",
+  "authors": [
+   "Chris de Graaf",
+   "M\u00e1rton Vass",
+   "Albert J. Kooistra"
+  ],
+  "type": "dataset",
+  "query": "VU University Amsterdam"
+ },
+ "10.5281/zenodo.344958": {
+  "pubdate": "2017-03-01",
+  "authors": [
+   "Cody Kingham"
+  ],
+  "type": "software",
+  "query": "VU Amsterdam"
+ },
+ "10.5281/zenodo.1484247": {
+  "pubdate": "2018-11-12",
+  "authors": [
+   "Hamdi Mbarek"
+  ],
+  "type": "publication",
+  "query": "VU University Amsterdam"
+ },
+ "10.5281/zenodo.3346465": {
+  "pubdate": "2019-07-23",
+  "authors": [
+   "Christiaan Erwich"
+  ],
+  "type": "software",
+  "query": "VU University Amsterdam"
+ },
+ "10.5281/zenodo.2554324": {
+  "pubdate": "2019-01-31",
+  "authors": [
+   "Christiaan Erwich",
+   "Wido van Peursen"
+  ],
+  "type": "software",
+  "query": "VU University Amsterdam"
+ },
+ "10.5281/zenodo.159568": {
+  "pubdate": "2016-10-18",
+  "authors": [
+   "Ronald Siebes",
+   "Victor de Boer"
+  ],
+  "type": "publication",
+  "query": "VU University Amsterdam"
+ },
+ "10.5281/zenodo.1482699": {
+  "pubdate": "2018-11-10",
+  "authors": [
+   "Christiaan Erwich"
+  ],
+  "type": "software",
+  "query": "VU University Amsterdam"
+ },
+ "10.5281/zenodo.1482696": {
+  "pubdate": "2018-11-10",
+  "authors": [
+   "Christiaan Erwich"
+  ],
+  "type": "software",
+  "query": "VU University Amsterdam"
+ },
+ "10.5281/zenodo.1482695": {
+  "pubdate": "2018-11-10",
+  "authors": [
+   "Christiaan Erwich"
+  ],
+  "type": "software",
+  "query": "VU University Amsterdam"
+ },
+ "10.5281/zenodo.1320320": {
+  "pubdate": "2018-07-24",
+  "authors": [
+   "Lucas Visscher"
+  ],
+  "type": "dataset",
+  "query": "VU University Amsterdam"
  },
  "10.5281/zenodo.2558289": {
   "pubdate": "2019-02-06",
   "authors": [
    "Maria Cruz"
   ],
-  "type": "presentation"
+  "type": "presentation",
+  "query": "VU Amsterdam"
  },
  "10.1037/pspp0000166": {
   "pubdate": "2018-10-01",
@@ -107,7 +1058,8 @@
    "C. Molho",
    "R. E. de Vries"
   ],
-  "type": "publication"
+  "type": "publication",
+  "query": "VU Amsterdam"
  },
  "10.1002/per.2139": {
   "pubdate": "2018-02-14",
@@ -118,7 +1070,8 @@
    "D. Michael Kuhlman",
    "Sven C. Voelpel"
   ],
-  "type": "publication"
+  "type": "publication",
+  "query": "VU Amsterdam"
  },
  "10.5281/zenodo.3604118": {
   "pubdate": "2020-01-10",
@@ -127,14 +1080,16 @@
    "M.A. Prins",
    "G.M. Ganssen"
   ],
-  "type": "dataset"
+  "type": "dataset",
+  "query": "VU Amsterdam"
  },
  "10.5281/zenodo.2602583": {
   "pubdate": "2019-03-22",
   "authors": [
    "Maria Cruz"
   ],
-  "type": "presentation"
+  "type": "presentation",
+  "query": "VU Amsterdam"
  },
  "10.1016/j.jesp.2017.02.008": {
   "pubdate": "2017-08-01",
@@ -143,7 +1098,8 @@
    "D. Balliet",
    "J. Wu"
   ],
-  "type": "publication"
+  "type": "publication",
+  "query": "VU Amsterdam"
  },
  "10.5281/zenodo.3468501": {
   "pubdate": "2019-10-01",
@@ -152,7 +1108,8 @@
    "Sjoerd M. Bruijn",
    "Jaap H. van Die\u00ebn"
   ],
-  "type": "dataset"
+  "type": "dataset",
+  "query": "VU Amsterdam"
  },
  "10.5281/zenodo.2476176": {
   "pubdate": "2018-12-21",
@@ -160,6 +1117,220 @@
    "Hilde Pracht",
    "Frank Peeters"
   ],
-  "type": "dataset"
+  "type": "dataset",
+  "query": "VU Amsterdam"
+ },
+ "10.1177/0956797617714828": {
+  "pubdate": "2017-09-06",
+  "authors": [
+   "A. Romano",
+   "D Balliet"
+  ],
+  "type": "publication",
+  "query": "VU Amsterdam"
+ },
+ "10.5281/zenodo.1344105": {
+  "pubdate": "2018-08-12",
+  "authors": [
+   "Chao Zhang",
+   "Sanne Abeln"
+  ],
+  "type": "dataset",
+  "query": "VU Amsterdam"
+ },
+ "10.5281/zenodo.3686714": {
+  "pubdate": "2020-02-25",
+  "authors": [
+   "Lena Karvovskaya"
+  ],
+  "type": "presentation",
+  "query": "VU Amsterdam"
+ },
+ "10.5281/zenodo.1213293": {
+  "pubdate": "2018-04-05",
+  "authors": [
+   "Tobias Kuhn"
+  ],
+  "type": "dataset",
+  "query": "VU Amsterdam"
+ },
+ "10.5281/zenodo.1340652": {
+  "pubdate": "2018-08-06",
+  "authors": [
+   "Cody Kingham"
+  ],
+  "type": "software",
+  "query": "VU Amsterdam"
+ },
+ "10.1093/oxfordhb/9780190263348.013.3": {
+  "pubdate": "2018-08-23",
+  "authors": [
+   "C. Molho"
+  ],
+  "type": "publication",
+  "query": "VU Amsterdam"
+ },
+ "10.5281/zenodo.3268536": {
+  "pubdate": "2019-08-13",
+  "authors": [
+   "Maria Cruz"
+  ],
+  "type": "presentation",
+  "query": "VU Amsterdam"
+ },
+ "10.5281/zenodo.3249802": {
+  "pubdate": "2019-06-19",
+  "authors": [
+   "Maria Cruz"
+  ],
+  "type": "presentation",
+  "query": "VU Amsterdam"
+ },
+ "10.5281/zenodo.3233531": {
+  "pubdate": "2019-05-28",
+  "authors": [
+   "Maria Cruz"
+  ],
+  "type": "presentation",
+  "query": "VU Amsterdam"
+ },
+ "10.5281/zenodo.3640163": {
+  "pubdate": "2020-02-05",
+  "authors": [
+   "Sander Bosch"
+  ],
+  "type": "lesson",
+  "query": "VU Amsterdam"
+ },
+ "10.1177/1088868316657965": {
+  "pubdate": "2018-08-01",
+  "authors": [
+   "Daniel Balliet"
+  ],
+  "type": "publication",
+  "query": "VU Amsterdam"
+ },
+ "10.5281/zenodo.2625108": {
+  "pubdate": "2019-04-04",
+  "authors": [
+   "Maria J. Cruz"
+  ],
+  "type": "presentation",
+  "query": "VU Amsterdam"
+ },
+ "10.5281/zenodo.3363360": {
+  "pubdate": "2019-08-08",
+  "authors": [
+   "Milan Jelisavcic"
+  ],
+  "type": "software",
+  "query": "VU Amsterdam"
+ },
+ "10.5281/zenodo.3251806": {
+  "pubdate": "2019-06-21",
+  "authors": [
+   "Maria Cruz",
+   "Wido van Peursen"
+  ],
+  "type": "presentation",
+  "query": "VU Amsterdam"
+ },
+ "10.5281/zenodo.1153962": {
+  "pubdate": "2018-01-17",
+  "authors": [
+   "Cody Kingham"
+  ],
+  "type": "software",
+  "query": "VU Amsterdam"
+ },
+ "10.5281/zenodo.2647436": {
+  "pubdate": "2019-04-19",
+  "authors": [
+   "Maria Cruz",
+   "Tomas Knapen"
+  ],
+  "type": "presentation",
+  "query": "VU Amsterdam"
+ },
+ "10.5281/zenodo.3274284": {
+  "pubdate": "2019-07-09",
+  "authors": [
+   "Bas van Beek"
+  ],
+  "type": "software",
+  "query": "VU Amsterdam"
+ },
+ "10.5281/zenodo.3378572": {
+  "pubdate": "2019-08-27",
+  "authors": [
+   "Maria Cruz",
+   "Tomas Knapen"
+  ],
+  "type": "publication",
+  "query": "VU Amsterdam"
+ },
+ "10.5281/zenodo.399279": {
+  "pubdate": "2017-03-15",
+  "authors": [
+   "Joona Lehtom\u00e4ki"
+  ],
+  "type": "software",
+  "query": "VU Amsterdam"
+ },
+ "10.5281/zenodo.1045087": {
+  "pubdate": "2016-06-05",
+  "authors": [
+   "Henk Scholten"
+  ],
+  "type": "other",
+  "query": "VU Amsterdam"
+ },
+ "10.5281/zenodo.1442586": {
+  "pubdate": "2018-10-02",
+  "authors": [
+   "Maria Cruz"
+  ],
+  "type": "presentation",
+  "query": "VU Amsterdam"
+ },
+ "10.5281/zenodo.3572010": {
+  "pubdate": "2019-12-12",
+  "authors": [
+   "Michael Cochez"
+  ],
+  "type": "software",
+  "query": "VU Amsterdam"
+ },
+ "10.5281/zenodo.3420179": {
+  "pubdate": "2019-09-16",
+  "authors": [
+   "Maria Cruz"
+  ],
+  "type": "presentation",
+  "query": "VU Amsterdam"
+ },
+ "10.5281/zenodo.3243310": {
+  "pubdate": "2019-06-11",
+  "authors": [
+   "Bas de Bruin"
+  ],
+  "type": "other",
+  "query": "VU Amsterdam"
+ },
+ "10.5281/zenodo.3471806": {
+  "pubdate": "2019-10-03",
+  "authors": [
+   "Ronald Siebes"
+  ],
+  "type": "publication",
+  "query": "VU Amsterdam"
+ },
+ "10.5281/zenodo.3515872": {
+  "pubdate": "2019-10-22",
+  "authors": [
+   "Chrats Melkonian"
+  ],
+  "type": "dataset",
+  "query": "VU Amsterdam"
  }
 }
