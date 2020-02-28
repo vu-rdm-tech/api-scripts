@@ -3,11 +3,11 @@
   "access_right": {
    "buckets": [
     {
-     "doc_count": 10221,
+     "doc_count": 10235,
      "key": "open"
     },
     {
-     "doc_count": 1293,
+     "doc_count": 1297,
      "key": "closed"
     },
     {
@@ -25,7 +25,7 @@
   "communities": {
    "buckets": [
     {
-     "doc_count": 1674,
+     "doc_count": 1686,
      "key": "biosyslit"
     },
     {
@@ -66,12 +66,12 @@
     }
    ],
    "doc_count_error_upper_bound": 0,
-   "sum_other_doc_count": 711
+   "sum_other_doc_count": 714
   },
   "file_type": {
    "buckets": [
     {
-     "doc_count": 9358,
+     "doc_count": 9368,
      "key": "pdf"
     },
     {
@@ -79,7 +79,7 @@
      "key": "zip"
     },
     {
-     "doc_count": 198,
+     "doc_count": 200,
      "key": "jpg"
     },
     {
@@ -87,7 +87,7 @@
      "key": "xml"
     },
     {
-     "doc_count": 115,
+     "doc_count": 116,
      "key": "png"
     },
     {
@@ -107,41 +107,41 @@
      "key": "xlsx"
     },
     {
-     "doc_count": 44,
+     "doc_count": 45,
      "key": "txt"
     }
    ],
    "doc_count_error_upper_bound": 0,
-   "sum_other_doc_count": 349
+   "sum_other_doc_count": 352
   },
   "keywords": {
    "buckets": [
     {
-     "doc_count": 1479,
+     "doc_count": 1488,
      "key": "Taxonomy"
     },
     {
-     "doc_count": 1415,
-     "key": "Animalia"
-    },
-    {
-     "doc_count": 1415,
+     "doc_count": 1424,
      "key": "Biodiversity"
     },
     {
-     "doc_count": 1036,
+     "doc_count": 1418,
+     "key": "Animalia"
+    },
+    {
+     "doc_count": 1038,
      "key": "Arthropoda"
     },
     {
-     "doc_count": 655,
+     "doc_count": 657,
      "key": "Insecta"
     },
     {
-     "doc_count": 260,
+     "doc_count": 261,
      "key": "Hemiptera"
     },
     {
-     "doc_count": 201,
+     "doc_count": 202,
      "key": "Chordata"
     },
     {
@@ -158,17 +158,17 @@
     }
    ],
    "doc_count_error_upper_bound": 0,
-   "sum_other_doc_count": 19149
+   "sum_other_doc_count": 19201
   },
   "type": {
    "buckets": [
     {
-     "doc_count": 10442,
+     "doc_count": 10454,
      "key": "publication",
      "subtype": {
       "buckets": [
        {
-        "doc_count": 9815,
+        "doc_count": 9826,
         "key": "article"
        },
        {
@@ -176,7 +176,7 @@
         "key": "conferencepaper"
        },
        {
-        "doc_count": 74,
+        "doc_count": 75,
         "key": "deliverable"
        },
        {
@@ -213,7 +213,7 @@
      }
     },
     {
-     "doc_count": 356,
+     "doc_count": 359,
      "key": "dataset",
      "subtype": {
       "buckets": [],
@@ -222,12 +222,12 @@
      }
     },
     {
-     "doc_count": 293,
+     "doc_count": 295,
      "key": "image",
      "subtype": {
       "buckets": [
        {
-        "doc_count": 285,
+        "doc_count": 287,
         "key": "figure"
        },
        {
@@ -244,7 +244,7 @@
      }
     },
     {
-     "doc_count": 202,
+     "doc_count": 203,
      "key": "presentation",
      "subtype": {
       "buckets": [],
@@ -411,55 +411,93 @@
     "updated": "2020-01-20T17:00:49.293313+00:00"
    },
    {
-    "conceptrecid": "3395742",
-    "created": "2019-09-06T08:23:26.010164+00:00",
-    "doi": "10.5117/mab.57.16130",
+    "conceptdoi": "10.5281/zenodo.3688359",
+    "conceptrecid": "3688359",
+    "created": "2020-02-26T13:37:25.771041+00:00",
+    "doi": "10.5281/zenodo.3688360",
     "files": [
      {
-      "bucket": "36441cd9-cd40-4bfc-ac00-716635beae53",
-      "checksum": "md5:e70ef26374581b647745e94414f34f2d",
-      "key": "16130__1_227892_LE_335210.pdf",
+      "bucket": "7baa1fe0-0dd6-4063-8f6f-d777a64331e2",
+      "checksum": "md5:c3682d0ce09fe00fb2b69bee935b1287",
+      "key": "200225_Koellinger_Transparency.pdf",
       "links": {
-       "self": "https://zenodo.org/api/files/36441cd9-cd40-4bfc-ac00-716635beae53/16130__1_227892_LE_335210.pdf"
+       "self": "https://zenodo.org/api/files/7baa1fe0-0dd6-4063-8f6f-d777a64331e2/200225_Koellinger_Transparency.pdf"
       },
-      "size": 23019,
+      "size": 223753,
+      "type": "pdf"
+     },
+     {
+      "bucket": "7baa1fe0-0dd6-4063-8f6f-d777a64331e2",
+      "checksum": "md5:d4bc70ea7dd8a464d8aef0308d459265",
+      "key": "200225_Presentation_Transparency_HvH2.pdf",
+      "links": {
+       "self": "https://zenodo.org/api/files/7baa1fe0-0dd6-4063-8f6f-d777a64331e2/200225_Presentation_Transparency_HvH2.pdf"
+      },
+      "size": 1543648,
+      "type": "pdf"
+     },
+     {
+      "bucket": "7baa1fe0-0dd6-4063-8f6f-d777a64331e2",
+      "checksum": "md5:a5e36f9d121a3d34e0fd55e7c23f6382",
+      "key": "200226_Transparency_SBE_after2.pdf",
+      "links": {
+       "self": "https://zenodo.org/api/files/7baa1fe0-0dd6-4063-8f6f-d777a64331e2/200226_Transparency_SBE_after2.pdf"
+      },
+      "size": 816971,
       "type": "pdf"
      }
     ],
-    "id": 3395743,
+    "id": 3688360,
     "links": {
-     "badge": "https://zenodo.org/badge/doi/10.5117/mab.57.16130.svg",
-     "bucket": "https://zenodo.org/api/files/36441cd9-cd40-4bfc-ac00-716635beae53",
-     "doi": "https://doi.org/10.5117/mab.57.16130",
-     "html": "https://zenodo.org/record/3395743",
-     "latest": "https://zenodo.org/api/records/3395743",
-     "latest_html": "https://zenodo.org/record/3395743",
-     "self": "https://zenodo.org/api/records/3395743"
+     "badge": "https://zenodo.org/badge/doi/10.5281/zenodo.3688360.svg",
+     "bucket": "https://zenodo.org/api/files/7baa1fe0-0dd6-4063-8f6f-d777a64331e2",
+     "conceptbadge": "https://zenodo.org/badge/doi/10.5281/zenodo.3688359.svg",
+     "conceptdoi": "https://doi.org/10.5281/zenodo.3688359",
+     "doi": "https://doi.org/10.5281/zenodo.3688360",
+     "html": "https://zenodo.org/record/3688360",
+     "latest": "https://zenodo.org/api/records/3688360",
+     "latest_html": "https://zenodo.org/record/3688360",
+     "self": "https://zenodo.org/api/records/3688360"
     },
     "metadata": {
      "access_right": "open",
      "access_right_category": "success",
-     "creators": [
+     "contributors": [
       {
-       "name": "MAB,"
+       "affiliation": "SBE, VU",
+       "name": "van Herk",
+       "type": "Other"
+      },
+      {
+       "affiliation": "SBE, VU",
+       "name": "Koellinger",
+       "type": "Other"
+      },
+      {
+       "affiliation": "SBE, VU",
+       "name": "Berends",
+       "type": "Other"
       }
      ],
-     "description": "Vijfentwintig jaren accountantsopleiding aan de Vrije Universiteit",
-     "doi": "10.5117/mab.57.16130",
-     "imprint": {
-      "publisher": "Amsterdam University Press"
-     },
-     "journal": {
-      "issue": "(4)",
-      "pages": "130-130",
-      "title": "Maandblad Voor Accountancy en Bedrijfseconomie",
-      "volume": "57"
-     },
-     "keywords": [],
+     "creators": [
+      {
+       "affiliation": "SBE, VU",
+       "name": "Eggens"
+      }
+     ],
+     "description": "<p>The SBE organizes a series of seminars on research integrity and open science. The attached talks were presented during the seminar about transparency in research on February 25th 2020.&nbsp;</p>",
+     "doi": "10.5281/zenodo.3688360",
      "license": {
       "id": "CC-BY-4.0"
      },
-     "publication_date": "1983-04-01",
+     "publication_date": "2020-02-26",
+     "related_identifiers": [
+      {
+       "identifier": "10.5281/zenodo.3688359",
+       "relation": "isVersionOf",
+       "scheme": "doi"
+      }
+     ],
      "relations": {
       "version": [
        {
@@ -468,39 +506,38 @@
         "is_last": true,
         "last_child": {
          "pid_type": "recid",
-         "pid_value": "3395743"
+         "pid_value": "3688360"
         },
         "parent": {
          "pid_type": "recid",
-         "pid_value": "3395742"
+         "pid_value": "3688359"
         }
        }
       ]
      },
      "resource_type": {
-      "subtype": "article",
-      "title": "Journal article",
-      "type": "publication"
+      "title": "Presentation",
+      "type": "presentation"
      },
-     "title": "Vijfentwintig jaren accountantsopleiding aan de Vrije Universiteit"
+     "title": "Seminar Transparency in research, SBE, Vrije Universiteit Amsterdam"
     },
     "owners": [
-     22270
+     92565
     ],
-    "revision": 4,
+    "revision": 2,
     "stats": {
-     "downloads": 8.0,
-     "unique_downloads": 7.0,
-     "unique_views": 2.0,
-     "version_downloads": 8.0,
-     "version_unique_downloads": 7.0,
-     "version_unique_views": 2.0,
-     "version_views": 2.0,
-     "version_volume": 184152.0,
-     "views": 2.0,
-     "volume": 184152.0
+     "downloads": 10.0,
+     "unique_downloads": 3.0,
+     "unique_views": 4.0,
+     "version_downloads": 10.0,
+     "version_unique_downloads": 3.0,
+     "version_unique_views": 4.0,
+     "version_views": 6.0,
+     "version_volume": 6656974.0,
+     "views": 6.0,
+     "volume": 6656974.0
     },
-    "updated": "2020-01-20T14:04:40.573959+00:00"
+    "updated": "2020-02-26T19:20:59.241587+00:00"
    },
    {
     "conceptrecid": "756304",
@@ -1359,6 +1396,98 @@
     "updated": "2020-01-20T13:40:14.974788+00:00"
    },
    {
+    "conceptrecid": "3395742",
+    "created": "2019-09-06T08:23:26.010164+00:00",
+    "doi": "10.5117/mab.57.16130",
+    "files": [
+     {
+      "bucket": "36441cd9-cd40-4bfc-ac00-716635beae53",
+      "checksum": "md5:e70ef26374581b647745e94414f34f2d",
+      "key": "16130__1_227892_LE_335210.pdf",
+      "links": {
+       "self": "https://zenodo.org/api/files/36441cd9-cd40-4bfc-ac00-716635beae53/16130__1_227892_LE_335210.pdf"
+      },
+      "size": 23019,
+      "type": "pdf"
+     }
+    ],
+    "id": 3395743,
+    "links": {
+     "badge": "https://zenodo.org/badge/doi/10.5117/mab.57.16130.svg",
+     "bucket": "https://zenodo.org/api/files/36441cd9-cd40-4bfc-ac00-716635beae53",
+     "doi": "https://doi.org/10.5117/mab.57.16130",
+     "html": "https://zenodo.org/record/3395743",
+     "latest": "https://zenodo.org/api/records/3395743",
+     "latest_html": "https://zenodo.org/record/3395743",
+     "self": "https://zenodo.org/api/records/3395743"
+    },
+    "metadata": {
+     "access_right": "open",
+     "access_right_category": "success",
+     "creators": [
+      {
+       "name": "MAB,"
+      }
+     ],
+     "description": "Vijfentwintig jaren accountantsopleiding aan de Vrije Universiteit",
+     "doi": "10.5117/mab.57.16130",
+     "imprint": {
+      "publisher": "Amsterdam University Press"
+     },
+     "journal": {
+      "issue": "(4)",
+      "pages": "130-130",
+      "title": "Maandblad Voor Accountancy en Bedrijfseconomie",
+      "volume": "57"
+     },
+     "keywords": [],
+     "license": {
+      "id": "CC-BY-4.0"
+     },
+     "publication_date": "1983-04-01",
+     "relations": {
+      "version": [
+       {
+        "count": 1,
+        "index": 0,
+        "is_last": true,
+        "last_child": {
+         "pid_type": "recid",
+         "pid_value": "3395743"
+        },
+        "parent": {
+         "pid_type": "recid",
+         "pid_value": "3395742"
+        }
+       }
+      ]
+     },
+     "resource_type": {
+      "subtype": "article",
+      "title": "Journal article",
+      "type": "publication"
+     },
+     "title": "Vijfentwintig jaren accountantsopleiding aan de Vrije Universiteit"
+    },
+    "owners": [
+     22270
+    ],
+    "revision": 4,
+    "stats": {
+     "downloads": 8.0,
+     "unique_downloads": 7.0,
+     "unique_views": 2.0,
+     "version_downloads": 8.0,
+     "version_unique_downloads": 7.0,
+     "version_unique_views": 2.0,
+     "version_views": 2.0,
+     "version_volume": 184152.0,
+     "views": 2.0,
+     "volume": 184152.0
+    },
+    "updated": "2020-01-20T14:04:40.573959+00:00"
+   },
+   {
     "conceptdoi": "10.5281/zenodo.2546799",
     "conceptrecid": "2546799",
     "created": "2019-01-22T14:51:29.479055+00:00",
@@ -1473,138 +1602,9 @@
      "volume": 11631200.0
     },
     "updated": "2020-01-20T15:30:16.594202+00:00"
-   },
-   {
-    "conceptdoi": "10.5281/zenodo.3227975",
-    "conceptrecid": "3227975",
-    "created": "2019-05-25T08:51:30.772070+00:00",
-    "doi": "10.5281/zenodo.3227976",
-    "files": [
-     {
-      "bucket": "7a1cb348-a782-4941-9553-86682f92bd8f",
-      "checksum": "md5:1546c60c84d57abd448478c0cc89bb86",
-      "key": "data.hdt",
-      "links": {
-       "self": "https://zenodo.org/api/files/7a1cb348-a782-4941-9553-86682f92bd8f/data.hdt"
-      },
-      "size": 35980254447,
-      "type": "hdt"
-     },
-     {
-      "bucket": "7a1cb348-a782-4941-9553-86682f92bd8f",
-      "checksum": "md5:39121f59c72b4f3ffcc63649bc5eb3fc",
-      "key": "data.hdt.index.v1-1",
-      "links": {
-       "self": "https://zenodo.org/api/files/7a1cb348-a782-4941-9553-86682f92bd8f/data.hdt.index.v1-1"
-      },
-      "size": 36997120717,
-      "type": "v1-1"
-     }
-    ],
-    "id": 3227976,
-    "links": {
-     "badge": "https://zenodo.org/badge/doi/10.5281/zenodo.3227976.svg",
-     "bucket": "https://zenodo.org/api/files/7a1cb348-a782-4941-9553-86682f92bd8f",
-     "conceptbadge": "https://zenodo.org/badge/doi/10.5281/zenodo.3227975.svg",
-     "conceptdoi": "https://doi.org/10.5281/zenodo.3227975",
-     "doi": "https://doi.org/10.5281/zenodo.3227976",
-     "html": "https://zenodo.org/record/3227976",
-     "latest": "https://zenodo.org/api/records/3227976",
-     "latest_html": "https://zenodo.org/record/3227976",
-     "self": "https://zenodo.org/api/records/3227976"
-    },
-    "metadata": {
-     "access_right": "open",
-     "access_right_category": "success",
-     "communities": [
-      {
-       "id": "linkeddata"
-      },
-      {
-       "id": "semantic-web"
-      }
-     ],
-     "creators": [
-      {
-       "affiliation": "Vrije Universiteit Amsterdam",
-       "name": "Beek, Wouter",
-       "orcid": "0000-0003-0250-9655"
-      },
-      {
-       "affiliation": "Vrije Universiteit Amsterdam",
-       "name": "Raad, Joe",
-       "orcid": "0000-0002-7891-7738"
-      },
-      {
-       "affiliation": "Vrije Universiteit Amsterdam",
-       "name": "Acar, Erman"
-      },
-      {
-       "affiliation": "Vrije Universiteit Amsterdam",
-       "name": "Van Harmelen, Frank",
-       "orcid": "0000-0002-7913-0048"
-      }
-     ],
-     "description": "<p>MetaLink is a dataset that contains metadata for a very large set of owl:sameAs links that are crawled from the LOD Cloud.&nbsp;MetaLink encodes a previously published error metric for each of these links <a href=\"https://www.cs.vu.nl/~frankh/postscript/ISWC2018.pdf\">[Raad et al., 2018]</a>. This error degree ranges&nbsp;from 0.0 (most likely correct) till 1.0 (most likely incorrect). The idea is that the more an owl:sameAs link is isolated in the network (of all owl:sameAs links), the higher&nbsp;error degree this link&nbsp;will have.&nbsp;Experiments shows that discarding the 1M owl:sameAs links with an error degree &gt;0.99 can significantly increase the quality of the transitive closure. Also by keeping only the 400M owl:sameAs links with error degree &lt;= 0.4, the resulting closure is 100% precise in several manually evaluated cases. The resulted equivalence classes from these different closures are <a href=\"https://zenodo.org/record/3345674\">publicly available online.</a></p>\n\n<p>MetaLink is published in combination with LOD-a-lot, a dataset that is based on a very large crawl of a subset of the LOD Cloud. By combining MetaLink and LOD-a-lot, applications are able to make informed decisions about whether or not to follow specific links on the LOD Cloud. This dataset contains 4,352,602,452 unique triples, and is available in HDT (Header Dictionary Triples) format. It can be navigated online using the TriplyDB Linked Data hosting platform:&nbsp;<a href=\"https://krr.triply.cc/krr/metalink\">https://krr.triply.cc/krr/metalink</a>.&nbsp;&nbsp;</p>\n\n<p>A figure describing&nbsp;the vocabulary of the MetaLink&nbsp;dataset can be found <a href=\"https://krr.triply.cc/krr/metalink/assets/5ced8dbfaea75b02bc98784f\">here</a>.&nbsp;Classes are displayed by circles and properties are displayed by arcs. The MetaLink-specific classes and properties are displayed in red, the blue classes and properties are reused from existing vocabularies.</p>",
-     "doi": "10.5281/zenodo.3227976",
-     "keywords": [
-      "Linked Open Data",
-      "Identity"
-     ],
-     "license": {
-      "id": "CC-BY-SA-3.0"
-     },
-     "publication_date": "2019-04-10",
-     "related_identifiers": [
-      {
-       "identifier": "10.5281/zenodo.3227975",
-       "relation": "isVersionOf",
-       "scheme": "doi"
-      }
-     ],
-     "relations": {
-      "version": [
-       {
-        "count": 1,
-        "index": 0,
-        "is_last": true,
-        "last_child": {
-         "pid_type": "recid",
-         "pid_value": "3227976"
-        },
-        "parent": {
-         "pid_type": "recid",
-         "pid_value": "3227975"
-        }
-       }
-      ]
-     },
-     "resource_type": {
-      "title": "Dataset",
-      "type": "dataset"
-     },
-     "title": "MetaLink - Closure and Error Degree of 556M owl:sameAs statements"
-    },
-    "owners": [
-     56833
-    ],
-    "revision": 13,
-    "stats": {
-     "downloads": 42.0,
-     "unique_downloads": 15.0,
-     "unique_views": 138.0,
-     "version_downloads": 42.0,
-     "version_unique_downloads": 15.0,
-     "version_unique_views": 137.0,
-     "version_views": 169.0,
-     "version_volume": 1545744139954.0,
-     "views": 170.0,
-     "volume": 1545744139954.0
-    },
-    "updated": "2020-01-24T19:23:04.907012+00:00"
    }
   ],
-  "total": 11549
+  "total": 11567
  },
  "links": {
   "next": "https://zenodo.org/api/records/?sort=bestmatch&q=Vrije+Universiteit+Amsterdam&page=2&size=10",

@@ -129,3 +129,5 @@ dmypy.json
 .pyre/
 
 *.sqlite
+# Brett exclusions
+run.bat

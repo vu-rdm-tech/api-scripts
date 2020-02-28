@@ -3,11 +3,11 @@
   "access_right": {
    "buckets": [
     {
-     "doc_count": 10373,
+     "doc_count": 10384,
      "key": "open"
     },
     {
-     "doc_count": 1405,
+     "doc_count": 1409,
      "key": "closed"
     },
     {
@@ -25,7 +25,7 @@
   "communities": {
    "buckets": [
     {
-     "doc_count": 1991,
+     "doc_count": 2000,
      "key": "biosyslit"
     },
     {
@@ -66,12 +66,12 @@
     }
    ],
    "doc_count_error_upper_bound": 0,
-   "sum_other_doc_count": 647
+   "sum_other_doc_count": 651
   },
   "file_type": {
    "buckets": [
     {
-     "doc_count": 9373,
+     "doc_count": 9382,
      "key": "pdf"
     },
     {
@@ -83,7 +83,7 @@
      "key": "jpg"
     },
     {
-     "doc_count": 241,
+     "doc_count": 242,
      "key": "png"
     },
     {
@@ -112,36 +112,36 @@
     }
    ],
    "doc_count_error_upper_bound": 0,
-   "sum_other_doc_count": 301
+   "sum_other_doc_count": 305
   },
   "keywords": {
    "buckets": [
     {
-     "doc_count": 1762,
+     "doc_count": 1771,
      "key": "Taxonomy"
     },
     {
-     "doc_count": 1699,
+     "doc_count": 1708,
      "key": "Biodiversity"
     },
     {
-     "doc_count": 1656,
+     "doc_count": 1659,
      "key": "Animalia"
     },
     {
-     "doc_count": 1071,
+     "doc_count": 1073,
      "key": "Arthropoda"
     },
     {
-     "doc_count": 686,
+     "doc_count": 688,
      "key": "Insecta"
     },
     {
-     "doc_count": 359,
+     "doc_count": 360,
      "key": "Chordata"
     },
     {
-     "doc_count": 266,
+     "doc_count": 267,
      "key": "Hemiptera"
     },
     {
@@ -158,17 +158,17 @@
     }
    ],
    "doc_count_error_upper_bound": 0,
-   "sum_other_doc_count": 19879
+   "sum_other_doc_count": 19912
   },
   "type": {
    "buckets": [
     {
-     "doc_count": 10592,
+     "doc_count": 10603,
      "key": "publication",
      "subtype": {
       "buckets": [
        {
-        "doc_count": 10042,
+        "doc_count": 10052,
         "key": "article"
        },
        {
@@ -188,7 +188,7 @@
         "key": "thesis"
        },
        {
-        "doc_count": 42,
+        "doc_count": 43,
         "key": "deliverable"
        },
        {
@@ -235,7 +235,7 @@
      }
     },
     {
-     "doc_count": 338,
+     "doc_count": 341,
      "key": "dataset",
      "subtype": {
       "buckets": [],
@@ -244,7 +244,7 @@
      }
     },
     {
-     "doc_count": 179,
+     "doc_count": 180,
      "key": "presentation",
      "subtype": {
       "buckets": [],
@@ -523,108 +523,6 @@
     "updated": "2020-01-20T12:57:13.607847+00:00"
    },
    {
-    "conceptdoi": "10.5281/zenodo.3543733",
-    "conceptrecid": "3543733",
-    "created": "2019-11-19T10:11:39.529555+00:00",
-    "doi": "10.5281/zenodo.3543734",
-    "files": [
-     {
-      "bucket": "54570640-b8b9-487f-a33d-5162585b8e3a",
-      "checksum": "md5:7357ef6a783e2c6bcd451e0e2d359c7c",
-      "key": "2019-11-19_git-workshop_VU.pdf",
-      "links": {
-       "self": "https://zenodo.org/api/files/54570640-b8b9-487f-a33d-5162585b8e3a/2019-11-19_git-workshop_VU.pdf"
-      },
-      "size": 8207313,
-      "type": "pdf"
-     }
-    ],
-    "id": 3543734,
-    "links": {
-     "badge": "https://zenodo.org/badge/doi/10.5281/zenodo.3543734.svg",
-     "bucket": "https://zenodo.org/api/files/54570640-b8b9-487f-a33d-5162585b8e3a",
-     "conceptbadge": "https://zenodo.org/badge/doi/10.5281/zenodo.3543733.svg",
-     "conceptdoi": "https://doi.org/10.5281/zenodo.3543733",
-     "doi": "https://doi.org/10.5281/zenodo.3543734",
-     "html": "https://zenodo.org/record/3543734",
-     "latest": "https://zenodo.org/api/records/3543734",
-     "latest_html": "https://zenodo.org/record/3543734",
-     "self": "https://zenodo.org/api/records/3543734"
-    },
-    "metadata": {
-     "access_right": "open",
-     "access_right_category": "success",
-     "creators": [
-      {
-       "affiliation": "Delft University of Technology",
-       "name": "Kees den Heijer",
-       "orcid": "0000-0003-0314-2779"
-      }
-     ],
-     "description": "<p>Introductory presentation on the use of Git version control for reproducibility with a basic hands-on exercise&nbsp;held at VU Amsterdam.</p>",
-     "doi": "10.5281/zenodo.3543734",
-     "keywords": [
-      "data stewardship",
-      "version control",
-      "git",
-      "FAIR",
-      "RDM"
-     ],
-     "language": "eng",
-     "license": {
-      "id": "CC-BY-4.0"
-     },
-     "publication_date": "2019-11-19",
-     "related_identifiers": [
-      {
-       "identifier": "10.5281/zenodo.3543733",
-       "relation": "isVersionOf",
-       "scheme": "doi"
-      }
-     ],
-     "relations": {
-      "version": [
-       {
-        "count": 1,
-        "index": 0,
-        "is_last": true,
-        "last_child": {
-         "pid_type": "recid",
-         "pid_value": "3543734"
-        },
-        "parent": {
-         "pid_type": "recid",
-         "pid_value": "3543733"
-        }
-       }
-      ]
-     },
-     "resource_type": {
-      "title": "Presentation",
-      "type": "presentation"
-     },
-     "title": "How to use version control to improve reproducibility",
-     "version": "1.0"
-    },
-    "owners": [
-     41841
-    ],
-    "revision": 3,
-    "stats": {
-     "downloads": 125.0,
-     "unique_downloads": 111.0,
-     "unique_views": 163.0,
-     "version_downloads": 125.0,
-     "version_unique_downloads": 111.0,
-     "version_unique_views": 163.0,
-     "version_views": 177.0,
-     "version_volume": 1025914125.0,
-     "views": 177.0,
-     "volume": 1025914125.0
-    },
-    "updated": "2020-01-20T17:14:50.744672+00:00"
-   },
-   {
     "conceptrecid": "1413154",
     "created": "2018-09-11T09:20:00.598202+00:00",
     "doi": "10.1002/per.2139",
@@ -888,6 +786,108 @@
     "updated": "2020-01-24T19:23:53.169003+00:00"
    },
    {
+    "conceptdoi": "10.5281/zenodo.3543733",
+    "conceptrecid": "3543733",
+    "created": "2019-11-19T10:11:39.529555+00:00",
+    "doi": "10.5281/zenodo.3543734",
+    "files": [
+     {
+      "bucket": "54570640-b8b9-487f-a33d-5162585b8e3a",
+      "checksum": "md5:7357ef6a783e2c6bcd451e0e2d359c7c",
+      "key": "2019-11-19_git-workshop_VU.pdf",
+      "links": {
+       "self": "https://zenodo.org/api/files/54570640-b8b9-487f-a33d-5162585b8e3a/2019-11-19_git-workshop_VU.pdf"
+      },
+      "size": 8207313,
+      "type": "pdf"
+     }
+    ],
+    "id": 3543734,
+    "links": {
+     "badge": "https://zenodo.org/badge/doi/10.5281/zenodo.3543734.svg",
+     "bucket": "https://zenodo.org/api/files/54570640-b8b9-487f-a33d-5162585b8e3a",
+     "conceptbadge": "https://zenodo.org/badge/doi/10.5281/zenodo.3543733.svg",
+     "conceptdoi": "https://doi.org/10.5281/zenodo.3543733",
+     "doi": "https://doi.org/10.5281/zenodo.3543734",
+     "html": "https://zenodo.org/record/3543734",
+     "latest": "https://zenodo.org/api/records/3543734",
+     "latest_html": "https://zenodo.org/record/3543734",
+     "self": "https://zenodo.org/api/records/3543734"
+    },
+    "metadata": {
+     "access_right": "open",
+     "access_right_category": "success",
+     "creators": [
+      {
+       "affiliation": "Delft University of Technology",
+       "name": "Kees den Heijer",
+       "orcid": "0000-0003-0314-2779"
+      }
+     ],
+     "description": "<p>Introductory presentation on the use of Git version control for reproducibility with a basic hands-on exercise&nbsp;held at VU Amsterdam.</p>",
+     "doi": "10.5281/zenodo.3543734",
+     "keywords": [
+      "data stewardship",
+      "version control",
+      "git",
+      "FAIR",
+      "RDM"
+     ],
+     "language": "eng",
+     "license": {
+      "id": "CC-BY-4.0"
+     },
+     "publication_date": "2019-11-19",
+     "related_identifiers": [
+      {
+       "identifier": "10.5281/zenodo.3543733",
+       "relation": "isVersionOf",
+       "scheme": "doi"
+      }
+     ],
+     "relations": {
+      "version": [
+       {
+        "count": 1,
+        "index": 0,
+        "is_last": true,
+        "last_child": {
+         "pid_type": "recid",
+         "pid_value": "3543734"
+        },
+        "parent": {
+         "pid_type": "recid",
+         "pid_value": "3543733"
+        }
+       }
+      ]
+     },
+     "resource_type": {
+      "title": "Presentation",
+      "type": "presentation"
+     },
+     "title": "How to use version control to improve reproducibility",
+     "version": "1.0"
+    },
+    "owners": [
+     41841
+    ],
+    "revision": 3,
+    "stats": {
+     "downloads": 126.0,
+     "unique_downloads": 112.0,
+     "unique_views": 164.0,
+     "version_downloads": 126.0,
+     "version_unique_downloads": 112.0,
+     "version_unique_views": 164.0,
+     "version_views": 178.0,
+     "version_volume": 1034121438.0,
+     "views": 178.0,
+     "volume": 1034121438.0
+    },
+    "updated": "2020-01-20T17:14:50.744672+00:00"
+   },
+   {
     "conceptdoi": "10.5281/zenodo.2602582",
     "conceptrecid": "2602582",
     "created": "2019-03-22T10:18:17.587995+00:00",
@@ -982,6 +982,116 @@
      "volume": 174371665.0
     },
     "updated": "2020-01-20T14:55:14.891117+00:00"
+   },
+   {
+    "conceptrecid": "1402468",
+    "created": "2018-08-23T10:08:37.385086+00:00",
+    "doi": "10.1016/j.jesp.2017.02.008",
+    "files": [
+     {
+      "bucket": "94d365f7-6c53-4afc-9a1e-fea6110d5fdf",
+      "checksum": "md5:8d631b88e15e999cafc833b40638edbe",
+      "key": "Romano et al. JESP.pdf",
+      "links": {
+       "self": "https://zenodo.org/api/files/94d365f7-6c53-4afc-9a1e-fea6110d5fdf/Romano%20et%20al.%20JESP.pdf"
+      },
+      "size": 420137,
+      "type": "pdf"
+     }
+    ],
+    "id": 1402469,
+    "links": {
+     "badge": "https://zenodo.org/badge/doi/10.1016/j.jesp.2017.02.008.svg",
+     "bucket": "https://zenodo.org/api/files/94d365f7-6c53-4afc-9a1e-fea6110d5fdf",
+     "doi": "https://doi.org/10.1016/j.jesp.2017.02.008",
+     "html": "https://zenodo.org/record/1402469",
+     "latest": "https://zenodo.org/api/records/1402469",
+     "latest_html": "https://zenodo.org/record/1402469",
+     "self": "https://zenodo.org/api/records/1402469"
+    },
+    "metadata": {
+     "access_right": "open",
+     "access_right_category": "success",
+     "creators": [
+      {
+       "affiliation": "VU Amsterdam",
+       "name": "A. Romano"
+      },
+      {
+       "affiliation": "VU Amsterdam",
+       "name": "D. Balliet"
+      },
+      {
+       "affiliation": "VU Amsterdam",
+       "name": "J. Wu"
+      }
+     ],
+     "description": "<p>Bounded generalized reciprocity (BGR) predicts that people cooperate to maintain a positive reputation with<br>\ningroup, but not outgroup, members&mdash;and this explains ingroup favoritism in cooperation. We propose that<br>\nthe benefits of maintaining a positive reputation are not limited by group boundaries and so people may cooperate<br>\nto maintain a good reputation among outgroup members when they will meet and interactwith members of<br>\nthat group again. According to this unbounded indirect reciprocity perspective, reputation can promote cooperation<br>\nwith both ingroup and outgroup members. Alternatively, social identity theory (SIT) favors social identity<br>\nversus reputation as an explanation for cooperation among ingroup members. We test these hypotheses across<br>\nfive studies (Ns = 619, 607, 613, 360, and 615) that manipulate reputation, social identification, and partner&#39;s<br>\ngroup membership in a cooperative decision making task. Across our studies, people were more cooperative<br>\nwith both ingroup and outgroup members when their reputation was at stake (Studies 1&ndash;5), and reputational<br>\nconcern mediated the effect of cues of gossip on cooperation in interactions with ingroup and outgroup members<br>\n(Studies 1&ndash;4). Social identification did not affect cooperation with ingroup members.We discuss the theoretical<br>\nand practical implications of the indirect benefits of cooperation that can transcend group boundaries.</p>",
+     "doi": "10.1016/j.jesp.2017.02.008",
+     "grants": [
+      {
+       "acronym": "COOPERATION",
+       "code": "635356",
+       "funder": {
+        "acronyms": [],
+        "doi": "10.13039/501100000780",
+        "links": {
+         "self": "https://zenodo.org/api/funders/10.13039/501100000780"
+        },
+        "name": "European Commission"
+       },
+       "links": {
+        "self": "https://zenodo.org/api/grants/10.13039/501100000780::635356"
+       },
+       "program": "H2020",
+       "title": "Releasing Prisoners Of The Paradigm: Understanding How Cooperation Varies Across Contexts In The Lab And Field"
+      }
+     ],
+     "license": {
+      "id": "CC-BY-4.0"
+     },
+     "publication_date": "2017-08-01",
+     "relations": {
+      "version": [
+       {
+        "count": 1,
+        "index": 0,
+        "is_last": true,
+        "last_child": {
+         "pid_type": "recid",
+         "pid_value": "1402469"
+        },
+        "parent": {
+         "pid_type": "recid",
+         "pid_value": "1402468"
+        }
+       }
+      ]
+     },
+     "resource_type": {
+      "subtype": "article",
+      "title": "Journal article",
+      "type": "publication"
+     },
+     "title": "Unbounded indirect reciprocity: Is reputation-based cooperation bounded by group membership?"
+    },
+    "owners": [
+     51184
+    ],
+    "revision": 6,
+    "stats": {
+     "downloads": 75.0,
+     "unique_downloads": 73.0,
+     "unique_views": 14.0,
+     "version_downloads": 75.0,
+     "version_unique_downloads": 73.0,
+     "version_unique_views": 14.0,
+     "version_views": 14.0,
+     "version_volume": 31510275.0,
+     "views": 14.0,
+     "volume": 31510275.0
+    },
+    "updated": "2020-01-20T14:50:08.028748+00:00"
    },
    {
     "conceptdoi": "10.5281/zenodo.3468500",
@@ -1124,128 +1234,18 @@
     ],
     "revision": 10,
     "stats": {
-     "downloads": 8.0,
-     "unique_downloads": 7.0,
-     "unique_views": 42.0,
-     "version_downloads": 8.0,
-     "version_unique_downloads": 7.0,
-     "version_unique_views": 42.0,
-     "version_views": 57.0,
-     "version_volume": 18113102432.0,
-     "views": 57.0,
-     "volume": 18113102432.0
+     "downloads": 9.0,
+     "unique_downloads": 8.0,
+     "unique_views": 46.0,
+     "version_downloads": 9.0,
+     "version_unique_downloads": 8.0,
+     "version_unique_views": 46.0,
+     "version_views": 61.0,
+     "version_volume": 20377240236.0,
+     "views": 61.0,
+     "volume": 20377240236.0
     },
     "updated": "2020-01-24T19:23:49.053625+00:00"
-   },
-   {
-    "conceptrecid": "1402468",
-    "created": "2018-08-23T10:08:37.385086+00:00",
-    "doi": "10.1016/j.jesp.2017.02.008",
-    "files": [
-     {
-      "bucket": "94d365f7-6c53-4afc-9a1e-fea6110d5fdf",
-      "checksum": "md5:8d631b88e15e999cafc833b40638edbe",
-      "key": "Romano et al. JESP.pdf",
-      "links": {
-       "self": "https://zenodo.org/api/files/94d365f7-6c53-4afc-9a1e-fea6110d5fdf/Romano%20et%20al.%20JESP.pdf"
-      },
-      "size": 420137,
-      "type": "pdf"
-     }
-    ],
-    "id": 1402469,
-    "links": {
-     "badge": "https://zenodo.org/badge/doi/10.1016/j.jesp.2017.02.008.svg",
-     "bucket": "https://zenodo.org/api/files/94d365f7-6c53-4afc-9a1e-fea6110d5fdf",
-     "doi": "https://doi.org/10.1016/j.jesp.2017.02.008",
-     "html": "https://zenodo.org/record/1402469",
-     "latest": "https://zenodo.org/api/records/1402469",
-     "latest_html": "https://zenodo.org/record/1402469",
-     "self": "https://zenodo.org/api/records/1402469"
-    },
-    "metadata": {
-     "access_right": "open",
-     "access_right_category": "success",
-     "creators": [
-      {
-       "affiliation": "VU Amsterdam",
-       "name": "A. Romano"
-      },
-      {
-       "affiliation": "VU Amsterdam",
-       "name": "D. Balliet"
-      },
-      {
-       "affiliation": "VU Amsterdam",
-       "name": "J. Wu"
-      }
-     ],
-     "description": "<p>Bounded generalized reciprocity (BGR) predicts that people cooperate to maintain a positive reputation with<br>\ningroup, but not outgroup, members&mdash;and this explains ingroup favoritism in cooperation. We propose that<br>\nthe benefits of maintaining a positive reputation are not limited by group boundaries and so people may cooperate<br>\nto maintain a good reputation among outgroup members when they will meet and interactwith members of<br>\nthat group again. According to this unbounded indirect reciprocity perspective, reputation can promote cooperation<br>\nwith both ingroup and outgroup members. Alternatively, social identity theory (SIT) favors social identity<br>\nversus reputation as an explanation for cooperation among ingroup members. We test these hypotheses across<br>\nfive studies (Ns = 619, 607, 613, 360, and 615) that manipulate reputation, social identification, and partner&#39;s<br>\ngroup membership in a cooperative decision making task. Across our studies, people were more cooperative<br>\nwith both ingroup and outgroup members when their reputation was at stake (Studies 1&ndash;5), and reputational<br>\nconcern mediated the effect of cues of gossip on cooperation in interactions with ingroup and outgroup members<br>\n(Studies 1&ndash;4). Social identification did not affect cooperation with ingroup members.We discuss the theoretical<br>\nand practical implications of the indirect benefits of cooperation that can transcend group boundaries.</p>",
-     "doi": "10.1016/j.jesp.2017.02.008",
-     "grants": [
-      {
-       "acronym": "COOPERATION",
-       "code": "635356",
-       "funder": {
-        "acronyms": [],
-        "doi": "10.13039/501100000780",
-        "links": {
-         "self": "https://zenodo.org/api/funders/10.13039/501100000780"
-        },
-        "name": "European Commission"
-       },
-       "links": {
-        "self": "https://zenodo.org/api/grants/10.13039/501100000780::635356"
-       },
-       "program": "H2020",
-       "title": "Releasing Prisoners Of The Paradigm: Understanding How Cooperation Varies Across Contexts In The Lab And Field"
-      }
-     ],
-     "license": {
-      "id": "CC-BY-4.0"
-     },
-     "publication_date": "2017-08-01",
-     "relations": {
-      "version": [
-       {
-        "count": 1,
-        "index": 0,
-        "is_last": true,
-        "last_child": {
-         "pid_type": "recid",
-         "pid_value": "1402469"
-        },
-        "parent": {
-         "pid_type": "recid",
-         "pid_value": "1402468"
-        }
-       }
-      ]
-     },
-     "resource_type": {
-      "subtype": "article",
-      "title": "Journal article",
-      "type": "publication"
-     },
-     "title": "Unbounded indirect reciprocity: Is reputation-based cooperation bounded by group membership?"
-    },
-    "owners": [
-     51184
-    ],
-    "revision": 6,
-    "stats": {
-     "downloads": 75.0,
-     "unique_downloads": 73.0,
-     "unique_views": 14.0,
-     "version_downloads": 75.0,
-     "version_unique_downloads": 73.0,
-     "version_unique_views": 14.0,
-     "version_views": 14.0,
-     "version_volume": 31510275.0,
-     "views": 14.0,
-     "volume": 31510275.0
-    },
-    "updated": "2020-01-20T14:50:08.028748+00:00"
    },
    {
     "conceptdoi": "10.5281/zenodo.1488218",
@@ -1491,7 +1491,7 @@
     "updated": "2020-01-24T19:23:47.984780+00:00"
    }
   ],
-  "total": 11811
+  "total": 11826
  },
  "links": {
   "next": "https://zenodo.org/api/records/?sort=bestmatch&q=VU+Amsterdam&page=2&size=10",
