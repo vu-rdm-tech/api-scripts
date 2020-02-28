@@ -110,7 +110,7 @@ if __name__ == '__main__':
         writeRecordsToFile(res, os.path.join(raw_data_path, query.replace(' ', '_').strip()))
 
     # dump metadata as a json dict
-    with open('zenod_search_results.json', 'w') as F:
+    with open('zenodo_search_results.json', 'w') as F:
         json.dump(metadata, F, indent=1)
 
     pprint.pprint(metadata)
