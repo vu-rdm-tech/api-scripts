@@ -3,7 +3,7 @@
   "access_right": {
    "buckets": [
     {
-     "doc_count": 10236,
+     "doc_count": 10242,
      "key": "open"
     },
     {
@@ -25,7 +25,7 @@
   "communities": {
    "buckets": [
     {
-     "doc_count": 1686,
+     "doc_count": 1690,
      "key": "biosyslit"
     },
     {
@@ -66,12 +66,12 @@
     }
    ],
    "doc_count_error_upper_bound": 0,
-   "sum_other_doc_count": 716
+   "sum_other_doc_count": 717
   },
   "file_type": {
    "buckets": [
     {
-     "doc_count": 9369,
+     "doc_count": 9370,
      "key": "pdf"
     },
     {
@@ -95,7 +95,7 @@
      "key": "meta"
     },
     {
-     "doc_count": 62,
+     "doc_count": 66,
      "key": "html"
     },
     {
@@ -112,28 +112,28 @@
     }
    ],
    "doc_count_error_upper_bound": 0,
-   "sum_other_doc_count": 352
+   "sum_other_doc_count": 353
   },
   "keywords": {
    "buckets": [
     {
-     "doc_count": 1488,
+     "doc_count": 1492,
      "key": "Taxonomy"
     },
     {
-     "doc_count": 1424,
+     "doc_count": 1428,
      "key": "Biodiversity"
     },
     {
-     "doc_count": 1418,
+     "doc_count": 1419,
      "key": "Animalia"
     },
     {
-     "doc_count": 1038,
+     "doc_count": 1039,
      "key": "Arthropoda"
     },
     {
-     "doc_count": 657,
+     "doc_count": 658,
      "key": "Insecta"
     },
     {
@@ -158,12 +158,12 @@
     }
    ],
    "doc_count_error_upper_bound": 0,
-   "sum_other_doc_count": 19219
+   "sum_other_doc_count": 19250
   },
   "type": {
    "buckets": [
     {
-     "doc_count": 10455,
+     "doc_count": 10459,
      "key": "publication",
      "subtype": {
       "buckets": [
@@ -188,7 +188,7 @@
         "key": "report"
        },
        {
-        "doc_count": 53,
+        "doc_count": 57,
         "key": "taxonomictreatment"
        },
        {
@@ -213,7 +213,7 @@
      }
     },
     {
-     "doc_count": 359,
+     "doc_count": 360,
      "key": "dataset",
      "subtype": {
       "buckets": [],
@@ -244,7 +244,7 @@
      }
     },
     {
-     "doc_count": 203,
+     "doc_count": 204,
      "key": "presentation",
      "subtype": {
       "buckets": [],
@@ -7438,103 +7438,6 @@
     "updated": "2020-01-20T13:01:13.644130+00:00"
    },
    {
-    "conceptrecid": "594776",
-    "created": "2016-02-18T10:52:50+00:00",
-    "doi": "10.5281/zenodo.46216",
-    "files": [
-     {
-      "bucket": "7c3d6134-4d09-48dc-b4db-f4fc43e934e5",
-      "checksum": "md5:725eaf7942381ebac033cf9c5e4b60c3",
-      "key": "FIRDeconvolution-v0.0.2.zip",
-      "links": {
-       "self": "https://zenodo.org/api/files/7c3d6134-4d09-48dc-b4db-f4fc43e934e5/FIRDeconvolution-v0.0.2.zip"
-      },
-      "size": 5839092,
-      "type": "zip"
-     }
-    ],
-    "id": 46216,
-    "links": {
-     "badge": "https://zenodo.org/badge/doi/10.5281/zenodo.46216.svg",
-     "bucket": "https://zenodo.org/api/files/7c3d6134-4d09-48dc-b4db-f4fc43e934e5",
-     "doi": "https://doi.org/10.5281/zenodo.46216",
-     "html": "https://zenodo.org/record/46216",
-     "latest": "https://zenodo.org/api/records/46216",
-     "latest_html": "https://zenodo.org/record/46216",
-     "self": "https://zenodo.org/api/records/46216"
-    },
-    "metadata": {
-     "access_right": "open",
-     "access_right_category": "success",
-     "creators": [
-      {
-       "affiliation": "Vrije Universiteit",
-       "name": "Tomas Knapen"
-      },
-      {
-       "affiliation": "Universiteit van Amsterdam",
-       "name": "Jan Willem De Gee"
-      }
-     ],
-     "description": "<p>FIRDeconvolution is a python class that performs finite impulse response fitting on time series data, in order to estimate event-related signals.</p>\n\n<p>This release&nbsp;features the FIRDeconvolution python class and&nbsp;two tutorial notebooks, one describing FIR response fitting on simulated data, the other outlining a preprocessing strategy and pipeline for pupil size recording data.&nbsp;</p>",
-     "doi": "10.5281/zenodo.46216",
-     "keywords": [
-      "time series analysis, finite impulse response, pupil, fMRI"
-     ],
-     "license": {
-      "id": "MIT"
-     },
-     "publication_date": "2016-02-18",
-     "related_identifiers": [
-      {
-       "identifier": "https://github.com/tknapen/FIRDeconvolution/tree/v0.0.2",
-       "relation": "isSupplementTo",
-       "scheme": "url"
-      }
-     ],
-     "relations": {
-      "version": [
-       {
-        "count": 1,
-        "index": 0,
-        "is_last": true,
-        "last_child": {
-         "pid_type": "recid",
-         "pid_value": "46216"
-        },
-        "parent": {
-         "pid_type": "recid",
-         "pid_value": "594776"
-        }
-       }
-      ]
-     },
-     "resource_type": {
-      "title": "Software",
-      "type": "software"
-     },
-     "title": "FIRDeconvolution",
-     "version": "v0.0.2"
-    },
-    "owners": [
-     20488
-    ],
-    "revision": 10,
-    "stats": {
-     "downloads": 6.0,
-     "unique_downloads": 5.0,
-     "unique_views": 73.0,
-     "version_downloads": 6.0,
-     "version_unique_downloads": 5.0,
-     "version_unique_views": 73.0,
-     "version_views": 79.0,
-     "version_volume": 35034552.0,
-     "views": 79.0,
-     "volume": 35034552.0
-    },
-    "updated": "2020-01-25T07:22:20.943418+00:00"
-   },
-   {
     "conceptdoi": "10.5281/zenodo.2561207",
     "conceptrecid": "2561207",
     "created": "2019-02-10T10:21:00.909884+00:00",
@@ -7648,6 +7551,103 @@
      "volume": 1256175990.0
     },
     "updated": "2020-01-20T16:46:21.581291+00:00"
+   },
+   {
+    "conceptrecid": "594776",
+    "created": "2016-02-18T10:52:50+00:00",
+    "doi": "10.5281/zenodo.46216",
+    "files": [
+     {
+      "bucket": "7c3d6134-4d09-48dc-b4db-f4fc43e934e5",
+      "checksum": "md5:725eaf7942381ebac033cf9c5e4b60c3",
+      "key": "FIRDeconvolution-v0.0.2.zip",
+      "links": {
+       "self": "https://zenodo.org/api/files/7c3d6134-4d09-48dc-b4db-f4fc43e934e5/FIRDeconvolution-v0.0.2.zip"
+      },
+      "size": 5839092,
+      "type": "zip"
+     }
+    ],
+    "id": 46216,
+    "links": {
+     "badge": "https://zenodo.org/badge/doi/10.5281/zenodo.46216.svg",
+     "bucket": "https://zenodo.org/api/files/7c3d6134-4d09-48dc-b4db-f4fc43e934e5",
+     "doi": "https://doi.org/10.5281/zenodo.46216",
+     "html": "https://zenodo.org/record/46216",
+     "latest": "https://zenodo.org/api/records/46216",
+     "latest_html": "https://zenodo.org/record/46216",
+     "self": "https://zenodo.org/api/records/46216"
+    },
+    "metadata": {
+     "access_right": "open",
+     "access_right_category": "success",
+     "creators": [
+      {
+       "affiliation": "Vrije Universiteit",
+       "name": "Tomas Knapen"
+      },
+      {
+       "affiliation": "Universiteit van Amsterdam",
+       "name": "Jan Willem De Gee"
+      }
+     ],
+     "description": "<p>FIRDeconvolution is a python class that performs finite impulse response fitting on time series data, in order to estimate event-related signals.</p>\n\n<p>This release&nbsp;features the FIRDeconvolution python class and&nbsp;two tutorial notebooks, one describing FIR response fitting on simulated data, the other outlining a preprocessing strategy and pipeline for pupil size recording data.&nbsp;</p>",
+     "doi": "10.5281/zenodo.46216",
+     "keywords": [
+      "time series analysis, finite impulse response, pupil, fMRI"
+     ],
+     "license": {
+      "id": "MIT"
+     },
+     "publication_date": "2016-02-18",
+     "related_identifiers": [
+      {
+       "identifier": "https://github.com/tknapen/FIRDeconvolution/tree/v0.0.2",
+       "relation": "isSupplementTo",
+       "scheme": "url"
+      }
+     ],
+     "relations": {
+      "version": [
+       {
+        "count": 1,
+        "index": 0,
+        "is_last": true,
+        "last_child": {
+         "pid_type": "recid",
+         "pid_value": "46216"
+        },
+        "parent": {
+         "pid_type": "recid",
+         "pid_value": "594776"
+        }
+       }
+      ]
+     },
+     "resource_type": {
+      "title": "Software",
+      "type": "software"
+     },
+     "title": "FIRDeconvolution",
+     "version": "v0.0.2"
+    },
+    "owners": [
+     20488
+    ],
+    "revision": 10,
+    "stats": {
+     "downloads": 6.0,
+     "unique_downloads": 5.0,
+     "unique_views": 73.0,
+     "version_downloads": 6.0,
+     "version_unique_downloads": 5.0,
+     "version_unique_views": 73.0,
+     "version_views": 79.0,
+     "version_volume": 35034552.0,
+     "views": 79.0,
+     "volume": 35034552.0
+    },
+    "updated": "2020-01-25T07:22:20.943418+00:00"
    },
    {
     "conceptdoi": "10.5281/zenodo.1880444",
@@ -19801,130 +19801,6 @@
     "updated": "2020-01-24T19:24:48.275408+00:00"
    },
    {
-    "conceptdoi": "10.5281/zenodo.2566338",
-    "conceptrecid": "2566338",
-    "created": "2019-02-15T15:08:10.415376+00:00",
-    "doi": "10.5281/zenodo.2566339",
-    "files": [
-     {
-      "bucket": "c431a973-6256-4e00-9ae1-f06b6d01f6cb",
-      "checksum": "md5:d9f3aec85fa182a8380056c416f67f0d",
-      "key": "Leufkens 2013.pdf",
-      "links": {
-       "self": "https://zenodo.org/api/files/c431a973-6256-4e00-9ae1-f06b6d01f6cb/Leufkens%202013.pdf"
-      },
-      "size": 245622,
-      "type": "pdf"
-     }
-    ],
-    "id": 2566339,
-    "links": {
-     "badge": "https://zenodo.org/badge/doi/10.5281/zenodo.2566339.svg",
-     "bucket": "https://zenodo.org/api/files/c431a973-6256-4e00-9ae1-f06b6d01f6cb",
-     "conceptbadge": "https://zenodo.org/badge/doi/10.5281/zenodo.2566338.svg",
-     "conceptdoi": "https://doi.org/10.5281/zenodo.2566338",
-     "doi": "https://doi.org/10.5281/zenodo.2566339",
-     "html": "https://zenodo.org/record/2566339",
-     "latest": "https://zenodo.org/api/records/2566339",
-     "latest_html": "https://zenodo.org/record/2566339",
-     "self": "https://zenodo.org/api/records/2566339"
-    },
-    "metadata": {
-     "access_right": "open",
-     "access_right_category": "success",
-     "contributors": [
-      {
-       "affiliation": "University of Amsterdam",
-       "name": "Olbertz, Hella",
-       "type": "Editor"
-      },
-      {
-       "affiliation": "Vrije Universiteit",
-       "name": "Mackenzie, Lachlan",
-       "type": "Editor"
-      }
-     ],
-     "creators": [
-      {
-       "affiliation": "Utrecht University",
-       "name": "Leufkens, Sterre",
-       "orcid": "0000-0002-2251-1309"
-      }
-     ],
-     "description": "<p>When a quotation is syntactically embedded in English, there are repercussions for temporal reference: absolute referential elements have to shift to the new deictic centre. Absolute adverbials must be adapted, dropped or replaced by relative elements. Tense undergoes&nbsp;so-called sequence of tenses (tense copying): a past tense main clause requires backshifting of the embedded tense. The chapter discusses Comrie&#39;s (1986) analysis of this phenomenon and examines exceptions. It discusses criticism by Declerck (1988) and goes on to show how Functional Discourse Grammar (Hengeveld &amp; Mackenzie 2008) elegantly explains the data: tense copying, triggered by a Reportativity operator at the Interpersonal Level, is accounted for by operator copying at the Morphosyntactic Level, restricted by information from the Representational Level.&nbsp;</p>",
-     "doi": "10.5281/zenodo.2566339",
-     "imprint": {
-      "isbn": "9789027206046",
-      "publisher": "John Benjamins Publishing Company"
-     },
-     "keywords": [
-      "tense",
-      "sequence of tenses",
-      "Functional Discourse Grammar"
-     ],
-     "license": {
-      "id": "CC-BY-4.0"
-     },
-     "part_of": {
-      "pages": "189-212",
-      "title": "Casebook in Functional Discourse Grammar"
-     },
-     "publication_date": "2013-09-01",
-     "related_identifiers": [
-      {
-       "identifier": "10.1075/slcs.137",
-       "relation": "isPartOf",
-       "scheme": "doi"
-      },
-      {
-       "identifier": "10.5281/zenodo.2566338",
-       "relation": "isVersionOf",
-       "scheme": "doi"
-      }
-     ],
-     "relations": {
-      "version": [
-       {
-        "count": 1,
-        "index": 0,
-        "is_last": true,
-        "last_child": {
-         "pid_type": "recid",
-         "pid_value": "2566339"
-        },
-        "parent": {
-         "pid_type": "recid",
-         "pid_value": "2566338"
-        }
-       }
-      ]
-     },
-     "resource_type": {
-      "subtype": "section",
-      "title": "Book section",
-      "type": "publication"
-     },
-     "title": "Time reference in English indirect speech"
-    },
-    "owners": [
-     60935
-    ],
-    "revision": 5,
-    "stats": {
-     "downloads": 14.0,
-     "unique_downloads": 14.0,
-     "unique_views": 12.0,
-     "version_downloads": 14.0,
-     "version_unique_downloads": 14.0,
-     "version_unique_views": 12.0,
-     "version_views": 12.0,
-     "version_volume": 3438708.0,
-     "views": 12.0,
-     "volume": 3438708.0
-    },
-    "updated": "2020-01-20T13:36:45.519707+00:00"
-   },
-   {
     "conceptrecid": "639502",
     "created": "2016-08-03T15:11:59+00:00",
     "doi": "10.1186/s12984-016-0145-6",
@@ -20083,6 +19959,130 @@
      "volume": 17870740.0
     },
     "updated": "2020-01-20T15:19:44.091247+00:00"
+   },
+   {
+    "conceptdoi": "10.5281/zenodo.2566338",
+    "conceptrecid": "2566338",
+    "created": "2019-02-15T15:08:10.415376+00:00",
+    "doi": "10.5281/zenodo.2566339",
+    "files": [
+     {
+      "bucket": "c431a973-6256-4e00-9ae1-f06b6d01f6cb",
+      "checksum": "md5:d9f3aec85fa182a8380056c416f67f0d",
+      "key": "Leufkens 2013.pdf",
+      "links": {
+       "self": "https://zenodo.org/api/files/c431a973-6256-4e00-9ae1-f06b6d01f6cb/Leufkens%202013.pdf"
+      },
+      "size": 245622,
+      "type": "pdf"
+     }
+    ],
+    "id": 2566339,
+    "links": {
+     "badge": "https://zenodo.org/badge/doi/10.5281/zenodo.2566339.svg",
+     "bucket": "https://zenodo.org/api/files/c431a973-6256-4e00-9ae1-f06b6d01f6cb",
+     "conceptbadge": "https://zenodo.org/badge/doi/10.5281/zenodo.2566338.svg",
+     "conceptdoi": "https://doi.org/10.5281/zenodo.2566338",
+     "doi": "https://doi.org/10.5281/zenodo.2566339",
+     "html": "https://zenodo.org/record/2566339",
+     "latest": "https://zenodo.org/api/records/2566339",
+     "latest_html": "https://zenodo.org/record/2566339",
+     "self": "https://zenodo.org/api/records/2566339"
+    },
+    "metadata": {
+     "access_right": "open",
+     "access_right_category": "success",
+     "contributors": [
+      {
+       "affiliation": "University of Amsterdam",
+       "name": "Olbertz, Hella",
+       "type": "Editor"
+      },
+      {
+       "affiliation": "Vrije Universiteit",
+       "name": "Mackenzie, Lachlan",
+       "type": "Editor"
+      }
+     ],
+     "creators": [
+      {
+       "affiliation": "Utrecht University",
+       "name": "Leufkens, Sterre",
+       "orcid": "0000-0002-2251-1309"
+      }
+     ],
+     "description": "<p>When a quotation is syntactically embedded in English, there are repercussions for temporal reference: absolute referential elements have to shift to the new deictic centre. Absolute adverbials must be adapted, dropped or replaced by relative elements. Tense undergoes&nbsp;so-called sequence of tenses (tense copying): a past tense main clause requires backshifting of the embedded tense. The chapter discusses Comrie&#39;s (1986) analysis of this phenomenon and examines exceptions. It discusses criticism by Declerck (1988) and goes on to show how Functional Discourse Grammar (Hengeveld &amp; Mackenzie 2008) elegantly explains the data: tense copying, triggered by a Reportativity operator at the Interpersonal Level, is accounted for by operator copying at the Morphosyntactic Level, restricted by information from the Representational Level.&nbsp;</p>",
+     "doi": "10.5281/zenodo.2566339",
+     "imprint": {
+      "isbn": "9789027206046",
+      "publisher": "John Benjamins Publishing Company"
+     },
+     "keywords": [
+      "tense",
+      "sequence of tenses",
+      "Functional Discourse Grammar"
+     ],
+     "license": {
+      "id": "CC-BY-4.0"
+     },
+     "part_of": {
+      "pages": "189-212",
+      "title": "Casebook in Functional Discourse Grammar"
+     },
+     "publication_date": "2013-09-01",
+     "related_identifiers": [
+      {
+       "identifier": "10.1075/slcs.137",
+       "relation": "isPartOf",
+       "scheme": "doi"
+      },
+      {
+       "identifier": "10.5281/zenodo.2566338",
+       "relation": "isVersionOf",
+       "scheme": "doi"
+      }
+     ],
+     "relations": {
+      "version": [
+       {
+        "count": 1,
+        "index": 0,
+        "is_last": true,
+        "last_child": {
+         "pid_type": "recid",
+         "pid_value": "2566339"
+        },
+        "parent": {
+         "pid_type": "recid",
+         "pid_value": "2566338"
+        }
+       }
+      ]
+     },
+     "resource_type": {
+      "subtype": "section",
+      "title": "Book section",
+      "type": "publication"
+     },
+     "title": "Time reference in English indirect speech"
+    },
+    "owners": [
+     60935
+    ],
+    "revision": 5,
+    "stats": {
+     "downloads": 14.0,
+     "unique_downloads": 14.0,
+     "unique_views": 12.0,
+     "version_downloads": 14.0,
+     "version_unique_downloads": 14.0,
+     "version_unique_views": 12.0,
+     "version_views": 12.0,
+     "version_volume": 3438708.0,
+     "views": 12.0,
+     "volume": 3438708.0
+    },
+    "updated": "2020-01-20T13:36:45.519707+00:00"
    },
    {
     "conceptrecid": "3406910",
@@ -27415,136 +27415,6 @@
     "updated": "2020-01-20T15:07:08.137068+00:00"
    },
    {
-    "conceptdoi": "10.5281/zenodo.1064391",
-    "conceptrecid": "1064391",
-    "created": "2020-01-13T19:37:09.654946+00:00",
-    "doi": "10.5281/zenodo.3606813",
-    "files": [
-     {
-      "bucket": "c1f40a55-b1d0-48ba-ae54-047a2ad3d979",
-      "checksum": "md5:af93ddfafb1ab7a2b187c41f18a09336",
-      "key": "CLARIAH/grlc-v1.3.2.zip",
-      "links": {
-       "self": "https://zenodo.org/api/files/c1f40a55-b1d0-48ba-ae54-047a2ad3d979/CLARIAH/grlc-v1.3.2.zip"
-      },
-      "size": 989194,
-      "type": "zip"
-     }
-    ],
-    "id": 3606813,
-    "links": {
-     "badge": "https://zenodo.org/badge/doi/10.5281/zenodo.3606813.svg",
-     "bucket": "https://zenodo.org/api/files/c1f40a55-b1d0-48ba-ae54-047a2ad3d979",
-     "conceptbadge": "https://zenodo.org/badge/doi/10.5281/zenodo.1064391.svg",
-     "conceptdoi": "https://doi.org/10.5281/zenodo.1064391",
-     "doi": "https://doi.org/10.5281/zenodo.3606813",
-     "html": "https://zenodo.org/record/3606813",
-     "latest": "https://zenodo.org/api/records/3606813",
-     "latest_html": "https://zenodo.org/record/3606813",
-     "self": "https://zenodo.org/api/records/3606813"
-    },
-    "metadata": {
-     "access_right": "open",
-     "access_right_category": "success",
-     "creators": [
-      {
-       "affiliation": "Vrije Universiteit Amsterdam",
-       "name": "Albert Mero\u00f1o-Pe\u00f1uela"
-      },
-      {
-       "affiliation": "@NLeSC",
-       "name": "Carlos Martinez"
-      },
-      {
-       "name": "Rinke Hoekstra"
-      },
-      {
-       "affiliation": "Eurecom, @MultimediaSemantics",
-       "name": "Pasquale Lisena"
-      },
-      {
-       "affiliation": "International Institute of Social History",
-       "name": "Richard Zijdeman"
-      },
-      {
-       "name": "RoderickvanderWeerdt"
-      },
-      {
-       "affiliation": "Netherlands eScience Center",
-       "name": "Arnold Kuzniar"
-      },
-      {
-       "name": "mwigham"
-      },
-      {
-       "affiliation": "Netherlands eScience Center",
-       "name": "Jurriaan H. Spaaks"
-      },
-      {
-       "name": "Jonas Jetschni"
-      }
-     ],
-     "description": "<ul>\n<li>Remove PythonQL dependency (should solve pipenv install issues)</li>\n<li>Add dependabot config</li>\n</ul>",
-     "doi": "10.5281/zenodo.3606813",
-     "license": {
-      "id": "other-open"
-     },
-     "publication_date": "2020-01-13",
-     "related_identifiers": [
-      {
-       "identifier": "https://github.com/CLARIAH/grlc/tree/v1.3.2",
-       "relation": "isSupplementTo",
-       "scheme": "url"
-      },
-      {
-       "identifier": "10.5281/zenodo.1064391",
-       "relation": "isVersionOf",
-       "scheme": "doi"
-      }
-     ],
-     "relations": {
-      "version": [
-       {
-        "count": 10,
-        "index": 9,
-        "is_last": true,
-        "last_child": {
-         "pid_type": "recid",
-         "pid_value": "3606813"
-        },
-        "parent": {
-         "pid_type": "recid",
-         "pid_value": "1064391"
-        }
-       }
-      ]
-     },
-     "resource_type": {
-      "title": "Software",
-      "type": "software"
-     },
-     "title": "CLARIAH/grlc: January 2020 patch",
-     "version": "v1.3.2"
-    },
-    "owners": [
-     38436
-    ],
-    "revision": 3,
-    "stats": {
-     "downloads": 2.0,
-     "unique_downloads": 2.0,
-     "unique_views": 98.0,
-     "version_downloads": 32.0,
-     "version_unique_downloads": 26.0,
-     "version_unique_views": 5701.0,
-     "version_views": 9192.0,
-     "version_volume": 32883442.0,
-     "views": 114.0,
-     "volume": 1978388.0
-    },
-    "updated": "2020-01-25T07:27:47.572416+00:00"
-   },
-   {
     "conceptdoi": "10.5281/zenodo.1467670",
     "conceptrecid": "1467670",
     "created": "2018-10-20T15:38:34.743986+00:00",
@@ -27752,6 +27622,136 @@
      "volume": 138945066.0
     },
     "updated": "2020-01-20T15:57:48.540936+00:00"
+   },
+   {
+    "conceptdoi": "10.5281/zenodo.1064391",
+    "conceptrecid": "1064391",
+    "created": "2020-01-13T19:37:09.654946+00:00",
+    "doi": "10.5281/zenodo.3606813",
+    "files": [
+     {
+      "bucket": "c1f40a55-b1d0-48ba-ae54-047a2ad3d979",
+      "checksum": "md5:af93ddfafb1ab7a2b187c41f18a09336",
+      "key": "CLARIAH/grlc-v1.3.2.zip",
+      "links": {
+       "self": "https://zenodo.org/api/files/c1f40a55-b1d0-48ba-ae54-047a2ad3d979/CLARIAH/grlc-v1.3.2.zip"
+      },
+      "size": 989194,
+      "type": "zip"
+     }
+    ],
+    "id": 3606813,
+    "links": {
+     "badge": "https://zenodo.org/badge/doi/10.5281/zenodo.3606813.svg",
+     "bucket": "https://zenodo.org/api/files/c1f40a55-b1d0-48ba-ae54-047a2ad3d979",
+     "conceptbadge": "https://zenodo.org/badge/doi/10.5281/zenodo.1064391.svg",
+     "conceptdoi": "https://doi.org/10.5281/zenodo.1064391",
+     "doi": "https://doi.org/10.5281/zenodo.3606813",
+     "html": "https://zenodo.org/record/3606813",
+     "latest": "https://zenodo.org/api/records/3606813",
+     "latest_html": "https://zenodo.org/record/3606813",
+     "self": "https://zenodo.org/api/records/3606813"
+    },
+    "metadata": {
+     "access_right": "open",
+     "access_right_category": "success",
+     "creators": [
+      {
+       "affiliation": "Vrije Universiteit Amsterdam",
+       "name": "Albert Mero\u00f1o-Pe\u00f1uela"
+      },
+      {
+       "affiliation": "@NLeSC",
+       "name": "Carlos Martinez"
+      },
+      {
+       "name": "Rinke Hoekstra"
+      },
+      {
+       "affiliation": "Eurecom, @MultimediaSemantics",
+       "name": "Pasquale Lisena"
+      },
+      {
+       "affiliation": "International Institute of Social History",
+       "name": "Richard Zijdeman"
+      },
+      {
+       "name": "RoderickvanderWeerdt"
+      },
+      {
+       "affiliation": "Netherlands eScience Center",
+       "name": "Arnold Kuzniar"
+      },
+      {
+       "name": "mwigham"
+      },
+      {
+       "affiliation": "Netherlands eScience Center",
+       "name": "Jurriaan H. Spaaks"
+      },
+      {
+       "name": "Jonas Jetschni"
+      }
+     ],
+     "description": "<ul>\n<li>Remove PythonQL dependency (should solve pipenv install issues)</li>\n<li>Add dependabot config</li>\n</ul>",
+     "doi": "10.5281/zenodo.3606813",
+     "license": {
+      "id": "other-open"
+     },
+     "publication_date": "2020-01-13",
+     "related_identifiers": [
+      {
+       "identifier": "https://github.com/CLARIAH/grlc/tree/v1.3.2",
+       "relation": "isSupplementTo",
+       "scheme": "url"
+      },
+      {
+       "identifier": "10.5281/zenodo.1064391",
+       "relation": "isVersionOf",
+       "scheme": "doi"
+      }
+     ],
+     "relations": {
+      "version": [
+       {
+        "count": 10,
+        "index": 9,
+        "is_last": true,
+        "last_child": {
+         "pid_type": "recid",
+         "pid_value": "3606813"
+        },
+        "parent": {
+         "pid_type": "recid",
+         "pid_value": "1064391"
+        }
+       }
+      ]
+     },
+     "resource_type": {
+      "title": "Software",
+      "type": "software"
+     },
+     "title": "CLARIAH/grlc: January 2020 patch",
+     "version": "v1.3.2"
+    },
+    "owners": [
+     38436
+    ],
+    "revision": 3,
+    "stats": {
+     "downloads": 2.0,
+     "unique_downloads": 2.0,
+     "unique_views": 98.0,
+     "version_downloads": 32.0,
+     "version_unique_downloads": 26.0,
+     "version_unique_views": 5701.0,
+     "version_views": 9192.0,
+     "version_volume": 32883442.0,
+     "views": 114.0,
+     "volume": 1978388.0
+    },
+    "updated": "2020-01-25T07:27:47.572416+00:00"
    },
    {
     "conceptdoi": "10.5281/zenodo.1462604",
@@ -27981,6 +27981,167 @@
      "volume": 15660488.0
     },
     "updated": "2020-01-20T15:13:48.775868+00:00"
+   },
+   {
+    "conceptdoi": "10.5281/zenodo.3691680",
+    "conceptrecid": "3691680",
+    "created": "2020-02-28T13:07:14.134113+00:00",
+    "doi": "10.5281/zenodo.3691681",
+    "files": [
+     {
+      "bucket": "be54541f-f178-4871-83d5-13f2c47a20c1",
+      "checksum": "md5:ac0659bbe0b09ca6a7fa60a050a6625b",
+      "key": "refined-subC-FA.nt",
+      "links": {
+       "self": "https://zenodo.org/api/files/be54541f-f178-4871-83d5-13f2c47a20c1/refined-subC-FA.nt"
+      },
+      "size": 842968891,
+      "type": "nt"
+     },
+     {
+      "bucket": "be54541f-f178-4871-83d5-13f2c47a20c1",
+      "checksum": "md5:8733a51ffc9b0e604fc21c3eeea7d3f3",
+      "key": "refined-subC-SA.nt",
+      "links": {
+       "self": "https://zenodo.org/api/files/be54541f-f178-4871-83d5-13f2c47a20c1/refined-subC-SA.nt"
+      },
+      "size": 842936198,
+      "type": "nt"
+     },
+     {
+      "bucket": "be54541f-f178-4871-83d5-13f2c47a20c1",
+      "checksum": "md5:da3e558a0fd02c18975397324f120335",
+      "key": "refined-subP.nt",
+      "links": {
+       "self": "https://zenodo.org/api/files/be54541f-f178-4871-83d5-13f2c47a20c1/refined-subP.nt"
+      },
+      "size": 14638235,
+      "type": "nt"
+     },
+     {
+      "bucket": "be54541f-f178-4871-83d5-13f2c47a20c1",
+      "checksum": "md5:b9f12c736b880a9ebc418d0fe48a0564",
+      "key": "subC-all.nt",
+      "links": {
+       "self": "https://zenodo.org/api/files/be54541f-f178-4871-83d5-13f2c47a20c1/subC-all.nt"
+      },
+      "size": 843244862,
+      "type": "nt"
+     },
+     {
+      "bucket": "be54541f-f178-4871-83d5-13f2c47a20c1",
+      "checksum": "md5:82593e0e6aef072488cf1330246279e3",
+      "key": "subP-all.nt",
+      "links": {
+       "self": "https://zenodo.org/api/files/be54541f-f178-4871-83d5-13f2c47a20c1/subP-all.nt"
+      },
+      "size": 14956896,
+      "type": "nt"
+     }
+    ],
+    "id": 3691681,
+    "links": {
+     "badge": "https://zenodo.org/badge/doi/10.5281/zenodo.3691681.svg",
+     "bucket": "https://zenodo.org/api/files/be54541f-f178-4871-83d5-13f2c47a20c1",
+     "conceptbadge": "https://zenodo.org/badge/doi/10.5281/zenodo.3691680.svg",
+     "conceptdoi": "https://doi.org/10.5281/zenodo.3691680",
+     "doi": "https://doi.org/10.5281/zenodo.3691681",
+     "html": "https://zenodo.org/record/3691681",
+     "latest": "https://zenodo.org/api/records/3691681",
+     "latest_html": "https://zenodo.org/record/3691681",
+     "self": "https://zenodo.org/api/records/3691681"
+    },
+    "metadata": {
+     "access_right": "open",
+     "access_right_category": "success",
+     "contributors": [
+      {
+       "affiliation": "Vrije University Amsterdam",
+       "name": "Frank van Harmelen",
+       "orcid": "0000-0002-7913-0048",
+       "type": "Supervisor"
+      },
+      {
+       "affiliation": "Vrije University Amsterdam",
+       "name": "Peter Bloem",
+       "orcid": "0000-0002-0189-5817",
+       "type": "Supervisor"
+      },
+      {
+       "affiliation": "Vrije University Amsterdam",
+       "name": "Joe Raad",
+       "orcid": "0000-0002-7891-7738",
+       "type": "Researcher"
+      }
+     ],
+     "creators": [
+      {
+       "affiliation": "Vrije University Amsterdam",
+       "name": "Wang, Shuai",
+       "orcid": "0000-0002-1261-9930"
+      }
+     ],
+     "description": "<p>These are the datasets from the SUBMASSIVE system (www.submassive.cc)</p>\n\n<p>Title of the paper:&nbsp;SUBMASSIVE: Resolving Cyclic Subclass Relations in Very Large Knowledge Graphs</p>\n\n<p>--</p>\n\n<p>Original data:</p>\n\n<ul>\n\t<li>subC-all (all the subclass subsumption relations)</li>\n</ul>\n\n<p>Fully Automatic (FA) approach:&nbsp;</p>\n\n<ul>\n\t<li>refined-subC-FA (relations remain after FA processing)</li>\n</ul>\n\n<p>Semi-automatic (SA) approach:</p>\n\n<ul>\n\t<li>refined-subC-SA&nbsp; (relations remain after SA processing)</li>\n</ul>\n\n<p>Original data:</p>\n\n<ul>\n\t<li>subP-all (all the subproperty subsumption relations)</li>\n\t<li>&nbsp;refined-subP (relations remain)</li>\n</ul>",
+     "doi": "10.5281/zenodo.3691681",
+     "keywords": [
+      "LOD-a-lot",
+      "Linked Data",
+      "SUBMASSIVE"
+     ],
+     "language": "eng",
+     "license": {
+      "id": "CC-BY-4.0"
+     },
+     "notes": "www.submassive.cc",
+     "publication_date": "2020-02-28",
+     "related_identifiers": [
+      {
+       "identifier": "10.5281/zenodo.3691680",
+       "relation": "isVersionOf",
+       "scheme": "doi"
+      }
+     ],
+     "relations": {
+      "version": [
+       {
+        "count": 1,
+        "index": 0,
+        "is_last": true,
+        "last_child": {
+         "pid_type": "recid",
+         "pid_value": "3691681"
+        },
+        "parent": {
+         "pid_type": "recid",
+         "pid_value": "3691680"
+        }
+       }
+      ]
+     },
+     "resource_type": {
+      "title": "Dataset",
+      "type": "dataset"
+     },
+     "subjects": [],
+     "title": "Cycle-free Subclass Subsumption Relations of the LOD Cloud"
+    },
+    "owners": [
+     92809
+    ],
+    "revision": 1,
+    "stats": {
+     "downloads": 0.0,
+     "unique_downloads": 0.0,
+     "unique_views": 0.0,
+     "version_downloads": 0.0,
+     "version_unique_downloads": 0.0,
+     "version_unique_views": 0.0,
+     "version_views": 0.0,
+     "version_volume": 0.0,
+     "views": 0.0,
+     "volume": 0.0
+    },
+    "updated": "2020-02-28T13:07:15.666780+00:00"
    },
    {
     "conceptdoi": "10.5281/zenodo.1185195",
@@ -40163,6 +40324,98 @@
     "updated": "2020-01-20T12:06:33.112228+00:00"
    },
    {
+    "conceptrecid": "3388039",
+    "created": "2019-09-06T04:37:58.194189+00:00",
+    "doi": "10.5117/mab.16.10154",
+    "files": [
+     {
+      "bucket": "dea9fbc8-3ca3-4a3a-a09c-289d090d5f6d",
+      "checksum": "md5:252773bfdbf07c60616990f994581c69",
+      "key": "10154__1_216523_LE_331421.pdf",
+      "links": {
+       "self": "https://zenodo.org/api/files/dea9fbc8-3ca3-4a3a-a09c-289d090d5f6d/10154__1_216523_LE_331421.pdf"
+      },
+      "size": 307451,
+      "type": "pdf"
+     }
+    ],
+    "id": 3388040,
+    "links": {
+     "badge": "https://zenodo.org/badge/doi/10.5117/mab.16.10154.svg",
+     "bucket": "https://zenodo.org/api/files/dea9fbc8-3ca3-4a3a-a09c-289d090d5f6d",
+     "doi": "https://doi.org/10.5117/mab.16.10154",
+     "html": "https://zenodo.org/record/3388040",
+     "latest": "https://zenodo.org/api/records/3388040",
+     "latest_html": "https://zenodo.org/record/3388040",
+     "self": "https://zenodo.org/api/records/3388040"
+    },
+    "metadata": {
+     "access_right": "open",
+     "access_right_category": "success",
+     "creators": [
+      {
+       "name": "Groot, A. M."
+      }
+     ],
+     "description": "LEIDT DE VRIJE PRIJSVORMING TOT EEN ECONOMISCH RATIONEELEN PRIJS?",
+     "doi": "10.5117/mab.16.10154",
+     "imprint": {
+      "publisher": "Amsterdam University Press"
+     },
+     "journal": {
+      "issue": "(1)",
+      "pages": "3-6",
+      "title": "Maandblad Voor Accountancy en Bedrijfseconomie",
+      "volume": "16"
+     },
+     "keywords": [],
+     "license": {
+      "id": "CC-BY-4.0"
+     },
+     "publication_date": "1939-01-01",
+     "relations": {
+      "version": [
+       {
+        "count": 1,
+        "index": 0,
+        "is_last": true,
+        "last_child": {
+         "pid_type": "recid",
+         "pid_value": "3388040"
+        },
+        "parent": {
+         "pid_type": "recid",
+         "pid_value": "3388039"
+        }
+       }
+      ]
+     },
+     "resource_type": {
+      "subtype": "article",
+      "title": "Journal article",
+      "type": "publication"
+     },
+     "title": "LEIDT DE VRIJE PRIJSVORMING TOT EEN ECONOMISCH RATIONEELEN PRIJS?"
+    },
+    "owners": [
+     22270
+    ],
+    "revision": 4,
+    "stats": {
+     "downloads": 9.0,
+     "unique_downloads": 8.0,
+     "unique_views": 6.0,
+     "version_downloads": 9.0,
+     "version_unique_downloads": 8.0,
+     "version_unique_views": 6.0,
+     "version_views": 6.0,
+     "version_volume": 2767059.0,
+     "views": 6.0,
+     "volume": 2767059.0
+    },
+    "updated": "2020-01-20T16:49:04.322134+00:00"
+   },
+   {
     "conceptrecid": "637774",
     "created": "2016-07-03T17:04:52+00:00",
     "doi": "10.5281/zenodo.56938",
@@ -40340,98 +40593,6 @@
      "volume": 32997219.0
     },
     "updated": "2020-01-20T14:16:47.165492+00:00"
-   },
-   {
-    "conceptrecid": "3388039",
-    "created": "2019-09-06T04:37:58.194189+00:00",
-    "doi": "10.5117/mab.16.10154",
-    "files": [
-     {
-      "bucket": "dea9fbc8-3ca3-4a3a-a09c-289d090d5f6d",
-      "checksum": "md5:252773bfdbf07c60616990f994581c69",
-      "key": "10154__1_216523_LE_331421.pdf",
-      "links": {
-       "self": "https://zenodo.org/api/files/dea9fbc8-3ca3-4a3a-a09c-289d090d5f6d/10154__1_216523_LE_331421.pdf"
-      },
-      "size": 307451,
-      "type": "pdf"
-     }
-    ],
-    "id": 3388040,
-    "links": {
-     "badge": "https://zenodo.org/badge/doi/10.5117/mab.16.10154.svg",
-     "bucket": "https://zenodo.org/api/files/dea9fbc8-3ca3-4a3a-a09c-289d090d5f6d",
-     "doi": "https://doi.org/10.5117/mab.16.10154",
-     "html": "https://zenodo.org/record/3388040",
-     "latest": "https://zenodo.org/api/records/3388040",
-     "latest_html": "https://zenodo.org/record/3388040",
-     "self": "https://zenodo.org/api/records/3388040"
-    },
-    "metadata": {
-     "access_right": "open",
-     "access_right_category": "success",
-     "creators": [
-      {
-       "name": "Groot, A. M."
-      }
-     ],
-     "description": "LEIDT DE VRIJE PRIJSVORMING TOT EEN ECONOMISCH RATIONEELEN PRIJS?",
-     "doi": "10.5117/mab.16.10154",
-     "imprint": {
-      "publisher": "Amsterdam University Press"
-     },
-     "journal": {
-      "issue": "(1)",
-      "pages": "3-6",
-      "title": "Maandblad Voor Accountancy en Bedrijfseconomie",
-      "volume": "16"
-     },
-     "keywords": [],
-     "license": {
-      "id": "CC-BY-4.0"
-     },
-     "publication_date": "1939-01-01",
-     "relations": {
-      "version": [
-       {
-        "count": 1,
-        "index": 0,
-        "is_last": true,
-        "last_child": {
-         "pid_type": "recid",
-         "pid_value": "3388040"
-        },
-        "parent": {
-         "pid_type": "recid",
-         "pid_value": "3388039"
-        }
-       }
-      ]
-     },
-     "resource_type": {
-      "subtype": "article",
-      "title": "Journal article",
-      "type": "publication"
-     },
-     "title": "LEIDT DE VRIJE PRIJSVORMING TOT EEN ECONOMISCH RATIONEELEN PRIJS?"
-    },
-    "owners": [
-     22270
-    ],
-    "revision": 4,
-    "stats": {
-     "downloads": 9.0,
-     "unique_downloads": 8.0,
-     "unique_views": 6.0,
-     "version_downloads": 9.0,
-     "version_unique_downloads": 8.0,
-     "version_unique_views": 6.0,
-     "version_views": 6.0,
-     "version_volume": 2767059.0,
-     "views": 6.0,
-     "volume": 2767059.0
-    },
-    "updated": "2020-01-20T16:49:04.322134+00:00"
    },
    {
     "conceptrecid": "644808",
@@ -40668,6 +40829,190 @@
     "updated": "2020-01-20T14:05:16.917001+00:00"
    },
    {
+    "conceptrecid": "3395938",
+    "created": "2019-09-06T08:28:54.585024+00:00",
+    "doi": "10.5117/mab.69.16225",
+    "files": [
+     {
+      "bucket": "d62d11ee-780d-4f0b-9ae1-8c265ff66737",
+      "checksum": "md5:19cc8bd54e68d427c1a9a6848869d081",
+      "key": "16225__1_228174_LE_335304.pdf",
+      "links": {
+       "self": "https://zenodo.org/api/files/d62d11ee-780d-4f0b-9ae1-8c265ff66737/16225__1_228174_LE_335304.pdf"
+      },
+      "size": 279281,
+      "type": "pdf"
+     }
+    ],
+    "id": 3395939,
+    "links": {
+     "badge": "https://zenodo.org/badge/doi/10.5117/mab.69.16225.svg",
+     "bucket": "https://zenodo.org/api/files/d62d11ee-780d-4f0b-9ae1-8c265ff66737",
+     "doi": "https://doi.org/10.5117/mab.69.16225",
+     "html": "https://zenodo.org/record/3395939",
+     "latest": "https://zenodo.org/api/records/3395939",
+     "latest_html": "https://zenodo.org/record/3395939",
+     "self": "https://zenodo.org/api/records/3395939"
+    },
+    "metadata": {
+     "access_right": "open",
+     "access_right_category": "success",
+     "creators": [
+      {
+       "name": "Van Garderen, E. J."
+      }
+     ],
+     "description": "Inkoop van eigen aandelen en de vrije ruimte bij beleggingsmaatschappijen",
+     "doi": "10.5117/mab.69.16225",
+     "imprint": {
+      "publisher": "Amsterdam University Press"
+     },
+     "journal": {
+      "issue": "(4)",
+      "pages": "262-267",
+      "title": "Maandblad Voor Accountancy en Bedrijfseconomie",
+      "volume": "69"
+     },
+     "keywords": [],
+     "license": {
+      "id": "CC-BY-4.0"
+     },
+     "publication_date": "1995-04-01",
+     "relations": {
+      "version": [
+       {
+        "count": 1,
+        "index": 0,
+        "is_last": true,
+        "last_child": {
+         "pid_type": "recid",
+         "pid_value": "3395939"
+        },
+        "parent": {
+         "pid_type": "recid",
+         "pid_value": "3395938"
+        }
+       }
+      ]
+     },
+     "resource_type": {
+      "subtype": "article",
+      "title": "Journal article",
+      "type": "publication"
+     },
+     "title": "Inkoop van eigen aandelen en de vrije ruimte bij beleggingsmaatschappijen"
+    },
+    "owners": [
+     22270
+    ],
+    "revision": 4,
+    "stats": {
+     "downloads": 8.0,
+     "unique_downloads": 7.0,
+     "unique_views": 2.0,
+     "version_downloads": 8.0,
+     "version_unique_downloads": 7.0,
+     "version_unique_views": 2.0,
+     "version_views": 2.0,
+     "version_volume": 2234248.0,
+     "views": 2.0,
+     "volume": 2234248.0
+    },
+    "updated": "2020-01-20T14:10:25.035995+00:00"
+   },
+   {
+    "conceptrecid": "3399625",
+    "created": "2019-09-06T10:15:21.510588+00:00",
+    "doi": "10.5117/mab.68.20660",
+    "files": [
+     {
+      "bucket": "3f329b6d-7d5a-4070-bb9c-d26f32de2bc1",
+      "checksum": "md5:b696354589ed9795f5a44385c6e20c6f",
+      "key": "20660__1_233598_LE_337113.pdf",
+      "links": {
+       "self": "https://zenodo.org/api/files/3f329b6d-7d5a-4070-bb9c-d26f32de2bc1/20660__1_233598_LE_337113.pdf"
+      },
+      "size": 478832,
+      "type": "pdf"
+     }
+    ],
+    "id": 3399626,
+    "links": {
+     "badge": "https://zenodo.org/badge/doi/10.5117/mab.68.20660.svg",
+     "bucket": "https://zenodo.org/api/files/3f329b6d-7d5a-4070-bb9c-d26f32de2bc1",
+     "doi": "https://doi.org/10.5117/mab.68.20660",
+     "html": "https://zenodo.org/record/3399626",
+     "latest": "https://zenodo.org/api/records/3399626",
+     "latest_html": "https://zenodo.org/record/3399626",
+     "self": "https://zenodo.org/api/records/3399626"
+    },
+    "metadata": {
+     "access_right": "open",
+     "access_right_category": "success",
+     "creators": [
+      {
+       "name": "De M\u00e9ris, G. H. C."
+      }
+     ],
+     "description": "Inkoop van eigen aandelen en de vrije ruimte bij beleggingsmaatschappijen",
+     "doi": "10.5117/mab.68.20660",
+     "imprint": {
+      "publisher": "Amsterdam University Press"
+     },
+     "journal": {
+      "issue": "(7/8)",
+      "pages": "391-401",
+      "title": "Maandblad Voor Accountancy en Bedrijfseconomie",
+      "volume": "68"
+     },
+     "keywords": [],
+     "license": {
+      "id": "CC-BY-4.0"
+     },
+     "publication_date": "1994-07-01",
+     "relations": {
+      "version": [
+       {
+        "count": 1,
+        "index": 0,
+        "is_last": true,
+        "last_child": {
+         "pid_type": "recid",
+         "pid_value": "3399626"
+        },
+        "parent": {
+         "pid_type": "recid",
+         "pid_value": "3399625"
+        }
+       }
+      ]
+     },
+     "resource_type": {
+      "subtype": "article",
+      "title": "Journal article",
+      "type": "publication"
+     },
+     "title": "Inkoop van eigen aandelen en de vrije ruimte bij beleggingsmaatschappijen"
+    },
+    "owners": [
+     22270
+    ],
+    "revision": 4,
+    "stats": {
+     "downloads": 10.0,
+     "unique_downloads": 9.0,
+     "unique_views": 3.0,
+     "version_downloads": 10.0,
+     "version_unique_downloads": 9.0,
+     "version_unique_views": 3.0,
+     "version_views": 3.0,
+     "version_volume": 4788320.0,
+     "views": 3.0,
+     "volume": 4788320.0
+    },
+    "updated": "2020-01-20T16:59:41.662289+00:00"
+   },
+   {
     "conceptrecid": "3590460",
     "created": "2019-12-23T03:02:10.382176+00:00",
     "doi": "10.1186/s13012-019-0953-8",
@@ -40899,190 +41244,6 @@
      "volume": 22120085.0
     },
     "updated": "2020-01-20T15:45:00.534238+00:00"
-   },
-   {
-    "conceptrecid": "3395938",
-    "created": "2019-09-06T08:28:54.585024+00:00",
-    "doi": "10.5117/mab.69.16225",
-    "files": [
-     {
-      "bucket": "d62d11ee-780d-4f0b-9ae1-8c265ff66737",
-      "checksum": "md5:19cc8bd54e68d427c1a9a6848869d081",
-      "key": "16225__1_228174_LE_335304.pdf",
-      "links": {
-       "self": "https://zenodo.org/api/files/d62d11ee-780d-4f0b-9ae1-8c265ff66737/16225__1_228174_LE_335304.pdf"
-      },
-      "size": 279281,
-      "type": "pdf"
-     }
-    ],
-    "id": 3395939,
-    "links": {
-     "badge": "https://zenodo.org/badge/doi/10.5117/mab.69.16225.svg",
-     "bucket": "https://zenodo.org/api/files/d62d11ee-780d-4f0b-9ae1-8c265ff66737",
-     "doi": "https://doi.org/10.5117/mab.69.16225",
-     "html": "https://zenodo.org/record/3395939",
-     "latest": "https://zenodo.org/api/records/3395939",
-     "latest_html": "https://zenodo.org/record/3395939",
-     "self": "https://zenodo.org/api/records/3395939"
-    },
-    "metadata": {
-     "access_right": "open",
-     "access_right_category": "success",
-     "creators": [
-      {
-       "name": "Van Garderen, E. J."
-      }
-     ],
-     "description": "Inkoop van eigen aandelen en de vrije ruimte bij beleggingsmaatschappijen",
-     "doi": "10.5117/mab.69.16225",
-     "imprint": {
-      "publisher": "Amsterdam University Press"
-     },
-     "journal": {
-      "issue": "(4)",
-      "pages": "262-267",
-      "title": "Maandblad Voor Accountancy en Bedrijfseconomie",
-      "volume": "69"
-     },
-     "keywords": [],
-     "license": {
-      "id": "CC-BY-4.0"
-     },
-     "publication_date": "1995-04-01",
-     "relations": {
-      "version": [
-       {
-        "count": 1,
-        "index": 0,
-        "is_last": true,
-        "last_child": {
-         "pid_type": "recid",
-         "pid_value": "3395939"
-        },
-        "parent": {
-         "pid_type": "recid",
-         "pid_value": "3395938"
-        }
-       }
-      ]
-     },
-     "resource_type": {
-      "subtype": "article",
-      "title": "Journal article",
-      "type": "publication"
-     },
-     "title": "Inkoop van eigen aandelen en de vrije ruimte bij beleggingsmaatschappijen"
-    },
-    "owners": [
-     22270
-    ],
-    "revision": 4,
-    "stats": {
-     "downloads": 8.0,
-     "unique_downloads": 7.0,
-     "unique_views": 2.0,
-     "version_downloads": 8.0,
-     "version_unique_downloads": 7.0,
-     "version_unique_views": 2.0,
-     "version_views": 2.0,
-     "version_volume": 2234248.0,
-     "views": 2.0,
-     "volume": 2234248.0
-    },
-    "updated": "2020-01-20T14:10:25.035995+00:00"
-   },
-   {
-    "conceptrecid": "3399625",
-    "created": "2019-09-06T10:15:21.510588+00:00",
-    "doi": "10.5117/mab.68.20660",
-    "files": [
-     {
-      "bucket": "3f329b6d-7d5a-4070-bb9c-d26f32de2bc1",
-      "checksum": "md5:b696354589ed9795f5a44385c6e20c6f",
-      "key": "20660__1_233598_LE_337113.pdf",
-      "links": {
-       "self": "https://zenodo.org/api/files/3f329b6d-7d5a-4070-bb9c-d26f32de2bc1/20660__1_233598_LE_337113.pdf"
-      },
-      "size": 478832,
-      "type": "pdf"
-     }
-    ],
-    "id": 3399626,
-    "links": {
-     "badge": "https://zenodo.org/badge/doi/10.5117/mab.68.20660.svg",
-     "bucket": "https://zenodo.org/api/files/3f329b6d-7d5a-4070-bb9c-d26f32de2bc1",
-     "doi": "https://doi.org/10.5117/mab.68.20660",
-     "html": "https://zenodo.org/record/3399626",
-     "latest": "https://zenodo.org/api/records/3399626",
-     "latest_html": "https://zenodo.org/record/3399626",
-     "self": "https://zenodo.org/api/records/3399626"
-    },
-    "metadata": {
-     "access_right": "open",
-     "access_right_category": "success",
-     "creators": [
-      {
-       "name": "De M\u00e9ris, G. H. C."
-      }
-     ],
-     "description": "Inkoop van eigen aandelen en de vrije ruimte bij beleggingsmaatschappijen",
-     "doi": "10.5117/mab.68.20660",
-     "imprint": {
-      "publisher": "Amsterdam University Press"
-     },
-     "journal": {
-      "issue": "(7/8)",
-      "pages": "391-401",
-      "title": "Maandblad Voor Accountancy en Bedrijfseconomie",
-      "volume": "68"
-     },
-     "keywords": [],
-     "license": {
-      "id": "CC-BY-4.0"
-     },
-     "publication_date": "1994-07-01",
-     "relations": {
-      "version": [
-       {
-        "count": 1,
-        "index": 0,
-        "is_last": true,
-        "last_child": {
-         "pid_type": "recid",
-         "pid_value": "3399626"
-        },
-        "parent": {
-         "pid_type": "recid",
-         "pid_value": "3399625"
-        }
-       }
-      ]
-     },
-     "resource_type": {
-      "subtype": "article",
-      "title": "Journal article",
-      "type": "publication"
-     },
-     "title": "Inkoop van eigen aandelen en de vrije ruimte bij beleggingsmaatschappijen"
-    },
-    "owners": [
-     22270
-    ],
-    "revision": 4,
-    "stats": {
-     "downloads": 10.0,
-     "unique_downloads": 9.0,
-     "unique_views": 3.0,
-     "version_downloads": 10.0,
-     "version_unique_downloads": 9.0,
-     "version_unique_views": 3.0,
-     "version_views": 3.0,
-     "version_volume": 4788320.0,
-     "views": 3.0,
-     "volume": 4788320.0
-    },
-    "updated": "2020-01-20T16:59:41.662289+00:00"
    },
    {
     "conceptrecid": "2238929",
@@ -43554,6 +43715,98 @@
     "updated": "2019-04-09T14:06:47.172731+00:00"
    },
    {
+    "conceptrecid": "2534409",
+    "created": "2019-01-08T10:24:07.947206+00:00",
+    "doi": "10.5117/mab.89.31295",
+    "files": [
+     {
+      "bucket": "18436755-3355-4509-9e64-3463ab7fb514",
+      "checksum": "md5:93b17a85063835889569bb2238cf8b12",
+      "key": "MAB_article_31295.pdf",
+      "links": {
+       "self": "https://zenodo.org/api/files/18436755-3355-4509-9e64-3463ab7fb514/MAB_article_31295.pdf"
+      },
+      "size": 92982,
+      "type": "pdf"
+     }
+    ],
+    "id": 2534410,
+    "links": {
+     "badge": "https://zenodo.org/badge/doi/10.5117/mab.89.31295.svg",
+     "bucket": "https://zenodo.org/api/files/18436755-3355-4509-9e64-3463ab7fb514",
+     "doi": "https://doi.org/10.5117/mab.89.31295",
+     "html": "https://zenodo.org/record/2534410",
+     "latest": "https://zenodo.org/api/records/2534410",
+     "latest_html": "https://zenodo.org/record/2534410",
+     "self": "https://zenodo.org/api/records/2534410"
+    },
+    "metadata": {
+     "access_right": "open",
+     "access_right_category": "success",
+     "creators": [
+      {
+       "name": "Boot, Arnoud"
+      }
+     ],
+     "description": "Rendementsdenken is het nieuwe woord van 2015. Je zou na de bezetting van de Universiteit van Amsterdam (UvA) bijna denken dat er iets mis mee is. De Van Dale kent wel het woord 'rendement', en dat betekent 'nuttig effect van iets'. Wie kan daar op tegen zijn? Maar wat is er dan wel mis? Kern van een universiteit is dat er iets wordt geleerd en dat er kruisbestuiving is. Met enige distantie van de maatschappij worden studenten aan het denken gezet maar ook voorbereid op het werkzame leven. Wat hen bindt is dat ze kritisch hebben leren nadenken. Over de grenzen van vakspecialisaties heen hebben leren kijken. Dus geen hokjesgeest. De moderne maatschappij vraagt algemene vorming, vraagt om mensen die zich kunnen redden en aanpassen. Met een vak bijbrengen is niets mis, maar wel als dat voorkomt dat men nog inzetbaar is voor iets anders.",
+     "doi": "10.5117/mab.89.31295",
+     "imprint": {
+      "publisher": "Amsterdam University Press"
+     },
+     "journal": {
+      "issue": "(5)",
+      "pages": "162-163",
+      "title": "Maandblad Voor Accountancy en Bedrijfseconomie",
+      "volume": "89"
+     },
+     "keywords": [],
+     "license": {
+      "id": "CC-BY-4.0"
+     },
+     "publication_date": "2015-05-08",
+     "relations": {
+      "version": [
+       {
+        "count": 1,
+        "index": 0,
+        "is_last": true,
+        "last_child": {
+         "pid_type": "recid",
+         "pid_value": "2534410"
+        },
+        "parent": {
+         "pid_type": "recid",
+         "pid_value": "2534409"
+        }
+       }
+      ]
+     },
+     "resource_type": {
+      "subtype": "article",
+      "title": "Journal article",
+      "type": "publication"
+     },
+     "title": "Universiteit zonder ziel heeft geen rendement"
+    },
+    "owners": [
+     22270
+    ],
+    "revision": 5,
+    "stats": {
+     "downloads": 16.0,
+     "unique_downloads": 16.0,
+     "unique_views": 4.0,
+     "version_downloads": 16.0,
+     "version_unique_downloads": 16.0,
+     "version_unique_views": 4.0,
+     "version_views": 4.0,
+     "version_volume": 1487712.0,
+     "views": 4.0,
+     "volume": 1487712.0
+    },
+    "updated": "2020-01-20T14:14:09.074980+00:00"
+   },
+   {
     "conceptdoi": "10.5281/zenodo.3639230",
     "conceptrecid": "3639230",
     "created": "2020-02-17T09:14:36.844178+00:00",
@@ -43817,98 +44070,6 @@
      "volume": 1379090112.0
     },
     "updated": "2020-01-20T15:32:11.787276+00:00"
-   },
-   {
-    "conceptrecid": "2534409",
-    "created": "2019-01-08T10:24:07.947206+00:00",
-    "doi": "10.5117/mab.89.31295",
-    "files": [
-     {
-      "bucket": "18436755-3355-4509-9e64-3463ab7fb514",
-      "checksum": "md5:93b17a85063835889569bb2238cf8b12",
-      "key": "MAB_article_31295.pdf",
-      "links": {
-       "self": "https://zenodo.org/api/files/18436755-3355-4509-9e64-3463ab7fb514/MAB_article_31295.pdf"
-      },
-      "size": 92982,
-      "type": "pdf"
-     }
-    ],
-    "id": 2534410,
-    "links": {
-     "badge": "https://zenodo.org/badge/doi/10.5117/mab.89.31295.svg",
-     "bucket": "https://zenodo.org/api/files/18436755-3355-4509-9e64-3463ab7fb514",
-     "doi": "https://doi.org/10.5117/mab.89.31295",
-     "html": "https://zenodo.org/record/2534410",
-     "latest": "https://zenodo.org/api/records/2534410",
-     "latest_html": "https://zenodo.org/record/2534410",
-     "self": "https://zenodo.org/api/records/2534410"
-    },
-    "metadata": {
-     "access_right": "open",
-     "access_right_category": "success",
-     "creators": [
-      {
-       "name": "Boot, Arnoud"
-      }
-     ],
-     "description": "Rendementsdenken is het nieuwe woord van 2015. Je zou na de bezetting van de Universiteit van Amsterdam (UvA) bijna denken dat er iets mis mee is. De Van Dale kent wel het woord 'rendement', en dat betekent 'nuttig effect van iets'. Wie kan daar op tegen zijn? Maar wat is er dan wel mis? Kern van een universiteit is dat er iets wordt geleerd en dat er kruisbestuiving is. Met enige distantie van de maatschappij worden studenten aan het denken gezet maar ook voorbereid op het werkzame leven. Wat hen bindt is dat ze kritisch hebben leren nadenken. Over de grenzen van vakspecialisaties heen hebben leren kijken. Dus geen hokjesgeest. De moderne maatschappij vraagt algemene vorming, vraagt om mensen die zich kunnen redden en aanpassen. Met een vak bijbrengen is niets mis, maar wel als dat voorkomt dat men nog inzetbaar is voor iets anders.",
-     "doi": "10.5117/mab.89.31295",
-     "imprint": {
-      "publisher": "Amsterdam University Press"
-     },
-     "journal": {
-      "issue": "(5)",
-      "pages": "162-163",
-      "title": "Maandblad Voor Accountancy en Bedrijfseconomie",
-      "volume": "89"
-     },
-     "keywords": [],
-     "license": {
-      "id": "CC-BY-4.0"
-     },
-     "publication_date": "2015-05-08",
-     "relations": {
-      "version": [
-       {
-        "count": 1,
-        "index": 0,
-        "is_last": true,
-        "last_child": {
-         "pid_type": "recid",
-         "pid_value": "2534410"
-        },
-        "parent": {
-         "pid_type": "recid",
-         "pid_value": "2534409"
-        }
-       }
-      ]
-     },
-     "resource_type": {
-      "subtype": "article",
-      "title": "Journal article",
-      "type": "publication"
-     },
-     "title": "Universiteit zonder ziel heeft geen rendement"
-    },
-    "owners": [
-     22270
-    ],
-    "revision": 5,
-    "stats": {
-     "downloads": 16.0,
-     "unique_downloads": 16.0,
-     "unique_views": 4.0,
-     "version_downloads": 16.0,
-     "version_unique_downloads": 16.0,
-     "version_unique_views": 4.0,
-     "version_views": 4.0,
-     "version_volume": 1487712.0,
-     "views": 4.0,
-     "volume": 1487712.0
-    },
-    "updated": "2020-01-20T14:14:09.074980+00:00"
    },
    {
     "conceptdoi": "10.5281/zenodo.1240825",
@@ -44795,6 +44956,115 @@
     "updated": "2020-01-20T15:33:28.030973+00:00"
    },
    {
+    "conceptrecid": "1033728",
+    "created": "2017-10-20T11:09:51.970822+00:00",
+    "doi": "10.21552/EDPL/2016/4/6",
+    "files": [
+     {
+      "bucket": "bb68ee76-8aa5-4b5a-9f90-705b1877ce78",
+      "checksum": "md5:0f9c40e1a01f18d6a603b1171a1d61b0",
+      "key": "EDPL_Risk to the right to the protection of personal data_B\u00f6r\u00f6cz.pdf",
+      "links": {
+       "self": "https://zenodo.org/api/files/bb68ee76-8aa5-4b5a-9f90-705b1877ce78/EDPL_Risk%20to%20the%20right%20to%20the%20protection%20of%20personal%20data_B%C3%B6r%C3%B6cz.pdf"
+      },
+      "size": 407947,
+      "type": "pdf"
+     }
+    ],
+    "id": 1033729,
+    "links": {
+     "badge": "https://zenodo.org/badge/doi/10.21552/EDPL/2016/4/6.svg",
+     "bucket": "https://zenodo.org/api/files/bb68ee76-8aa5-4b5a-9f90-705b1877ce78",
+     "doi": "https://doi.org/10.21552/EDPL/2016/4/6",
+     "html": "https://zenodo.org/record/1033729",
+     "latest": "https://zenodo.org/api/records/1033729",
+     "latest_html": "https://zenodo.org/record/1033729",
+     "self": "https://zenodo.org/api/records/1033729"
+    },
+    "metadata": {
+     "access_right": "open",
+     "access_right_category": "success",
+     "creators": [
+      {
+       "affiliation": "Research Group on Law, Science, Technology & Society (LSTS) at Vrije Universiteit Brussel (VUB)",
+       "name": "B\u00f6r\u00f6cz, Istv\u00e1n"
+      }
+     ],
+     "description": "<p>One of the novelties of the General Data Protection Regulation (GDPR) will be the application of the risk-based approach in European data protection law on a larger scale. Although the Regulation uses the term \u2018risk\u2019 in numerous provisions, it does not answer the question \u2018What is risk to a right and how should it be assessed?\u2019. Although Article 35 (Data Protection Impact Assessment, DPIA) provides a tool to assess these risks, to keep the GDPR suitable for assessing new technologies, the conduct of a DPIA should be based on solid and clear understanding of the provisions. The applicability and suitability of a risk assessment process is yet to be discovered if the risk relates to a fundamental right. A unified perception of risk to a right is necessary as it is the core element of the risk-based approach, furthermore, a varying perception of risk to a right would undermine the endeavours of the GDPR relating to harmonisation. This contribution elaborates on the attributes of risk to a right and advises a unified understanding of risk to a right and risk to the right to the protection of personal data.</p>",
+     "doi": "10.21552/EDPL/2016/4/6",
+     "grants": [
+      {
+       "acronym": "FORENSOR",
+       "code": "653355",
+       "funder": {
+        "acronyms": [],
+        "doi": "10.13039/501100000780",
+        "links": {
+         "self": "https://zenodo.org/api/funders/10.13039/501100000780"
+        },
+        "name": "European Commission"
+       },
+       "links": {
+        "self": "https://zenodo.org/api/grants/10.13039/501100000780::653355"
+       },
+       "program": "H2020",
+       "title": "FOREnsic evidence gathering autonomous seNSOR"
+      }
+     ],
+     "journal": {
+      "issue": "4",
+      "pages": "467-480",
+      "title": "European Data Protection Law Review",
+      "volume": "2"
+     },
+     "language": "eng",
+     "license": {
+      "id": "CC-BY-NC-4.0"
+     },
+     "publication_date": "2016-12-20",
+     "relations": {
+      "version": [
+       {
+        "count": 1,
+        "index": 0,
+        "is_last": true,
+        "last_child": {
+         "pid_type": "recid",
+         "pid_value": "1033729"
+        },
+        "parent": {
+         "pid_type": "recid",
+         "pid_value": "1033728"
+        }
+       }
+      ]
+     },
+     "resource_type": {
+      "subtype": "article",
+      "title": "Journal article",
+      "type": "publication"
+     },
+     "title": "Risk to the Right to the Protection of Personal Data: An Analysis Through the Lenses of Hermagoras"
+    },
+    "owners": [
+     19291
+    ],
+    "revision": 6,
+    "stats": {
+     "downloads": 90.0,
+     "unique_downloads": 86.0,
+     "unique_views": 64.0,
+     "version_downloads": 93.0,
+     "version_unique_downloads": 88.0,
+     "version_unique_views": 64.0,
+     "version_views": 66.0,
+     "version_volume": 37939071.0,
+     "views": 66.0,
+     "volume": 36715230.0
+    },
+    "updated": "2020-01-20T17:16:13.275881+00:00"
+   },
+   {
     "conceptrecid": "653610",
     "created": "2016-11-29T13:24:30.047011+00:00",
     "doi": "10.5281/zenodo.183212",
@@ -44992,115 +45262,6 @@
      "volume": 0.0
     },
     "updated": "2018-11-30T13:38:27.748181+00:00"
-   },
-   {
-    "conceptrecid": "1033728",
-    "created": "2017-10-20T11:09:51.970822+00:00",
-    "doi": "10.21552/EDPL/2016/4/6",
-    "files": [
-     {
-      "bucket": "bb68ee76-8aa5-4b5a-9f90-705b1877ce78",
-      "checksum": "md5:0f9c40e1a01f18d6a603b1171a1d61b0",
-      "key": "EDPL_Risk to the right to the protection of personal data_B\u00f6r\u00f6cz.pdf",
-      "links": {
-       "self": "https://zenodo.org/api/files/bb68ee76-8aa5-4b5a-9f90-705b1877ce78/EDPL_Risk%20to%20the%20right%20to%20the%20protection%20of%20personal%20data_B%C3%B6r%C3%B6cz.pdf"
-      },
-      "size": 407947,
-      "type": "pdf"
-     }
-    ],
-    "id": 1033729,
-    "links": {
-     "badge": "https://zenodo.org/badge/doi/10.21552/EDPL/2016/4/6.svg",
-     "bucket": "https://zenodo.org/api/files/bb68ee76-8aa5-4b5a-9f90-705b1877ce78",
-     "doi": "https://doi.org/10.21552/EDPL/2016/4/6",
-     "html": "https://zenodo.org/record/1033729",
-     "latest": "https://zenodo.org/api/records/1033729",
-     "latest_html": "https://zenodo.org/record/1033729",
-     "self": "https://zenodo.org/api/records/1033729"
-    },
-    "metadata": {
-     "access_right": "open",
-     "access_right_category": "success",
-     "creators": [
-      {
-       "affiliation": "Research Group on Law, Science, Technology & Society (LSTS) at Vrije Universiteit Brussel (VUB)",
-       "name": "B\u00f6r\u00f6cz, Istv\u00e1n"
-      }
-     ],
-     "description": "<p>One of the novelties of the General Data Protection Regulation (GDPR) will be the application of the risk-based approach in European data protection law on a larger scale. Although the Regulation uses the term \u2018risk\u2019 in numerous provisions, it does not answer the question \u2018What is risk to a right and how should it be assessed?\u2019. Although Article 35 (Data Protection Impact Assessment, DPIA) provides a tool to assess these risks, to keep the GDPR suitable for assessing new technologies, the conduct of a DPIA should be based on solid and clear understanding of the provisions. The applicability and suitability of a risk assessment process is yet to be discovered if the risk relates to a fundamental right. A unified perception of risk to a right is necessary as it is the core element of the risk-based approach, furthermore, a varying perception of risk to a right would undermine the endeavours of the GDPR relating to harmonisation. This contribution elaborates on the attributes of risk to a right and advises a unified understanding of risk to a right and risk to the right to the protection of personal data.</p>",
-     "doi": "10.21552/EDPL/2016/4/6",
-     "grants": [
-      {
-       "acronym": "FORENSOR",
-       "code": "653355",
-       "funder": {
-        "acronyms": [],
-        "doi": "10.13039/501100000780",
-        "links": {
-         "self": "https://zenodo.org/api/funders/10.13039/501100000780"
-        },
-        "name": "European Commission"
-       },
-       "links": {
-        "self": "https://zenodo.org/api/grants/10.13039/501100000780::653355"
-       },
-       "program": "H2020",
-       "title": "FOREnsic evidence gathering autonomous seNSOR"
-      }
-     ],
-     "journal": {
-      "issue": "4",
-      "pages": "467-480",
-      "title": "European Data Protection Law Review",
-      "volume": "2"
-     },
-     "language": "eng",
-     "license": {
-      "id": "CC-BY-NC-4.0"
-     },
-     "publication_date": "2016-12-20",
-     "relations": {
-      "version": [
-       {
-        "count": 1,
-        "index": 0,
-        "is_last": true,
-        "last_child": {
-         "pid_type": "recid",
-         "pid_value": "1033729"
-        },
-        "parent": {
-         "pid_type": "recid",
-         "pid_value": "1033728"
-        }
-       }
-      ]
-     },
-     "resource_type": {
-      "subtype": "article",
-      "title": "Journal article",
-      "type": "publication"
-     },
-     "title": "Risk to the Right to the Protection of Personal Data: An Analysis Through the Lenses of Hermagoras"
-    },
-    "owners": [
-     19291
-    ],
-    "revision": 6,
-    "stats": {
-     "downloads": 90.0,
-     "unique_downloads": 86.0,
-     "unique_views": 64.0,
-     "version_downloads": 93.0,
-     "version_unique_downloads": 88.0,
-     "version_unique_views": 64.0,
-     "version_views": 66.0,
-     "version_volume": 37939071.0,
-     "views": 66.0,
-     "volume": 36715230.0
-    },
-    "updated": "2020-01-20T17:16:13.275881+00:00"
    },
    {
     "conceptdoi": "10.5281/zenodo.3489337",
@@ -46068,161 +46229,6 @@
     "updated": "2020-01-25T07:25:56.368546+00:00"
    },
    {
-    "conceptrecid": "3372397",
-    "created": "2019-08-20T12:26:13.496520+00:00",
-    "doi": "10.1186/s13104-019-4543-2",
-    "files": [
-     {
-      "bucket": "fea4fce2-411e-4e34-bab9-7cd170e23ce7",
-      "checksum": "md5:9255d912a7d8f69c325f1b5bfd2c36a0",
-      "key": "13104_2019_Article_4543.pdf",
-      "links": {
-       "self": "https://zenodo.org/api/files/fea4fce2-411e-4e34-bab9-7cd170e23ce7/13104_2019_Article_4543.pdf"
-      },
-      "size": 732375,
-      "type": "pdf"
-     },
-     {
-      "bucket": "fea4fce2-411e-4e34-bab9-7cd170e23ce7",
-      "checksum": "md5:5eb8bc909a9dc349a86fcf0372edaa3c",
-      "key": "13104_2019_Article_4543.xml.Meta",
-      "links": {
-       "self": "https://zenodo.org/api/files/fea4fce2-411e-4e34-bab9-7cd170e23ce7/13104_2019_Article_4543.xml.Meta"
-      },
-      "size": 25943,
-      "type": "meta"
-     }
-    ],
-    "id": 3372398,
-    "links": {
-     "badge": "https://zenodo.org/badge/doi/10.1186/s13104-019-4543-2.svg",
-     "bucket": "https://zenodo.org/api/files/fea4fce2-411e-4e34-bab9-7cd170e23ce7",
-     "doi": "https://doi.org/10.1186/s13104-019-4543-2",
-     "html": "https://zenodo.org/record/3372398",
-     "latest": "https://zenodo.org/api/records/3372398",
-     "latest_html": "https://zenodo.org/record/3372398",
-     "self": "https://zenodo.org/api/records/3372398"
-    },
-    "metadata": {
-     "access_right": "open",
-     "access_right_category": "success",
-     "communities": [
-      {
-       "id": "fp7-bmc"
-      }
-     ],
-     "creators": [
-      {
-       "affiliation": "International Observatory on End of Life Care, Lancaster University, Lancaster, UK",
-       "name": "Collingridge Moore, Danni",
-       "orcid": "0000-0002-5861-8706"
-      },
-      {
-       "affiliation": "International Observatory on End of Life Care, Lancaster University, Lancaster, UK",
-       "name": "Payne, Sheila"
-      },
-      {
-       "affiliation": "VUB-UGhent End of Life Care Research Group, Vrije Universiteit Brussel (VUB), Brussels, Belgium",
-       "name": "Van den Block, Lieve"
-      },
-      {
-       "affiliation": "Expertise Center for Palliative Care, Department of Public and Occupational Health, Amsterdam UMC, Vrije Universiteit Amsterdam, Amsterdam Public Health Research Institute, Amsterdam, The Netherlands",
-       "name": "ten Koppel, Maud"
-      },
-      {
-       "affiliation": "Unit for Research on Aging Society, Department of Medical Sociology, Chair of Epidemiology and Preventive Medicine, Faculty of Medicine, Jagiellonian University Medical College, Krakow, Poland",
-       "name": "Szczerbi\u0144ska, Katarzyna"
-      },
-      {
-       "affiliation": "International Observatory on End of Life Care, Lancaster University, Lancaster, UK",
-       "name": "Froggatt, Katherine"
-      },
-      {
-       "name": "PACE (Palliative Care for Older People in care and nursing homes in Europe) Consortium"
-      }
-     ],
-     "description": "<p><strong>Objective: </strong>Care homes are a common place of death for older adults, especially those with complex health needs or dementia. Representative, internationally comparable data on care home facilities and their residents is needed to monitor health and wellbeing in this population. Identification and collection of data from care homes can be challenging and often underreported. This paper draws on the experiences of the PACE study, a cross sectional mortality follow back study conducted in six European countries.</p><p><strong>Results: </strong>Multiple challenges were encountered in creating a sampling framework and contacting, recruiting and retaining care homes in the PACE study. Recruiting a randomly identified, representative cohort from a stratified sampling framework was problematic, as was engaging with care homes to ensure high response rates. Variation in the funding of care homes across the six countries involved in the study may explain the additional challenges encountered in England. Awareness of the challenges encountered in England in implementing an international study in care homes can inform the design and implementation of future studies within care homes. Further discussion is needed to determine the barriers and facilitators to conducting research in care homes, and how this is shaped by the focus of the study.</p>",
-     "doi": "10.1186/s13104-019-4543-2",
-     "grants": [
-      {
-       "acronym": "PACE",
-       "code": "603111",
-       "funder": {
-        "acronyms": [],
-        "doi": "10.13039/501100000780",
-        "links": {
-         "self": "https://zenodo.org/api/funders/10.13039/501100000780"
-        },
-        "name": "European Commission"
-       },
-       "links": {
-        "self": "https://zenodo.org/api/grants/10.13039/501100000780::603111"
-       },
-       "program": "FP7",
-       "title": "Comparing the effectiveness of palliative care for elderly people in long term care facilities in Europe"
-      }
-     ],
-     "journal": {
-      "issue": "1",
-      "pages": "508",
-      "title": "BMC Research Notes",
-      "volume": "12"
-     },
-     "keywords": [
-      "Care home",
-      "Nursing home",
-      "Long term care facility",
-      "Palliative care",
-      "Observational study",
-      "Epidemiology"
-     ],
-     "license": {
-      "id": "CC-BY-4.0"
-     },
-     "publication_date": "2019-08-14",
-     "relations": {
-      "version": [
-       {
-        "count": 1,
-        "index": 0,
-        "is_last": true,
-        "last_child": {
-         "pid_type": "recid",
-         "pid_value": "3372398"
-        },
-        "parent": {
-         "pid_type": "recid",
-         "pid_value": "3372397"
-        }
-       }
-      ]
-     },
-     "resource_type": {
-      "subtype": "article",
-      "title": "Journal article",
-      "type": "publication"
-     },
-     "title": "Research, recruitment and observational data collection in care homes: lessons from the PACE study"
-    },
-    "owners": [
-     22832
-    ],
-    "revision": 5,
-    "stats": {
-     "downloads": 14.0,
-     "unique_downloads": 10.0,
-     "unique_views": 9.0,
-     "version_downloads": 14.0,
-     "version_unique_downloads": 10.0,
-     "version_unique_views": 9.0,
-     "version_views": 9.0,
-     "version_volume": 8133954.0,
-     "views": 9.0,
-     "volume": 8133954.0
-    },
-    "updated": "2020-01-20T17:04:07.636780+00:00"
-   },
-   {
     "conceptdoi": "10.5281/zenodo.3403031",
     "conceptrecid": "3403031",
     "created": "2019-09-09T13:34:17.007915+00:00",
@@ -46598,104 +46604,85 @@
     "updated": "2020-01-20T17:01:25.391834+00:00"
    },
    {
-    "conceptdoi": "10.5281/zenodo.3607151",
-    "conceptrecid": "3607151",
-    "created": "2020-01-14T07:53:56.647148+00:00",
-    "doi": "10.5281/zenodo.3607152",
+    "conceptrecid": "3372397",
+    "created": "2019-08-20T12:26:13.496520+00:00",
+    "doi": "10.1186/s13104-019-4543-2",
     "files": [
      {
-      "bucket": "565292a0-bfaf-442c-8944-97993769e690",
-      "checksum": "md5:5ce95f1140c429aeaec747fcecbec361",
-      "key": "D1.1 Scoping Report on the Science Communication Ecosystem.pdf",
+      "bucket": "fea4fce2-411e-4e34-bab9-7cd170e23ce7",
+      "checksum": "md5:9255d912a7d8f69c325f1b5bfd2c36a0",
+      "key": "13104_2019_Article_4543.pdf",
       "links": {
-       "self": "https://zenodo.org/api/files/565292a0-bfaf-442c-8944-97993769e690/D1.1%20Scoping%20Report%20on%20the%20Science%20Communication%20Ecosystem.pdf"
+       "self": "https://zenodo.org/api/files/fea4fce2-411e-4e34-bab9-7cd170e23ce7/13104_2019_Article_4543.pdf"
       },
-      "size": 5501397,
+      "size": 732375,
       "type": "pdf"
+     },
+     {
+      "bucket": "fea4fce2-411e-4e34-bab9-7cd170e23ce7",
+      "checksum": "md5:5eb8bc909a9dc349a86fcf0372edaa3c",
+      "key": "13104_2019_Article_4543.xml.Meta",
+      "links": {
+       "self": "https://zenodo.org/api/files/fea4fce2-411e-4e34-bab9-7cd170e23ce7/13104_2019_Article_4543.xml.Meta"
+      },
+      "size": 25943,
+      "type": "meta"
      }
     ],
-    "id": 3607152,
+    "id": 3372398,
     "links": {
-     "badge": "https://zenodo.org/badge/doi/10.5281/zenodo.3607152.svg",
-     "bucket": "https://zenodo.org/api/files/565292a0-bfaf-442c-8944-97993769e690",
-     "conceptbadge": "https://zenodo.org/badge/doi/10.5281/zenodo.3607151.svg",
-     "conceptdoi": "https://doi.org/10.5281/zenodo.3607151",
-     "doi": "https://doi.org/10.5281/zenodo.3607152",
-     "html": "https://zenodo.org/record/3607152",
-     "latest": "https://zenodo.org/api/records/3607152",
-     "latest_html": "https://zenodo.org/record/3607152",
-     "self": "https://zenodo.org/api/records/3607152"
+     "badge": "https://zenodo.org/badge/doi/10.1186/s13104-019-4543-2.svg",
+     "bucket": "https://zenodo.org/api/files/fea4fce2-411e-4e34-bab9-7cd170e23ce7",
+     "doi": "https://doi.org/10.1186/s13104-019-4543-2",
+     "html": "https://zenodo.org/record/3372398",
+     "latest": "https://zenodo.org/api/records/3372398",
+     "latest_html": "https://zenodo.org/record/3372398",
+     "self": "https://zenodo.org/api/records/3372398"
     },
     "metadata": {
      "access_right": "open",
      "access_right_category": "success",
      "communities": [
       {
-       "id": "rethink"
-      }
-     ],
-     "contributors": [
-      {
-       "affiliation": "Athena Institute, Vrije Universiteit Amsterdam, Netherlands",
-       "name": "Roedema, Tessa F. L.",
-       "type": "DataCollector"
-      },
-      {
-       "affiliation": "Athena Institute, Vrije Universiteit Amsterdam, Netherlands",
-       "name": "Doedens, Mari\u00ebl",
-       "type": "DataCollector"
-      },
-      {
-       "affiliation": "Sissa Medialab, Italy",
-       "name": "Mazzonetto, Marzia",
-       "orcid": "0000-0003-4109-6371",
-       "type": "DataCollector"
-      },
-      {
-       "affiliation": "Copernicus Science Centre, Poland",
-       "name": "Sielicka-Bary\u0142ka, Klara",
-       "type": "DataCollector"
-      },
-      {
-       "affiliation": "Instituto de Tecnologia Qu\u00edmica e Biol\u00f3gica Ant\u00f3nio Xavier, Portugal",
-       "name": "Lobo Antunes, Joana",
-       "type": "DataCollector"
-      },
-      {
-       "affiliation": "Vetenskap & Allm\u00e4nhet, Sweden",
-       "name": "Bohlin, Gustav",
-       "type": "DataCollector"
-      },
-      {
-       "affiliation": "Vetenskap & Allm\u00e4nhet, Sweden",
-       "name": "Bergman, Martin",
-       "type": "DataCollector"
+       "id": "fp7-bmc"
       }
      ],
      "creators": [
       {
-       "affiliation": "Science Communication Unit, University of the West of England, UK",
-       "name": "Ridgway, Andy"
+       "affiliation": "International Observatory on End of Life Care, Lancaster University, Lancaster, UK",
+       "name": "Collingridge Moore, Danni",
+       "orcid": "0000-0002-5861-8706"
       },
       {
-       "affiliation": "Science Communication Unit, University of the West of England, UK",
-       "name": "Milani, Elena"
+       "affiliation": "International Observatory on End of Life Care, Lancaster University, Lancaster, UK",
+       "name": "Payne, Sheila"
       },
       {
-       "affiliation": "Science Communication Unit, University of the West of England, UK",
-       "name": "Weitkamp, Emma"
+       "affiliation": "VUB-UGhent End of Life Care Research Group, Vrije Universiteit Brussel (VUB), Brussels, Belgium",
+       "name": "Van den Block, Lieve"
       },
       {
-       "affiliation": "Science Communication Unit, University of the West of England, UK",
-       "name": "Wilkinson, Clare"
+       "affiliation": "Expertise Center for Palliative Care, Department of Public and Occupational Health, Amsterdam UMC, Vrije Universiteit Amsterdam, Amsterdam Public Health Research Institute, Amsterdam, The Netherlands",
+       "name": "ten Koppel, Maud"
+      },
+      {
+       "affiliation": "Unit for Research on Aging Society, Department of Medical Sociology, Chair of Epidemiology and Preventive Medicine, Faculty of Medicine, Jagiellonian University Medical College, Krakow, Poland",
+       "name": "Szczerbi\u0144ska, Katarzyna"
+      },
+      {
+       "affiliation": "International Observatory on End of Life Care, Lancaster University, Lancaster, UK",
+       "name": "Froggatt, Katherine"
+      },
+      {
+       "name": "PACE (Palliative Care for Older People in care and nursing homes in Europe) Consortium"
       }
      ],
-     "description": "<p>The Scoping Report on the Science Communication Ecosystem&nbsp;represents an attempt to map the diversity of actors and the content they produce.&nbsp;The research conducted allows comparisons of the online science communication landscapes in different European countries (Italy, the Netherlands, the UK, Sweden, Poland, Serbia and Portugal) and has a broad focus; not only including the work of professional science communicators but also &lsquo;alternative&rsquo; science communicators.</p>",
-     "doi": "10.5281/zenodo.3607152",
+     "description": "<p><strong>Objective: </strong>Care homes are a common place of death for older adults, especially those with complex health needs or dementia. Representative, internationally comparable data on care home facilities and their residents is needed to monitor health and wellbeing in this population. Identification and collection of data from care homes can be challenging and often underreported. This paper draws on the experiences of the PACE study, a cross sectional mortality follow back study conducted in six European countries.</p><p><strong>Results: </strong>Multiple challenges were encountered in creating a sampling framework and contacting, recruiting and retaining care homes in the PACE study. Recruiting a randomly identified, representative cohort from a stratified sampling framework was problematic, as was engaging with care homes to ensure high response rates. Variation in the funding of care homes across the six countries involved in the study may explain the additional challenges encountered in England. Awareness of the challenges encountered in England in implementing an international study in care homes can inform the design and implementation of future studies within care homes. Further discussion is needed to determine the barriers and facilitators to conducting research in care homes, and how this is shaped by the focus of the study.</p>",
+     "doi": "10.1186/s13104-019-4543-2",
      "grants": [
       {
-       "acronym": "RETHINK",
-       "code": "824573",
+       "acronym": "PACE",
+       "code": "603111",
        "funder": {
         "acronyms": [],
         "doi": "10.13039/501100000780",
@@ -46705,31 +46692,30 @@
         "name": "European Commission"
        },
        "links": {
-        "self": "https://zenodo.org/api/grants/10.13039/501100000780::824573"
+        "self": "https://zenodo.org/api/grants/10.13039/501100000780::603111"
        },
-       "program": "H2020",
-       "title": "RETHINK"
+       "program": "FP7",
+       "title": "Comparing the effectiveness of palliative care for elderly people in long term care facilities in Europe"
       }
      ],
+     "journal": {
+      "issue": "1",
+      "pages": "508",
+      "title": "BMC Research Notes",
+      "volume": "12"
+     },
      "keywords": [
-      "science communication",
-      "digital communication",
-      "climate change",
-      "artificial intelligence,",
-      "healthy diets"
+      "Care home",
+      "Nursing home",
+      "Long term care facility",
+      "Palliative care",
+      "Observational study",
+      "Epidemiology"
      ],
-     "language": "eng",
      "license": {
       "id": "CC-BY-4.0"
      },
-     "publication_date": "2019-09-30",
-     "related_identifiers": [
-      {
-       "identifier": "10.5281/zenodo.3607151",
-       "relation": "isVersionOf",
-       "scheme": "doi"
-      }
-     ],
+     "publication_date": "2019-08-14",
      "relations": {
       "version": [
        {
@@ -46738,40 +46724,39 @@
         "is_last": true,
         "last_child": {
          "pid_type": "recid",
-         "pid_value": "3607152"
+         "pid_value": "3372398"
         },
         "parent": {
          "pid_type": "recid",
-         "pid_value": "3607151"
+         "pid_value": "3372397"
         }
        }
       ]
      },
      "resource_type": {
-      "subtype": "deliverable",
-      "title": "Project deliverable",
+      "subtype": "article",
+      "title": "Journal article",
       "type": "publication"
      },
-     "title": "Deliverable 1.1: Scoping Report on the Science Communication Ecosystem",
-     "version": "Version 1"
+     "title": "Research, recruitment and observational data collection in care homes: lessons from the PACE study"
     },
     "owners": [
-     86677
+     22832
     ],
-    "revision": 6,
+    "revision": 5,
     "stats": {
-     "downloads": 389.0,
-     "unique_downloads": 344.0,
-     "unique_views": 611.0,
-     "version_downloads": 389.0,
-     "version_unique_downloads": 344.0,
-     "version_unique_views": 611.0,
-     "version_views": 667.0,
-     "version_volume": 2140043433.0,
-     "views": 667.0,
-     "volume": 2140043433.0
+     "downloads": 14.0,
+     "unique_downloads": 10.0,
+     "unique_views": 9.0,
+     "version_downloads": 14.0,
+     "version_unique_downloads": 10.0,
+     "version_unique_views": 9.0,
+     "version_views": 9.0,
+     "version_volume": 8133954.0,
+     "views": 9.0,
+     "volume": 8133954.0
     },
-    "updated": "2020-01-26T18:20:27.680168+00:00"
+    "updated": "2020-01-20T17:04:07.636780+00:00"
    },
    {
     "conceptdoi": "10.5281/zenodo.3665122",
@@ -47978,6 +47963,182 @@
     "updated": "2020-01-20T14:26:01.873049+00:00"
    },
    {
+    "conceptdoi": "10.5281/zenodo.3607151",
+    "conceptrecid": "3607151",
+    "created": "2020-01-14T07:53:56.647148+00:00",
+    "doi": "10.5281/zenodo.3607152",
+    "files": [
+     {
+      "bucket": "565292a0-bfaf-442c-8944-97993769e690",
+      "checksum": "md5:5ce95f1140c429aeaec747fcecbec361",
+      "key": "D1.1 Scoping Report on the Science Communication Ecosystem.pdf",
+      "links": {
+       "self": "https://zenodo.org/api/files/565292a0-bfaf-442c-8944-97993769e690/D1.1%20Scoping%20Report%20on%20the%20Science%20Communication%20Ecosystem.pdf"
+      },
+      "size": 5501397,
+      "type": "pdf"
+     }
+    ],
+    "id": 3607152,
+    "links": {
+     "badge": "https://zenodo.org/badge/doi/10.5281/zenodo.3607152.svg",
+     "bucket": "https://zenodo.org/api/files/565292a0-bfaf-442c-8944-97993769e690",
+     "conceptbadge": "https://zenodo.org/badge/doi/10.5281/zenodo.3607151.svg",
+     "conceptdoi": "https://doi.org/10.5281/zenodo.3607151",
+     "doi": "https://doi.org/10.5281/zenodo.3607152",
+     "html": "https://zenodo.org/record/3607152",
+     "latest": "https://zenodo.org/api/records/3607152",
+     "latest_html": "https://zenodo.org/record/3607152",
+     "self": "https://zenodo.org/api/records/3607152"
+    },
+    "metadata": {
+     "access_right": "open",
+     "access_right_category": "success",
+     "communities": [
+      {
+       "id": "rethink"
+      }
+     ],
+     "contributors": [
+      {
+       "affiliation": "Athena Institute, Vrije Universiteit Amsterdam, Netherlands",
+       "name": "Roedema, Tessa F. L.",
+       "type": "DataCollector"
+      },
+      {
+       "affiliation": "Athena Institute, Vrije Universiteit Amsterdam, Netherlands",
+       "name": "Doedens, Mari\u00ebl",
+       "type": "DataCollector"
+      },
+      {
+       "affiliation": "Sissa Medialab, Italy",
+       "name": "Mazzonetto, Marzia",
+       "orcid": "0000-0003-4109-6371",
+       "type": "DataCollector"
+      },
+      {
+       "affiliation": "Copernicus Science Centre, Poland",
+       "name": "Sielicka-Bary\u0142ka, Klara",
+       "type": "DataCollector"
+      },
+      {
+       "affiliation": "Instituto de Tecnologia Qu\u00edmica e Biol\u00f3gica Ant\u00f3nio Xavier, Portugal",
+       "name": "Lobo Antunes, Joana",
+       "type": "DataCollector"
+      },
+      {
+       "affiliation": "Vetenskap & Allm\u00e4nhet, Sweden",
+       "name": "Bohlin, Gustav",
+       "type": "DataCollector"
+      },
+      {
+       "affiliation": "Vetenskap & Allm\u00e4nhet, Sweden",
+       "name": "Bergman, Martin",
+       "type": "DataCollector"
+      }
+     ],
+     "creators": [
+      {
+       "affiliation": "Science Communication Unit, University of the West of England, UK",
+       "name": "Ridgway, Andy"
+      },
+      {
+       "affiliation": "Science Communication Unit, University of the West of England, UK",
+       "name": "Milani, Elena"
+      },
+      {
+       "affiliation": "Science Communication Unit, University of the West of England, UK",
+       "name": "Weitkamp, Emma"
+      },
+      {
+       "affiliation": "Science Communication Unit, University of the West of England, UK",
+       "name": "Wilkinson, Clare"
+      }
+     ],
+     "description": "<p>The Scoping Report on the Science Communication Ecosystem&nbsp;represents an attempt to map the diversity of actors and the content they produce.&nbsp;The research conducted allows comparisons of the online science communication landscapes in different European countries (Italy, the Netherlands, the UK, Sweden, Poland, Serbia and Portugal) and has a broad focus; not only including the work of professional science communicators but also &lsquo;alternative&rsquo; science communicators.</p>",
+     "doi": "10.5281/zenodo.3607152",
+     "grants": [
+      {
+       "acronym": "RETHINK",
+       "code": "824573",
+       "funder": {
+        "acronyms": [],
+        "doi": "10.13039/501100000780",
+        "links": {
+         "self": "https://zenodo.org/api/funders/10.13039/501100000780"
+        },
+        "name": "European Commission"
+       },
+       "links": {
+        "self": "https://zenodo.org/api/grants/10.13039/501100000780::824573"
+       },
+       "program": "H2020",
+       "title": "RETHINK"
+      }
+     ],
+     "keywords": [
+      "science communication",
+      "digital communication",
+      "climate change",
+      "artificial intelligence,",
+      "healthy diets"
+     ],
+     "language": "eng",
+     "license": {
+      "id": "CC-BY-4.0"
+     },
+     "publication_date": "2019-09-30",
+     "related_identifiers": [
+      {
+       "identifier": "10.5281/zenodo.3607151",
+       "relation": "isVersionOf",
+       "scheme": "doi"
+      }
+     ],
+     "relations": {
+      "version": [
+       {
+        "count": 1,
+        "index": 0,
+        "is_last": true,
+        "last_child": {
+         "pid_type": "recid",
+         "pid_value": "3607152"
+        },
+        "parent": {
+         "pid_type": "recid",
+         "pid_value": "3607151"
+        }
+       }
+      ]
+     },
+     "resource_type": {
+      "subtype": "deliverable",
+      "title": "Project deliverable",
+      "type": "publication"
+     },
+     "title": "Deliverable 1.1: Scoping Report on the Science Communication Ecosystem",
+     "version": "Version 1"
+    },
+    "owners": [
+     86677
+    ],
+    "revision": 6,
+    "stats": {
+     "downloads": 389.0,
+     "unique_downloads": 344.0,
+     "unique_views": 611.0,
+     "version_downloads": 389.0,
+     "version_unique_downloads": 344.0,
+     "version_unique_views": 611.0,
+     "version_views": 667.0,
+     "version_volume": 2140043433.0,
+     "views": 667.0,
+     "volume": 2140043433.0
+    },
+    "updated": "2020-01-26T18:20:27.680168+00:00"
+   },
+   {
     "conceptrecid": "1889435",
     "created": "2018-12-03T17:43:39.211772+00:00",
     "doi": "10.1186/s13287-018-1065-0",
@@ -48556,6 +48717,101 @@
     "updated": "2020-01-20T15:28:53.997069+00:00"
    },
    {
+    "conceptrecid": "3399904",
+    "created": "2019-09-06T10:23:34.082403+00:00",
+    "doi": "10.5117/mab.86.20890",
+    "files": [
+     {
+      "bucket": "e5a7f3a7-b1ec-42c6-b24c-ed7988feae4d",
+      "checksum": "md5:06749baba4f635ced6ef00abfcb965ae",
+      "key": "20890__1_234012_LE_337251.pdf",
+      "links": {
+       "self": "https://zenodo.org/api/files/e5a7f3a7-b1ec-42c6-b24c-ed7988feae4d/20890__1_234012_LE_337251.pdf"
+      },
+      "size": 126964,
+      "type": "pdf"
+     }
+    ],
+    "id": 3399905,
+    "links": {
+     "badge": "https://zenodo.org/badge/doi/10.5117/mab.86.20890.svg",
+     "bucket": "https://zenodo.org/api/files/e5a7f3a7-b1ec-42c6-b24c-ed7988feae4d",
+     "doi": "https://doi.org/10.5117/mab.86.20890",
+     "html": "https://zenodo.org/record/3399905",
+     "latest": "https://zenodo.org/api/records/3399905",
+     "latest_html": "https://zenodo.org/record/3399905",
+     "self": "https://zenodo.org/api/records/3399905"
+    },
+    "metadata": {
+     "access_right": "open",
+     "access_right_category": "success",
+     "creators": [
+      {
+       "name": "Boot, Arnoud W. A."
+      },
+      {
+       "name": "Van De Ven, Jeroen"
+      }
+     ],
+     "description": "De kenniseconomie wordt als steeds belangrijker gezien in de wereldwijde  concurrentieslag. Er is grote maatschappelijke druk op instellingen van hoger onderwijs,  en met name universiteiten, om te presteren. Ze moeten het goed doen op de ranglijsten,  onderzoek verrichten met maatschappelijk relevantie, en in toenemende mate zelf op  zoek gaan naar private financiering. Een belangrijke vraag is hoe privaat geld zich verhoudt  tot de wetenschappelijke missie van de universiteit. Tegelijkertijd worden onderzoekers  steeds scherper beoordeeld en beloond. Publicaties zijn goud waard. Welke dilemma's en  integriteitsvraagstukken brengt dit met zich mee? In dit artikel geven we het spanningsveld  weer waarin universiteiten en wetenschappers zich bevinden. Twee invalshoeken staan  centraal. De eerste betreft de verhouding van de wetenschappelijke missie van universiteiten  met de roep tot het aanboren van private financieringsbronnen, de toenemende concurrentie  en de druk om maatschappelijk relevant te zijn. De tweede betreft integriteitsvraagstukken  in het onderzoek. Hier maken we inzichtelijk waar de dilemma's en integriteitsvraagstukken  in het onderzoek liggen, en hoe hiermee omgegaan kan worden.",
+     "doi": "10.5117/mab.86.20890",
+     "imprint": {
+      "publisher": "Amsterdam University Press"
+     },
+     "journal": {
+      "issue": "(7/8)",
+      "pages": "263-271",
+      "title": "Maandblad Voor Accountancy en Bedrijfseconomie",
+      "volume": "86"
+     },
+     "keywords": [],
+     "license": {
+      "id": "CC-BY-4.0"
+     },
+     "publication_date": "2012-07-01",
+     "relations": {
+      "version": [
+       {
+        "count": 1,
+        "index": 0,
+        "is_last": true,
+        "last_child": {
+         "pid_type": "recid",
+         "pid_value": "3399905"
+        },
+        "parent": {
+         "pid_type": "recid",
+         "pid_value": "3399904"
+        }
+       }
+      ]
+     },
+     "resource_type": {
+      "subtype": "article",
+      "title": "Journal article",
+      "type": "publication"
+     },
+     "title": "Universiteit en onderzoek: dilemma's en integriteitsvraagstukken"
+    },
+    "owners": [
+     22270
+    ],
+    "revision": 4,
+    "stats": {
+     "downloads": 9.0,
+     "unique_downloads": 8.0,
+     "unique_views": 3.0,
+     "version_downloads": 9.0,
+     "version_unique_downloads": 8.0,
+     "version_unique_views": 3.0,
+     "version_views": 3.0,
+     "version_volume": 1142676.0,
+     "views": 3.0,
+     "volume": 1142676.0
+    },
+    "updated": "2020-01-20T17:09:16.829138+00:00"
+   },
+   {
     "conceptrecid": "3252791",
     "created": "2019-06-23T08:42:36.971882+00:00",
     "doi": "10.1016/j.scitotenv.2017.06.032",
@@ -48807,101 +49063,6 @@
      "volume": 584336.0
     },
     "updated": "2020-01-24T19:26:23.033554+00:00"
-   },
-   {
-    "conceptrecid": "3399904",
-    "created": "2019-09-06T10:23:34.082403+00:00",
-    "doi": "10.5117/mab.86.20890",
-    "files": [
-     {
-      "bucket": "e5a7f3a7-b1ec-42c6-b24c-ed7988feae4d",
-      "checksum": "md5:06749baba4f635ced6ef00abfcb965ae",
-      "key": "20890__1_234012_LE_337251.pdf",
-      "links": {
-       "self": "https://zenodo.org/api/files/e5a7f3a7-b1ec-42c6-b24c-ed7988feae4d/20890__1_234012_LE_337251.pdf"
-      },
-      "size": 126964,
-      "type": "pdf"
-     }
-    ],
-    "id": 3399905,
-    "links": {
-     "badge": "https://zenodo.org/badge/doi/10.5117/mab.86.20890.svg",
-     "bucket": "https://zenodo.org/api/files/e5a7f3a7-b1ec-42c6-b24c-ed7988feae4d",
-     "doi": "https://doi.org/10.5117/mab.86.20890",
-     "html": "https://zenodo.org/record/3399905",
-     "latest": "https://zenodo.org/api/records/3399905",
-     "latest_html": "https://zenodo.org/record/3399905",
-     "self": "https://zenodo.org/api/records/3399905"
-    },
-    "metadata": {
-     "access_right": "open",
-     "access_right_category": "success",
-     "creators": [
-      {
-       "name": "Boot, Arnoud W. A."
-      },
-      {
-       "name": "Van De Ven, Jeroen"
-      }
-     ],
-     "description": "De kenniseconomie wordt als steeds belangrijker gezien in de wereldwijde  concurrentieslag. Er is grote maatschappelijke druk op instellingen van hoger onderwijs,  en met name universiteiten, om te presteren. Ze moeten het goed doen op de ranglijsten,  onderzoek verrichten met maatschappelijk relevantie, en in toenemende mate zelf op  zoek gaan naar private financiering. Een belangrijke vraag is hoe privaat geld zich verhoudt  tot de wetenschappelijke missie van de universiteit. Tegelijkertijd worden onderzoekers  steeds scherper beoordeeld en beloond. Publicaties zijn goud waard. Welke dilemma's en  integriteitsvraagstukken brengt dit met zich mee? In dit artikel geven we het spanningsveld  weer waarin universiteiten en wetenschappers zich bevinden. Twee invalshoeken staan  centraal. De eerste betreft de verhouding van de wetenschappelijke missie van universiteiten  met de roep tot het aanboren van private financieringsbronnen, de toenemende concurrentie  en de druk om maatschappelijk relevant te zijn. De tweede betreft integriteitsvraagstukken  in het onderzoek. Hier maken we inzichtelijk waar de dilemma's en integriteitsvraagstukken  in het onderzoek liggen, en hoe hiermee omgegaan kan worden.",
-     "doi": "10.5117/mab.86.20890",
-     "imprint": {
-      "publisher": "Amsterdam University Press"
-     },
-     "journal": {
-      "issue": "(7/8)",
-      "pages": "263-271",
-      "title": "Maandblad Voor Accountancy en Bedrijfseconomie",
-      "volume": "86"
-     },
-     "keywords": [],
-     "license": {
-      "id": "CC-BY-4.0"
-     },
-     "publication_date": "2012-07-01",
-     "relations": {
-      "version": [
-       {
-        "count": 1,
-        "index": 0,
-        "is_last": true,
-        "last_child": {
-         "pid_type": "recid",
-         "pid_value": "3399905"
-        },
-        "parent": {
-         "pid_type": "recid",
-         "pid_value": "3399904"
-        }
-       }
-      ]
-     },
-     "resource_type": {
-      "subtype": "article",
-      "title": "Journal article",
-      "type": "publication"
-     },
-     "title": "Universiteit en onderzoek: dilemma's en integriteitsvraagstukken"
-    },
-    "owners": [
-     22270
-    ],
-    "revision": 4,
-    "stats": {
-     "downloads": 9.0,
-     "unique_downloads": 8.0,
-     "unique_views": 3.0,
-     "version_downloads": 9.0,
-     "version_unique_downloads": 8.0,
-     "version_unique_views": 3.0,
-     "version_views": 3.0,
-     "version_volume": 1142676.0,
-     "views": 3.0,
-     "volume": 1142676.0
-    },
-    "updated": "2020-01-20T17:09:16.829138+00:00"
    },
    {
     "conceptdoi": "10.5281/zenodo.1196861",
@@ -49909,6 +50070,98 @@
     "updated": "2020-01-20T14:04:17.056230+00:00"
    },
    {
+    "conceptrecid": "3396110",
+    "created": "2019-09-06T08:33:43.781689+00:00",
+    "doi": "10.5117/mab.79.16308",
+    "files": [
+     {
+      "bucket": "eff9e9f0-60a1-414e-b7f1-dd33f0eb6025",
+      "checksum": "md5:bde1db56ab7dc4f7c72ed185efd172ac",
+      "key": "16308__1_228423_LE_335387.pdf",
+      "links": {
+       "self": "https://zenodo.org/api/files/eff9e9f0-60a1-414e-b7f1-dd33f0eb6025/16308__1_228423_LE_335387.pdf"
+      },
+      "size": 115764,
+      "type": "pdf"
+     }
+    ],
+    "id": 3396111,
+    "links": {
+     "badge": "https://zenodo.org/badge/doi/10.5117/mab.79.16308.svg",
+     "bucket": "https://zenodo.org/api/files/eff9e9f0-60a1-414e-b7f1-dd33f0eb6025",
+     "doi": "https://doi.org/10.5117/mab.79.16308",
+     "html": "https://zenodo.org/record/3396111",
+     "latest": "https://zenodo.org/api/records/3396111",
+     "latest_html": "https://zenodo.org/record/3396111",
+     "self": "https://zenodo.org/api/records/3396111"
+    },
+    "metadata": {
+     "access_right": "open",
+     "access_right_category": "success",
+     "creators": [
+      {
+       "name": "Buitelaar, W. L."
+      }
+     ],
+     "description": "Th. Limperg is een van de grondleggers van de Economische Faculteit van de Universiteit van Amsterdam.  Daarnaast wordt hij ook wel een pionier genoemd op het gebied van de accountancy en de bedrijfseconomie. In dit artikel wordt Limperg vooral geportretteerd als een pionier van de moderne bedrijfskunde, zij het als  een 'bedrijfseconomisch constructeur'.  Daarmee wordt bedoeld dat Limperg een beperkte interdisciplinaire invalshoek had, maar desondanks oog had voor organisatieverandering. Wellicht kan worden gesproken van 'de jonge Limperg', die een rationeel paradigma van bedrijfsinrichting hanteerde, en 'de oude Limperg', die meer rekening hield met de taaiheid van economische maakbaarheid. Ondanks die beperkte rationaliteit, moest de wetenschap volgens Limperg streven naar maatschappelijke  dienstbaarheid, ofwel naar duurzame bedrijfsvoering.",
+     "doi": "10.5117/mab.79.16308",
+     "imprint": {
+      "publisher": "Amsterdam University Press"
+     },
+     "journal": {
+      "issue": "(4)",
+      "pages": "141-147",
+      "title": "Maandblad Voor Accountancy en Bedrijfseconomie",
+      "volume": "79"
+     },
+     "keywords": [],
+     "license": {
+      "id": "CC-BY-4.0"
+     },
+     "publication_date": "2005-04-01",
+     "relations": {
+      "version": [
+       {
+        "count": 1,
+        "index": 0,
+        "is_last": true,
+        "last_child": {
+         "pid_type": "recid",
+         "pid_value": "3396111"
+        },
+        "parent": {
+         "pid_type": "recid",
+         "pid_value": "3396110"
+        }
+       }
+      ]
+     },
+     "resource_type": {
+      "subtype": "article",
+      "title": "Journal article",
+      "type": "publication"
+     },
+     "title": "Limperg als bedrijfskundig pionier"
+    },
+    "owners": [
+     22270
+    ],
+    "revision": 4,
+    "stats": {
+     "downloads": 9.0,
+     "unique_downloads": 8.0,
+     "unique_views": 3.0,
+     "version_downloads": 9.0,
+     "version_unique_downloads": 8.0,
+     "version_unique_views": 3.0,
+     "version_views": 3.0,
+     "version_volume": 1041876.0,
+     "views": 3.0,
+     "volume": 1041876.0
+    },
+    "updated": "2020-01-20T17:09:25.791099+00:00"
+   },
+   {
     "conceptdoi": "10.5281/zenodo.1057960",
     "conceptrecid": "1057960",
     "created": "2018-02-01T14:13:43.951725+00:00",
@@ -50023,98 +50276,6 @@
      "volume": 1727335.0
     },
     "updated": "2020-01-20T17:08:25.113952+00:00"
-   },
-   {
-    "conceptrecid": "3396110",
-    "created": "2019-09-06T08:33:43.781689+00:00",
-    "doi": "10.5117/mab.79.16308",
-    "files": [
-     {
-      "bucket": "eff9e9f0-60a1-414e-b7f1-dd33f0eb6025",
-      "checksum": "md5:bde1db56ab7dc4f7c72ed185efd172ac",
-      "key": "16308__1_228423_LE_335387.pdf",
-      "links": {
-       "self": "https://zenodo.org/api/files/eff9e9f0-60a1-414e-b7f1-dd33f0eb6025/16308__1_228423_LE_335387.pdf"
-      },
-      "size": 115764,
-      "type": "pdf"
-     }
-    ],
-    "id": 3396111,
-    "links": {
-     "badge": "https://zenodo.org/badge/doi/10.5117/mab.79.16308.svg",
-     "bucket": "https://zenodo.org/api/files/eff9e9f0-60a1-414e-b7f1-dd33f0eb6025",
-     "doi": "https://doi.org/10.5117/mab.79.16308",
-     "html": "https://zenodo.org/record/3396111",
-     "latest": "https://zenodo.org/api/records/3396111",
-     "latest_html": "https://zenodo.org/record/3396111",
-     "self": "https://zenodo.org/api/records/3396111"
-    },
-    "metadata": {
-     "access_right": "open",
-     "access_right_category": "success",
-     "creators": [
-      {
-       "name": "Buitelaar, W. L."
-      }
-     ],
-     "description": "Th. Limperg is een van de grondleggers van de Economische Faculteit van de Universiteit van Amsterdam.  Daarnaast wordt hij ook wel een pionier genoemd op het gebied van de accountancy en de bedrijfseconomie. In dit artikel wordt Limperg vooral geportretteerd als een pionier van de moderne bedrijfskunde, zij het als  een 'bedrijfseconomisch constructeur'.  Daarmee wordt bedoeld dat Limperg een beperkte interdisciplinaire invalshoek had, maar desondanks oog had voor organisatieverandering. Wellicht kan worden gesproken van 'de jonge Limperg', die een rationeel paradigma van bedrijfsinrichting hanteerde, en 'de oude Limperg', die meer rekening hield met de taaiheid van economische maakbaarheid. Ondanks die beperkte rationaliteit, moest de wetenschap volgens Limperg streven naar maatschappelijke  dienstbaarheid, ofwel naar duurzame bedrijfsvoering.",
-     "doi": "10.5117/mab.79.16308",
-     "imprint": {
-      "publisher": "Amsterdam University Press"
-     },
-     "journal": {
-      "issue": "(4)",
-      "pages": "141-147",
-      "title": "Maandblad Voor Accountancy en Bedrijfseconomie",
-      "volume": "79"
-     },
-     "keywords": [],
-     "license": {
-      "id": "CC-BY-4.0"
-     },
-     "publication_date": "2005-04-01",
-     "relations": {
-      "version": [
-       {
-        "count": 1,
-        "index": 0,
-        "is_last": true,
-        "last_child": {
-         "pid_type": "recid",
-         "pid_value": "3396111"
-        },
-        "parent": {
-         "pid_type": "recid",
-         "pid_value": "3396110"
-        }
-       }
-      ]
-     },
-     "resource_type": {
-      "subtype": "article",
-      "title": "Journal article",
-      "type": "publication"
-     },
-     "title": "Limperg als bedrijfskundig pionier"
-    },
-    "owners": [
-     22270
-    ],
-    "revision": 4,
-    "stats": {
-     "downloads": 9.0,
-     "unique_downloads": 8.0,
-     "unique_views": 3.0,
-     "version_downloads": 9.0,
-     "version_unique_downloads": 8.0,
-     "version_unique_views": 3.0,
-     "version_views": 3.0,
-     "version_volume": 1041876.0,
-     "views": 3.0,
-     "volume": 1041876.0
-    },
-    "updated": "2020-01-20T17:09:25.791099+00:00"
    },
    {
     "conceptrecid": "610414",
@@ -51146,6 +51307,117 @@
     "updated": "2020-01-25T07:25:59.405752+00:00"
    },
    {
+    "conceptdoi": "10.5281/zenodo.839647",
+    "conceptrecid": "839647",
+    "created": "2017-08-25T10:50:34.573626+00:00",
+    "doi": "10.5281/zenodo.848641",
+    "files": [
+     {
+      "bucket": "309d25f7-151f-4b2f-aa64-057c589e8593",
+      "checksum": "md5:bdd98e27cdf4da514008bb8eac545747",
+      "key": "Understanding the Self.pdf",
+      "links": {
+       "self": "https://zenodo.org/api/files/309d25f7-151f-4b2f-aa64-057c589e8593/Understanding%20the%20Self.pdf"
+      },
+      "size": 529964,
+      "type": "pdf"
+     }
+    ],
+    "id": 848641,
+    "links": {
+     "badge": "https://zenodo.org/badge/doi/10.5281/zenodo.848641.svg",
+     "bucket": "https://zenodo.org/api/files/309d25f7-151f-4b2f-aa64-057c589e8593",
+     "conceptbadge": "https://zenodo.org/badge/doi/10.5281/zenodo.839647.svg",
+     "conceptdoi": "https://doi.org/10.5281/zenodo.839647",
+     "doi": "https://doi.org/10.5281/zenodo.848641",
+     "html": "https://zenodo.org/record/848641",
+     "latest": "https://zenodo.org/api/records/848641",
+     "latest_html": "https://zenodo.org/record/848641",
+     "self": "https://zenodo.org/api/records/848641"
+    },
+    "metadata": {
+     "access_right": "open",
+     "access_right_category": "success",
+     "creators": [
+      {
+       "name": "Vranken, Aaron"
+      }
+     ],
+     "description": "<p>This paper is an attempt to critically engage with the ideas of self and subjectivity in Western philosophy. It has two parts, corresponding to two different functions. In the first, I try to better my understanding of the place of the self or subject in our philosophical thinking by interpreting and engaging with four influential modern philosophers: Descartes, Locke, Hume and Kant. These were chosen for the role they played in the development of the idea of self and the problem of personal identity in Western philosophy. In the second part I attempt to develop my own positions with regard to the place of the self in reality. My two principal arguments are: 1. That there is no pure ego, no necessarily subjective experience, and that experiences are, in their first appearance, impersonal, and; 2. That the identity of persons does not differ from the identity of non-persons.</p>",
+     "doi": "10.5281/zenodo.848641",
+     "keywords": [
+      "Self",
+      "Subject",
+      "Personal Identity",
+      "Pure ego",
+      "Descartes",
+      "Locke",
+      "Hume",
+      "Kant"
+     ],
+     "license": {
+      "id": "CC-BY-SA-4.0"
+     },
+     "publication_date": "2017-08-07",
+     "related_identifiers": [
+      {
+       "identifier": "10.5281/zenodo.839647",
+       "relation": "isVersionOf",
+       "scheme": "doi"
+      }
+     ],
+     "relations": {
+      "version": [
+       {
+        "count": 3,
+        "index": 2,
+        "is_last": true,
+        "last_child": {
+         "pid_type": "recid",
+         "pid_value": "848641"
+        },
+        "parent": {
+         "pid_type": "recid",
+         "pid_value": "839647"
+        }
+       }
+      ]
+     },
+     "resource_type": {
+      "subtype": "thesis",
+      "title": "Thesis",
+      "type": "publication"
+     },
+     "thesis": {
+      "supervisors": [
+       {
+        "affiliation": "Vrije Universiteit Brussel",
+        "name": "Lavaert, Sonja"
+       }
+      ],
+      "university": "Vrije Universiteit Brussel"
+     },
+     "title": "Understanding the Self: Four Modern Accounts of Self and Personal Reflections"
+    },
+    "owners": [
+     34718
+    ],
+    "revision": 4,
+    "stats": {
+     "downloads": 28.0,
+     "unique_downloads": 27.0,
+     "unique_views": 40.0,
+     "version_downloads": 31.0,
+     "version_unique_downloads": 29.0,
+     "version_unique_views": 42.0,
+     "version_views": 45.0,
+     "version_volume": 16428517.0,
+     "views": 41.0,
+     "volume": 14838992.0
+    },
+    "updated": "2020-01-20T14:58:12.541765+00:00"
+   },
+   {
     "conceptdoi": "10.5281/zenodo.1060386",
     "conceptrecid": "1060386",
     "created": "2018-01-31T22:53:23.234346+00:00",
@@ -51260,117 +51532,6 @@
      "volume": 62504253.0
     },
     "updated": "2020-01-20T14:31:55.964222+00:00"
-   },
-   {
-    "conceptdoi": "10.5281/zenodo.839647",
-    "conceptrecid": "839647",
-    "created": "2017-08-25T10:50:34.573626+00:00",
-    "doi": "10.5281/zenodo.848641",
-    "files": [
-     {
-      "bucket": "309d25f7-151f-4b2f-aa64-057c589e8593",
-      "checksum": "md5:bdd98e27cdf4da514008bb8eac545747",
-      "key": "Understanding the Self.pdf",
-      "links": {
-       "self": "https://zenodo.org/api/files/309d25f7-151f-4b2f-aa64-057c589e8593/Understanding%20the%20Self.pdf"
-      },
-      "size": 529964,
-      "type": "pdf"
-     }
-    ],
-    "id": 848641,
-    "links": {
-     "badge": "https://zenodo.org/badge/doi/10.5281/zenodo.848641.svg",
-     "bucket": "https://zenodo.org/api/files/309d25f7-151f-4b2f-aa64-057c589e8593",
-     "conceptbadge": "https://zenodo.org/badge/doi/10.5281/zenodo.839647.svg",
-     "conceptdoi": "https://doi.org/10.5281/zenodo.839647",
-     "doi": "https://doi.org/10.5281/zenodo.848641",
-     "html": "https://zenodo.org/record/848641",
-     "latest": "https://zenodo.org/api/records/848641",
-     "latest_html": "https://zenodo.org/record/848641",
-     "self": "https://zenodo.org/api/records/848641"
-    },
-    "metadata": {
-     "access_right": "open",
-     "access_right_category": "success",
-     "creators": [
-      {
-       "name": "Vranken, Aaron"
-      }
-     ],
-     "description": "<p>This paper is an attempt to critically engage with the ideas of self and subjectivity in Western philosophy. It has two parts, corresponding to two different functions. In the first, I try to better my understanding of the place of the self or subject in our philosophical thinking by interpreting and engaging with four influential modern philosophers: Descartes, Locke, Hume and Kant. These were chosen for the role they played in the development of the idea of self and the problem of personal identity in Western philosophy. In the second part I attempt to develop my own positions with regard to the place of the self in reality. My two principal arguments are: 1. That there is no pure ego, no necessarily subjective experience, and that experiences are, in their first appearance, impersonal, and; 2. That the identity of persons does not differ from the identity of non-persons.</p>",
-     "doi": "10.5281/zenodo.848641",
-     "keywords": [
-      "Self",
-      "Subject",
-      "Personal Identity",
-      "Pure ego",
-      "Descartes",
-      "Locke",
-      "Hume",
-      "Kant"
-     ],
-     "license": {
-      "id": "CC-BY-SA-4.0"
-     },
-     "publication_date": "2017-08-07",
-     "related_identifiers": [
-      {
-       "identifier": "10.5281/zenodo.839647",
-       "relation": "isVersionOf",
-       "scheme": "doi"
-      }
-     ],
-     "relations": {
-      "version": [
-       {
-        "count": 3,
-        "index": 2,
-        "is_last": true,
-        "last_child": {
-         "pid_type": "recid",
-         "pid_value": "848641"
-        },
-        "parent": {
-         "pid_type": "recid",
-         "pid_value": "839647"
-        }
-       }
-      ]
-     },
-     "resource_type": {
-      "subtype": "thesis",
-      "title": "Thesis",
-      "type": "publication"
-     },
-     "thesis": {
-      "supervisors": [
-       {
-        "affiliation": "Vrije Universiteit Brussel",
-        "name": "Lavaert, Sonja"
-       }
-      ],
-      "university": "Vrije Universiteit Brussel"
-     },
-     "title": "Understanding the Self: Four Modern Accounts of Self and Personal Reflections"
-    },
-    "owners": [
-     34718
-    ],
-    "revision": 4,
-    "stats": {
-     "downloads": 28.0,
-     "unique_downloads": 27.0,
-     "unique_views": 40.0,
-     "version_downloads": 31.0,
-     "version_unique_downloads": 29.0,
-     "version_unique_views": 42.0,
-     "version_views": 45.0,
-     "version_volume": 16428517.0,
-     "views": 41.0,
-     "volume": 14838992.0
-    },
-    "updated": "2020-01-20T14:58:12.541765+00:00"
    },
    {
     "conceptrecid": "730340",
@@ -52839,6 +53000,98 @@
     "updated": "2020-01-21T07:22:59.138671+00:00"
    },
    {
+    "conceptrecid": "3391755",
+    "created": "2019-09-06T06:28:02.904010+00:00",
+    "doi": "10.5117/mab.23.13209",
+    "files": [
+     {
+      "bucket": "efa65a59-3689-42cb-b222-8e3884badeac",
+      "checksum": "md5:c365174fd474383307244b3d2f3e9ac4",
+      "key": "13209__1_222066_LE_333267.pdf",
+      "links": {
+       "self": "https://zenodo.org/api/files/efa65a59-3689-42cb-b222-8e3884badeac/13209__1_222066_LE_333267.pdf"
+      },
+      "size": 873453,
+      "type": "pdf"
+     }
+    ],
+    "id": 3391756,
+    "links": {
+     "badge": "https://zenodo.org/badge/doi/10.5117/mab.23.13209.svg",
+     "bucket": "https://zenodo.org/api/files/efa65a59-3689-42cb-b222-8e3884badeac",
+     "doi": "https://doi.org/10.5117/mab.23.13209",
+     "html": "https://zenodo.org/record/3391756",
+     "latest": "https://zenodo.org/api/records/3391756",
+     "latest_html": "https://zenodo.org/record/3391756",
+     "self": "https://zenodo.org/api/records/3391756"
+    },
+    "metadata": {
+     "access_right": "open",
+     "access_right_category": "success",
+     "creators": [
+      {
+       "name": "Mey, J. L."
+      }
+     ],
+     "description": "BOEKBESPREKINGEN ECONOMIE EN MAATSCHAPPIJ, OPSTELLEN GESCHREVEN TER GE\u00ad LEGENHEID VAN HET 25-JARIG BESTAAN VAN DE FACULTEIT DER  ECONOMISCHE WETENSCHAPPEN VAN DE UNIVERSITEIT VAN AM\u00ad",
+     "doi": "10.5117/mab.23.13209",
+     "imprint": {
+      "publisher": "Amsterdam University Press"
+     },
+     "journal": {
+      "issue": "(12)",
+      "pages": "347-367",
+      "title": "Maandblad Voor Accountancy en Bedrijfseconomie",
+      "volume": "23"
+     },
+     "keywords": [],
+     "license": {
+      "id": "CC-BY-4.0"
+     },
+     "publication_date": "1949-12-01",
+     "relations": {
+      "version": [
+       {
+        "count": 1,
+        "index": 0,
+        "is_last": true,
+        "last_child": {
+         "pid_type": "recid",
+         "pid_value": "3391756"
+        },
+        "parent": {
+         "pid_type": "recid",
+         "pid_value": "3391755"
+        }
+       }
+      ]
+     },
+     "resource_type": {
+      "subtype": "article",
+      "title": "Journal article",
+      "type": "publication"
+     },
+     "title": "BOEKBESPREKINGEN ECONOMIE EN MAATSCHAPPIJ, OPSTELLEN GESCHREVEN TER GE\u00ad LEGENHEID VAN HET 25-JARIG BESTAAN VAN DE FACULTEIT DER  ECONOMISCHE WETENSCHAPPEN VAN DE UNIVERSITEIT VAN AM\u00ad"
+    },
+    "owners": [
+     22270
+    ],
+    "revision": 4,
+    "stats": {
+     "downloads": 8.0,
+     "unique_downloads": 7.0,
+     "unique_views": 6.0,
+     "version_downloads": 8.0,
+     "version_unique_downloads": 7.0,
+     "version_unique_views": 6.0,
+     "version_views": 6.0,
+     "version_volume": 6987624.0,
+     "views": 6.0,
+     "volume": 6987624.0
+    },
+    "updated": "2020-01-20T16:59:28.436968+00:00"
+   },
+   {
     "conceptdoi": "10.5281/zenodo.3551851",
     "conceptrecid": "3551851",
     "created": "2019-11-24T16:18:57.832636+00:00",
@@ -53144,98 +53397,6 @@
      "volume": 12702192.0
     },
     "updated": "2020-01-20T17:25:05.517283+00:00"
-   },
-   {
-    "conceptrecid": "3391755",
-    "created": "2019-09-06T06:28:02.904010+00:00",
-    "doi": "10.5117/mab.23.13209",
-    "files": [
-     {
-      "bucket": "efa65a59-3689-42cb-b222-8e3884badeac",
-      "checksum": "md5:c365174fd474383307244b3d2f3e9ac4",
-      "key": "13209__1_222066_LE_333267.pdf",
-      "links": {
-       "self": "https://zenodo.org/api/files/efa65a59-3689-42cb-b222-8e3884badeac/13209__1_222066_LE_333267.pdf"
-      },
-      "size": 873453,
-      "type": "pdf"
-     }
-    ],
-    "id": 3391756,
-    "links": {
-     "badge": "https://zenodo.org/badge/doi/10.5117/mab.23.13209.svg",
-     "bucket": "https://zenodo.org/api/files/efa65a59-3689-42cb-b222-8e3884badeac",
-     "doi": "https://doi.org/10.5117/mab.23.13209",
-     "html": "https://zenodo.org/record/3391756",
-     "latest": "https://zenodo.org/api/records/3391756",
-     "latest_html": "https://zenodo.org/record/3391756",
-     "self": "https://zenodo.org/api/records/3391756"
-    },
-    "metadata": {
-     "access_right": "open",
-     "access_right_category": "success",
-     "creators": [
-      {
-       "name": "Mey, J. L."
-      }
-     ],
-     "description": "BOEKBESPREKINGEN ECONOMIE EN MAATSCHAPPIJ, OPSTELLEN GESCHREVEN TER GE\u00ad LEGENHEID VAN HET 25-JARIG BESTAAN VAN DE FACULTEIT DER  ECONOMISCHE WETENSCHAPPEN VAN DE UNIVERSITEIT VAN AM\u00ad",
-     "doi": "10.5117/mab.23.13209",
-     "imprint": {
-      "publisher": "Amsterdam University Press"
-     },
-     "journal": {
-      "issue": "(12)",
-      "pages": "347-367",
-      "title": "Maandblad Voor Accountancy en Bedrijfseconomie",
-      "volume": "23"
-     },
-     "keywords": [],
-     "license": {
-      "id": "CC-BY-4.0"
-     },
-     "publication_date": "1949-12-01",
-     "relations": {
-      "version": [
-       {
-        "count": 1,
-        "index": 0,
-        "is_last": true,
-        "last_child": {
-         "pid_type": "recid",
-         "pid_value": "3391756"
-        },
-        "parent": {
-         "pid_type": "recid",
-         "pid_value": "3391755"
-        }
-       }
-      ]
-     },
-     "resource_type": {
-      "subtype": "article",
-      "title": "Journal article",
-      "type": "publication"
-     },
-     "title": "BOEKBESPREKINGEN ECONOMIE EN MAATSCHAPPIJ, OPSTELLEN GESCHREVEN TER GE\u00ad LEGENHEID VAN HET 25-JARIG BESTAAN VAN DE FACULTEIT DER  ECONOMISCHE WETENSCHAPPEN VAN DE UNIVERSITEIT VAN AM\u00ad"
-    },
-    "owners": [
-     22270
-    ],
-    "revision": 4,
-    "stats": {
-     "downloads": 8.0,
-     "unique_downloads": 7.0,
-     "unique_views": 6.0,
-     "version_downloads": 8.0,
-     "version_unique_downloads": 7.0,
-     "version_unique_views": 6.0,
-     "version_views": 6.0,
-     "version_volume": 6987624.0,
-     "views": 6.0,
-     "volume": 6987624.0
-    },
-    "updated": "2020-01-20T16:59:28.436968+00:00"
    },
    {
     "conceptrecid": "3552636",
@@ -57301,6 +57462,267 @@
     "updated": "2020-01-20T16:38:19.536259+00:00"
    },
    {
+    "conceptdoi": "10.5281/zenodo.3397224",
+    "conceptrecid": "3397224",
+    "created": "2019-09-06T09:11:38.475586+00:00",
+    "doi": "10.5281/zenodo.3397225",
+    "files": [
+     {
+      "bucket": "905e139a-de39-4221-8706-5e1c18ca4853",
+      "checksum": "md5:bfb367f666da60e0687038beb93b0a24",
+      "key": "ISRE 2019 - Dynamic Emotions - V2 -pics removed.pptx",
+      "links": {
+       "self": "https://zenodo.org/api/files/905e139a-de39-4221-8706-5e1c18ca4853/ISRE%202019%20-%20Dynamic%20Emotions%20-%20V2%20-pics%20removed.pptx"
+      },
+      "size": 9144149,
+      "type": "pptx"
+     }
+    ],
+    "id": 3397225,
+    "links": {
+     "badge": "https://zenodo.org/badge/doi/10.5281/zenodo.3397225.svg",
+     "bucket": "https://zenodo.org/api/files/905e139a-de39-4221-8706-5e1c18ca4853",
+     "conceptbadge": "https://zenodo.org/badge/doi/10.5281/zenodo.3397224.svg",
+     "conceptdoi": "https://doi.org/10.5281/zenodo.3397224",
+     "doi": "https://doi.org/10.5281/zenodo.3397225",
+     "html": "https://zenodo.org/record/3397225",
+     "latest": "https://zenodo.org/api/records/3397225",
+     "latest_html": "https://zenodo.org/record/3397225",
+     "self": "https://zenodo.org/api/records/3397225"
+    },
+    "metadata": {
+     "access_right": "open",
+     "access_right_category": "success",
+     "creators": [
+      {
+       "affiliation": "Teesside University",
+       "name": "Zloteanu, Mircea",
+       "orcid": "0000-0002-2753-637X"
+      },
+      {
+       "affiliation": "University College London",
+       "name": "Krumhuber, Eva",
+       "orcid": "0000-0003-1894-2517"
+      },
+      {
+       "affiliation": "University College London",
+       "name": "Richardson, Daniel C.",
+       "orcid": "0000-0003-0039-9755"
+      }
+     ],
+     "description": "<p>The Importance of Posed Facial Expression Production and Presentation Method on Authenticity Discrimination</p>\n\n<p>People&rsquo;s ability to classify emotional facial expressions is very good, however, their ability to determine their authenticity is much poorer. Generally, emotion recognition research investigates differences in authenticity discrimination by contrasting people&rsquo;s perceptions to &lsquo;posed&rsquo; and &lsquo;genuine&rsquo; expressions. However, such a broad categorization is inadequate for accurately capturing decoder perceptions. We argue that the technique used to produce posed expressions significantly affects how decoders perceive and discriminate authenticity. Second, that decoders perception is affected by seeing these in a dynamic or static format. To demonstrate the importance of production method and presentation format, in a series of studies decoders were assessed on various facial expression types. Senders were filmed as they experienced genuine surprise in response to a jack-in-the-box (Genuine), while other senders faked surprise with no preparation (Improvised) or after having first experienced genuine surprise (Rehearsed). Decoders rated the genuineness and intensity of these expressions, and the confidence of their judgment. It was found that both expression type and presentation format impacted decoder perception and accurate discrimination. Genuine surprise achieved the highest ratings of genuineness, intensity, and judgmental confidence (dynamic only), and was fairly accurately discriminated from posed surprise expressions. Rehearsed expressions were perceived as more genuine (in dynamic presentation), whereas Improvised were seen as more intense (in static presentation). However, both were poorly discriminated as not being genuine. Overall, dynamic stimuli improved authenticity discrimination and perceptual differences between expressions. Our findings demonstrate the importance for research to consider the type of posed expression used and presentation format.</p>",
+     "doi": "10.5281/zenodo.3397225",
+     "keywords": [
+      "emotions",
+      "facial expressions",
+      "surprise",
+      "authenticity discrimination",
+      "face recognition",
+      "experimental psychology",
+      "deception detection"
+     ],
+     "language": "eng",
+     "license": {
+      "id": "CC-BY-4.0"
+     },
+     "meeting": {
+      "acronym": "ISRE",
+      "dates": "10-13 July 2019",
+      "place": "Amsterdam, Netherlands",
+      "session": "Emotion perception II",
+      "title": "The International Society for Research on Emotions",
+      "url": "https://www.isre2019.org/"
+     },
+     "notes": "Talk presented at ISRE 2019, Amsterdam, Netherlands.",
+     "publication_date": "2019-09-06",
+     "related_identifiers": [
+      {
+       "identifier": "10.5281/zenodo.3397224",
+       "relation": "isVersionOf",
+       "scheme": "doi"
+      }
+     ],
+     "relations": {
+      "version": [
+       {
+        "count": 1,
+        "index": 0,
+        "is_last": true,
+        "last_child": {
+         "pid_type": "recid",
+         "pid_value": "3397225"
+        },
+        "parent": {
+         "pid_type": "recid",
+         "pid_value": "3397224"
+        }
+       }
+      ]
+     },
+     "resource_type": {
+      "title": "Presentation",
+      "type": "presentation"
+     },
+     "title": "The Importance of Expression Production and Presentation on Authenticity Discrimination",
+     "version": "final-nocopyrightedimages"
+    },
+    "owners": [
+     31407
+    ],
+    "revision": 4,
+    "stats": {
+     "downloads": 7.0,
+     "unique_downloads": 6.0,
+     "unique_views": 79.0,
+     "version_downloads": 7.0,
+     "version_unique_downloads": 6.0,
+     "version_unique_views": 79.0,
+     "version_views": 81.0,
+     "version_volume": 64009043.0,
+     "views": 81.0,
+     "volume": 64009043.0
+    },
+    "updated": "2020-01-20T17:23:09.804773+00:00"
+   },
+   {
+    "conceptdoi": "10.5281/zenodo.1420461",
+    "conceptrecid": "1420461",
+    "created": "2018-09-17T16:29:24.793823+00:00",
+    "doi": "10.5281/zenodo.1420462",
+    "files": [
+     {
+      "bucket": "9f838599-1ccd-4294-a782-d6563e4a3f72",
+      "checksum": "md5:01e1849bed245d519a44a433f7f46b03",
+      "key": "4OSS-WSSSPE-manuscript.pdf",
+      "links": {
+       "self": "https://zenodo.org/api/files/9f838599-1ccd-4294-a782-d6563e4a3f72/4OSS-WSSSPE-manuscript.pdf"
+      },
+      "size": 72117,
+      "type": "pdf"
+     }
+    ],
+    "id": 1420462,
+    "links": {
+     "badge": "https://zenodo.org/badge/doi/10.5281/zenodo.1420462.svg",
+     "bucket": "https://zenodo.org/api/files/9f838599-1ccd-4294-a782-d6563e4a3f72",
+     "conceptbadge": "https://zenodo.org/badge/doi/10.5281/zenodo.1420461.svg",
+     "conceptdoi": "https://doi.org/10.5281/zenodo.1420461",
+     "doi": "https://doi.org/10.5281/zenodo.1420462",
+     "html": "https://zenodo.org/record/1420462",
+     "latest": "https://zenodo.org/api/records/1420462",
+     "latest_html": "https://zenodo.org/record/1420462",
+     "self": "https://zenodo.org/api/records/1420462"
+    },
+    "metadata": {
+     "access_right": "open",
+     "access_right_category": "success",
+     "communities": [
+      {
+       "id": "carpentries"
+      }
+     ],
+     "creators": [
+      {
+       "affiliation": "Dutch Techcentre for Life Sciences, The Netherlands, ELIXIR Netherlands",
+       "name": "Mateusz Kuzak",
+       "orcid": "0000-0003-0087-6021"
+      },
+      {
+       "affiliation": "ELIXIR Hub Wellcome Genome Campus, Hinxton, UK",
+       "name": "Jen Harrow"
+      },
+      {
+       "affiliation": "ELIXIR Hub Wellcome Genome Campus, Hinxton, UK",
+       "name": "Rafael C. Jimenez",
+       "orcid": "0000-0001-5404-7670"
+      },
+      {
+       "affiliation": "ELIXIR Belgium",
+       "name": "Paula Andrea Martinez"
+      },
+      {
+       "affiliation": "Institute of Applied Biosciences, Centre for Research and Technology Hellas, Thessaloniki, Greece",
+       "name": "Fotis E. Psomopoulos",
+       "orcid": "0000-0002-0222-4273"
+      },
+      {
+       "affiliation": "Central European Institute of Technology (CEITEC), Brno, Czech Republic, National Centre for Biomolecular Research, Masaryk University, Brno, Czech Republic",
+       "name": "Radka Svobodov\u00e1 Va\u0159ekov\u00e1"
+      },
+      {
+       "affiliation": "ELIXIR Italy, National Research Council of Italy (CNR), Institute of Molecular Biology and Pathology (IBPM), Italy",
+       "name": "Allegra Via"
+      }
+     ],
+     "description": "<p>The &ldquo;ELIXIR Training Platform&rdquo; is partnering with The Carpentries (Software and Data Carpentry) to train life science researchers in computing and data management skills. The &ldquo;ELIXIR Software development best practices&rdquo; group, which is part of the ELIXIR Tools Platform, has proposed &ldquo;Four simple recommendations to encourage best practices in research software&rdquo; aiming to help researchers and developers to adopt Open Source Software (OSS) practices and thus improve the quality and sustainability of research software. In order to encourage researchers and developers to adopt the four recommendations (4OSS) and build FAIR software, we are developing specific and practical training materials, taking advantage of the Carpentries approach and experience in training material development and maintenance.</p>",
+     "doi": "10.5281/zenodo.1420462",
+     "keywords": [
+      "Training, Open Source, software guidelines, best practices, recommendations, Open Science, Reproducible Research, sustainability, FAIR"
+     ],
+     "language": "eng",
+     "license": {
+      "id": "CC-BY-4.0"
+     },
+     "meeting": {
+      "acronym": "WSSSPE6.1",
+      "dates": "29 October 2018",
+      "place": "Amsterdam, the Netherlands",
+      "title": "9th International Workshop on Sustainable Software for Science: Practice and Experiences",
+      "url": "http://wssspe.researchcomputing.org.uk/wssspe6-1/agenda/"
+     },
+     "notes": "published at WSSSPE6.1, October 29, 2018, Amsterdam",
+     "publication_date": "2018-09-17",
+     "related_identifiers": [
+      {
+       "identifier": "10.5281/zenodo.1420461",
+       "relation": "isVersionOf",
+       "scheme": "doi"
+      }
+     ],
+     "relations": {
+      "version": [
+       {
+        "count": 1,
+        "index": 0,
+        "is_last": true,
+        "last_child": {
+         "pid_type": "recid",
+         "pid_value": "1420462"
+        },
+        "parent": {
+         "pid_type": "recid",
+         "pid_value": "1420461"
+        }
+       }
+      ]
+     },
+     "resource_type": {
+      "subtype": "article",
+      "title": "Journal article",
+      "type": "publication"
+     },
+     "title": "Lesson development for Open Source Software best practices adoption",
+     "version": "1"
+    },
+    "owners": [
+     37028
+    ],
+    "revision": 7,
+    "stats": {
+     "downloads": 84.0,
+     "unique_downloads": 70.0,
+     "unique_views": 86.0,
+     "version_downloads": 84.0,
+     "version_unique_downloads": 70.0,
+     "version_unique_views": 86.0,
+     "version_views": 93.0,
+     "version_volume": 6057828.0,
+     "views": 93.0,
+     "volume": 6057828.0
+    },
+    "updated": "2020-01-20T16:59:45.328624+00:00"
+   },
+   {
     "conceptdoi": "10.5281/zenodo.1005561",
     "conceptrecid": "1005561",
     "created": "2018-01-27T16:04:55.658061+00:00",
@@ -57632,267 +58054,6 @@
      "volume": 23792570.0
     },
     "updated": "2020-01-20T17:17:11.107931+00:00"
-   },
-   {
-    "conceptdoi": "10.5281/zenodo.3397224",
-    "conceptrecid": "3397224",
-    "created": "2019-09-06T09:11:38.475586+00:00",
-    "doi": "10.5281/zenodo.3397225",
-    "files": [
-     {
-      "bucket": "905e139a-de39-4221-8706-5e1c18ca4853",
-      "checksum": "md5:bfb367f666da60e0687038beb93b0a24",
-      "key": "ISRE 2019 - Dynamic Emotions - V2 -pics removed.pptx",
-      "links": {
-       "self": "https://zenodo.org/api/files/905e139a-de39-4221-8706-5e1c18ca4853/ISRE%202019%20-%20Dynamic%20Emotions%20-%20V2%20-pics%20removed.pptx"
-      },
-      "size": 9144149,
-      "type": "pptx"
-     }
-    ],
-    "id": 3397225,
-    "links": {
-     "badge": "https://zenodo.org/badge/doi/10.5281/zenodo.3397225.svg",
-     "bucket": "https://zenodo.org/api/files/905e139a-de39-4221-8706-5e1c18ca4853",
-     "conceptbadge": "https://zenodo.org/badge/doi/10.5281/zenodo.3397224.svg",
-     "conceptdoi": "https://doi.org/10.5281/zenodo.3397224",
-     "doi": "https://doi.org/10.5281/zenodo.3397225",
-     "html": "https://zenodo.org/record/3397225",
-     "latest": "https://zenodo.org/api/records/3397225",
-     "latest_html": "https://zenodo.org/record/3397225",
-     "self": "https://zenodo.org/api/records/3397225"
-    },
-    "metadata": {
-     "access_right": "open",
-     "access_right_category": "success",
-     "creators": [
-      {
-       "affiliation": "Teesside University",
-       "name": "Zloteanu, Mircea",
-       "orcid": "0000-0002-2753-637X"
-      },
-      {
-       "affiliation": "University College London",
-       "name": "Krumhuber, Eva",
-       "orcid": "0000-0003-1894-2517"
-      },
-      {
-       "affiliation": "University College London",
-       "name": "Richardson, Daniel C.",
-       "orcid": "0000-0003-0039-9755"
-      }
-     ],
-     "description": "<p>The Importance of Posed Facial Expression Production and Presentation Method on Authenticity Discrimination</p>\n\n<p>People&rsquo;s ability to classify emotional facial expressions is very good, however, their ability to determine their authenticity is much poorer. Generally, emotion recognition research investigates differences in authenticity discrimination by contrasting people&rsquo;s perceptions to &lsquo;posed&rsquo; and &lsquo;genuine&rsquo; expressions. However, such a broad categorization is inadequate for accurately capturing decoder perceptions. We argue that the technique used to produce posed expressions significantly affects how decoders perceive and discriminate authenticity. Second, that decoders perception is affected by seeing these in a dynamic or static format. To demonstrate the importance of production method and presentation format, in a series of studies decoders were assessed on various facial expression types. Senders were filmed as they experienced genuine surprise in response to a jack-in-the-box (Genuine), while other senders faked surprise with no preparation (Improvised) or after having first experienced genuine surprise (Rehearsed). Decoders rated the genuineness and intensity of these expressions, and the confidence of their judgment. It was found that both expression type and presentation format impacted decoder perception and accurate discrimination. Genuine surprise achieved the highest ratings of genuineness, intensity, and judgmental confidence (dynamic only), and was fairly accurately discriminated from posed surprise expressions. Rehearsed expressions were perceived as more genuine (in dynamic presentation), whereas Improvised were seen as more intense (in static presentation). However, both were poorly discriminated as not being genuine. Overall, dynamic stimuli improved authenticity discrimination and perceptual differences between expressions. Our findings demonstrate the importance for research to consider the type of posed expression used and presentation format.</p>",
-     "doi": "10.5281/zenodo.3397225",
-     "keywords": [
-      "emotions",
-      "facial expressions",
-      "surprise",
-      "authenticity discrimination",
-      "face recognition",
-      "experimental psychology",
-      "deception detection"
-     ],
-     "language": "eng",
-     "license": {
-      "id": "CC-BY-4.0"
-     },
-     "meeting": {
-      "acronym": "ISRE",
-      "dates": "10-13 July 2019",
-      "place": "Amsterdam, Netherlands",
-      "session": "Emotion perception II",
-      "title": "The International Society for Research on Emotions",
-      "url": "https://www.isre2019.org/"
-     },
-     "notes": "Talk presented at ISRE 2019, Amsterdam, Netherlands.",
-     "publication_date": "2019-09-06",
-     "related_identifiers": [
-      {
-       "identifier": "10.5281/zenodo.3397224",
-       "relation": "isVersionOf",
-       "scheme": "doi"
-      }
-     ],
-     "relations": {
-      "version": [
-       {
-        "count": 1,
-        "index": 0,
-        "is_last": true,
-        "last_child": {
-         "pid_type": "recid",
-         "pid_value": "3397225"
-        },
-        "parent": {
-         "pid_type": "recid",
-         "pid_value": "3397224"
-        }
-       }
-      ]
-     },
-     "resource_type": {
-      "title": "Presentation",
-      "type": "presentation"
-     },
-     "title": "The Importance of Expression Production and Presentation on Authenticity Discrimination",
-     "version": "final-nocopyrightedimages"
-    },
-    "owners": [
-     31407
-    ],
-    "revision": 4,
-    "stats": {
-     "downloads": 7.0,
-     "unique_downloads": 6.0,
-     "unique_views": 79.0,
-     "version_downloads": 7.0,
-     "version_unique_downloads": 6.0,
-     "version_unique_views": 79.0,
-     "version_views": 81.0,
-     "version_volume": 64009043.0,
-     "views": 81.0,
-     "volume": 64009043.0
-    },
-    "updated": "2020-01-20T17:23:09.804773+00:00"
-   },
-   {
-    "conceptdoi": "10.5281/zenodo.1420461",
-    "conceptrecid": "1420461",
-    "created": "2018-09-17T16:29:24.793823+00:00",
-    "doi": "10.5281/zenodo.1420462",
-    "files": [
-     {
-      "bucket": "9f838599-1ccd-4294-a782-d6563e4a3f72",
-      "checksum": "md5:01e1849bed245d519a44a433f7f46b03",
-      "key": "4OSS-WSSSPE-manuscript.pdf",
-      "links": {
-       "self": "https://zenodo.org/api/files/9f838599-1ccd-4294-a782-d6563e4a3f72/4OSS-WSSSPE-manuscript.pdf"
-      },
-      "size": 72117,
-      "type": "pdf"
-     }
-    ],
-    "id": 1420462,
-    "links": {
-     "badge": "https://zenodo.org/badge/doi/10.5281/zenodo.1420462.svg",
-     "bucket": "https://zenodo.org/api/files/9f838599-1ccd-4294-a782-d6563e4a3f72",
-     "conceptbadge": "https://zenodo.org/badge/doi/10.5281/zenodo.1420461.svg",
-     "conceptdoi": "https://doi.org/10.5281/zenodo.1420461",
-     "doi": "https://doi.org/10.5281/zenodo.1420462",
-     "html": "https://zenodo.org/record/1420462",
-     "latest": "https://zenodo.org/api/records/1420462",
-     "latest_html": "https://zenodo.org/record/1420462",
-     "self": "https://zenodo.org/api/records/1420462"
-    },
-    "metadata": {
-     "access_right": "open",
-     "access_right_category": "success",
-     "communities": [
-      {
-       "id": "carpentries"
-      }
-     ],
-     "creators": [
-      {
-       "affiliation": "Dutch Techcentre for Life Sciences, The Netherlands, ELIXIR Netherlands",
-       "name": "Mateusz Kuzak",
-       "orcid": "0000-0003-0087-6021"
-      },
-      {
-       "affiliation": "ELIXIR Hub Wellcome Genome Campus, Hinxton, UK",
-       "name": "Jen Harrow"
-      },
-      {
-       "affiliation": "ELIXIR Hub Wellcome Genome Campus, Hinxton, UK",
-       "name": "Rafael C. Jimenez",
-       "orcid": "0000-0001-5404-7670"
-      },
-      {
-       "affiliation": "ELIXIR Belgium",
-       "name": "Paula Andrea Martinez"
-      },
-      {
-       "affiliation": "Institute of Applied Biosciences, Centre for Research and Technology Hellas, Thessaloniki, Greece",
-       "name": "Fotis E. Psomopoulos",
-       "orcid": "0000-0002-0222-4273"
-      },
-      {
-       "affiliation": "Central European Institute of Technology (CEITEC), Brno, Czech Republic, National Centre for Biomolecular Research, Masaryk University, Brno, Czech Republic",
-       "name": "Radka Svobodov\u00e1 Va\u0159ekov\u00e1"
-      },
-      {
-       "affiliation": "ELIXIR Italy, National Research Council of Italy (CNR), Institute of Molecular Biology and Pathology (IBPM), Italy",
-       "name": "Allegra Via"
-      }
-     ],
-     "description": "<p>The &ldquo;ELIXIR Training Platform&rdquo; is partnering with The Carpentries (Software and Data Carpentry) to train life science researchers in computing and data management skills. The &ldquo;ELIXIR Software development best practices&rdquo; group, which is part of the ELIXIR Tools Platform, has proposed &ldquo;Four simple recommendations to encourage best practices in research software&rdquo; aiming to help researchers and developers to adopt Open Source Software (OSS) practices and thus improve the quality and sustainability of research software. In order to encourage researchers and developers to adopt the four recommendations (4OSS) and build FAIR software, we are developing specific and practical training materials, taking advantage of the Carpentries approach and experience in training material development and maintenance.</p>",
-     "doi": "10.5281/zenodo.1420462",
-     "keywords": [
-      "Training, Open Source, software guidelines, best practices, recommendations, Open Science, Reproducible Research, sustainability, FAIR"
-     ],
-     "language": "eng",
-     "license": {
-      "id": "CC-BY-4.0"
-     },
-     "meeting": {
-      "acronym": "WSSSPE6.1",
-      "dates": "29 October 2018",
-      "place": "Amsterdam, the Netherlands",
-      "title": "9th International Workshop on Sustainable Software for Science: Practice and Experiences",
-      "url": "http://wssspe.researchcomputing.org.uk/wssspe6-1/agenda/"
-     },
-     "notes": "published at WSSSPE6.1, October 29, 2018, Amsterdam",
-     "publication_date": "2018-09-17",
-     "related_identifiers": [
-      {
-       "identifier": "10.5281/zenodo.1420461",
-       "relation": "isVersionOf",
-       "scheme": "doi"
-      }
-     ],
-     "relations": {
-      "version": [
-       {
-        "count": 1,
-        "index": 0,
-        "is_last": true,
-        "last_child": {
-         "pid_type": "recid",
-         "pid_value": "1420462"
-        },
-        "parent": {
-         "pid_type": "recid",
-         "pid_value": "1420461"
-        }
-       }
-      ]
-     },
-     "resource_type": {
-      "subtype": "article",
-      "title": "Journal article",
-      "type": "publication"
-     },
-     "title": "Lesson development for Open Source Software best practices adoption",
-     "version": "1"
-    },
-    "owners": [
-     37028
-    ],
-    "revision": 7,
-    "stats": {
-     "downloads": 84.0,
-     "unique_downloads": 70.0,
-     "unique_views": 86.0,
-     "version_downloads": 84.0,
-     "version_unique_downloads": 70.0,
-     "version_unique_views": 86.0,
-     "version_views": 93.0,
-     "version_volume": 6057828.0,
-     "views": 93.0,
-     "volume": 6057828.0
-    },
-    "updated": "2020-01-20T16:59:45.328624+00:00"
    },
    {
     "conceptrecid": "699932",
@@ -58499,175 +58660,6 @@
      "volume": 8764932.0
     },
     "updated": "2020-01-20T13:53:00.402969+00:00"
-   },
-   {
-    "conceptdoi": "10.5281/zenodo.3670397",
-    "conceptrecid": "3670397",
-    "created": "2020-02-17T12:40:05.761092+00:00",
-    "doi": "10.5281/zenodo.3670398",
-    "files": [
-     {
-      "bucket": "f324c2eb-c498-4330-ae26-fba31626b871",
-      "checksum": "md5:bb43bc4e4502eeb3c44e6746efe0addd",
-      "key": "D6.3 - 689812 LandSense - Ecosystem building and service incubator activities I.pdf",
-      "links": {
-       "self": "https://zenodo.org/api/files/f324c2eb-c498-4330-ae26-fba31626b871/D6.3%20-%20689812%20LandSense%20-%20Ecosystem%20building%20and%20service%20incubator%20activities%20I.pdf"
-      },
-      "size": 5941464,
-      "type": "pdf"
-     }
-    ],
-    "id": 3670398,
-    "links": {
-     "badge": "https://zenodo.org/badge/doi/10.5281/zenodo.3670398.svg",
-     "bucket": "https://zenodo.org/api/files/f324c2eb-c498-4330-ae26-fba31626b871",
-     "conceptbadge": "https://zenodo.org/badge/doi/10.5281/zenodo.3670397.svg",
-     "conceptdoi": "https://doi.org/10.5281/zenodo.3670397",
-     "doi": "https://doi.org/10.5281/zenodo.3670398",
-     "html": "https://zenodo.org/record/3670398",
-     "latest": "https://zenodo.org/api/records/3670398",
-     "latest_html": "https://zenodo.org/record/3670398",
-     "self": "https://zenodo.org/api/records/3670398"
-    },
-    "metadata": {
-     "access_right": "open",
-     "access_right_category": "success",
-     "contributors": [
-      {
-       "affiliation": "Vrije Universiteit Amsterdam",
-       "name": "Schrammeijer, Bep",
-       "type": "ProjectMember"
-      },
-      {
-       "affiliation": "French National Mapping Agency",
-       "name": "Rainmond, Ana-Maria",
-       "type": "ProjectMember"
-      },
-      {
-       "affiliation": "Sinergise",
-       "name": "Bati\u010d, Matej",
-       "type": "ProjectMember"
-      },
-      {
-       "affiliation": "European Crowdfunding Network",
-       "name": "Passeri, Francesca",
-       "type": "ProjectMember"
-      },
-      {
-       "affiliation": "Heidelberg University",
-       "name": "Schultz, Michael",
-       "type": "ProjectMember"
-      },
-      {
-       "affiliation": "International Institute for Applied Systems Analysis",
-       "name": "Moorthy, Inian",
-       "type": "ProjectMember"
-      },
-      {
-       "affiliation": "GeoVille",
-       "name": "Albrecht, Franziska",
-       "type": "ProjectMember"
-      }
-     ],
-     "creators": [
-      {
-       "affiliation": "INOSENS",
-       "name": "Crnojevi\u0107-Bengin, Vesna"
-      },
-      {
-       "affiliation": "INOSENS",
-       "name": "Chatzikostas, Grigoris"
-      },
-      {
-       "affiliation": "INOSENS",
-       "name": "Radi\u0161i\u0107, Mladen"
-      },
-      {
-       "affiliation": "INOSENS",
-       "name": "Zobec, Aleksander"
-      }
-     ],
-     "description": "<p>This deliverable provides insights into the consortium activities with respect to ecosystem building. Activities undertaken, and stakeholders engaged in the first half of the project are elaborated in detail, with attention given to first LandSense Innovation Challenge organized as the incubator event for ecosystem and services building. The deliverable also includes a brief illustration of the value chain, its stakeholders and LandSense positioning within the ecosystem.</p>",
-     "doi": "10.5281/zenodo.3670398",
-     "grants": [
-      {
-       "acronym": "LANDSENSE",
-       "code": "689812",
-       "funder": {
-        "acronyms": [],
-        "doi": "10.13039/501100000780",
-        "links": {
-         "self": "https://zenodo.org/api/funders/10.13039/501100000780"
-        },
-        "name": "European Commission"
-       },
-       "links": {
-        "self": "https://zenodo.org/api/grants/10.13039/501100000780::689812"
-       },
-       "program": "H2020",
-       "title": "A Citizen Observatory and Innovation Marketplace for Land Use and Land Cover Monitoring"
-      }
-     ],
-     "keywords": [
-      "Ecosystem building",
-      "Dissemination",
-      "Networking",
-      "Earth observation value chain",
-      "Project development"
-     ],
-     "language": "eng",
-     "license": {
-      "id": "CC-BY-4.0"
-     },
-     "publication_date": "2020-02-17",
-     "related_identifiers": [
-      {
-       "identifier": "10.5281/zenodo.3670397",
-       "relation": "isVersionOf",
-       "scheme": "doi"
-      }
-     ],
-     "relations": {
-      "version": [
-       {
-        "count": 1,
-        "index": 0,
-        "is_last": true,
-        "last_child": {
-         "pid_type": "recid",
-         "pid_value": "3670398"
-        },
-        "parent": {
-         "pid_type": "recid",
-         "pid_value": "3670397"
-        }
-       }
-      ]
-     },
-     "resource_type": {
-      "subtype": "deliverable",
-      "title": "Project deliverable",
-      "type": "publication"
-     },
-     "title": "Ecosystem building and service incubator activities I"
-    },
-    "owners": [
-     91374
-    ],
-    "revision": 3,
-    "stats": {
-     "downloads": 10.0,
-     "unique_downloads": 9.0,
-     "unique_views": 7.0,
-     "version_downloads": 10.0,
-     "version_unique_downloads": 9.0,
-     "version_unique_views": 7.0,
-     "version_views": 9.0,
-     "version_volume": 59414640.0,
-     "views": 9.0,
-     "volume": 59414640.0
-    },
-    "updated": "2020-02-17T19:20:52.104532+00:00"
    },
    {
     "conceptdoi": "10.5281/zenodo.831786",
@@ -59500,6 +59492,175 @@
      "volume": 0.0
     },
     "updated": "2018-06-23T15:04:48.092193+00:00"
+   },
+   {
+    "conceptdoi": "10.5281/zenodo.3670397",
+    "conceptrecid": "3670397",
+    "created": "2020-02-17T12:40:05.761092+00:00",
+    "doi": "10.5281/zenodo.3670398",
+    "files": [
+     {
+      "bucket": "f324c2eb-c498-4330-ae26-fba31626b871",
+      "checksum": "md5:bb43bc4e4502eeb3c44e6746efe0addd",
+      "key": "D6.3 - 689812 LandSense - Ecosystem building and service incubator activities I.pdf",
+      "links": {
+       "self": "https://zenodo.org/api/files/f324c2eb-c498-4330-ae26-fba31626b871/D6.3%20-%20689812%20LandSense%20-%20Ecosystem%20building%20and%20service%20incubator%20activities%20I.pdf"
+      },
+      "size": 5941464,
+      "type": "pdf"
+     }
+    ],
+    "id": 3670398,
+    "links": {
+     "badge": "https://zenodo.org/badge/doi/10.5281/zenodo.3670398.svg",
+     "bucket": "https://zenodo.org/api/files/f324c2eb-c498-4330-ae26-fba31626b871",
+     "conceptbadge": "https://zenodo.org/badge/doi/10.5281/zenodo.3670397.svg",
+     "conceptdoi": "https://doi.org/10.5281/zenodo.3670397",
+     "doi": "https://doi.org/10.5281/zenodo.3670398",
+     "html": "https://zenodo.org/record/3670398",
+     "latest": "https://zenodo.org/api/records/3670398",
+     "latest_html": "https://zenodo.org/record/3670398",
+     "self": "https://zenodo.org/api/records/3670398"
+    },
+    "metadata": {
+     "access_right": "open",
+     "access_right_category": "success",
+     "contributors": [
+      {
+       "affiliation": "Vrije Universiteit Amsterdam",
+       "name": "Schrammeijer, Bep",
+       "type": "ProjectMember"
+      },
+      {
+       "affiliation": "French National Mapping Agency",
+       "name": "Rainmond, Ana-Maria",
+       "type": "ProjectMember"
+      },
+      {
+       "affiliation": "Sinergise",
+       "name": "Bati\u010d, Matej",
+       "type": "ProjectMember"
+      },
+      {
+       "affiliation": "European Crowdfunding Network",
+       "name": "Passeri, Francesca",
+       "type": "ProjectMember"
+      },
+      {
+       "affiliation": "Heidelberg University",
+       "name": "Schultz, Michael",
+       "type": "ProjectMember"
+      },
+      {
+       "affiliation": "International Institute for Applied Systems Analysis",
+       "name": "Moorthy, Inian",
+       "type": "ProjectMember"
+      },
+      {
+       "affiliation": "GeoVille",
+       "name": "Albrecht, Franziska",
+       "type": "ProjectMember"
+      }
+     ],
+     "creators": [
+      {
+       "affiliation": "INOSENS",
+       "name": "Crnojevi\u0107-Bengin, Vesna"
+      },
+      {
+       "affiliation": "INOSENS",
+       "name": "Chatzikostas, Grigoris"
+      },
+      {
+       "affiliation": "INOSENS",
+       "name": "Radi\u0161i\u0107, Mladen"
+      },
+      {
+       "affiliation": "INOSENS",
+       "name": "Zobec, Aleksander"
+      }
+     ],
+     "description": "<p>This deliverable provides insights into the consortium activities with respect to ecosystem building. Activities undertaken, and stakeholders engaged in the first half of the project are elaborated in detail, with attention given to first LandSense Innovation Challenge organized as the incubator event for ecosystem and services building. The deliverable also includes a brief illustration of the value chain, its stakeholders and LandSense positioning within the ecosystem.</p>",
+     "doi": "10.5281/zenodo.3670398",
+     "grants": [
+      {
+       "acronym": "LANDSENSE",
+       "code": "689812",
+       "funder": {
+        "acronyms": [],
+        "doi": "10.13039/501100000780",
+        "links": {
+         "self": "https://zenodo.org/api/funders/10.13039/501100000780"
+        },
+        "name": "European Commission"
+       },
+       "links": {
+        "self": "https://zenodo.org/api/grants/10.13039/501100000780::689812"
+       },
+       "program": "H2020",
+       "title": "A Citizen Observatory and Innovation Marketplace for Land Use and Land Cover Monitoring"
+      }
+     ],
+     "keywords": [
+      "Ecosystem building",
+      "Dissemination",
+      "Networking",
+      "Earth observation value chain",
+      "Project development"
+     ],
+     "language": "eng",
+     "license": {
+      "id": "CC-BY-4.0"
+     },
+     "publication_date": "2020-02-17",
+     "related_identifiers": [
+      {
+       "identifier": "10.5281/zenodo.3670397",
+       "relation": "isVersionOf",
+       "scheme": "doi"
+      }
+     ],
+     "relations": {
+      "version": [
+       {
+        "count": 1,
+        "index": 0,
+        "is_last": true,
+        "last_child": {
+         "pid_type": "recid",
+         "pid_value": "3670398"
+        },
+        "parent": {
+         "pid_type": "recid",
+         "pid_value": "3670397"
+        }
+       }
+      ]
+     },
+     "resource_type": {
+      "subtype": "deliverable",
+      "title": "Project deliverable",
+      "type": "publication"
+     },
+     "title": "Ecosystem building and service incubator activities I"
+    },
+    "owners": [
+     91374
+    ],
+    "revision": 3,
+    "stats": {
+     "downloads": 10.0,
+     "unique_downloads": 9.0,
+     "unique_views": 7.0,
+     "version_downloads": 10.0,
+     "version_unique_downloads": 9.0,
+     "version_unique_views": 7.0,
+     "version_views": 9.0,
+     "version_volume": 59414640.0,
+     "views": 9.0,
+     "volume": 59414640.0
+    },
+    "updated": "2020-02-17T19:20:52.104532+00:00"
    },
    {
     "conceptdoi": "10.5281/zenodo.1256483",
@@ -64771,195 +64932,9 @@
      "volume": 2731176.0
     },
     "updated": "2020-01-20T14:03:47.292291+00:00"
-   },
-   {
-    "conceptrecid": "2561527",
-    "created": "2019-02-11T03:03:11.612662+00:00",
-    "doi": "10.1186/s13023-019-1002-z",
-    "files": [
-     {
-      "bucket": "4196d9d6-ade1-4f8f-a3df-a6c196a0c99d",
-      "checksum": "md5:a223724511ec5fa620fac47cf70471de",
-      "key": "13023_2019_Article_1002.pdf",
-      "links": {
-       "self": "https://zenodo.org/api/files/4196d9d6-ade1-4f8f-a3df-a6c196a0c99d/13023_2019_Article_1002.pdf"
-      },
-      "size": 383584,
-      "type": "pdf"
-     },
-     {
-      "bucket": "4196d9d6-ade1-4f8f-a3df-a6c196a0c99d",
-      "checksum": "md5:7683aed368dcf7e5a1e62f116eb1a61d",
-      "key": "13023_2019_Article_1002.xml.Meta",
-      "links": {
-       "self": "https://zenodo.org/api/files/4196d9d6-ade1-4f8f-a3df-a6c196a0c99d/13023_2019_Article_1002.xml.Meta"
-      },
-      "size": 22797,
-      "type": "meta"
-     },
-     {
-      "bucket": "4196d9d6-ade1-4f8f-a3df-a6c196a0c99d",
-      "checksum": "md5:652d59500250a1008c35534ba0c3a157",
-      "key": "13023_2019_1002_MOESM1_ESM.doc",
-      "links": {
-       "self": "https://zenodo.org/api/files/4196d9d6-ade1-4f8f-a3df-a6c196a0c99d/13023_2019_1002_MOESM1_ESM.doc"
-      },
-      "size": 25088,
-      "type": "doc"
-     }
-    ],
-    "id": 2561528,
-    "links": {
-     "badge": "https://zenodo.org/badge/doi/10.1186/s13023-019-1002-z.svg",
-     "bucket": "https://zenodo.org/api/files/4196d9d6-ade1-4f8f-a3df-a6c196a0c99d",
-     "doi": "https://doi.org/10.1186/s13023-019-1002-z",
-     "html": "https://zenodo.org/record/2561528",
-     "latest": "https://zenodo.org/api/records/2561528",
-     "latest_html": "https://zenodo.org/record/2561528",
-     "self": "https://zenodo.org/api/records/2561528"
-    },
-    "metadata": {
-     "access_right": "open",
-     "access_right_category": "success",
-     "communities": [
-      {
-       "id": "fp7-bmc"
-      }
-     ],
-     "creators": [
-      {
-       "affiliation": "Pediatric clinical Research Office, Academic Medical Center, University of Amsterdam, Meibergdreef 9, 1105, AZ, Amsterdam, The Netherlands",
-       "name": "Gaasterland, C. M. W."
-      },
-      {
-       "affiliation": "Pediatric clinical Research Office, Academic Medical Center, University of Amsterdam, Meibergdreef 9, 1105, AZ, Amsterdam, The Netherlands",
-       "name": "van der Weide, M. C. Jansen \u2013"
-      },
-      {
-       "affiliation": "Pediatric clinical Research Office, Academic Medical Center, University of Amsterdam, Meibergdreef 9, 1105, AZ, Amsterdam, The Netherlands",
-       "name": "du Prie \u2013 Olthof, M. J."
-      },
-      {
-       "affiliation": "Department of Cognitive Psychology, Vrije Universiteit Amsterdam, Amsterdam, the Netherlands",
-       "name": "Donk, M."
-      },
-      {
-       "affiliation": "PSC Patients Europe, Bennebroek, the Netherlands",
-       "name": "Kaatee, M. M."
-      },
-      {
-       "affiliation": "Laboratory of Glycoconjugate Immunochemistry, Hirszfeld Institute of Immunology and Experimental Therapy, Polish Academy of Sciences, Wroclaw, Poland",
-       "name": "Kaczmarek, R."
-      },
-      {
-       "affiliation": "MPS Society, Amersham, UK",
-       "name": "Lavery, C."
-      },
-      {
-       "affiliation": "Alstr\u00f6m Syndrome UK, Torquay, Devon, UK",
-       "name": "Leeson-Beevers, K."
-      },
-      {
-       "affiliation": "EUPATI Fellow, Bennebroek, the Netherlands",
-       "name": "O'Neill, N."
-      },
-      {
-       "affiliation": "AKU Society, Cambridge, UK",
-       "name": "Timmis, O."
-      },
-      {
-       "affiliation": "Stichting Pati\u00ebntenstem.nu, Den Haag, The Netherlands",
-       "name": "van Nederveen, V."
-      },
-      {
-       "affiliation": "Duchenne Parent Project, Veenendaal, The Netherlands",
-       "name": "Vroom, E."
-      },
-      {
-       "affiliation": "Pediatric clinical Research Office, Academic Medical Center, University of Amsterdam, Meibergdreef 9, 1105, AZ, Amsterdam, The Netherlands",
-       "name": "van der Lee, J. H."
-      }
-     ],
-     "description": "<p><strong>Background: </strong>Clinical trials in rare diseases are more challenging than trials in frequent diseases. Small numbers of eligible trial participants, often complicated by heterogeneity among rare disease patients, hamper the design and conduct of a 'classical' Randomized Controlled Trial. Therefore, novel designs are developed by statisticians. However, it is important to be aware of possible design aspects that may jeopardize the feasibility of trial conduct. If the burden of participation is considered out of proportion by patients or parents, recruitment may fail or participants may drop out before trial completion. In order to maximize the chance of success of trials in small populations, it is important to know which aspects of trial design are considered important by patients.</p><p><strong>Results: </strong>We have interviewed all ten members of the Patient Think Tank (PTT) of the ASTERIX project, a European research consortium on methodology for clinical trials in small populations. The PTT members are rare disease patient representatives who have completed extensive training in clinical trial methodology. We have analyzed the interviews qualitatively according to Grounded Theory using a thematic analysis, and we structured the topics in four chronologically ordered themes: 1. Involvement in trial design; 2. Opinions on trial design; 3. Trial participation; 4. Phase after the trial. Our main findings are that the PTT-members recommend that patients are involved in trial design from an early stage on, and have influence on the outcomes and measurement instruments that are chosen in the trial, the length of the study, the choice of participants, and the information that is sent to potential participants. Also, according to the PTT-members, patient groups should consider setting up disease registries, placebo groups should be minimized, and more education on clinical trials is advised.</p><p><strong>Conclusions: </strong>Rare disease patient representatives who have been educated about clinical trial methodology think it is important to involve patient representatives in research at an early stage. They can be of advice in trial design in such a way that the ratio of potential benefit and burden of trial participation as well as the chosen outcome measures and in- and exclusion criteria are optimized.</p>",
-     "doi": "10.1186/s13023-019-1002-z",
-     "grants": [
-      {
-       "acronym": "ASTERIX",
-       "code": "603160",
-       "funder": {
-        "acronyms": [],
-        "doi": "10.13039/501100000780",
-        "links": {
-         "self": "https://zenodo.org/api/funders/10.13039/501100000780"
-        },
-        "name": "European Commission"
-       },
-       "links": {
-        "self": "https://zenodo.org/api/grants/10.13039/501100000780::603160"
-       },
-       "program": "FP7",
-       "title": "Advances in Small Trials dEsign for Regulatory Innovation and eXcellence"
-      }
-     ],
-     "journal": {
-      "issue": "1",
-      "pages": "31",
-      "title": "Orphanet Journal of Rare Diseases",
-      "volume": "14"
-     },
-     "keywords": [
-      "Rare diseases",
-      "Patient involvement",
-      "Qualitative study"
-     ],
-     "license": {
-      "id": "CC-BY-4.0"
-     },
-     "publication_date": "2019-02-07",
-     "relations": {
-      "version": [
-       {
-        "count": 1,
-        "index": 0,
-        "is_last": true,
-        "last_child": {
-         "pid_type": "recid",
-         "pid_value": "2561528"
-        },
-        "parent": {
-         "pid_type": "recid",
-         "pid_value": "2561527"
-        }
-       }
-      ]
-     },
-     "resource_type": {
-      "subtype": "article",
-      "title": "Journal article",
-      "type": "publication"
-     },
-     "title": "The patient's view on rare disease trial design \u2013 a qualitative study"
-    },
-    "owners": [
-     22832
-    ],
-    "revision": 5,
-    "stats": {
-     "downloads": 10.0,
-     "unique_downloads": 9.0,
-     "unique_views": 13.0,
-     "version_downloads": 10.0,
-     "version_unique_downloads": 9.0,
-     "version_unique_views": 13.0,
-     "version_views": 13.0,
-     "version_volume": 3835840.0,
-     "views": 13.0,
-     "volume": 3835840.0
-    },
-    "updated": "2020-01-20T16:21:36.247694+00:00"
    }
   ],
-  "total": 11568
+  "total": 11574
  },
  "links": {
   "next": "https://zenodo.org/api/records/?sort=bestmatch&q=Vrije+Universiteit+Amsterdam&page=2&size=500",

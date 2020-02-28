@@ -13,7 +13,7 @@ Usage::
 
 """
 
-import os, requests, json, time, random, pprint
+import os, requests, json, time, random, xlsxwriter, pprint
 
 def testAPI(token, url):
     """
@@ -91,6 +91,50 @@ def extractMetadata(res, db, query):
     #db[query] = dbnew
     return db
 
+def writeAuthorsToExcel(metadata, filename):
+    """
+    Write authors to Excel spreadsheet
+
+    """
+    if not filename.endswith('.xlsx'):
+        filename += '.xlsx'
+    xls = xlsxwriter.Workbook(filename)
+    xls.nan_inf_to_errors = True
+    fmt_head = xls.add_format({'bold': True, 'align': 'center'})
+
+    xldat = xls.add_worksheet('authors')
+    xldat.write_string(0, 0, 'Name', fmt_head)
+    xldat.write_string(0, 1, 'Affiliation', fmt_head)
+    xldat.write_string(0, 2, 'Type', fmt_head)
+    xldat.write_string(0, 3, 'Repository', fmt_head)
+    xldat.write_string(0, 4, 'URI', fmt_head)
+    xldat.write_string(0, 5, 'Count', fmt_head)
+
+    authors = []
+    author_cntr = {}
+
+    for r in metadata:
+        for a in metadata[r]['authors']:
+            if a in author_cntr:
+                author_cntr[a] += 1
+            else:
+                author_cntr[a] = 1
+
+    cntr = 1
+    for r in metadata:
+        for a in metadata[r]['authors']:
+            if a not in authors:
+                xldat.write_string(cntr, 0, a)
+                xldat.write_string(cntr, 1, metadata[r]['query'])
+                xldat.write_string(cntr, 2, metadata[r]['type'])
+                xldat.write_string(cntr, 3, 'zenodo')
+                xldat.write_number(cntr, 4, author_cntr[a])
+                xldat.write_url(cntr, 5, 'http://doi.org/{}'.format(r))
+                cntr += 1
+                authors.append(a)
+    xls.close()
+
+
 if __name__ == '__main__':
     cDir = os.path.dirname(os.path.abspath(os.sys.argv[0]))
     raw_data_path = os.path.join(cDir, 'raw_json')
@@ -126,10 +170,11 @@ if __name__ == '__main__':
         timing.append('Query: {}\n Get: {:03.2f}s\n Extract: {:03.2f}s\n Write: {:03.2f}s\n'.format(query,\
                                                                     timeGet-time0, timeExt-timeGet, timeWrite-timeExt))
 
-
-    # dump metadata as a json dict
+    # dump metadata as json and excel
     with open('zenodo_search_results.json', 'w') as F:
         json.dump(metadata, F, indent=1)
+
+    writeAuthorsToExcel(metadata, 'zenodo_vu_authors.xlsx')
 
     #pprint.pprint(metadata)
     print('')
@@ -139,46 +184,3 @@ if __name__ == '__main__':
     print('\n\nZenodo returned {} results from the requested search queries: \"{}\".'.format(len(metadata), queries))
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-'''
-def pretty_print_POST(req):
-    """
-    https://stackoverflow.com/questions/20658572/python-requests-print-entire-http-request-raw/23816211#23816211
-
-    At this point it is completely built and ready
-    to be fired; it is "prepared".
-
-    However pay attention at the formatting used in
-    this function because it is programmed to be pretty
-    printed and may differ from the actual request.
-    """
-    print('{}\n{}\r\n{}\r\n\r\n{}'.format(
-        '-----------START-----------',
-        req.method + ' ' + req.url,
-        '\r\n'.join('{}: {}'.format(k, v) for k, v in req.headers.items()),
-        req.body,
-    ))
-
-# interesting for debugging
-#req = requests.Request('POST','http://stackoverflow.com',headers={'X-Custom':'Test'},data='a=1&b=2')
-#prepared = req.prepare()
-#pretty_print_POST(prepared)
-'''
