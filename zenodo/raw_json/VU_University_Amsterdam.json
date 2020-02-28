@@ -3,7 +3,7 @@
   "access_right": {
    "buckets": [
     {
-     "doc_count": 172665,
+     "doc_count": 172666,
      "key": "open"
     },
     {
@@ -15,7 +15,7 @@
      "key": "restricted"
     },
     {
-     "doc_count": 425,
+     "doc_count": 426,
      "key": "embargoed"
     }
    ],
@@ -66,7 +66,7 @@
     }
    ],
    "doc_count_error_upper_bound": 0,
-   "sum_other_doc_count": 30784
+   "sum_other_doc_count": 30786
   },
   "file_type": {
    "buckets": [
@@ -112,7 +112,7 @@
     }
    ],
    "doc_count_error_upper_bound": 0,
-   "sum_other_doc_count": 18364
+   "sum_other_doc_count": 18366
   },
   "keywords": {
    "buckets": [
@@ -158,17 +158,17 @@
     }
    ],
    "doc_count_error_upper_bound": 0,
-   "sum_other_doc_count": 888443
+   "sum_other_doc_count": 888448
   },
   "type": {
    "buckets": [
     {
-     "doc_count": 107076,
+     "doc_count": 107077,
      "key": "publication",
      "subtype": {
       "buckets": [
        {
-        "doc_count": 90145,
+        "doc_count": 90146,
         "key": "article"
        },
        {
@@ -292,7 +292,7 @@
      }
     },
     {
-     "doc_count": 736,
+     "doc_count": 737,
      "key": "video",
      "subtype": {
       "buckets": [],
@@ -68821,7 +68821,7 @@
     "updated": "2020-01-20T12:53:49.787792+00:00"
    }
   ],
-  "total": 186853
+  "total": 186855
  },
  "links": {
   "next": "https://zenodo.org/api/records/?sort=bestmatch&q=VU+University+Amsterdam&page=2&size=500",

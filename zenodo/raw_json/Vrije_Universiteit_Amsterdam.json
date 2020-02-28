@@ -52885,6 +52885,98 @@
     "updated": "2020-01-20T17:22:35.175286+00:00"
    },
    {
+    "conceptrecid": "3391755",
+    "created": "2019-09-06T06:28:02.904010+00:00",
+    "doi": "10.5117/mab.23.13209",
+    "files": [
+     {
+      "bucket": "efa65a59-3689-42cb-b222-8e3884badeac",
+      "checksum": "md5:c365174fd474383307244b3d2f3e9ac4",
+      "key": "13209__1_222066_LE_333267.pdf",
+      "links": {
+       "self": "https://zenodo.org/api/files/efa65a59-3689-42cb-b222-8e3884badeac/13209__1_222066_LE_333267.pdf"
+      },
+      "size": 873453,
+      "type": "pdf"
+     }
+    ],
+    "id": 3391756,
+    "links": {
+     "badge": "https://zenodo.org/badge/doi/10.5117/mab.23.13209.svg",
+     "bucket": "https://zenodo.org/api/files/efa65a59-3689-42cb-b222-8e3884badeac",
+     "doi": "https://doi.org/10.5117/mab.23.13209",
+     "html": "https://zenodo.org/record/3391756",
+     "latest": "https://zenodo.org/api/records/3391756",
+     "latest_html": "https://zenodo.org/record/3391756",
+     "self": "https://zenodo.org/api/records/3391756"
+    },
+    "metadata": {
+     "access_right": "open",
+     "access_right_category": "success",
+     "creators": [
+      {
+       "name": "Mey, J. L."
+      }
+     ],
+     "description": "BOEKBESPREKINGEN ECONOMIE EN MAATSCHAPPIJ, OPSTELLEN GESCHREVEN TER GE\u00ad LEGENHEID VAN HET 25-JARIG BESTAAN VAN DE FACULTEIT DER  ECONOMISCHE WETENSCHAPPEN VAN DE UNIVERSITEIT VAN AM\u00ad",
+     "doi": "10.5117/mab.23.13209",
+     "imprint": {
+      "publisher": "Amsterdam University Press"
+     },
+     "journal": {
+      "issue": "(12)",
+      "pages": "347-367",
+      "title": "Maandblad Voor Accountancy en Bedrijfseconomie",
+      "volume": "23"
+     },
+     "keywords": [],
+     "license": {
+      "id": "CC-BY-4.0"
+     },
+     "publication_date": "1949-12-01",
+     "relations": {
+      "version": [
+       {
+        "count": 1,
+        "index": 0,
+        "is_last": true,
+        "last_child": {
+         "pid_type": "recid",
+         "pid_value": "3391756"
+        },
+        "parent": {
+         "pid_type": "recid",
+         "pid_value": "3391755"
+        }
+       }
+      ]
+     },
+     "resource_type": {
+      "subtype": "article",
+      "title": "Journal article",
+      "type": "publication"
+     },
+     "title": "BOEKBESPREKINGEN ECONOMIE EN MAATSCHAPPIJ, OPSTELLEN GESCHREVEN TER GE\u00ad LEGENHEID VAN HET 25-JARIG BESTAAN VAN DE FACULTEIT DER  ECONOMISCHE WETENSCHAPPEN VAN DE UNIVERSITEIT VAN AM\u00ad"
+    },
+    "owners": [
+     22270
+    ],
+    "revision": 4,
+    "stats": {
+     "downloads": 8.0,
+     "unique_downloads": 7.0,
+     "unique_views": 6.0,
+     "version_downloads": 8.0,
+     "version_unique_downloads": 7.0,
+     "version_unique_views": 6.0,
+     "version_views": 6.0,
+     "version_volume": 6987624.0,
+     "views": 6.0,
+     "volume": 6987624.0
+    },
+    "updated": "2020-01-20T16:59:28.436968+00:00"
+   },
+   {
     "conceptrecid": "639904",
     "created": "2016-08-06T04:34:02+00:00",
     "doi": "10.5281/zenodo.59751",
@@ -52998,98 +53090,6 @@
      "volume": 78644029.0
     },
     "updated": "2020-01-21T07:22:59.138671+00:00"
-   },
-   {
-    "conceptrecid": "3391755",
-    "created": "2019-09-06T06:28:02.904010+00:00",
-    "doi": "10.5117/mab.23.13209",
-    "files": [
-     {
-      "bucket": "efa65a59-3689-42cb-b222-8e3884badeac",
-      "checksum": "md5:c365174fd474383307244b3d2f3e9ac4",
-      "key": "13209__1_222066_LE_333267.pdf",
-      "links": {
-       "self": "https://zenodo.org/api/files/efa65a59-3689-42cb-b222-8e3884badeac/13209__1_222066_LE_333267.pdf"
-      },
-      "size": 873453,
-      "type": "pdf"
-     }
-    ],
-    "id": 3391756,
-    "links": {
-     "badge": "https://zenodo.org/badge/doi/10.5117/mab.23.13209.svg",
-     "bucket": "https://zenodo.org/api/files/efa65a59-3689-42cb-b222-8e3884badeac",
-     "doi": "https://doi.org/10.5117/mab.23.13209",
-     "html": "https://zenodo.org/record/3391756",
-     "latest": "https://zenodo.org/api/records/3391756",
-     "latest_html": "https://zenodo.org/record/3391756",
-     "self": "https://zenodo.org/api/records/3391756"
-    },
-    "metadata": {
-     "access_right": "open",
-     "access_right_category": "success",
-     "creators": [
-      {
-       "name": "Mey, J. L."
-      }
-     ],
-     "description": "BOEKBESPREKINGEN ECONOMIE EN MAATSCHAPPIJ, OPSTELLEN GESCHREVEN TER GE\u00ad LEGENHEID VAN HET 25-JARIG BESTAAN VAN DE FACULTEIT DER  ECONOMISCHE WETENSCHAPPEN VAN DE UNIVERSITEIT VAN AM\u00ad",
-     "doi": "10.5117/mab.23.13209",
-     "imprint": {
-      "publisher": "Amsterdam University Press"
-     },
-     "journal": {
-      "issue": "(12)",
-      "pages": "347-367",
-      "title": "Maandblad Voor Accountancy en Bedrijfseconomie",
-      "volume": "23"
-     },
-     "keywords": [],
-     "license": {
-      "id": "CC-BY-4.0"
-     },
-     "publication_date": "1949-12-01",
-     "relations": {
-      "version": [
-       {
-        "count": 1,
-        "index": 0,
-        "is_last": true,
-        "last_child": {
-         "pid_type": "recid",
-         "pid_value": "3391756"
-        },
-        "parent": {
-         "pid_type": "recid",
-         "pid_value": "3391755"
-        }
-       }
-      ]
-     },
-     "resource_type": {
-      "subtype": "article",
-      "title": "Journal article",
-      "type": "publication"
-     },
-     "title": "BOEKBESPREKINGEN ECONOMIE EN MAATSCHAPPIJ, OPSTELLEN GESCHREVEN TER GE\u00ad LEGENHEID VAN HET 25-JARIG BESTAAN VAN DE FACULTEIT DER  ECONOMISCHE WETENSCHAPPEN VAN DE UNIVERSITEIT VAN AM\u00ad"
-    },
-    "owners": [
-     22270
-    ],
-    "revision": 4,
-    "stats": {
-     "downloads": 8.0,
-     "unique_downloads": 7.0,
-     "unique_views": 6.0,
-     "version_downloads": 8.0,
-     "version_unique_downloads": 7.0,
-     "version_unique_views": 6.0,
-     "version_views": 6.0,
-     "version_volume": 6987624.0,
-     "views": 6.0,
-     "volume": 6987624.0
-    },
-    "updated": "2020-01-20T16:59:28.436968+00:00"
    },
    {
     "conceptdoi": "10.5281/zenodo.3551851",

@@ -104,14 +104,15 @@ def writeAuthorsToExcel(metadata, filename):
 
     xldat = xls.add_worksheet('authors')
     xldat.write_string(0, 0, 'Name', fmt_head)
-    xldat.write_string(0, 1, 'Affiliation', fmt_head)
-    xldat.write_string(0, 2, 'Type', fmt_head)
-    xldat.write_string(0, 3, 'Repository', fmt_head)
+    xldat.write_string(0, 1, 'Type', fmt_head)
+    xldat.write_string(0, 2, 'Repository', fmt_head)
+    xldat.write_string(0, 3, 'Count', fmt_head)
     xldat.write_string(0, 4, 'URI', fmt_head)
-    xldat.write_string(0, 5, 'Count', fmt_head)
+    xldat.write_string(0, 5, 'Affiliation', fmt_head)
 
     authors = []
     author_cntr = {}
+    author_types = {}
 
     for r in metadata:
         for a in metadata[r]['authors']:
@@ -119,17 +120,22 @@ def writeAuthorsToExcel(metadata, filename):
                 author_cntr[a] += 1
             else:
                 author_cntr[a] = 1
+            if a in author_types:
+                if metadata[r]['type'] not in author_types[a]:
+                    author_types[a] = '{},{}'.format(author_types[a], metadata[r]['type'])
+            else:
+                author_types[a] = '{}'.format(metadata[r]['type'])
 
     cntr = 1
     for r in metadata:
         for a in metadata[r]['authors']:
             if a not in authors:
                 xldat.write_string(cntr, 0, a)
-                xldat.write_string(cntr, 1, metadata[r]['query'])
-                xldat.write_string(cntr, 2, metadata[r]['type'])
-                xldat.write_string(cntr, 3, 'zenodo')
-                xldat.write_number(cntr, 4, author_cntr[a])
-                xldat.write_url(cntr, 5, 'http://doi.org/{}'.format(r))
+                xldat.write_string(cntr, 1, author_types[a])
+                xldat.write_string(cntr, 2, 'zenodo')
+                xldat.write_number(cntr, 3, author_cntr[a])
+                xldat.write_url(cntr, 4, 'http://doi.org/{}'.format(r))
+                xldat.write_string(cntr, 5, metadata[r]['query'])
                 cntr += 1
                 authors.append(a)
     xls.close()

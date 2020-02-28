@@ -25987,168 +25987,6 @@
     "updated": "2020-01-20T17:43:02.808621+00:00"
    },
    {
-    "conceptrecid": "780897",
-    "created": "2017-03-03T13:46:14.394536+00:00",
-    "doi": "10.1016/j.landurbplan.2016.02.005",
-    "files": [
-     {
-      "bucket": "dccf8ada-db75-4f8f-bf49-253bfb31698c",
-      "checksum": "md5:0401d7d32b298838ad1262fad0ee2b85",
-      "key": "HERCULES_FP7_25_Zanden_etal_2016_preprint.pdf",
-      "links": {
-       "self": "https://zenodo.org/api/files/dccf8ada-db75-4f8f-bf49-253bfb31698c/HERCULES_FP7_25_Zanden_etal_2016_preprint.pdf"
-      },
-      "size": 3863366,
-      "type": "pdf"
-     }
-    ],
-    "id": 345355,
-    "links": {
-     "badge": "https://zenodo.org/badge/doi/10.1016/j.landurbplan.2016.02.005.svg",
-     "bucket": "https://zenodo.org/api/files/dccf8ada-db75-4f8f-bf49-253bfb31698c",
-     "doi": "https://doi.org/10.1016/j.landurbplan.2016.02.005",
-     "html": "https://zenodo.org/record/345355",
-     "latest": "https://zenodo.org/api/records/345355",
-     "latest_html": "https://zenodo.org/record/345355",
-     "self": "https://zenodo.org/api/records/345355"
-    },
-    "metadata": {
-     "access_right": "open",
-     "access_right_category": "success",
-     "communities": [
-      {
-       "id": "hercules-project"
-      }
-     ],
-     "creators": [
-      {
-       "affiliation": "Environmental Geography group, Department of Earth Sciences, VU University Amsterdam, De Boelelaan 1085, 1081 HV Amsterdam, The Netherlands",
-       "name": "van der Zanden, E.H."
-      },
-      {
-       "affiliation": "Geography Department, Humboldt-University Berlin, Unter den Linden 6, 10099 Berlin, Germany",
-       "name": "Levers, C."
-      },
-      {
-       "affiliation": "Environmental Geography group, Department of Earth Sciences, VU University Amsterdam, De Boelelaan 1085, 1081 HV Amsterdam, The Netherlands",
-       "name": "Verburg, P.H."
-      },
-      {
-       "affiliation": "Geography Department, Humboldt-University Berlin, Unter den Linden 6, 10099 Berlin, Germany; and Integrative Research Institute on Transformations in Human-Environment Systems (IRI THESys), Humboldt-University Berlin, Unter den Linden 6, 10099 Berlin, Germany",
-       "name": "Kuemmerle,T."
-      }
-     ],
-     "description": "<p>Comprehensive maps that characterize the variation in agricultural landscapes across Europe are lacking. In this paper we present a new Europe-wide, spatially-explicit typology and inventory of the diversity in composition, spatial structure and management intensity of European agricultural landscapes. Agricultural landscape types were characterized at a 1 km2resolution based on Europe-wide datasets that represent land cover, landscape structure and land management intensity. Two alternative approaches for typology development were used: an expert-based top-down approach, and a bottom-up approach based on automated clustering using Self Organizing Maps (SOMs). Comparison with available national and European landscape typologies showed that our typology deviates from existing biophysical and anthropocentric typologies relevant to agricultural landscapes as result of the inclusion of land management aspects. Concordance occurred between specific European typology classes, while the comparison with national landscape typologies showed a correspondence in agricultural landscape patterns. Our agricultural landscape typology can provide a basis for landscape assessment at a European-scale to help to identify agricultural landscape types prone to change and landscapes that may require policy response.</p>",
-     "doi": "10.1016/j.landurbplan.2016.02.005",
-     "grants": [
-      {
-       "acronym": "CLAIM",
-       "code": "289578",
-       "funder": {
-        "acronyms": [],
-        "doi": "10.13039/501100000780",
-        "links": {
-         "self": "https://zenodo.org/api/funders/10.13039/501100000780"
-        },
-        "name": "European Commission"
-       },
-       "links": {
-        "self": "https://zenodo.org/api/grants/10.13039/501100000780::289578"
-       },
-       "program": "FP7",
-       "title": "Supporting the role of the Common agricultural policy in LAndscape valorisation: Improving the knowledge base of the contribution of landscape Management to the rural economy"
-      },
-      {
-       "acronym": "VOLANTE",
-       "code": "265104",
-       "funder": {
-        "acronyms": [],
-        "doi": "10.13039/501100000780",
-        "links": {
-         "self": "https://zenodo.org/api/funders/10.13039/501100000780"
-        },
-        "name": "European Commission"
-       },
-       "links": {
-        "self": "https://zenodo.org/api/grants/10.13039/501100000780::265104"
-       },
-       "program": "FP7",
-       "title": "Visions Of LANd use Transitions in Europe"
-      },
-      {
-       "acronym": "HERCULES",
-       "code": "603447",
-       "funder": {
-        "acronyms": [],
-        "doi": "10.13039/501100000780",
-        "links": {
-         "self": "https://zenodo.org/api/funders/10.13039/501100000780"
-        },
-        "name": "European Commission"
-       },
-       "links": {
-        "self": "https://zenodo.org/api/grants/10.13039/501100000780::603447"
-       },
-       "program": "FP7",
-       "title": "Sustainable futures for Europe\u2019s HERitage in CULtural landscapES: Tools for understanding, managing, and protecting landscape functions and values"
-      }
-     ],
-     "keywords": [
-      "Agricultural landscapes",
-      "Landscape typology",
-      "Land use intensity",
-      "Self-organizing maps",
-      "Europe",
-      "Land management"
-     ],
-     "license": {
-      "id": "CC-BY-NC-ND-4.0"
-     },
-     "notes": "This text is a preprint. Please cite as: van der Zanden E.H., C. Levers, P.H. Verburg, T. Kuemmerle (2016): Representing composition, spatial structure and management intensity of European agricultural landscapes: A new typology. Landscape and Urban Planning 150: 36-49. The original publication is available at:\nhttp://dx.doi.org/10.1016/j.landurbplan.2016.02.005.",
-     "publication_date": "2016-06-01",
-     "relations": {
-      "version": [
-       {
-        "count": 1,
-        "index": 0,
-        "is_last": true,
-        "last_child": {
-         "pid_type": "recid",
-         "pid_value": "345355"
-        },
-        "parent": {
-         "pid_type": "recid",
-         "pid_value": "780897"
-        }
-       }
-      ]
-     },
-     "resource_type": {
-      "subtype": "preprint",
-      "title": "Preprint",
-      "type": "publication"
-     },
-     "title": "Representing composition, spatial structure and managementintensity of European agricultural landscapes: A new typology"
-    },
-    "owners": [
-     10407
-    ],
-    "revision": 7,
-    "stats": {
-     "downloads": 37.0,
-     "unique_downloads": 36.0,
-     "unique_views": 19.0,
-     "version_downloads": 37.0,
-     "version_unique_downloads": 36.0,
-     "version_unique_views": 19.0,
-     "version_views": 19.0,
-     "version_volume": 142944542.0,
-     "views": 19.0,
-     "volume": 142944542.0
-    },
-    "updated": "2020-01-20T15:50:21.879080+00:00"
-   },
-   {
     "conceptrecid": "3387971",
     "created": "2019-09-06T04:35:55.837112+00:00",
     "doi": "10.5117/mab.10.10106",
@@ -26439,6 +26277,168 @@
      "volume": 10694096.0
     },
     "updated": "2020-02-05T07:20:51.017190+00:00"
+   },
+   {
+    "conceptrecid": "780897",
+    "created": "2017-03-03T13:46:14.394536+00:00",
+    "doi": "10.1016/j.landurbplan.2016.02.005",
+    "files": [
+     {
+      "bucket": "dccf8ada-db75-4f8f-bf49-253bfb31698c",
+      "checksum": "md5:0401d7d32b298838ad1262fad0ee2b85",
+      "key": "HERCULES_FP7_25_Zanden_etal_2016_preprint.pdf",
+      "links": {
+       "self": "https://zenodo.org/api/files/dccf8ada-db75-4f8f-bf49-253bfb31698c/HERCULES_FP7_25_Zanden_etal_2016_preprint.pdf"
+      },
+      "size": 3863366,
+      "type": "pdf"
+     }
+    ],
+    "id": 345355,
+    "links": {
+     "badge": "https://zenodo.org/badge/doi/10.1016/j.landurbplan.2016.02.005.svg",
+     "bucket": "https://zenodo.org/api/files/dccf8ada-db75-4f8f-bf49-253bfb31698c",
+     "doi": "https://doi.org/10.1016/j.landurbplan.2016.02.005",
+     "html": "https://zenodo.org/record/345355",
+     "latest": "https://zenodo.org/api/records/345355",
+     "latest_html": "https://zenodo.org/record/345355",
+     "self": "https://zenodo.org/api/records/345355"
+    },
+    "metadata": {
+     "access_right": "open",
+     "access_right_category": "success",
+     "communities": [
+      {
+       "id": "hercules-project"
+      }
+     ],
+     "creators": [
+      {
+       "affiliation": "Environmental Geography group, Department of Earth Sciences, VU University Amsterdam, De Boelelaan 1085, 1081 HV Amsterdam, The Netherlands",
+       "name": "van der Zanden, E.H."
+      },
+      {
+       "affiliation": "Geography Department, Humboldt-University Berlin, Unter den Linden 6, 10099 Berlin, Germany",
+       "name": "Levers, C."
+      },
+      {
+       "affiliation": "Environmental Geography group, Department of Earth Sciences, VU University Amsterdam, De Boelelaan 1085, 1081 HV Amsterdam, The Netherlands",
+       "name": "Verburg, P.H."
+      },
+      {
+       "affiliation": "Geography Department, Humboldt-University Berlin, Unter den Linden 6, 10099 Berlin, Germany; and Integrative Research Institute on Transformations in Human-Environment Systems (IRI THESys), Humboldt-University Berlin, Unter den Linden 6, 10099 Berlin, Germany",
+       "name": "Kuemmerle,T."
+      }
+     ],
+     "description": "<p>Comprehensive maps that characterize the variation in agricultural landscapes across Europe are lacking. In this paper we present a new Europe-wide, spatially-explicit typology and inventory of the diversity in composition, spatial structure and management intensity of European agricultural landscapes. Agricultural landscape types were characterized at a 1 km2resolution based on Europe-wide datasets that represent land cover, landscape structure and land management intensity. Two alternative approaches for typology development were used: an expert-based top-down approach, and a bottom-up approach based on automated clustering using Self Organizing Maps (SOMs). Comparison with available national and European landscape typologies showed that our typology deviates from existing biophysical and anthropocentric typologies relevant to agricultural landscapes as result of the inclusion of land management aspects. Concordance occurred between specific European typology classes, while the comparison with national landscape typologies showed a correspondence in agricultural landscape patterns. Our agricultural landscape typology can provide a basis for landscape assessment at a European-scale to help to identify agricultural landscape types prone to change and landscapes that may require policy response.</p>",
+     "doi": "10.1016/j.landurbplan.2016.02.005",
+     "grants": [
+      {
+       "acronym": "CLAIM",
+       "code": "289578",
+       "funder": {
+        "acronyms": [],
+        "doi": "10.13039/501100000780",
+        "links": {
+         "self": "https://zenodo.org/api/funders/10.13039/501100000780"
+        },
+        "name": "European Commission"
+       },
+       "links": {
+        "self": "https://zenodo.org/api/grants/10.13039/501100000780::289578"
+       },
+       "program": "FP7",
+       "title": "Supporting the role of the Common agricultural policy in LAndscape valorisation: Improving the knowledge base of the contribution of landscape Management to the rural economy"
+      },
+      {
+       "acronym": "VOLANTE",
+       "code": "265104",
+       "funder": {
+        "acronyms": [],
+        "doi": "10.13039/501100000780",
+        "links": {
+         "self": "https://zenodo.org/api/funders/10.13039/501100000780"
+        },
+        "name": "European Commission"
+       },
+       "links": {
+        "self": "https://zenodo.org/api/grants/10.13039/501100000780::265104"
+       },
+       "program": "FP7",
+       "title": "Visions Of LANd use Transitions in Europe"
+      },
+      {
+       "acronym": "HERCULES",
+       "code": "603447",
+       "funder": {
+        "acronyms": [],
+        "doi": "10.13039/501100000780",
+        "links": {
+         "self": "https://zenodo.org/api/funders/10.13039/501100000780"
+        },
+        "name": "European Commission"
+       },
+       "links": {
+        "self": "https://zenodo.org/api/grants/10.13039/501100000780::603447"
+       },
+       "program": "FP7",
+       "title": "Sustainable futures for Europe\u2019s HERitage in CULtural landscapES: Tools for understanding, managing, and protecting landscape functions and values"
+      }
+     ],
+     "keywords": [
+      "Agricultural landscapes",
+      "Landscape typology",
+      "Land use intensity",
+      "Self-organizing maps",
+      "Europe",
+      "Land management"
+     ],
+     "license": {
+      "id": "CC-BY-NC-ND-4.0"
+     },
+     "notes": "This text is a preprint. Please cite as: van der Zanden E.H., C. Levers, P.H. Verburg, T. Kuemmerle (2016): Representing composition, spatial structure and management intensity of European agricultural landscapes: A new typology. Landscape and Urban Planning 150: 36-49. The original publication is available at:\nhttp://dx.doi.org/10.1016/j.landurbplan.2016.02.005.",
+     "publication_date": "2016-06-01",
+     "relations": {
+      "version": [
+       {
+        "count": 1,
+        "index": 0,
+        "is_last": true,
+        "last_child": {
+         "pid_type": "recid",
+         "pid_value": "345355"
+        },
+        "parent": {
+         "pid_type": "recid",
+         "pid_value": "780897"
+        }
+       }
+      ]
+     },
+     "resource_type": {
+      "subtype": "preprint",
+      "title": "Preprint",
+      "type": "publication"
+     },
+     "title": "Representing composition, spatial structure and managementintensity of European agricultural landscapes: A new typology"
+    },
+    "owners": [
+     10407
+    ],
+    "revision": 7,
+    "stats": {
+     "downloads": 37.0,
+     "unique_downloads": 36.0,
+     "unique_views": 19.0,
+     "version_downloads": 37.0,
+     "version_unique_downloads": 36.0,
+     "version_unique_views": 19.0,
+     "version_views": 19.0,
+     "version_volume": 142944542.0,
+     "views": 19.0,
+     "volume": 142944542.0
+    },
+    "updated": "2020-01-20T15:50:21.879080+00:00"
    },
    {
     "conceptdoi": "10.5281/zenodo.2536192",
@@ -52979,926 +52979,6 @@
     "updated": "2019-09-05T19:05:59.137096+00:00"
    },
    {
-    "conceptdoi": "10.5281/zenodo.2546799",
-    "conceptrecid": "2546799",
-    "created": "2019-01-22T14:51:29.479055+00:00",
-    "doi": "10.5281/zenodo.2546800",
-    "files": [
-     {
-      "bucket": "a8f97536-2891-4447-96ac-c241dc0c25d8",
-      "checksum": "md5:8a0e03aa13e80946c1b2947c7bfe5176",
-      "key": "5dilemmasNI-paper-frederik-john-sascha-ali.pdf",
-      "links": {
-       "self": "https://zenodo.org/api/files/a8f97536-2891-4447-96ac-c241dc0c25d8/5dilemmasNI-paper-frederik-john-sascha-ali.pdf"
-      },
-      "size": 363475,
-      "type": "pdf"
-     }
-    ],
-    "id": 2546800,
-    "links": {
-     "badge": "https://zenodo.org/badge/doi/10.5281/zenodo.2546800.svg",
-     "bucket": "https://zenodo.org/api/files/a8f97536-2891-4447-96ac-c241dc0c25d8",
-     "conceptbadge": "https://zenodo.org/badge/doi/10.5281/zenodo.2546799.svg",
-     "conceptdoi": "https://doi.org/10.5281/zenodo.2546799",
-     "doi": "https://doi.org/10.5281/zenodo.2546800",
-     "html": "https://zenodo.org/record/2546800",
-     "latest": "https://zenodo.org/api/records/2546800",
-     "latest_html": "https://zenodo.org/record/2546800",
-     "self": "https://zenodo.org/api/records/2546800"
-    },
-    "metadata": {
-     "access_right": "open",
-     "access_right_category": "success",
-     "communities": [
-      {
-       "id": "niaaproceedings1718"
-      }
-     ],
-     "creators": [
-      {
-       "affiliation": "Vrije Universiteit Amsterdam",
-       "name": "Frederik Lukas Koenig"
-      },
-      {
-       "affiliation": "Vrije Universiteit Amsterdam",
-       "name": "John Can Lokman"
-      },
-      {
-       "affiliation": "Vrije Universiteit Amsterdam",
-       "name": "Sascha Friesike"
-      },
-      {
-       "affiliation": "Vrije Universiteit Amsterdam",
-       "name": "Ali Khalili"
-      }
-     ],
-     "description": "<p>Interdisciplinary research receives increasing attention from academics, research organizations, and funding bodies. It is seen as a promising avenue to develop novel insights. However, it is also considered to be more complicated to set up and to conduct successfully. To make the scattered literature on the subject accessible and to derive implications for both individual researchers and policy makers, we propose that interdisciplinary research can be conceptualized as a set of five dilemmas. Based on an extensive and systematic literature review of 137 research articles we present these dilemmas to better structure the main promises and pitfalls of interdisciplinary research. The value of conceptualizing interdisciplinary research this way is three-fold: (1) it makes existing research on the topic accessible as it structures the highly dispersed debates, (2) it provides implications for individual researchers active in an increasingly interdisciplinary academic environment, and (3) it supports research organizations and funding bodies in developing strategies to support an interdisciplinary research ecosystem. We also present a data preprocessing, exploration, and analysis framework in later sections of the report. This technical framework is aimed at accelerating studies of interdisciplinarity (and for testing our framework in follow-up studies) by streamlining common tasks such as data cleaning and enrichment, and automatic detection of interdisciplinary bodies of work in large bibliometric databases.<br>\n&nbsp;</p>",
-     "doi": "10.5281/zenodo.2546800",
-     "keywords": [
-      "interdisciplinary research",
-      "systematic review",
-      "scientometrics",
-      "linked data"
-     ],
-     "license": {
-      "id": "CC-BY-4.0"
-     },
-     "publication_date": "2019-01-22",
-     "related_identifiers": [
-      {
-       "identifier": "10.5281/zenodo.2546799",
-       "relation": "isVersionOf",
-       "scheme": "doi"
-      }
-     ],
-     "relations": {
-      "version": [
-       {
-        "count": 1,
-        "index": 0,
-        "is_last": true,
-        "last_child": {
-         "pid_type": "recid",
-         "pid_value": "2546800"
-        },
-        "parent": {
-         "pid_type": "recid",
-         "pid_value": "2546799"
-        }
-       }
-      ]
-     },
-     "resource_type": {
-      "subtype": "article",
-      "title": "Journal article",
-      "type": "publication"
-     },
-     "title": "The five dilemmas of interdisciplinary research and how to deal with them: a review"
-    },
-    "owners": [
-     55597
-    ],
-    "revision": 5,
-    "stats": {
-     "downloads": 32.0,
-     "unique_downloads": 32.0,
-     "unique_views": 265.0,
-     "version_downloads": 32.0,
-     "version_unique_downloads": 32.0,
-     "version_unique_views": 265.0,
-     "version_views": 278.0,
-     "version_volume": 11631200.0,
-     "views": 278.0,
-     "volume": 11631200.0
-    },
-    "updated": "2020-01-20T15:30:16.594202+00:00"
-   },
-   {
-    "conceptdoi": "10.5281/zenodo.3227975",
-    "conceptrecid": "3227975",
-    "created": "2019-05-25T08:51:30.772070+00:00",
-    "doi": "10.5281/zenodo.3227976",
-    "files": [
-     {
-      "bucket": "7a1cb348-a782-4941-9553-86682f92bd8f",
-      "checksum": "md5:1546c60c84d57abd448478c0cc89bb86",
-      "key": "data.hdt",
-      "links": {
-       "self": "https://zenodo.org/api/files/7a1cb348-a782-4941-9553-86682f92bd8f/data.hdt"
-      },
-      "size": 35980254447,
-      "type": "hdt"
-     },
-     {
-      "bucket": "7a1cb348-a782-4941-9553-86682f92bd8f",
-      "checksum": "md5:39121f59c72b4f3ffcc63649bc5eb3fc",
-      "key": "data.hdt.index.v1-1",
-      "links": {
-       "self": "https://zenodo.org/api/files/7a1cb348-a782-4941-9553-86682f92bd8f/data.hdt.index.v1-1"
-      },
-      "size": 36997120717,
-      "type": "v1-1"
-     }
-    ],
-    "id": 3227976,
-    "links": {
-     "badge": "https://zenodo.org/badge/doi/10.5281/zenodo.3227976.svg",
-     "bucket": "https://zenodo.org/api/files/7a1cb348-a782-4941-9553-86682f92bd8f",
-     "conceptbadge": "https://zenodo.org/badge/doi/10.5281/zenodo.3227975.svg",
-     "conceptdoi": "https://doi.org/10.5281/zenodo.3227975",
-     "doi": "https://doi.org/10.5281/zenodo.3227976",
-     "html": "https://zenodo.org/record/3227976",
-     "latest": "https://zenodo.org/api/records/3227976",
-     "latest_html": "https://zenodo.org/record/3227976",
-     "self": "https://zenodo.org/api/records/3227976"
-    },
-    "metadata": {
-     "access_right": "open",
-     "access_right_category": "success",
-     "communities": [
-      {
-       "id": "linkeddata"
-      },
-      {
-       "id": "semantic-web"
-      }
-     ],
-     "creators": [
-      {
-       "affiliation": "Vrije Universiteit Amsterdam",
-       "name": "Beek, Wouter",
-       "orcid": "0000-0003-0250-9655"
-      },
-      {
-       "affiliation": "Vrije Universiteit Amsterdam",
-       "name": "Raad, Joe",
-       "orcid": "0000-0002-7891-7738"
-      },
-      {
-       "affiliation": "Vrije Universiteit Amsterdam",
-       "name": "Acar, Erman"
-      },
-      {
-       "affiliation": "Vrije Universiteit Amsterdam",
-       "name": "Van Harmelen, Frank",
-       "orcid": "0000-0002-7913-0048"
-      }
-     ],
-     "description": "<p>MetaLink is a dataset that contains metadata for a very large set of owl:sameAs links that are crawled from the LOD Cloud.&nbsp;MetaLink encodes a previously published error metric for each of these links <a href=\"https://www.cs.vu.nl/~frankh/postscript/ISWC2018.pdf\">[Raad et al., 2018]</a>. This error degree ranges&nbsp;from 0.0 (most likely correct) till 1.0 (most likely incorrect). The idea is that the more an owl:sameAs link is isolated in the network (of all owl:sameAs links), the higher&nbsp;error degree this link&nbsp;will have.&nbsp;Experiments shows that discarding the 1M owl:sameAs links with an error degree &gt;0.99 can significantly increase the quality of the transitive closure. Also by keeping only the 400M owl:sameAs links with error degree &lt;= 0.4, the resulting closure is 100% precise in several manually evaluated cases. The resulted equivalence classes from these different closures are <a href=\"https://zenodo.org/record/3345674\">publicly available online.</a></p>\n\n<p>MetaLink is published in combination with LOD-a-lot, a dataset that is based on a very large crawl of a subset of the LOD Cloud. By combining MetaLink and LOD-a-lot, applications are able to make informed decisions about whether or not to follow specific links on the LOD Cloud. This dataset contains 4,352,602,452 unique triples, and is available in HDT (Header Dictionary Triples) format. It can be navigated online using the TriplyDB Linked Data hosting platform:&nbsp;<a href=\"https://krr.triply.cc/krr/metalink\">https://krr.triply.cc/krr/metalink</a>.&nbsp;&nbsp;</p>\n\n<p>A figure describing&nbsp;the vocabulary of the MetaLink&nbsp;dataset can be found <a href=\"https://krr.triply.cc/krr/metalink/assets/5ced8dbfaea75b02bc98784f\">here</a>.&nbsp;Classes are displayed by circles and properties are displayed by arcs. The MetaLink-specific classes and properties are displayed in red, the blue classes and properties are reused from existing vocabularies.</p>",
-     "doi": "10.5281/zenodo.3227976",
-     "keywords": [
-      "Linked Open Data",
-      "Identity"
-     ],
-     "license": {
-      "id": "CC-BY-SA-3.0"
-     },
-     "publication_date": "2019-04-10",
-     "related_identifiers": [
-      {
-       "identifier": "10.5281/zenodo.3227975",
-       "relation": "isVersionOf",
-       "scheme": "doi"
-      }
-     ],
-     "relations": {
-      "version": [
-       {
-        "count": 1,
-        "index": 0,
-        "is_last": true,
-        "last_child": {
-         "pid_type": "recid",
-         "pid_value": "3227976"
-        },
-        "parent": {
-         "pid_type": "recid",
-         "pid_value": "3227975"
-        }
-       }
-      ]
-     },
-     "resource_type": {
-      "title": "Dataset",
-      "type": "dataset"
-     },
-     "title": "MetaLink - Closure and Error Degree of 556M owl:sameAs statements"
-    },
-    "owners": [
-     56833
-    ],
-    "revision": 13,
-    "stats": {
-     "downloads": 42.0,
-     "unique_downloads": 15.0,
-     "unique_views": 138.0,
-     "version_downloads": 42.0,
-     "version_unique_downloads": 15.0,
-     "version_unique_views": 137.0,
-     "version_views": 169.0,
-     "version_volume": 1545744139954.0,
-     "views": 170.0,
-     "volume": 1545744139954.0
-    },
-    "updated": "2020-01-24T19:23:04.907012+00:00"
-   },
-   {
-    "conceptdoi": "10.5281/zenodo.3613758",
-    "conceptrecid": "3613758",
-    "created": "2020-01-20T15:16:50.094346+00:00",
-    "doi": "10.5281/zenodo.3613759",
-    "id": 3613759,
-    "links": {
-     "badge": "https://zenodo.org/badge/doi/10.5281/zenodo.3613759.svg",
-     "conceptbadge": "https://zenodo.org/badge/doi/10.5281/zenodo.3613758.svg",
-     "conceptdoi": "https://doi.org/10.5281/zenodo.3613758",
-     "doi": "https://doi.org/10.5281/zenodo.3613759",
-     "html": "https://zenodo.org/record/3613759",
-     "latest": "https://zenodo.org/api/records/3613759",
-     "latest_html": "https://zenodo.org/record/3613759",
-     "self": "https://zenodo.org/api/records/3613759"
-    },
-    "metadata": {
-     "access_conditions": "<p>Please request access by email to Petra Bleeker (P.M.Bleeker@uva.nl) or Marc Galland (m.galland@uva.nl).</p>",
-     "access_right": "restricted",
-     "access_right_category": "danger",
-     "communities": [
-      {
-       "id": "bleekerlab"
-      }
-     ],
-     "creators": [
-      {
-       "affiliation": "University of Amsterdam",
-       "name": "Marc Galland",
-       "orcid": "0000-0003-2161-8689"
-      },
-      {
-       "affiliation": "University of Amsterdam",
-       "name": "Petra Bleeker"
-      },
-      {
-       "affiliation": "University of Amsterdam",
-       "name": "Paula van Kleeff"
-      },
-      {
-       "affiliation": "University of Amsterdam",
-       "name": "Robert Schuurink"
-      }
-     ],
-     "description": "<p>Dataset companion of:&nbsp;</p>\n\n<p>P.J.M.&nbsp;van Kleeff,&nbsp;M.&nbsp;Galland,&nbsp;R.C.&nbsp;Schuurink,&nbsp;P.M.&nbsp;Bleeker.&nbsp;<strong>Small RNAs from&nbsp;<em>Bemisia tabaci</em>&nbsp;are transferred to&nbsp;<em>Solanum lycopersicum</em>&nbsp;phloem during feeding.&nbsp;</strong>Front Plant Sci,&nbsp;7&nbsp;(2016), p.&nbsp;1759 https://doi.org/10.3389/fpls.2016.01759</p>",
-     "doi": "10.5281/zenodo.3613759",
-     "grants": [
-      {
-       "acronym": "DURETO",
-       "code": "655656",
-       "funder": {
-        "acronyms": [],
-        "doi": "10.13039/501100000780",
-        "links": {
-         "self": "https://zenodo.org/api/funders/10.13039/501100000780"
-        },
-        "name": "European Commission"
-       },
-       "links": {
-        "self": "https://zenodo.org/api/grants/10.13039/501100000780::655656"
-       },
-       "program": "H2020",
-       "title": "Rearm cultivated tomato with natural and durable resistance mechanisms from wild tomato species"
-      },
-      {
-       "acronym": "",
-       "code": "2300178970",
-       "funder": {
-        "acronyms": [],
-        "doi": "10.13039/501100003246",
-        "links": {
-         "self": "https://zenodo.org/api/funders/10.13039/501100003246"
-        },
-        "name": "Nederlandse Organisatie voor Wetenschappelijk Onderzoek"
-       },
-       "links": {
-        "self": "https://zenodo.org/api/grants/10.13039/501100003246::2300178970"
-       },
-       "program": "",
-       "title": "Defence in the wild; from trichome transcriptomes and metabolomes to breeding tools for defence markers in tomato"
-      }
-     ],
-     "keywords": [
-      "tomato",
-      "whitefly",
-      "small RNA",
-      "effector"
-     ],
-     "notes": "PMID: 27933079",
-     "publication_date": "2016-11-24",
-     "related_identifiers": [
-      {
-       "identifier": "10.5281/zenodo.3613758",
-       "relation": "isVersionOf",
-       "scheme": "doi"
-      }
-     ],
-     "relations": {
-      "version": [
-       {
-        "count": 1,
-        "index": 0,
-        "is_last": true,
-        "last_child": {
-         "pid_type": "recid",
-         "pid_value": "3613759"
-        },
-        "parent": {
-         "pid_type": "recid",
-         "pid_value": "3613758"
-        }
-       }
-      ]
-     },
-     "resource_type": {
-      "title": "Dataset",
-      "type": "dataset"
-     },
-     "title": "Small RNA-seq files from van Kleeff et al, 2016"
-    },
-    "owners": [
-     29720
-    ],
-    "revision": 2,
-    "stats": {
-     "downloads": 2.0,
-     "unique_downloads": 1.0,
-     "unique_views": 5.0,
-     "version_downloads": 2.0,
-     "version_unique_downloads": 1.0,
-     "version_unique_views": 5.0,
-     "version_views": 6.0,
-     "version_volume": 4069468360.0,
-     "views": 6.0,
-     "volume": 4069468360.0
-    },
-    "updated": "2020-01-24T19:24:50.063105+00:00"
-   },
-   {
-    "conceptdoi": "10.5281/zenodo.2652668",
-    "conceptrecid": "2652668",
-    "created": "2019-04-27T06:29:05.521878+00:00",
-    "doi": "10.5281/zenodo.2652669",
-    "files": [
-     {
-      "bucket": "5f679e3d-6699-4153-bfb7-ef2ef130743b",
-      "checksum": "md5:22b19a5d6cd69b4c9f22ae3658f9faa0",
-      "key": "uva-sne-ic-pcp-profiling-4f7e1a858184.zip",
-      "links": {
-       "self": "https://zenodo.org/api/files/5f679e3d-6699-4153-bfb7-ef2ef130743b/uva-sne-ic-pcp-profiling-4f7e1a858184.zip"
-      },
-      "size": 58271773,
-      "type": "zip"
-     }
-    ],
-    "id": 2652669,
-    "links": {
-     "badge": "https://zenodo.org/badge/doi/10.5281/zenodo.2652669.svg",
-     "bucket": "https://zenodo.org/api/files/5f679e3d-6699-4153-bfb7-ef2ef130743b",
-     "conceptbadge": "https://zenodo.org/badge/doi/10.5281/zenodo.2652668.svg",
-     "conceptdoi": "https://doi.org/10.5281/zenodo.2652668",
-     "doi": "https://doi.org/10.5281/zenodo.2652669",
-     "html": "https://zenodo.org/record/2652669",
-     "latest": "https://zenodo.org/api/records/2652669",
-     "latest_html": "https://zenodo.org/record/2652669",
-     "self": "https://zenodo.org/api/records/2652669"
-    },
-    "metadata": {
-     "access_right": "open",
-     "access_right_category": "success",
-     "creators": [
-      {
-       "affiliation": "University of Amsterdam",
-       "name": "Taal, Arie"
-      },
-      {
-       "affiliation": "University of Amsterdam",
-       "name": "Wang, Junchao"
-      },
-      {
-       "affiliation": "University of Amsterdam",
-       "name": "de Laat, Cees"
-      },
-      {
-       "affiliation": "University of Amsterdam",
-       "name": "Zhao, Zhiming",
-       "orcid": "0000-0002-6717-9418"
-      }
-     ],
-     "description": "<pre>We study the scheduling decisions for handling deadline-constrained workflows in the context of planning customized virtual infrastructures in the cloud. We specifically focus on the effects of using different types of greediness in selecting cost-effective virtual machines for the tasks in an application&#39;s workflow graph. The profiling procedure followed demonstrates that for the widely used approach of the partial critical path algorithm a greedy version is preferred to a more stringent version under different stress conditions, from tight to loose deadlines. Representative topologies of workflow applications are used to generate sets of task graph scheduling problems. </pre>\n\n<pre>Monitoring the performance of the partial critical path algorithm with different types of greediness reveals which of the topologies tested are difficult to solve under various stress conditions.</pre>\n\n<pre>It turns out that an invalid outcome of a greedy version of the partial critical path algorithm is more susceptible to become valid via a final refinement cycle than a less greedy version. The procedure outlined in this paper will allow for a systematic study of a specific heuristic in a workflow scheduling method to increase its success in infrastructure planning under different deadline conditions and is proposed to be part of a general profiling framework.</pre>\n\n<pre>All four implementations of the IC-PCP algorithm used in this study as well as the data to produce the performance figures are available at https://bitbucket.org/uva-sne/ic-pcp-profiling/src/master.</pre>",
-     "doi": "10.5281/zenodo.2652669",
-     "grants": [
-      {
-       "acronym": "VRE4EIC",
-       "code": "676247",
-       "funder": {
-        "acronyms": [],
-        "doi": "10.13039/501100000780",
-        "links": {
-         "self": "https://zenodo.org/api/funders/10.13039/501100000780"
-        },
-        "name": "European Commission"
-       },
-       "links": {
-        "self": "https://zenodo.org/api/grants/10.13039/501100000780::676247"
-       },
-       "program": "H2020",
-       "title": "A Europe-wide Interoperable Virtual Research Environment to Empower Multidisciplinary Research Communities and Accelerate Innovation and Collaboration"
-      },
-      {
-       "acronym": "ENVRI PLUS",
-       "code": "654182",
-       "funder": {
-        "acronyms": [],
-        "doi": "10.13039/501100000780",
-        "links": {
-         "self": "https://zenodo.org/api/funders/10.13039/501100000780"
-        },
-        "name": "European Commission"
-       },
-       "links": {
-        "self": "https://zenodo.org/api/grants/10.13039/501100000780::654182"
-       },
-       "program": "H2020",
-       "title": "Environmental Research Infrastructures Providing Shared Solutions for Science and Society"
-      },
-      {
-       "acronym": "SWITCH",
-       "code": "643963",
-       "funder": {
-        "acronyms": [],
-        "doi": "10.13039/501100000780",
-        "links": {
-         "self": "https://zenodo.org/api/funders/10.13039/501100000780"
-        },
-        "name": "European Commission"
-       },
-       "links": {
-        "self": "https://zenodo.org/api/grants/10.13039/501100000780::643963"
-       },
-       "program": "H2020",
-       "title": "Software Workbench for Interactive, Time Critical and Highly self-adaptive cloud applications"
-      },
-      {
-       "acronym": "ARTICONF",
-       "code": "825134",
-       "funder": {
-        "acronyms": [],
-        "doi": "10.13039/501100000780",
-        "links": {
-         "self": "https://zenodo.org/api/funders/10.13039/501100000780"
-        },
-        "name": "European Commission"
-       },
-       "links": {
-        "self": "https://zenodo.org/api/grants/10.13039/501100000780::825134"
-       },
-       "program": "H2020",
-       "title": "smART socIal media eCOsytstem in a blockchaiN Federated environment"
-      }
-     ],
-     "keywords": [
-      "IC-PCP",
-      "Profiling",
-      "Cloud",
-      "Time critical application",
-      "Critical paths"
-     ],
-     "license": {
-      "id": "CC-BY-4.0"
-     },
-     "notes": "This research has received funding from the European Union's Horizon 2020 research and innovation program under grant agreements 643963 (SWITCH project), 654182 (ENVRIPLUS project), 676247 (VRE4EIC project), 824068(ENVRI-FAIR project) and 825134(ARTICONF project).",
-     "publication_date": "2019-04-16",
-     "related_identifiers": [
-      {
-       "identifier": "10.5281/zenodo.2652668",
-       "relation": "isVersionOf",
-       "scheme": "doi"
-      }
-     ],
-     "relations": {
-      "version": [
-       {
-        "count": 1,
-        "index": 0,
-        "is_last": true,
-        "last_child": {
-         "pid_type": "recid",
-         "pid_value": "2652669"
-        },
-        "parent": {
-         "pid_type": "recid",
-         "pid_value": "2652668"
-        }
-       }
-      ]
-     },
-     "resource_type": {
-      "title": "Software",
-      "type": "software"
-     },
-     "title": "IC-PCP profiling: software and data set",
-     "version": "version 4-16-2019"
-    },
-    "owners": [
-     26570
-    ],
-    "revision": 5,
-    "stats": {
-     "downloads": 3.0,
-     "unique_downloads": 3.0,
-     "unique_views": 18.0,
-     "version_downloads": 3.0,
-     "version_unique_downloads": 3.0,
-     "version_unique_views": 18.0,
-     "version_views": 20.0,
-     "version_volume": 174815319.0,
-     "views": 20.0,
-     "volume": 174815319.0
-    },
-    "updated": "2020-01-25T07:21:39.541470+00:00"
-   },
-   {
-    "conceptdoi": "10.5281/zenodo.1973098",
-    "conceptrecid": "1973098",
-    "created": "2018-12-05T15:55:58.683765+00:00",
-    "doi": "10.5281/zenodo.1973099",
-    "files": [
-     {
-      "bucket": "94ad829d-641e-45fd-9715-e3cbf9250b69",
-      "checksum": "md5:4e9fd3a4490581bd6680d37a2394c036",
-      "key": "sameAs-Network.hdt",
-      "links": {
-       "self": "https://zenodo.org/api/files/94ad829d-641e-45fd-9715-e3cbf9250b69/sameAs-Network.hdt"
-      },
-      "size": 4829611301,
-      "type": "hdt"
-     }
-    ],
-    "id": 1973099,
-    "links": {
-     "badge": "https://zenodo.org/badge/doi/10.5281/zenodo.1973099.svg",
-     "bucket": "https://zenodo.org/api/files/94ad829d-641e-45fd-9715-e3cbf9250b69",
-     "conceptbadge": "https://zenodo.org/badge/doi/10.5281/zenodo.1973098.svg",
-     "conceptdoi": "https://doi.org/10.5281/zenodo.1973098",
-     "doi": "https://doi.org/10.5281/zenodo.1973099",
-     "html": "https://zenodo.org/record/1973099",
-     "latest": "https://zenodo.org/api/records/1973099",
-     "latest_html": "https://zenodo.org/record/1973099",
-     "self": "https://zenodo.org/api/records/1973099"
-    },
-    "metadata": {
-     "access_right": "open",
-     "access_right_category": "success",
-     "communities": [
-      {
-       "id": "linkeddata"
-      }
-     ],
-     "creators": [
-      {
-       "affiliation": "Vrije Universiteit Amsterdam",
-       "name": "Beek, Wouter",
-       "orcid": "0000-0003-0250-9655"
-      },
-      {
-       "affiliation": "Vrije Universiteit Amsterdam",
-       "name": "Raad, Joe",
-       "orcid": "0000-0002-7891-7738"
-      },
-      {
-       "affiliation": "Vrije Universiteit Amsterdam",
-       "name": "Wielemaker, Jan",
-       "orcid": "0000-0001-5574-5673"
-      },
-      {
-       "affiliation": "Vrije Universiteit Amsterdam",
-       "name": "Van Harmelen, Frank",
-       "orcid": "0000-0002-7913-0048"
-      }
-     ],
-     "description": "<p>sameAs.cc is the largest dataset of identity statements that has been gathered from the LOD Cloud to date. This dataset is available in HDT format&nbsp;(Header Dictionary, Triples), and contains&nbsp;558,943,116 distinct owl:sameAs statements collected from the LOD Laundromat corpus.</p>",
-     "doi": "10.5281/zenodo.1973099",
-     "keywords": [
-      "linked open data",
-      "identity"
-     ],
-     "license": {
-      "id": "CC-BY-SA-3.0"
-     },
-     "meeting": {
-      "acronym": "ESWC",
-      "dates": "3-7 June 2018",
-      "place": "Crete, Greece",
-      "title": "Extended Semantic Web Conference"
-     },
-     "publication_date": "2018-06-03",
-     "references": [
-      "Beek, Wouter et al. (2018). sameAs.cc: The Closure of 500M owl:sameAs Statements"
-     ],
-     "related_identifiers": [
-      {
-       "identifier": "10.5281/zenodo.1973098",
-       "relation": "isVersionOf",
-       "scheme": "doi"
-      }
-     ],
-     "relations": {
-      "version": [
-       {
-        "count": 1,
-        "index": 0,
-        "is_last": true,
-        "last_child": {
-         "pid_type": "recid",
-         "pid_value": "1973099"
-        },
-        "parent": {
-         "pid_type": "recid",
-         "pid_value": "1973098"
-        }
-       }
-      ]
-     },
-     "resource_type": {
-      "title": "Dataset",
-      "type": "dataset"
-     },
-     "title": "sameAs.cc - Dataset of 558M owl:sameAs statements"
-    },
-    "owners": [
-     56833
-    ],
-    "revision": 9,
-    "stats": {
-     "downloads": 36.0,
-     "unique_downloads": 32.0,
-     "unique_views": 131.0,
-     "version_downloads": 36.0,
-     "version_unique_downloads": 32.0,
-     "version_unique_views": 130.0,
-     "version_views": 156.0,
-     "version_volume": 173866006836.0,
-     "views": 157.0,
-     "volume": 173866006836.0
-    },
-    "updated": "2020-01-24T19:25:08.624046+00:00"
-   },
-   {
-    "conceptdoi": "10.5281/zenodo.3627117",
-    "conceptrecid": "3627117",
-    "created": "2020-01-24T15:47:52.016899+00:00",
-    "doi": "10.5281/zenodo.3627118",
-    "files": [
-     {
-      "bucket": "ae796bed-f89f-4963-92de-fc1f65454884",
-      "checksum": "md5:bc928998a49c08a9574d92b27d6cc15a",
-      "key": "florisdenhengst/rl-for-personalization-v0.0.1.zip",
-      "links": {
-       "self": "https://zenodo.org/api/files/ae796bed-f89f-4963-92de-fc1f65454884/florisdenhengst/rl-for-personalization-v0.0.1.zip"
-      },
-      "size": 3279189,
-      "type": "zip"
-     }
-    ],
-    "id": 3627118,
-    "links": {
-     "badge": "https://zenodo.org/badge/doi/10.5281/zenodo.3627118.svg",
-     "bucket": "https://zenodo.org/api/files/ae796bed-f89f-4963-92de-fc1f65454884",
-     "conceptbadge": "https://zenodo.org/badge/doi/10.5281/zenodo.3627117.svg",
-     "conceptdoi": "https://doi.org/10.5281/zenodo.3627117",
-     "doi": "https://doi.org/10.5281/zenodo.3627118",
-     "html": "https://zenodo.org/record/3627118",
-     "latest": "https://zenodo.org/api/records/3627118",
-     "latest_html": "https://zenodo.org/record/3627118",
-     "self": "https://zenodo.org/api/records/3627118"
-    },
-    "metadata": {
-     "access_right": "open",
-     "access_right_category": "success",
-     "creators": [
-      {
-       "affiliation": "Vrije Universiteit Amsterdam",
-       "name": "Floris den Hengst",
-       "orcid": "0000-0002-2092-9904"
-      },
-      {
-       "affiliation": "Vrije Universiteit Amsterdam",
-       "name": "Eoin Grua",
-       "orcid": "0000-0002-5471-4338"
-      },
-      {
-       "affiliation": "Vrije Universiteit Amsterdam",
-       "name": "Ali el Hassouni",
-       "orcid": "0000-0003-0919-8861"
-      },
-      {
-       "affiliation": "Vrije Universiteit Amsterdam",
-       "name": "Mark Hoogendoorn",
-       "orcid": "0000-0003-3356-3574"
-      }
-     ],
-     "description": "<p>Release of the systematic literature review into Reinforcement Learning for personalization</p>",
-     "doi": "10.5281/zenodo.3627118",
-     "license": {
-      "id": "other-open"
-     },
-     "publication_date": "2020-01-24",
-     "related_identifiers": [
-      {
-       "identifier": "https://github.com/florisdenhengst/rl-for-personalization/tree/v0.0.1",
-       "relation": "isSupplementTo",
-       "scheme": "url"
-      },
-      {
-       "identifier": "10.5281/zenodo.3627117",
-       "relation": "isVersionOf",
-       "scheme": "doi"
-      }
-     ],
-     "relations": {
-      "version": [
-       {
-        "count": 1,
-        "index": 0,
-        "is_last": true,
-        "last_child": {
-         "pid_type": "recid",
-         "pid_value": "3627118"
-        },
-        "parent": {
-         "pid_type": "recid",
-         "pid_value": "3627117"
-        }
-       }
-      ]
-     },
-     "resource_type": {
-      "title": "Dataset",
-      "type": "dataset"
-     },
-     "title": "Release of the systematic literature review into Reinforcement Learning for personalization",
-     "version": "v0.0.1"
-    },
-    "owners": [
-     88981
-    ],
-    "revision": 5,
-    "stats": {
-     "downloads": 0.0,
-     "unique_downloads": 0.0,
-     "unique_views": 13.0,
-     "version_downloads": 0.0,
-     "version_unique_downloads": 0.0,
-     "version_unique_views": 13.0,
-     "version_views": 23.0,
-     "version_volume": 0.0,
-     "views": 23.0,
-     "volume": 0.0
-    },
-    "updated": "2020-01-24T19:26:26.889393+00:00"
-   },
-   {
-    "conceptdoi": "10.5281/zenodo.2546801",
-    "conceptrecid": "2546801",
-    "created": "2019-01-22T14:55:06.173956+00:00",
-    "doi": "10.5281/zenodo.2546802",
-    "files": [
-     {
-      "bucket": "d727508a-04e3-497e-8ac0-d3a89c925551",
-      "checksum": "md5:b29979b567052aa5067a240fa7dc6c2a",
-      "key": "A_probabilistic_approach_to_model_syntax_variation_in_Hewbrew_Biblical_texts.pdf",
-      "links": {
-       "self": "https://zenodo.org/api/files/d727508a-04e3-497e-8ac0-d3a89c925551/A_probabilistic_approach_to_model_syntax_variation_in_Hewbrew_Biblical_texts.pdf"
-      },
-      "size": 450833,
-      "type": "pdf"
-     }
-    ],
-    "id": 2546802,
-    "links": {
-     "badge": "https://zenodo.org/badge/doi/10.5281/zenodo.2546802.svg",
-     "bucket": "https://zenodo.org/api/files/d727508a-04e3-497e-8ac0-d3a89c925551",
-     "conceptbadge": "https://zenodo.org/badge/doi/10.5281/zenodo.2546801.svg",
-     "conceptdoi": "https://doi.org/10.5281/zenodo.2546801",
-     "doi": "https://doi.org/10.5281/zenodo.2546802",
-     "html": "https://zenodo.org/record/2546802",
-     "latest": "https://zenodo.org/api/records/2546802",
-     "latest_html": "https://zenodo.org/record/2546802",
-     "self": "https://zenodo.org/api/records/2546802"
-    },
-    "metadata": {
-     "access_right": "open",
-     "access_right_category": "success",
-     "communities": [
-      {
-       "id": "niaaproceedings1718"
-      }
-     ],
-     "creators": [
-      {
-       "affiliation": "Vrije Universiteit Amsterdam",
-       "name": "Etienne P. van de Bijl"
-      },
-      {
-       "affiliation": "Vrije Universiteit Amsterdam",
-       "name": "Cody Kingham"
-      },
-      {
-       "affiliation": "Vrije Universiteit Amsterdam",
-       "name": "Wido van Peursen"
-      },
-      {
-       "affiliation": "Vrije Universiteit Amsterdam",
-       "name": "Sandjai Bhulai"
-      }
-     ],
-     "description": "<p>There is currently a disagreement in the field of Hebrew Studies on the methods used to date individual books within the Hebrew Bible. An important question in this debate is if linguistic differences between the books are significant enough to warrant a diachronic explanation. In this project, we seek to answer whether differences in syntax between the books are large enough to merit groupings into Standard or Late Biblical Hebrew. We use a statistical tool called Markov Chains, which models transition dependency in sequences. Our method takes into account word and phrase order for parts of speech, phrase functions, and phrase types. We then cluster the books based on their statistical similarities. Our results may corroborate key claims of the diachronic approach<br>\n&nbsp;</p>",
-     "doi": "10.5281/zenodo.2546802",
-     "keywords": [
-      "Hebrew bible, Markov Chains, Clustering, Statistics"
-     ],
-     "license": {
-      "id": "CC-BY-4.0"
-     },
-     "publication_date": "2019-01-22",
-     "related_identifiers": [
-      {
-       "identifier": "10.5281/zenodo.2546801",
-       "relation": "isVersionOf",
-       "scheme": "doi"
-      }
-     ],
-     "relations": {
-      "version": [
-       {
-        "count": 1,
-        "index": 0,
-        "is_last": true,
-        "last_child": {
-         "pid_type": "recid",
-         "pid_value": "2546802"
-        },
-        "parent": {
-         "pid_type": "recid",
-         "pid_value": "2546801"
-        }
-       }
-      ]
-     },
-     "resource_type": {
-      "subtype": "article",
-      "title": "Journal article",
-      "type": "publication"
-     },
-     "title": "A Probabilistic Approach to Syntactic Variation in Biblical Hebrew"
-    },
-    "owners": [
-     55597
-    ],
-    "revision": 6,
-    "stats": {
-     "downloads": 102.0,
-     "unique_downloads": 89.0,
-     "unique_views": 205.0,
-     "version_downloads": 102.0,
-     "version_unique_downloads": 89.0,
-     "version_unique_views": 205.0,
-     "version_views": 216.0,
-     "version_volume": 45984966.0,
-     "views": 216.0,
-     "volume": 45984966.0
-    },
-    "updated": "2020-01-20T17:12:59.293402+00:00"
-   },
-   {
     "conceptrecid": "828536",
     "created": "2017-07-15T08:59:13.663801+00:00",
     "doi": "10.11646/zootaxa.4286.3.2",
@@ -54829,6 +53909,926 @@
      "volume": 48609580.0
     },
     "updated": "2018-06-22T00:13:27.792044+00:00"
+   },
+   {
+    "conceptdoi": "10.5281/zenodo.2546799",
+    "conceptrecid": "2546799",
+    "created": "2019-01-22T14:51:29.479055+00:00",
+    "doi": "10.5281/zenodo.2546800",
+    "files": [
+     {
+      "bucket": "a8f97536-2891-4447-96ac-c241dc0c25d8",
+      "checksum": "md5:8a0e03aa13e80946c1b2947c7bfe5176",
+      "key": "5dilemmasNI-paper-frederik-john-sascha-ali.pdf",
+      "links": {
+       "self": "https://zenodo.org/api/files/a8f97536-2891-4447-96ac-c241dc0c25d8/5dilemmasNI-paper-frederik-john-sascha-ali.pdf"
+      },
+      "size": 363475,
+      "type": "pdf"
+     }
+    ],
+    "id": 2546800,
+    "links": {
+     "badge": "https://zenodo.org/badge/doi/10.5281/zenodo.2546800.svg",
+     "bucket": "https://zenodo.org/api/files/a8f97536-2891-4447-96ac-c241dc0c25d8",
+     "conceptbadge": "https://zenodo.org/badge/doi/10.5281/zenodo.2546799.svg",
+     "conceptdoi": "https://doi.org/10.5281/zenodo.2546799",
+     "doi": "https://doi.org/10.5281/zenodo.2546800",
+     "html": "https://zenodo.org/record/2546800",
+     "latest": "https://zenodo.org/api/records/2546800",
+     "latest_html": "https://zenodo.org/record/2546800",
+     "self": "https://zenodo.org/api/records/2546800"
+    },
+    "metadata": {
+     "access_right": "open",
+     "access_right_category": "success",
+     "communities": [
+      {
+       "id": "niaaproceedings1718"
+      }
+     ],
+     "creators": [
+      {
+       "affiliation": "Vrije Universiteit Amsterdam",
+       "name": "Frederik Lukas Koenig"
+      },
+      {
+       "affiliation": "Vrije Universiteit Amsterdam",
+       "name": "John Can Lokman"
+      },
+      {
+       "affiliation": "Vrije Universiteit Amsterdam",
+       "name": "Sascha Friesike"
+      },
+      {
+       "affiliation": "Vrije Universiteit Amsterdam",
+       "name": "Ali Khalili"
+      }
+     ],
+     "description": "<p>Interdisciplinary research receives increasing attention from academics, research organizations, and funding bodies. It is seen as a promising avenue to develop novel insights. However, it is also considered to be more complicated to set up and to conduct successfully. To make the scattered literature on the subject accessible and to derive implications for both individual researchers and policy makers, we propose that interdisciplinary research can be conceptualized as a set of five dilemmas. Based on an extensive and systematic literature review of 137 research articles we present these dilemmas to better structure the main promises and pitfalls of interdisciplinary research. The value of conceptualizing interdisciplinary research this way is three-fold: (1) it makes existing research on the topic accessible as it structures the highly dispersed debates, (2) it provides implications for individual researchers active in an increasingly interdisciplinary academic environment, and (3) it supports research organizations and funding bodies in developing strategies to support an interdisciplinary research ecosystem. We also present a data preprocessing, exploration, and analysis framework in later sections of the report. This technical framework is aimed at accelerating studies of interdisciplinarity (and for testing our framework in follow-up studies) by streamlining common tasks such as data cleaning and enrichment, and automatic detection of interdisciplinary bodies of work in large bibliometric databases.<br>\n&nbsp;</p>",
+     "doi": "10.5281/zenodo.2546800",
+     "keywords": [
+      "interdisciplinary research",
+      "systematic review",
+      "scientometrics",
+      "linked data"
+     ],
+     "license": {
+      "id": "CC-BY-4.0"
+     },
+     "publication_date": "2019-01-22",
+     "related_identifiers": [
+      {
+       "identifier": "10.5281/zenodo.2546799",
+       "relation": "isVersionOf",
+       "scheme": "doi"
+      }
+     ],
+     "relations": {
+      "version": [
+       {
+        "count": 1,
+        "index": 0,
+        "is_last": true,
+        "last_child": {
+         "pid_type": "recid",
+         "pid_value": "2546800"
+        },
+        "parent": {
+         "pid_type": "recid",
+         "pid_value": "2546799"
+        }
+       }
+      ]
+     },
+     "resource_type": {
+      "subtype": "article",
+      "title": "Journal article",
+      "type": "publication"
+     },
+     "title": "The five dilemmas of interdisciplinary research and how to deal with them: a review"
+    },
+    "owners": [
+     55597
+    ],
+    "revision": 5,
+    "stats": {
+     "downloads": 32.0,
+     "unique_downloads": 32.0,
+     "unique_views": 265.0,
+     "version_downloads": 32.0,
+     "version_unique_downloads": 32.0,
+     "version_unique_views": 265.0,
+     "version_views": 278.0,
+     "version_volume": 11631200.0,
+     "views": 278.0,
+     "volume": 11631200.0
+    },
+    "updated": "2020-01-20T15:30:16.594202+00:00"
+   },
+   {
+    "conceptdoi": "10.5281/zenodo.3227975",
+    "conceptrecid": "3227975",
+    "created": "2019-05-25T08:51:30.772070+00:00",
+    "doi": "10.5281/zenodo.3227976",
+    "files": [
+     {
+      "bucket": "7a1cb348-a782-4941-9553-86682f92bd8f",
+      "checksum": "md5:1546c60c84d57abd448478c0cc89bb86",
+      "key": "data.hdt",
+      "links": {
+       "self": "https://zenodo.org/api/files/7a1cb348-a782-4941-9553-86682f92bd8f/data.hdt"
+      },
+      "size": 35980254447,
+      "type": "hdt"
+     },
+     {
+      "bucket": "7a1cb348-a782-4941-9553-86682f92bd8f",
+      "checksum": "md5:39121f59c72b4f3ffcc63649bc5eb3fc",
+      "key": "data.hdt.index.v1-1",
+      "links": {
+       "self": "https://zenodo.org/api/files/7a1cb348-a782-4941-9553-86682f92bd8f/data.hdt.index.v1-1"
+      },
+      "size": 36997120717,
+      "type": "v1-1"
+     }
+    ],
+    "id": 3227976,
+    "links": {
+     "badge": "https://zenodo.org/badge/doi/10.5281/zenodo.3227976.svg",
+     "bucket": "https://zenodo.org/api/files/7a1cb348-a782-4941-9553-86682f92bd8f",
+     "conceptbadge": "https://zenodo.org/badge/doi/10.5281/zenodo.3227975.svg",
+     "conceptdoi": "https://doi.org/10.5281/zenodo.3227975",
+     "doi": "https://doi.org/10.5281/zenodo.3227976",
+     "html": "https://zenodo.org/record/3227976",
+     "latest": "https://zenodo.org/api/records/3227976",
+     "latest_html": "https://zenodo.org/record/3227976",
+     "self": "https://zenodo.org/api/records/3227976"
+    },
+    "metadata": {
+     "access_right": "open",
+     "access_right_category": "success",
+     "communities": [
+      {
+       "id": "linkeddata"
+      },
+      {
+       "id": "semantic-web"
+      }
+     ],
+     "creators": [
+      {
+       "affiliation": "Vrije Universiteit Amsterdam",
+       "name": "Beek, Wouter",
+       "orcid": "0000-0003-0250-9655"
+      },
+      {
+       "affiliation": "Vrije Universiteit Amsterdam",
+       "name": "Raad, Joe",
+       "orcid": "0000-0002-7891-7738"
+      },
+      {
+       "affiliation": "Vrije Universiteit Amsterdam",
+       "name": "Acar, Erman"
+      },
+      {
+       "affiliation": "Vrije Universiteit Amsterdam",
+       "name": "Van Harmelen, Frank",
+       "orcid": "0000-0002-7913-0048"
+      }
+     ],
+     "description": "<p>MetaLink is a dataset that contains metadata for a very large set of owl:sameAs links that are crawled from the LOD Cloud.&nbsp;MetaLink encodes a previously published error metric for each of these links <a href=\"https://www.cs.vu.nl/~frankh/postscript/ISWC2018.pdf\">[Raad et al., 2018]</a>. This error degree ranges&nbsp;from 0.0 (most likely correct) till 1.0 (most likely incorrect). The idea is that the more an owl:sameAs link is isolated in the network (of all owl:sameAs links), the higher&nbsp;error degree this link&nbsp;will have.&nbsp;Experiments shows that discarding the 1M owl:sameAs links with an error degree &gt;0.99 can significantly increase the quality of the transitive closure. Also by keeping only the 400M owl:sameAs links with error degree &lt;= 0.4, the resulting closure is 100% precise in several manually evaluated cases. The resulted equivalence classes from these different closures are <a href=\"https://zenodo.org/record/3345674\">publicly available online.</a></p>\n\n<p>MetaLink is published in combination with LOD-a-lot, a dataset that is based on a very large crawl of a subset of the LOD Cloud. By combining MetaLink and LOD-a-lot, applications are able to make informed decisions about whether or not to follow specific links on the LOD Cloud. This dataset contains 4,352,602,452 unique triples, and is available in HDT (Header Dictionary Triples) format. It can be navigated online using the TriplyDB Linked Data hosting platform:&nbsp;<a href=\"https://krr.triply.cc/krr/metalink\">https://krr.triply.cc/krr/metalink</a>.&nbsp;&nbsp;</p>\n\n<p>A figure describing&nbsp;the vocabulary of the MetaLink&nbsp;dataset can be found <a href=\"https://krr.triply.cc/krr/metalink/assets/5ced8dbfaea75b02bc98784f\">here</a>.&nbsp;Classes are displayed by circles and properties are displayed by arcs. The MetaLink-specific classes and properties are displayed in red, the blue classes and properties are reused from existing vocabularies.</p>",
+     "doi": "10.5281/zenodo.3227976",
+     "keywords": [
+      "Linked Open Data",
+      "Identity"
+     ],
+     "license": {
+      "id": "CC-BY-SA-3.0"
+     },
+     "publication_date": "2019-04-10",
+     "related_identifiers": [
+      {
+       "identifier": "10.5281/zenodo.3227975",
+       "relation": "isVersionOf",
+       "scheme": "doi"
+      }
+     ],
+     "relations": {
+      "version": [
+       {
+        "count": 1,
+        "index": 0,
+        "is_last": true,
+        "last_child": {
+         "pid_type": "recid",
+         "pid_value": "3227976"
+        },
+        "parent": {
+         "pid_type": "recid",
+         "pid_value": "3227975"
+        }
+       }
+      ]
+     },
+     "resource_type": {
+      "title": "Dataset",
+      "type": "dataset"
+     },
+     "title": "MetaLink - Closure and Error Degree of 556M owl:sameAs statements"
+    },
+    "owners": [
+     56833
+    ],
+    "revision": 13,
+    "stats": {
+     "downloads": 42.0,
+     "unique_downloads": 15.0,
+     "unique_views": 138.0,
+     "version_downloads": 42.0,
+     "version_unique_downloads": 15.0,
+     "version_unique_views": 137.0,
+     "version_views": 169.0,
+     "version_volume": 1545744139954.0,
+     "views": 170.0,
+     "volume": 1545744139954.0
+    },
+    "updated": "2020-01-24T19:23:04.907012+00:00"
+   },
+   {
+    "conceptdoi": "10.5281/zenodo.3613758",
+    "conceptrecid": "3613758",
+    "created": "2020-01-20T15:16:50.094346+00:00",
+    "doi": "10.5281/zenodo.3613759",
+    "id": 3613759,
+    "links": {
+     "badge": "https://zenodo.org/badge/doi/10.5281/zenodo.3613759.svg",
+     "conceptbadge": "https://zenodo.org/badge/doi/10.5281/zenodo.3613758.svg",
+     "conceptdoi": "https://doi.org/10.5281/zenodo.3613758",
+     "doi": "https://doi.org/10.5281/zenodo.3613759",
+     "html": "https://zenodo.org/record/3613759",
+     "latest": "https://zenodo.org/api/records/3613759",
+     "latest_html": "https://zenodo.org/record/3613759",
+     "self": "https://zenodo.org/api/records/3613759"
+    },
+    "metadata": {
+     "access_conditions": "<p>Please request access by email to Petra Bleeker (P.M.Bleeker@uva.nl) or Marc Galland (m.galland@uva.nl).</p>",
+     "access_right": "restricted",
+     "access_right_category": "danger",
+     "communities": [
+      {
+       "id": "bleekerlab"
+      }
+     ],
+     "creators": [
+      {
+       "affiliation": "University of Amsterdam",
+       "name": "Marc Galland",
+       "orcid": "0000-0003-2161-8689"
+      },
+      {
+       "affiliation": "University of Amsterdam",
+       "name": "Petra Bleeker"
+      },
+      {
+       "affiliation": "University of Amsterdam",
+       "name": "Paula van Kleeff"
+      },
+      {
+       "affiliation": "University of Amsterdam",
+       "name": "Robert Schuurink"
+      }
+     ],
+     "description": "<p>Dataset companion of:&nbsp;</p>\n\n<p>P.J.M.&nbsp;van Kleeff,&nbsp;M.&nbsp;Galland,&nbsp;R.C.&nbsp;Schuurink,&nbsp;P.M.&nbsp;Bleeker.&nbsp;<strong>Small RNAs from&nbsp;<em>Bemisia tabaci</em>&nbsp;are transferred to&nbsp;<em>Solanum lycopersicum</em>&nbsp;phloem during feeding.&nbsp;</strong>Front Plant Sci,&nbsp;7&nbsp;(2016), p.&nbsp;1759 https://doi.org/10.3389/fpls.2016.01759</p>",
+     "doi": "10.5281/zenodo.3613759",
+     "grants": [
+      {
+       "acronym": "DURETO",
+       "code": "655656",
+       "funder": {
+        "acronyms": [],
+        "doi": "10.13039/501100000780",
+        "links": {
+         "self": "https://zenodo.org/api/funders/10.13039/501100000780"
+        },
+        "name": "European Commission"
+       },
+       "links": {
+        "self": "https://zenodo.org/api/grants/10.13039/501100000780::655656"
+       },
+       "program": "H2020",
+       "title": "Rearm cultivated tomato with natural and durable resistance mechanisms from wild tomato species"
+      },
+      {
+       "acronym": "",
+       "code": "2300178970",
+       "funder": {
+        "acronyms": [],
+        "doi": "10.13039/501100003246",
+        "links": {
+         "self": "https://zenodo.org/api/funders/10.13039/501100003246"
+        },
+        "name": "Nederlandse Organisatie voor Wetenschappelijk Onderzoek"
+       },
+       "links": {
+        "self": "https://zenodo.org/api/grants/10.13039/501100003246::2300178970"
+       },
+       "program": "",
+       "title": "Defence in the wild; from trichome transcriptomes and metabolomes to breeding tools for defence markers in tomato"
+      }
+     ],
+     "keywords": [
+      "tomato",
+      "whitefly",
+      "small RNA",
+      "effector"
+     ],
+     "notes": "PMID: 27933079",
+     "publication_date": "2016-11-24",
+     "related_identifiers": [
+      {
+       "identifier": "10.5281/zenodo.3613758",
+       "relation": "isVersionOf",
+       "scheme": "doi"
+      }
+     ],
+     "relations": {
+      "version": [
+       {
+        "count": 1,
+        "index": 0,
+        "is_last": true,
+        "last_child": {
+         "pid_type": "recid",
+         "pid_value": "3613759"
+        },
+        "parent": {
+         "pid_type": "recid",
+         "pid_value": "3613758"
+        }
+       }
+      ]
+     },
+     "resource_type": {
+      "title": "Dataset",
+      "type": "dataset"
+     },
+     "title": "Small RNA-seq files from van Kleeff et al, 2016"
+    },
+    "owners": [
+     29720
+    ],
+    "revision": 2,
+    "stats": {
+     "downloads": 2.0,
+     "unique_downloads": 1.0,
+     "unique_views": 5.0,
+     "version_downloads": 2.0,
+     "version_unique_downloads": 1.0,
+     "version_unique_views": 5.0,
+     "version_views": 6.0,
+     "version_volume": 4069468360.0,
+     "views": 6.0,
+     "volume": 4069468360.0
+    },
+    "updated": "2020-01-24T19:24:50.063105+00:00"
+   },
+   {
+    "conceptdoi": "10.5281/zenodo.2652668",
+    "conceptrecid": "2652668",
+    "created": "2019-04-27T06:29:05.521878+00:00",
+    "doi": "10.5281/zenodo.2652669",
+    "files": [
+     {
+      "bucket": "5f679e3d-6699-4153-bfb7-ef2ef130743b",
+      "checksum": "md5:22b19a5d6cd69b4c9f22ae3658f9faa0",
+      "key": "uva-sne-ic-pcp-profiling-4f7e1a858184.zip",
+      "links": {
+       "self": "https://zenodo.org/api/files/5f679e3d-6699-4153-bfb7-ef2ef130743b/uva-sne-ic-pcp-profiling-4f7e1a858184.zip"
+      },
+      "size": 58271773,
+      "type": "zip"
+     }
+    ],
+    "id": 2652669,
+    "links": {
+     "badge": "https://zenodo.org/badge/doi/10.5281/zenodo.2652669.svg",
+     "bucket": "https://zenodo.org/api/files/5f679e3d-6699-4153-bfb7-ef2ef130743b",
+     "conceptbadge": "https://zenodo.org/badge/doi/10.5281/zenodo.2652668.svg",
+     "conceptdoi": "https://doi.org/10.5281/zenodo.2652668",
+     "doi": "https://doi.org/10.5281/zenodo.2652669",
+     "html": "https://zenodo.org/record/2652669",
+     "latest": "https://zenodo.org/api/records/2652669",
+     "latest_html": "https://zenodo.org/record/2652669",
+     "self": "https://zenodo.org/api/records/2652669"
+    },
+    "metadata": {
+     "access_right": "open",
+     "access_right_category": "success",
+     "creators": [
+      {
+       "affiliation": "University of Amsterdam",
+       "name": "Taal, Arie"
+      },
+      {
+       "affiliation": "University of Amsterdam",
+       "name": "Wang, Junchao"
+      },
+      {
+       "affiliation": "University of Amsterdam",
+       "name": "de Laat, Cees"
+      },
+      {
+       "affiliation": "University of Amsterdam",
+       "name": "Zhao, Zhiming",
+       "orcid": "0000-0002-6717-9418"
+      }
+     ],
+     "description": "<pre>We study the scheduling decisions for handling deadline-constrained workflows in the context of planning customized virtual infrastructures in the cloud. We specifically focus on the effects of using different types of greediness in selecting cost-effective virtual machines for the tasks in an application&#39;s workflow graph. The profiling procedure followed demonstrates that for the widely used approach of the partial critical path algorithm a greedy version is preferred to a more stringent version under different stress conditions, from tight to loose deadlines. Representative topologies of workflow applications are used to generate sets of task graph scheduling problems. </pre>\n\n<pre>Monitoring the performance of the partial critical path algorithm with different types of greediness reveals which of the topologies tested are difficult to solve under various stress conditions.</pre>\n\n<pre>It turns out that an invalid outcome of a greedy version of the partial critical path algorithm is more susceptible to become valid via a final refinement cycle than a less greedy version. The procedure outlined in this paper will allow for a systematic study of a specific heuristic in a workflow scheduling method to increase its success in infrastructure planning under different deadline conditions and is proposed to be part of a general profiling framework.</pre>\n\n<pre>All four implementations of the IC-PCP algorithm used in this study as well as the data to produce the performance figures are available at https://bitbucket.org/uva-sne/ic-pcp-profiling/src/master.</pre>",
+     "doi": "10.5281/zenodo.2652669",
+     "grants": [
+      {
+       "acronym": "VRE4EIC",
+       "code": "676247",
+       "funder": {
+        "acronyms": [],
+        "doi": "10.13039/501100000780",
+        "links": {
+         "self": "https://zenodo.org/api/funders/10.13039/501100000780"
+        },
+        "name": "European Commission"
+       },
+       "links": {
+        "self": "https://zenodo.org/api/grants/10.13039/501100000780::676247"
+       },
+       "program": "H2020",
+       "title": "A Europe-wide Interoperable Virtual Research Environment to Empower Multidisciplinary Research Communities and Accelerate Innovation and Collaboration"
+      },
+      {
+       "acronym": "ENVRI PLUS",
+       "code": "654182",
+       "funder": {
+        "acronyms": [],
+        "doi": "10.13039/501100000780",
+        "links": {
+         "self": "https://zenodo.org/api/funders/10.13039/501100000780"
+        },
+        "name": "European Commission"
+       },
+       "links": {
+        "self": "https://zenodo.org/api/grants/10.13039/501100000780::654182"
+       },
+       "program": "H2020",
+       "title": "Environmental Research Infrastructures Providing Shared Solutions for Science and Society"
+      },
+      {
+       "acronym": "SWITCH",
+       "code": "643963",
+       "funder": {
+        "acronyms": [],
+        "doi": "10.13039/501100000780",
+        "links": {
+         "self": "https://zenodo.org/api/funders/10.13039/501100000780"
+        },
+        "name": "European Commission"
+       },
+       "links": {
+        "self": "https://zenodo.org/api/grants/10.13039/501100000780::643963"
+       },
+       "program": "H2020",
+       "title": "Software Workbench for Interactive, Time Critical and Highly self-adaptive cloud applications"
+      },
+      {
+       "acronym": "ARTICONF",
+       "code": "825134",
+       "funder": {
+        "acronyms": [],
+        "doi": "10.13039/501100000780",
+        "links": {
+         "self": "https://zenodo.org/api/funders/10.13039/501100000780"
+        },
+        "name": "European Commission"
+       },
+       "links": {
+        "self": "https://zenodo.org/api/grants/10.13039/501100000780::825134"
+       },
+       "program": "H2020",
+       "title": "smART socIal media eCOsytstem in a blockchaiN Federated environment"
+      }
+     ],
+     "keywords": [
+      "IC-PCP",
+      "Profiling",
+      "Cloud",
+      "Time critical application",
+      "Critical paths"
+     ],
+     "license": {
+      "id": "CC-BY-4.0"
+     },
+     "notes": "This research has received funding from the European Union's Horizon 2020 research and innovation program under grant agreements 643963 (SWITCH project), 654182 (ENVRIPLUS project), 676247 (VRE4EIC project), 824068(ENVRI-FAIR project) and 825134(ARTICONF project).",
+     "publication_date": "2019-04-16",
+     "related_identifiers": [
+      {
+       "identifier": "10.5281/zenodo.2652668",
+       "relation": "isVersionOf",
+       "scheme": "doi"
+      }
+     ],
+     "relations": {
+      "version": [
+       {
+        "count": 1,
+        "index": 0,
+        "is_last": true,
+        "last_child": {
+         "pid_type": "recid",
+         "pid_value": "2652669"
+        },
+        "parent": {
+         "pid_type": "recid",
+         "pid_value": "2652668"
+        }
+       }
+      ]
+     },
+     "resource_type": {
+      "title": "Software",
+      "type": "software"
+     },
+     "title": "IC-PCP profiling: software and data set",
+     "version": "version 4-16-2019"
+    },
+    "owners": [
+     26570
+    ],
+    "revision": 5,
+    "stats": {
+     "downloads": 3.0,
+     "unique_downloads": 3.0,
+     "unique_views": 18.0,
+     "version_downloads": 3.0,
+     "version_unique_downloads": 3.0,
+     "version_unique_views": 18.0,
+     "version_views": 20.0,
+     "version_volume": 174815319.0,
+     "views": 20.0,
+     "volume": 174815319.0
+    },
+    "updated": "2020-01-25T07:21:39.541470+00:00"
+   },
+   {
+    "conceptdoi": "10.5281/zenodo.1973098",
+    "conceptrecid": "1973098",
+    "created": "2018-12-05T15:55:58.683765+00:00",
+    "doi": "10.5281/zenodo.1973099",
+    "files": [
+     {
+      "bucket": "94ad829d-641e-45fd-9715-e3cbf9250b69",
+      "checksum": "md5:4e9fd3a4490581bd6680d37a2394c036",
+      "key": "sameAs-Network.hdt",
+      "links": {
+       "self": "https://zenodo.org/api/files/94ad829d-641e-45fd-9715-e3cbf9250b69/sameAs-Network.hdt"
+      },
+      "size": 4829611301,
+      "type": "hdt"
+     }
+    ],
+    "id": 1973099,
+    "links": {
+     "badge": "https://zenodo.org/badge/doi/10.5281/zenodo.1973099.svg",
+     "bucket": "https://zenodo.org/api/files/94ad829d-641e-45fd-9715-e3cbf9250b69",
+     "conceptbadge": "https://zenodo.org/badge/doi/10.5281/zenodo.1973098.svg",
+     "conceptdoi": "https://doi.org/10.5281/zenodo.1973098",
+     "doi": "https://doi.org/10.5281/zenodo.1973099",
+     "html": "https://zenodo.org/record/1973099",
+     "latest": "https://zenodo.org/api/records/1973099",
+     "latest_html": "https://zenodo.org/record/1973099",
+     "self": "https://zenodo.org/api/records/1973099"
+    },
+    "metadata": {
+     "access_right": "open",
+     "access_right_category": "success",
+     "communities": [
+      {
+       "id": "linkeddata"
+      }
+     ],
+     "creators": [
+      {
+       "affiliation": "Vrije Universiteit Amsterdam",
+       "name": "Beek, Wouter",
+       "orcid": "0000-0003-0250-9655"
+      },
+      {
+       "affiliation": "Vrije Universiteit Amsterdam",
+       "name": "Raad, Joe",
+       "orcid": "0000-0002-7891-7738"
+      },
+      {
+       "affiliation": "Vrije Universiteit Amsterdam",
+       "name": "Wielemaker, Jan",
+       "orcid": "0000-0001-5574-5673"
+      },
+      {
+       "affiliation": "Vrije Universiteit Amsterdam",
+       "name": "Van Harmelen, Frank",
+       "orcid": "0000-0002-7913-0048"
+      }
+     ],
+     "description": "<p>sameAs.cc is the largest dataset of identity statements that has been gathered from the LOD Cloud to date. This dataset is available in HDT format&nbsp;(Header Dictionary, Triples), and contains&nbsp;558,943,116 distinct owl:sameAs statements collected from the LOD Laundromat corpus.</p>",
+     "doi": "10.5281/zenodo.1973099",
+     "keywords": [
+      "linked open data",
+      "identity"
+     ],
+     "license": {
+      "id": "CC-BY-SA-3.0"
+     },
+     "meeting": {
+      "acronym": "ESWC",
+      "dates": "3-7 June 2018",
+      "place": "Crete, Greece",
+      "title": "Extended Semantic Web Conference"
+     },
+     "publication_date": "2018-06-03",
+     "references": [
+      "Beek, Wouter et al. (2018). sameAs.cc: The Closure of 500M owl:sameAs Statements"
+     ],
+     "related_identifiers": [
+      {
+       "identifier": "10.5281/zenodo.1973098",
+       "relation": "isVersionOf",
+       "scheme": "doi"
+      }
+     ],
+     "relations": {
+      "version": [
+       {
+        "count": 1,
+        "index": 0,
+        "is_last": true,
+        "last_child": {
+         "pid_type": "recid",
+         "pid_value": "1973099"
+        },
+        "parent": {
+         "pid_type": "recid",
+         "pid_value": "1973098"
+        }
+       }
+      ]
+     },
+     "resource_type": {
+      "title": "Dataset",
+      "type": "dataset"
+     },
+     "title": "sameAs.cc - Dataset of 558M owl:sameAs statements"
+    },
+    "owners": [
+     56833
+    ],
+    "revision": 9,
+    "stats": {
+     "downloads": 36.0,
+     "unique_downloads": 32.0,
+     "unique_views": 131.0,
+     "version_downloads": 36.0,
+     "version_unique_downloads": 32.0,
+     "version_unique_views": 130.0,
+     "version_views": 156.0,
+     "version_volume": 173866006836.0,
+     "views": 157.0,
+     "volume": 173866006836.0
+    },
+    "updated": "2020-01-24T19:25:08.624046+00:00"
+   },
+   {
+    "conceptdoi": "10.5281/zenodo.3627117",
+    "conceptrecid": "3627117",
+    "created": "2020-01-24T15:47:52.016899+00:00",
+    "doi": "10.5281/zenodo.3627118",
+    "files": [
+     {
+      "bucket": "ae796bed-f89f-4963-92de-fc1f65454884",
+      "checksum": "md5:bc928998a49c08a9574d92b27d6cc15a",
+      "key": "florisdenhengst/rl-for-personalization-v0.0.1.zip",
+      "links": {
+       "self": "https://zenodo.org/api/files/ae796bed-f89f-4963-92de-fc1f65454884/florisdenhengst/rl-for-personalization-v0.0.1.zip"
+      },
+      "size": 3279189,
+      "type": "zip"
+     }
+    ],
+    "id": 3627118,
+    "links": {
+     "badge": "https://zenodo.org/badge/doi/10.5281/zenodo.3627118.svg",
+     "bucket": "https://zenodo.org/api/files/ae796bed-f89f-4963-92de-fc1f65454884",
+     "conceptbadge": "https://zenodo.org/badge/doi/10.5281/zenodo.3627117.svg",
+     "conceptdoi": "https://doi.org/10.5281/zenodo.3627117",
+     "doi": "https://doi.org/10.5281/zenodo.3627118",
+     "html": "https://zenodo.org/record/3627118",
+     "latest": "https://zenodo.org/api/records/3627118",
+     "latest_html": "https://zenodo.org/record/3627118",
+     "self": "https://zenodo.org/api/records/3627118"
+    },
+    "metadata": {
+     "access_right": "open",
+     "access_right_category": "success",
+     "creators": [
+      {
+       "affiliation": "Vrije Universiteit Amsterdam",
+       "name": "Floris den Hengst",
+       "orcid": "0000-0002-2092-9904"
+      },
+      {
+       "affiliation": "Vrije Universiteit Amsterdam",
+       "name": "Eoin Grua",
+       "orcid": "0000-0002-5471-4338"
+      },
+      {
+       "affiliation": "Vrije Universiteit Amsterdam",
+       "name": "Ali el Hassouni",
+       "orcid": "0000-0003-0919-8861"
+      },
+      {
+       "affiliation": "Vrije Universiteit Amsterdam",
+       "name": "Mark Hoogendoorn",
+       "orcid": "0000-0003-3356-3574"
+      }
+     ],
+     "description": "<p>Release of the systematic literature review into Reinforcement Learning for personalization</p>",
+     "doi": "10.5281/zenodo.3627118",
+     "license": {
+      "id": "other-open"
+     },
+     "publication_date": "2020-01-24",
+     "related_identifiers": [
+      {
+       "identifier": "https://github.com/florisdenhengst/rl-for-personalization/tree/v0.0.1",
+       "relation": "isSupplementTo",
+       "scheme": "url"
+      },
+      {
+       "identifier": "10.5281/zenodo.3627117",
+       "relation": "isVersionOf",
+       "scheme": "doi"
+      }
+     ],
+     "relations": {
+      "version": [
+       {
+        "count": 1,
+        "index": 0,
+        "is_last": true,
+        "last_child": {
+         "pid_type": "recid",
+         "pid_value": "3627118"
+        },
+        "parent": {
+         "pid_type": "recid",
+         "pid_value": "3627117"
+        }
+       }
+      ]
+     },
+     "resource_type": {
+      "title": "Dataset",
+      "type": "dataset"
+     },
+     "title": "Release of the systematic literature review into Reinforcement Learning for personalization",
+     "version": "v0.0.1"
+    },
+    "owners": [
+     88981
+    ],
+    "revision": 5,
+    "stats": {
+     "downloads": 0.0,
+     "unique_downloads": 0.0,
+     "unique_views": 13.0,
+     "version_downloads": 0.0,
+     "version_unique_downloads": 0.0,
+     "version_unique_views": 13.0,
+     "version_views": 23.0,
+     "version_volume": 0.0,
+     "views": 23.0,
+     "volume": 0.0
+    },
+    "updated": "2020-01-24T19:26:26.889393+00:00"
+   },
+   {
+    "conceptdoi": "10.5281/zenodo.2546801",
+    "conceptrecid": "2546801",
+    "created": "2019-01-22T14:55:06.173956+00:00",
+    "doi": "10.5281/zenodo.2546802",
+    "files": [
+     {
+      "bucket": "d727508a-04e3-497e-8ac0-d3a89c925551",
+      "checksum": "md5:b29979b567052aa5067a240fa7dc6c2a",
+      "key": "A_probabilistic_approach_to_model_syntax_variation_in_Hewbrew_Biblical_texts.pdf",
+      "links": {
+       "self": "https://zenodo.org/api/files/d727508a-04e3-497e-8ac0-d3a89c925551/A_probabilistic_approach_to_model_syntax_variation_in_Hewbrew_Biblical_texts.pdf"
+      },
+      "size": 450833,
+      "type": "pdf"
+     }
+    ],
+    "id": 2546802,
+    "links": {
+     "badge": "https://zenodo.org/badge/doi/10.5281/zenodo.2546802.svg",
+     "bucket": "https://zenodo.org/api/files/d727508a-04e3-497e-8ac0-d3a89c925551",
+     "conceptbadge": "https://zenodo.org/badge/doi/10.5281/zenodo.2546801.svg",
+     "conceptdoi": "https://doi.org/10.5281/zenodo.2546801",
+     "doi": "https://doi.org/10.5281/zenodo.2546802",
+     "html": "https://zenodo.org/record/2546802",
+     "latest": "https://zenodo.org/api/records/2546802",
+     "latest_html": "https://zenodo.org/record/2546802",
+     "self": "https://zenodo.org/api/records/2546802"
+    },
+    "metadata": {
+     "access_right": "open",
+     "access_right_category": "success",
+     "communities": [
+      {
+       "id": "niaaproceedings1718"
+      }
+     ],
+     "creators": [
+      {
+       "affiliation": "Vrije Universiteit Amsterdam",
+       "name": "Etienne P. van de Bijl"
+      },
+      {
+       "affiliation": "Vrije Universiteit Amsterdam",
+       "name": "Cody Kingham"
+      },
+      {
+       "affiliation": "Vrije Universiteit Amsterdam",
+       "name": "Wido van Peursen"
+      },
+      {
+       "affiliation": "Vrije Universiteit Amsterdam",
+       "name": "Sandjai Bhulai"
+      }
+     ],
+     "description": "<p>There is currently a disagreement in the field of Hebrew Studies on the methods used to date individual books within the Hebrew Bible. An important question in this debate is if linguistic differences between the books are significant enough to warrant a diachronic explanation. In this project, we seek to answer whether differences in syntax between the books are large enough to merit groupings into Standard or Late Biblical Hebrew. We use a statistical tool called Markov Chains, which models transition dependency in sequences. Our method takes into account word and phrase order for parts of speech, phrase functions, and phrase types. We then cluster the books based on their statistical similarities. Our results may corroborate key claims of the diachronic approach<br>\n&nbsp;</p>",
+     "doi": "10.5281/zenodo.2546802",
+     "keywords": [
+      "Hebrew bible, Markov Chains, Clustering, Statistics"
+     ],
+     "license": {
+      "id": "CC-BY-4.0"
+     },
+     "publication_date": "2019-01-22",
+     "related_identifiers": [
+      {
+       "identifier": "10.5281/zenodo.2546801",
+       "relation": "isVersionOf",
+       "scheme": "doi"
+      }
+     ],
+     "relations": {
+      "version": [
+       {
+        "count": 1,
+        "index": 0,
+        "is_last": true,
+        "last_child": {
+         "pid_type": "recid",
+         "pid_value": "2546802"
+        },
+        "parent": {
+         "pid_type": "recid",
+         "pid_value": "2546801"
+        }
+       }
+      ]
+     },
+     "resource_type": {
+      "subtype": "article",
+      "title": "Journal article",
+      "type": "publication"
+     },
+     "title": "A Probabilistic Approach to Syntactic Variation in Biblical Hebrew"
+    },
+    "owners": [
+     55597
+    ],
+    "revision": 6,
+    "stats": {
+     "downloads": 102.0,
+     "unique_downloads": 89.0,
+     "unique_views": 205.0,
+     "version_downloads": 102.0,
+     "version_unique_downloads": 89.0,
+     "version_unique_views": 205.0,
+     "version_views": 216.0,
+     "version_volume": 45984966.0,
+     "views": 216.0,
+     "volume": 45984966.0
+    },
+    "updated": "2020-01-20T17:12:59.293402+00:00"
    },
    {
     "conceptdoi": "10.5281/zenodo.1056774",
