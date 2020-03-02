@@ -1,0 +1,594 @@
+{
+  "status": "OK",
+  "data": {
+    "q": "*",
+    "total_count": 36,
+    "start": 0,
+    "spelling_alternatives": {},
+    "items": [
+      {
+        "name": "Deaths at the Borders Database for the Southern EU External Borders",
+        "type": "dataset",
+        "url": "https://hdl.handle.net/10411/20790",
+        "global_id": "hdl:10411/20790",
+        "description": "Individualised and anonymised collection of official evidence about people who have died attempting to cross the southern EU external borders without authorisation (irregular migrants, asylum seekers, etc) and whose bodies were dealt with by the death management systems of Spain, Gibraltar, Italy, Malta and Greece.",
+        "published_at": "2016-06-29T00:00:00Z",
+        "citationHtml": "Last, Tamara, 2016, \"Deaths at the Borders Database for the Southern EU External Borders\", <a href=\"https://hdl.handle.net/10411/20790\" target=\"_blank\">https://hdl.handle.net/10411/20790</a>, DataverseNL, V1",
+        "identifier_of_dataverse": "RCH",
+        "name_of_dataverse": "VU - Faculty of Law",
+        "citation": "Last, Tamara, 2016, \"Deaths at the Borders Database for the Southern EU External Borders\", https://hdl.handle.net/10411/20790, DataverseNL, V1",
+        "authors": [
+          "Last, Tamara"
+        ]
+      },
+      {
+        "name": "Genuine effects of vote advice applications on party choice",
+        "type": "dataset",
+        "url": "https://hdl.handle.net/10411/77APHO",
+        "global_id": "hdl:10411/77APHO",
+        "description": "Jan Kleinnijenhuis, Jasper van de Pol, Anita M.J. van Hoof and Andre Krouwel (2017), Genuine effects of vote advice applications on party choice: Filtering out factors that affect both the advice obtained and the vote Party Politics DOI: 10.1177/1354068817713121 journals.sagepub.com/home/ppq",
+        "published_at": "2017-06-09T14:29:47Z",
+        "citationHtml": "J. Kleinnijenhuis; A.M.J. van Hoof; J. van de Pol; A.P.M. Krouwel, 2017, \"Genuine effects of vote advice applications on party choice\", <a href=\"https://hdl.handle.net/10411/77APHO\" target=\"_blank\">https://hdl.handle.net/10411/77APHO</a>, DataverseNL, V1",
+        "identifier_of_dataverse": "FSW-CS",
+        "name_of_dataverse": "Department Communication Science",
+        "citation": "J. Kleinnijenhuis; A.M.J. van Hoof; J. van de Pol; A.P.M. Krouwel, 2017, \"Genuine effects of vote advice applications on party choice\", https://hdl.handle.net/10411/77APHO, DataverseNL, V1",
+        "authors": [
+          "J. Kleinnijenhuis",
+          "A.M.J. van Hoof",
+          "J. van de Pol",
+          "A.P.M. Krouwel"
+        ]
+      },
+      {
+        "name": "Dataset for: \"Tomosyn associates with secretory vesicles in neurons through its N- and C-terminal domains\"",
+        "type": "dataset",
+        "url": "https://hdl.handle.net/10411/Y4R7GN",
+        "global_id": "hdl:10411/Y4R7GN",
+        "description": "Data repository to accompany the manuscript \"Tomosyn associates with secretory vesicles in neurons through its N- and C-terminal domains\" by Cornelia J. Geerts, Roberta Mancini, Ning Chen, Frank T.W. Koopmans, Ka W. Li, August B. Smit, Jan R.T. van Weering, Matthijs Verhage and Alexander J. Groffen. PLOS One (accepted)",
+        "published_at": "2017-07-09T11:13:29Z",
+        "citationHtml": "Groffen, Sander, 2017, \"Dataset for: &quot;Tomosyn associates with secretory vesicles in neurons through its N- and C-terminal domains&quot;\", <a href=\"https://hdl.handle.net/10411/Y4R7GN\" target=\"_blank\">https://hdl.handle.net/10411/Y4R7GN</a>, DataverseNL, V1",
+        "identifier_of_dataverse": "BETA",
+        "name_of_dataverse": "VU - Faculty of Science",
+        "citation": "Groffen, Sander, 2017, \"Dataset for: \"Tomosyn associates with secretory vesicles in neurons through its N- and C-terminal domains\"\", https://hdl.handle.net/10411/Y4R7GN, DataverseNL, V1",
+        "authors": [
+          "Groffen, Sander"
+        ]
+      },
+      {
+        "name": "Replication data for Step-Dep trial",
+        "type": "dataset",
+        "url": "https://hdl.handle.net/10411/XNP5G4",
+        "global_id": "hdl:10411/XNP5G4",
+        "description": "Effectiveness of a stepped-care intervention to prevent major depression in patients with type 2 diabetes mellitus and/or coronary heart disease and subthreshold depression: a pragmatic cluster randomized controlled trial",
+        "published_at": "2017-06-30T11:55:07Z",
+        "citationHtml": "Tulder, van, M, 2017, \"Replication data for Step-Dep trial\", <a href=\"https://hdl.handle.net/10411/XNP5G4\" target=\"_blank\">https://hdl.handle.net/10411/XNP5G4</a>, DataverseNL, V1",
+        "identifier_of_dataverse": "BETA",
+        "name_of_dataverse": "VU - Faculty of Science",
+        "citation": "Tulder, van, M, 2017, \"Replication data for Step-Dep trial\", https://hdl.handle.net/10411/XNP5G4, DataverseNL, V1",
+        "authors": [
+          "Tulder, van, M"
+        ]
+      },
+      {
+        "name": "Early grasping force data",
+        "type": "dataset",
+        "url": "https://hdl.handle.net/10411/C5QQGF",
+        "global_id": "hdl:10411/C5QQGF",
+        "description": "This is data for the early grasping force experiment.",
+        "published_at": "2018-09-25T10:43:01Z",
+        "citationHtml": "Kappers, Astrid, 2017, \"Early grasping force data\", <a href=\"https://hdl.handle.net/10411/C5QQGF\" target=\"_blank\">https://hdl.handle.net/10411/C5QQGF</a>, DataverseNL, V2",
+        "identifier_of_dataverse": "FGB",
+        "name_of_dataverse": "VU - Faculty of Behavioural and Movement Sciences",
+        "citation": "Kappers, Astrid, 2017, \"Early grasping force data\", https://hdl.handle.net/10411/C5QQGF, DataverseNL, V2",
+        "authors": [
+          "Kappers, Astrid"
+        ]
+      },
+      {
+        "name": "Supplementary Data: Simulating past land use patterns; the impact of the Romans on the Lower-Rhine delta in the first century AD ",
+        "type": "dataset",
+        "url": "https://hdl.handle.net/10411/GO2HVB",
+        "global_id": "hdl:10411/GO2HVB",
+        "description": "This dataset cotains supplementary data for the journal article \"Simulating past land use patterns; the impact of the Romans on the Lower-Rhine delta in the first century AD\" published in the \"Journal of Archaeological Science Research\"",
+        "published_at": "2018-05-09T12:26:16Z",
+        "citationHtml": "Kleijn, de, Maurice, 2018, \"Supplementary Data: Simulating past land use patterns; the impact of the Romans on the Lower-Rhine delta in the first century AD\", <a href=\"https://hdl.handle.net/10411/GO2HVB\" target=\"_blank\">https://hdl.handle.net/10411/GO2HVB</a>, DataverseNL, V1",
+        "identifier_of_dataverse": "SBE",
+        "name_of_dataverse": "VU - School of Business and Economics",
+        "citation": "Kleijn, de, Maurice, 2018, \"Supplementary Data: Simulating past land use patterns; the impact of the Romans on the Lower-Rhine delta in the first century AD\", https://hdl.handle.net/10411/GO2HVB, DataverseNL, V1",
+        "authors": [
+          "Kleijn, de, Maurice"
+        ]
+      },
+      {
+        "name": "Benchmark data for: Machine Learning for geospatial vector data classification",
+        "type": "dataset",
+        "url": "https://hdl.handle.net/10411/GYPPBR",
+        "global_id": "hdl:10411/GYPPBR",
+        "description": "Benchmark data for paper \"Deep Learning for Classification Tasks on Geospatial Vector Polygons\". Core of the data is in the six numpy zip files. Each numpy zip contains the original WKT geometries as zlib compressed blobs, variable and fixed length geometry vectors, fourier descriptors, and a class dictionary. The zlib compressed wkt strings can be decompressed with import numpy as np import zlib loaded = np.load('archaeology_train_v8.npz') wkts_zipped = loaded['wkts_zlib_compressed'] for wkt_zipped in wkts_zipped:   wkt = str.decode(zlib.decompress(wkt_zipped))",
+        "published_at": "2018-12-04T13:02:43Z",
+        "citationHtml": "Veer, van 't, Rein, 2018, \"Benchmark data for: Machine Learning for geospatial vector data classification\", <a href=\"https://hdl.handle.net/10411/GYPPBR\" target=\"_blank\">https://hdl.handle.net/10411/GYPPBR</a>, DataverseNL, V9",
+        "identifier_of_dataverse": "SBE",
+        "name_of_dataverse": "VU - School of Business and Economics",
+        "citation": "Veer, van 't, Rein, 2018, \"Benchmark data for: Machine Learning for geospatial vector data classification\", https://hdl.handle.net/10411/GYPPBR, DataverseNL, V9",
+        "authors": [
+          "Veer, van 't, Rein"
+        ]
+      },
+      {
+        "name": "Replication data for: SICT: automated detection and supervised inspection of fast Ca2+ transients",
+        "type": "dataset",
+        "url": "https://hdl.handle.net/10411/UA6UZG",
+        "global_id": "hdl:10411/UA6UZG",
+        "description": "Replication data for the manuscript titled \"SICT: automated detection and supervised inspection of fast Ca2+ transients\"",
+        "published_at": "2018-10-22T16:07:16Z",
+        "citationHtml": "Groffen, AJA, 2018, \"Replication data for: SICT: automated detection and supervised inspection of fast Ca2+ transients\", <a href=\"https://hdl.handle.net/10411/UA6UZG\" target=\"_blank\">https://hdl.handle.net/10411/UA6UZG</a>, DataverseNL, V1",
+        "identifier_of_dataverse": "BETA",
+        "name_of_dataverse": "VU - Faculty of Science",
+        "citation": "Groffen, AJA, 2018, \"Replication data for: SICT: automated detection and supervised inspection of fast Ca2+ transients\", https://hdl.handle.net/10411/UA6UZG, DataverseNL, V1",
+        "authors": [
+          "Groffen, AJA"
+        ]
+      },
+      {
+        "name": "Quality of life in Indonesian women suspected of breast cancer and the general population",
+        "type": "dataset",
+        "url": "https://hdl.handle.net/10411/PTQG6C",
+        "global_id": "hdl:10411/PTQG6C",
+        "description": "The dataset contains quality of life data of a sample of Indonesian women suspected of breast cancer. In addition, quality of life data of females in the general Indonesian population are included.",
+        "published_at": "2018-07-03T14:21:21Z",
+        "citationHtml": "Sijbrandij, M., 2018, \"Quality of life in Indonesian women suspected of breast cancer and the general population\", <a href=\"https://hdl.handle.net/10411/PTQG6C\" target=\"_blank\">https://hdl.handle.net/10411/PTQG6C</a>, DataverseNL, V1",
+        "identifier_of_dataverse": "FGB",
+        "name_of_dataverse": "VU - Faculty of Behavioural and Movement Sciences",
+        "citation": "Sijbrandij, M., 2018, \"Quality of life in Indonesian women suspected of breast cancer and the general population\", https://hdl.handle.net/10411/PTQG6C, DataverseNL, V1",
+        "authors": [
+          "Sijbrandij, M."
+        ]
+      },
+      {
+        "name": "Partial priming: how issue news shapes issue saliency, which shapes turnout but not the vote",
+        "type": "dataset",
+        "url": "https://hdl.handle.net/10411/QVPJRM",
+        "global_id": "hdl:10411/QVPJRM",
+        "description": "VU-GfK panel survey data 2012-2016 and AMCAT content analysis queries to explain the outcome of the April 6th 2016 Dutch referendum campaign on the ratification of the EU-Ukraine association treaty of March 21st 2014",
+        "published_at": "2018-07-24T21:58:25Z",
+        "citationHtml": "Kleinnijenhuis, Jan; Van Atteveldt, Wouter, 2018, \"Partial priming: how issue news shapes issue saliency, which shapes turnout but not the vote\", <a href=\"https://hdl.handle.net/10411/QVPJRM\" target=\"_blank\">https://hdl.handle.net/10411/QVPJRM</a>, DataverseNL, V1",
+        "identifier_of_dataverse": "FSW",
+        "name_of_dataverse": "VU - Faculty of Social Sciences",
+        "citation": "Kleinnijenhuis, Jan; Van Atteveldt, Wouter, 2018, \"Partial priming: how issue news shapes issue saliency, which shapes turnout but not the vote\", https://hdl.handle.net/10411/QVPJRM, DataverseNL, V1",
+        "authors": [
+          "Kleinnijenhuis, Jan",
+          "Van Atteveldt, Wouter"
+        ]
+      },
+      {
+        "name": "Replication Data for: Deep Learning for Building Energy Performance Label Estimation",
+        "type": "dataset",
+        "url": "https://hdl.handle.net/10411/RDMFJ9",
+        "global_id": "hdl:10411/RDMFJ9",
+        "description": "In preparation",
+        "published_at": "2018-09-18T13:49:00Z",
+        "citationHtml": "Veer, van 't, Rein, 2018, \"Replication Data for: Deep Learning for Building Energy Performance Label Estimation\", <a href=\"https://hdl.handle.net/10411/RDMFJ9\" target=\"_blank\">https://hdl.handle.net/10411/RDMFJ9</a>, DataverseNL, V1",
+        "identifier_of_dataverse": "SBE",
+        "name_of_dataverse": "VU - School of Business and Economics",
+        "citation": "Veer, van 't, Rein, 2018, \"Replication Data for: Deep Learning for Building Energy Performance Label Estimation\", https://hdl.handle.net/10411/RDMFJ9, DataverseNL, V1",
+        "authors": [
+          "Veer, van 't, Rein"
+        ]
+      },
+      {
+        "name": "Iron oxide rock artefacts in Mesopotamia ca. 2600-1200 BC",
+        "type": "dataset",
+        "url": "https://hdl.handle.net/10411/J4KKPF",
+        "global_id": "hdl:10411/J4KKPF",
+        "description": "This database contains descriptions of iron oxide rock artefacts (\"hematite, goethite, magnetite\") from archaeological literature. It is part of my PhD-thesis (available at Archaeopress, Melein 2018).",
+        "published_at": "2018-10-18T06:56:43Z",
+        "citationHtml": "Melein, M, 2018, \"Iron oxide rock artefacts in Mesopotamia ca. 2600-1200 BC\", <a href=\"https://hdl.handle.net/10411/J4KKPF\" target=\"_blank\">https://hdl.handle.net/10411/J4KKPF</a>, DataverseNL, V1",
+        "identifier_of_dataverse": "BETA",
+        "name_of_dataverse": "VU - Faculty of Science",
+        "citation": "Melein, M, 2018, \"Iron oxide rock artefacts in Mesopotamia ca. 2600-1200 BC\", https://hdl.handle.net/10411/J4KKPF, DataverseNL, V1",
+        "authors": [
+          "Melein, M"
+        ]
+      },
+      {
+        "name": "The Role of Local Presence in Online Impulse Buying",
+        "type": "dataset",
+        "url": "https://hdl.handle.net/10411/UC5NK5",
+        "global_id": "hdl:10411/UC5NK5",
+        "description": "Data for paper Vonkeman, C., Verhagen, T. & Van Dolen, W. (2017). The Role of Local Presence in Online Impulse Buying. Information & Management, 54(8), 1038-1048.",
+        "published_at": "2018-12-09T09:39:10Z",
+        "citationHtml": "Vonkeman, Charlotte, 2018, \"The Role of Local Presence in Online Impulse Buying\", <a href=\"https://hdl.handle.net/10411/UC5NK5\" target=\"_blank\">https://hdl.handle.net/10411/UC5NK5</a>, DataverseNL, V1",
+        "identifier_of_dataverse": "SBE",
+        "name_of_dataverse": "VU - School of Business and Economics",
+        "citation": "Vonkeman, Charlotte, 2018, \"The Role of Local Presence in Online Impulse Buying\", https://hdl.handle.net/10411/UC5NK5, DataverseNL, V1",
+        "authors": [
+          "Vonkeman, Charlotte"
+        ]
+      },
+      {
+        "name": "Do male and female soccer players differ in helping? A study on prosocial behavior among young players",
+        "type": "dataset",
+        "url": "https://hdl.handle.net/10411/LDDYSJ",
+        "global_id": "hdl:10411/LDDYSJ",
+        "description": "The dataset contains two studies of Van Lange PAM, Manesi Z, Meershoek RWJ, Yuan M, Dong M, Van Doesum NJ (2018) Do male and female soccer players differ in helping? A study on prosocial behavior among young players. PLoS ONE 13(12): e0209168.",
+        "published_at": "2018-12-20T10:35:53Z",
+        "citationHtml": "Van Lange, PAM; Manesi, Z; Meershoek, RWJ; Yuan, M; Dong, M; Van Doesum, NJ, 2018, \"Do male and female soccer players differ in helping? A study on prosocial behavior among young players\", <a href=\"https://hdl.handle.net/10411/LDDYSJ\" target=\"_blank\">https://hdl.handle.net/10411/LDDYSJ</a>, DataverseNL, V1",
+        "identifier_of_dataverse": "FGB",
+        "name_of_dataverse": "VU - Faculty of Behavioural and Movement Sciences",
+        "citation": "Van Lange, PAM; Manesi, Z; Meershoek, RWJ; Yuan, M; Dong, M; Van Doesum, NJ, 2018, \"Do male and female soccer players differ in helping? A study on prosocial behavior among young players\", https://hdl.handle.net/10411/LDDYSJ, DataverseNL, V1",
+        "authors": [
+          "Van Lange, PAM",
+          "Manesi, Z",
+          "Meershoek, RWJ",
+          "Yuan, M",
+          "Dong, M",
+          "Van Doesum, NJ"
+        ]
+      },
+      {
+        "name": "Hostile Media Perceptions of Friendly Media",
+        "type": "dataset",
+        "url": "https://hdl.handle.net/10411/YDUA7T",
+        "global_id": "hdl:10411/YDUA7T",
+        "description": "Data files and scripts Kleinnijenhuis, J., Hartmann, T., Tanis, M.A. & Van Hoof, A.M.J. (forthcoming), Reinforcement of partisanship through hostile media perceptions of friendly media, Communication Research.",
+        "published_at": "2019-01-22T20:55:42Z",
+        "citationHtml": "Kleinnijenhuis, Jan; Hartmann, Tilo; Tanis, Martin; Van Hoof, Anita M.J., 2019, \"Hostile Media Perceptions of Friendly Media\", <a href=\"https://hdl.handle.net/10411/YDUA7T\" target=\"_blank\">https://hdl.handle.net/10411/YDUA7T</a>, DataverseNL, V1",
+        "identifier_of_dataverse": "FSW",
+        "name_of_dataverse": "VU - Faculty of Social Sciences",
+        "citation": "Kleinnijenhuis, Jan; Hartmann, Tilo; Tanis, Martin; Van Hoof, Anita M.J., 2019, \"Hostile Media Perceptions of Friendly Media\", https://hdl.handle.net/10411/YDUA7T, DataverseNL, V1",
+        "authors": [
+          "Kleinnijenhuis, Jan",
+          "Hartmann, Tilo",
+          "Tanis, Martin",
+          "Van Hoof, Anita M.J."
+        ]
+      },
+      {
+        "name": "Replication Data for paper: A Consumer-based Taxonomy of Digital Customer Engagement Practices",
+        "type": "dataset",
+        "url": "https://hdl.handle.net/10411/BVGM0L",
+        "global_id": "hdl:10411/BVGM0L",
+        "description": "Datasets for paper Eigenraam, A. W., Eelen, J., Van Lin, A., & Verlegh, P. W. (2018). A Consumer-based Taxonomy of Digital Customer Engagement Practices. Journal of Interactive Marketing, 44, 102-121. - Cardsorting data (phase 2) - Survey data (phase 3)",
+        "published_at": "2019-02-25T14:15:36Z",
+        "citationHtml": "Eigenraam, Anniek W.; Eelen, J; Van Lin, A.; Verlegh, P.W.J., 2019, \"Replication Data for paper: A Consumer-based Taxonomy of Digital Customer Engagement Practices\", <a href=\"https://hdl.handle.net/10411/BVGM0L\" target=\"_blank\">https://hdl.handle.net/10411/BVGM0L</a>, DataverseNL, V1",
+        "identifier_of_dataverse": "SBE",
+        "name_of_dataverse": "VU - School of Business and Economics",
+        "citation": "Eigenraam, Anniek W.; Eelen, J; Van Lin, A.; Verlegh, P.W.J., 2019, \"Replication Data for paper: A Consumer-based Taxonomy of Digital Customer Engagement Practices\", https://hdl.handle.net/10411/BVGM0L, DataverseNL, V1",
+        "authors": [
+          "Eigenraam, Anniek W.",
+          "Eelen, J",
+          "Van Lin, A.",
+          "Verlegh, P.W.J."
+        ]
+      },
+      {
+        "name": "Replication Data for: The effect of prosthetic alignment on prosthetic and total leg stiffness while running with simulated running-specific prostheses",
+        "type": "dataset",
+        "url": "https://hdl.handle.net/10411/0JFYGF",
+        "global_id": "hdl:10411/0JFYGF",
+        "description": "Experimental data on manipulation of alignment angle of the blade of the running-specific prosthesis (RSP) on RSP stiffness and gait pattern",
+        "published_at": "2019-03-29T14:20:38Z",
+        "citationHtml": "Houdijk, Han, 2019, \"Replication Data for: The effect of prosthetic alignment on prosthetic and total leg stiffness while running with simulated running-specific prostheses\", <a href=\"https://hdl.handle.net/10411/0JFYGF\" target=\"_blank\">https://hdl.handle.net/10411/0JFYGF</a>, DataverseNL, V2",
+        "identifier_of_dataverse": "FGB",
+        "name_of_dataverse": "VU - Faculty of Behavioural and Movement Sciences",
+        "citation": "Houdijk, Han, 2019, \"Replication Data for: The effect of prosthetic alignment on prosthetic and total leg stiffness while running with simulated running-specific prostheses\", https://hdl.handle.net/10411/0JFYGF, DataverseNL, V2",
+        "authors": [
+          "Houdijk, Han"
+        ]
+      },
+      {
+        "name": "Reactions to claimed and granted overinclusion: Extending research on the effects of claimball versus cyberball ",
+        "type": "dataset",
+        "url": "https://hdl.handle.net/10411/BWCOHC",
+        "global_id": "hdl:10411/BWCOHC",
+        "description": "Stimulus materials, data and analyses for De Waal-Andrews, W. & Van Beest, I. (2019). Reactions to claimed and granted overinclusion: Extending research on the effects of claimball versus cyberball. (paper submiited for publication)",
+        "published_at": "2019-03-05T15:12:36Z",
+        "citationHtml": "De Waal-Andrews, Wendy; Van Beest, Ilja, 2019, \"Reactions to claimed and granted overinclusion: Extending research on the effects of claimball versus cyberball\", <a href=\"https://hdl.handle.net/10411/BWCOHC\" target=\"_blank\">https://hdl.handle.net/10411/BWCOHC</a>, DataverseNL, V1",
+        "identifier_of_dataverse": "FGB",
+        "name_of_dataverse": "VU - Faculty of Behavioural and Movement Sciences",
+        "citation": "De Waal-Andrews, Wendy; Van Beest, Ilja, 2019, \"Reactions to claimed and granted overinclusion: Extending research on the effects of claimball versus cyberball\", https://hdl.handle.net/10411/BWCOHC, DataverseNL, V1",
+        "authors": [
+          "De Waal-Andrews, Wendy",
+          "Van Beest, Ilja"
+        ]
+      },
+      {
+        "name": "Designing Supportive Virtual Assistants: ",
+        "type": "dataset",
+        "url": "https://hdl.handle.net/10411/APWESF",
+        "global_id": "hdl:10411/APWESF",
+        "description": "Dataset of the study reported in the paper entitled Designing Supportive Virtual Assistants: The Effect of Direct Eye Gaze and Empathetic Language on Self-Efficacy Test Anxiety and Performance",
+        "published_at": "2019-03-15T18:05:54Z",
+        "citationHtml": "Balint, Katalin Eva; Michelle Troxler, 2019, \"Designing Supportive Virtual Assistants:\", <a href=\"https://hdl.handle.net/10411/APWESF\" target=\"_blank\">https://hdl.handle.net/10411/APWESF</a>, DataverseNL, V1",
+        "identifier_of_dataverse": "FSW",
+        "name_of_dataverse": "VU - Faculty of Social Sciences",
+        "citation": "Balint, Katalin Eva; Michelle Troxler, 2019, \"Designing Supportive Virtual Assistants:\", https://hdl.handle.net/10411/APWESF, DataverseNL, V1",
+        "authors": [
+          "Balint, Katalin Eva",
+          "Michelle Troxler"
+        ]
+      },
+      {
+        "name": "Future land system scenarios for the Mediterranean",
+        "type": "dataset",
+        "url": "https://hdl.handle.net/10411/QCQDEQ",
+        "global_id": "hdl:10411/QCQDEQ",
+        "description": "The Mediterranean region faces significant challenges to supply its growing population with food and living space. The region’s potential to do so in the future is even more uncertain in the light of global change effects, particularly climate and socio-economic change. Until know, it was unknown how land use and land management can respond to such global challenges. We present a set of scenarios on potential future changes to Mediterranean land systems. First, we present two different pathways in fulfilling the growing demand for crops, livestock and urban space. One is oriented towards growth, without any restrictions in terms of limiting the withdrawal of water for irrigation or expansion of protected areas. The second presents a future, where consumption of water for irrigation is reduced, and the network of protected areas is significantly expanded. The second set of scenarios presents how land use and land management might respond to different levels of reduced water losses in the irrigation systems. Irrigated cropland in the region is characterized by different levels of efficiency. In the study we show, that significant reductions of water losses is necessary in order to increase crop production in the region. The maps present the spatial distribution of Mediterranean land systems today and in the future (2050), and can be imported in a GIS. The maps are created in a Lambert Azimuthal Equal Area projection with a resolution of 2 x 2 km (custom projection with more details in the file \"readme_projection\"). We used the CLUMondo spatial allocation model in both studies. We present a novel approach, where we limit cropland intensification based on accessible water resources. Moreover, we studied what would decreases in water resources due to climate change mean to land use and land management. More information on the model in the publications and on www.environmentalgeography.nl The resulting scenarios can be used numerous ways: Evaluating different strategies to improve cropland productivity and increase crop production (implementing irrigation, improving irrigation efficiency, cropland intensification, crop type specialization, changes to multifunctionality…) Studying changes to Mediterranean terrestrial biodiversity and landscapes Identifying areas with different priorities: crop production, livestock grazing, biodiversity protection…",
+        "published_at": "2019-04-02T12:48:35Z",
+        "citationHtml": "Malek, Ziga; Verburg, Peter H; Geijzendorffer, Ilse R; Bondeau, Alberte; Cramer, Wolfgang, 2019, \"Future land system scenarios for the Mediterranean\", <a href=\"https://hdl.handle.net/10411/QCQDEQ\" target=\"_blank\">https://hdl.handle.net/10411/QCQDEQ</a>, DataverseNL, V1",
+        "identifier_of_dataverse": "BETA",
+        "name_of_dataverse": "VU - Faculty of Science",
+        "citation": "Malek, Ziga; Verburg, Peter H; Geijzendorffer, Ilse R; Bondeau, Alberte; Cramer, Wolfgang, 2019, \"Future land system scenarios for the Mediterranean\", https://hdl.handle.net/10411/QCQDEQ, DataverseNL, V1",
+        "authors": [
+          "Malek, Ziga",
+          "Verburg, Peter H",
+          "Geijzendorffer, Ilse R",
+          "Bondeau, Alberte",
+          "Cramer, Wolfgang"
+        ]
+      },
+      {
+        "name": "Mediterranean Land Systems Spatial Distribution",
+        "type": "dataset",
+        "url": "https://hdl.handle.net/10411/I1A9IE",
+        "global_id": "hdl:10411/I1A9IE",
+        "description": "In the Mediterranean region, land systems have been shaped gradually through centuries. They provide services to a large and growing population in a region that is among the most vulnerable to future global change. The spatial extent and distribution of Mediterranean land systems was, until now, unknown. We present a new, expert-based classification of Mediterranean land systems, representing landscapes as integrated social-ecological systems. We combined data on land cover, management intensity and livestock available on the European and global scale in a geographic information system based approach. We put special emphasis on agro-silvo-pastoral mosaic systems: multifunctional Mediterranean landscapes hosting different human activities that are not represented in common land cover maps.The resulting land systems typology can be used to prioritize and protect landscapes of high cultural and environmental significance. The map 'medi_LS' presents the spatial distribution of Mediterranean land system, and can be imported in a GIS. The map is created in a Lambert Azimuthal Equal Area projection with a resolution of 2 x 2 km (custom projection with more details in the file \"readme_projection\").",
+        "published_at": "2019-04-02T12:22:08Z",
+        "citationHtml": "Malek, Ziga; Verburg, Peter, H, 2019, \"Mediterranean Land Systems Spatial Distribution\", <a href=\"https://hdl.handle.net/10411/I1A9IE\" target=\"_blank\">https://hdl.handle.net/10411/I1A9IE</a>, DataverseNL, V1",
+        "identifier_of_dataverse": "BETA",
+        "name_of_dataverse": "VU - Faculty of Science",
+        "citation": "Malek, Ziga; Verburg, Peter, H, 2019, \"Mediterranean Land Systems Spatial Distribution\", https://hdl.handle.net/10411/I1A9IE, DataverseNL, V1",
+        "authors": [
+          "Malek, Ziga",
+          "Verburg, Peter, H"
+        ]
+      },
+      {
+        "name": "A spatially explicit representation of conservation agriculture for application in global change studies",
+        "type": "dataset",
+        "url": "https://hdl.handle.net/10411/QNICAO",
+        "global_id": "hdl:10411/QNICAO",
+        "description": "Conservation agriculture (CA) is widely promoted as a sustainable agricultural management strategy and proposed to contribute to climate change mitigation and adaptation through reduced emission of greenhouse gases, increased solar radiation reflection, and the sustainable use of soil and water resources. To improve understanding of how CA management influences the land and climate system, we have developed the first global and spatially explicit data set of present-day CA distribution. National-level estimates of CA have been downscaled to a 5 arcminute regular grid based on multi-criteria analysis. We provide a best estimate of CA distribution and an uncertainty range in the form of a low and high estimate of CA distribution, reflecting the inconsistency in CA definitions. The present-day estimates are complemented by two scenarios of the potential future development of CA, combining present-day data and an assessment of the potential for implementation using biophysical and socioeconomic factors. By our estimates, 122 to 215 Mha or 9 to 15% of global arable land is currently managed under CA systems. Our scenario analysis suggests a future potential of CA in the range of 533 to 1130 Mha (38 to 81% of global arable land).",
+        "published_at": "2019-05-09T11:27:48Z",
+        "citationHtml": "Prestele, Reinhard; Hirsch, Annette, L.; Davin, Edowuard, L.; Seneviratne, Sonia, I.; Verburg, Peter, H., 2019, \"A spatially explicit representation of conservation agriculture for application in global change studies\", <a href=\"https://hdl.handle.net/10411/QNICAO\" target=\"_blank\">https://hdl.handle.net/10411/QNICAO</a>, DataverseNL, V1",
+        "identifier_of_dataverse": "BETA",
+        "name_of_dataverse": "VU - Faculty of Science",
+        "citation": "Prestele, Reinhard; Hirsch, Annette, L.; Davin, Edowuard, L.; Seneviratne, Sonia, I.; Verburg, Peter, H., 2019, \"A spatially explicit representation of conservation agriculture for application in global change studies\", https://hdl.handle.net/10411/QNICAO, DataverseNL, V1",
+        "authors": [
+          "Prestele, Reinhard",
+          "Hirsch, Annette, L.",
+          "Davin, Edowuard, L.",
+          "Seneviratne, Sonia, I.",
+          "Verburg, Peter, H."
+        ]
+      },
+      {
+        "name": "Implementing SSPs in CLUMondo",
+        "type": "dataset",
+        "url": "https://hdl.handle.net/10411/DBUVFV",
+        "global_id": "hdl:10411/DBUVFV",
+        "description": "Storylines for each of the SSP scenarios 1 – ‘Sustainability’, 2 – ‘Middle of the Road’ and 3 – ‘Regional Rivalry’ were implemented in CLUMondo in order to simulate land use change in each of these potential futures. Using a previous model configuration, specific adjustments were made according to SSP narratives. The projected demand for crop production, bovines, goats and sheep and urban area were provided by IMAGE, as were the exogenous productivity increase factors due to technological change, per year. For SSP1 demands were included for tons of crop production, head of bovines, goats and sheep (corrected to a ‘livestock unit’), builtup area and tons of carbon. The carbon demand was based on a no net loss situation where the total carbon content of all land systems was not allowed to fall below 2000 levels. For SSP2 and SSP3 demands were included for tons of crop production, head of bovines, goats and sheep (corrected to a ‘livestock unit’) and builtup area. Climate change was taken into account by incorporating change in the precipitation and temperature drivers and in cropland suitability conversion restrictions. Climate-induced changes in crop productivity were added to the exogenous productivity increase factors obtained from IMAGE. Climate change in both SSP1, SSP2 and SSP3 is projected to be about 6W/m2 by 2100. In 2050 this is equivalent to the RCP 4.5 and RCP 6 scenarios, or the SRES B1 scenario. Data used to determine the influence of climate change in CLUMondo was obtained from the Worldclim database and the FAO’s database on Global Agro-ecological zones.",
+        "published_at": "2019-05-09T11:49:37Z",
+        "citationHtml": "Schrammeijer, Bep; Verburg, Peter, H., 2019, \"Implementing SSPs in CLUMondo\", <a href=\"https://hdl.handle.net/10411/DBUVFV\" target=\"_blank\">https://hdl.handle.net/10411/DBUVFV</a>, DataverseNL, V1",
+        "identifier_of_dataverse": "BETA",
+        "name_of_dataverse": "VU - Faculty of Science",
+        "citation": "Schrammeijer, Bep; Verburg, Peter, H., 2019, \"Implementing SSPs in CLUMondo\", https://hdl.handle.net/10411/DBUVFV, DataverseNL, V1",
+        "authors": [
+          "Schrammeijer, Bep",
+          "Verburg, Peter, H."
+        ]
+      },
+      {
+        "name": "Replication Data for: An indicator set for capturing long-term open space fragmentation and urban development dynamics",
+        "type": "dataset",
+        "url": "https://hdl.handle.net/10411/T9PLUL",
+        "global_id": "hdl:10411/T9PLUL",
+        "description": "Open space preservation is an important spatial policy issue in developed, densely populated countries. Understanding open space dynamics in relation to urban development is critical to the development and evaluation of such policies. Starting from a conceptual model that hypotheses how open space will have developed over the past century we use a set of landscape ecology based indicators to capture these changes from a societal (perceptional) perspective. The indicators are applied to a newly compiled geodatabase of urban development in the Netherlands to show their performance in detecting and understanding past and future trends in open space provision. The relevant spatial data files are provided here as a geodatabase in ESRI's .gdb format and as separate shapefiles (both as a zipped package including all files and as separate zipfiles for individual shapefiles). The shapefiles can be used in many GIS packages. The .mxd files can be used to add symbology to the data in various versions of ESRI's ArcGIS. The data uses the Dutch Rijksdriehoekstelsel_New (RD_New) projection system. The creation of the datasets and their origin is described in the related paper by Wagtendonk and Koomen (2019).",
+        "published_at": "2019-05-13T12:57:50Z",
+        "citationHtml": "Koomen, Eric, 2019, \"Replication Data for: An indicator set for capturing long-term open space fragmentation and urban development dynamics\", <a href=\"https://hdl.handle.net/10411/T9PLUL\" target=\"_blank\">https://hdl.handle.net/10411/T9PLUL</a>, DataverseNL, V3",
+        "identifier_of_dataverse": "SBE",
+        "name_of_dataverse": "VU - School of Business and Economics",
+        "citation": "Koomen, Eric, 2019, \"Replication Data for: An indicator set for capturing long-term open space fragmentation and urban development dynamics\", https://hdl.handle.net/10411/T9PLUL, DataverseNL, V3",
+        "authors": [
+          "Koomen, Eric"
+        ]
+      },
+      {
+        "name": "Source code NETLOGO Agent-based model Kitui Woodland Management",
+        "type": "dataset",
+        "url": "https://hdl.handle.net/10411/PYLTOJ",
+        "global_id": "hdl:10411/PYLTOJ",
+        "description": "Source code NETLOGO Agent-based model Kitui Woodland Management",
+        "published_at": "2019-06-18T14:43:55Z",
+        "citationHtml": "Kiruki, Harun, 2019, \"Source code NETLOGO Agent-based model Kitui Woodland Management\", <a href=\"https://hdl.handle.net/10411/PYLTOJ\" target=\"_blank\">https://hdl.handle.net/10411/PYLTOJ</a>, DataverseNL, V1",
+        "identifier_of_dataverse": "BETA",
+        "name_of_dataverse": "VU - Faculty of Science",
+        "citation": "Kiruki, Harun, 2019, \"Source code NETLOGO Agent-based model Kitui Woodland Management\", https://hdl.handle.net/10411/PYLTOJ, DataverseNL, V1",
+        "authors": [
+          "Kiruki, Harun"
+        ]
+      },
+      {
+        "name": "Shot Scale Matters: The Effect of Close-Up Frequency  on Theory of Mind Responses in Film Viewers",
+        "type": "dataset",
+        "url": "https://hdl.handle.net/10411/LUUVQL",
+        "global_id": "hdl:10411/LUUVQL",
+        "description": "Theory of mind (ToM) processing is crucial in everyday social functioning. Fictional film narratives can elicit ToM, however, little is known about the cinematographic techniques underlying this effect. The present experiment focuses on the role of close-up shots of the character’s face in viewers’ ToM responding, as well as in their cognitive and affective processing more generally. The online experiment (N = 495) included thirteen versions of an animated film and employed a 6 (Close-up frequency, 1 vs. 2. vs. 3 vs. 4 vs. 5 vs. 10) × 2 (Facial expression, neutral vs. sad) plus a control condition with zero close-up factorial between-subject design. Participants were randomly assigned to one version of the film and subsequently asked (with and without a prompt for ToM) to recall the story. In these free responses, the study used a quantitative content analytic method (with independent blind-coders) to identify the level of spontaneous and prompted ToM, as well as cognitive and affective processing employed by viewers. Additionally, we tested the moderation effect of character facial expression (in the close-up) and participant gender. Confirming our main hypothesis, close-up frequency significantly influenced ToM-spontaneous, but not ToM-prompted. Results indicate that increasing the number of close-ups may elicit higher levels of ToM-spontaneous up to a certain point, beyond which it may decrease spontaneous ToM responses. Results suggest that the effect of close-up frequency is specific to ToM processing rather than some general effect on cognitive and affective processing of narratives.",
+        "published_at": "2019-07-22T15:22:18Z",
+        "citationHtml": "Balint, Katalin Eva, 2019, \"Shot Scale Matters: The Effect of Close-Up Frequency on Theory of Mind Responses in Film Viewers\", <a href=\"https://hdl.handle.net/10411/LUUVQL\" target=\"_blank\">https://hdl.handle.net/10411/LUUVQL</a>, DataverseNL, V1",
+        "identifier_of_dataverse": "FSW",
+        "name_of_dataverse": "VU - Faculty of Social Sciences",
+        "citation": "Balint, Katalin Eva, 2019, \"Shot Scale Matters: The Effect of Close-Up Frequency on Theory of Mind Responses in Film Viewers\", https://hdl.handle.net/10411/LUUVQL, DataverseNL, V1",
+        "authors": [
+          "Balint, Katalin Eva"
+        ]
+      },
+      {
+        "name": "Local land-use decision making data",
+        "type": "dataset",
+        "url": "https://hdl.handle.net/10411/YKVWOA",
+        "global_id": "hdl:10411/YKVWOA",
+        "description": "This dataverse contains the data on 758 decision making in local land use change cases. It is a result of an extensive literature review.",
+        "published_at": "2019-07-24T14:00:30Z",
+        "citationHtml": "Malek, Ziga; Douw, Bianka; van Vliet, Jasper; van der Zanden, Emma; Verburg, Peter, 2019, \"Local land-use decision making data\", <a href=\"https://hdl.handle.net/10411/YKVWOA\" target=\"_blank\">https://hdl.handle.net/10411/YKVWOA</a>, DataverseNL, V1",
+        "identifier_of_dataverse": "BETA",
+        "name_of_dataverse": "VU - Faculty of Science",
+        "citation": "Malek, Ziga; Douw, Bianka; van Vliet, Jasper; van der Zanden, Emma; Verburg, Peter, 2019, \"Local land-use decision making data\", https://hdl.handle.net/10411/YKVWOA, DataverseNL, V1",
+        "authors": [
+          "Malek, Ziga",
+          "Douw, Bianka",
+          "van Vliet, Jasper",
+          "van der Zanden, Emma",
+          "Verburg, Peter"
+        ]
+      },
+      {
+        "name": "Replication Data for: Doc2b Ca2+ binding site mutants enhance synaptic release at rest at the expense of sustained synaptic strength",
+        "type": "dataset",
+        "url": "https://hdl.handle.net/10411/I6Q2G2",
+        "global_id": "hdl:10411/I6Q2G2",
+        "description": "Replication Data for: Doc2b Ca2+ binding site mutants enhance synaptic release at rest at the expense of sustained synaptic strength",
+        "published_at": "2019-08-29T11:48:46Z",
+        "citationHtml": "BOURGEOIS, Quentin Thomas; Matthijs Verhage; Alexander J. Groffen, 2019, \"Replication Data for: Doc2b Ca2+ binding site mutants enhance synaptic release at rest at the expense of sustained synaptic strength\", <a href=\"https://hdl.handle.net/10411/I6Q2G2\" target=\"_blank\">https://hdl.handle.net/10411/I6Q2G2</a>, DataverseNL, V1",
+        "identifier_of_dataverse": "BETA",
+        "name_of_dataverse": "VU - Faculty of Science",
+        "citation": "BOURGEOIS, Quentin Thomas; Matthijs Verhage; Alexander J. Groffen, 2019, \"Replication Data for: Doc2b Ca2+ binding site mutants enhance synaptic release at rest at the expense of sustained synaptic strength\", https://hdl.handle.net/10411/I6Q2G2, DataverseNL, V1",
+        "authors": [
+          "BOURGEOIS, Quentin Thomas",
+          "Matthijs Verhage",
+          "Alexander J. Groffen"
+        ]
+      },
+      {
+        "name": "Global spatial distribution of organic farmers",
+        "type": "dataset",
+        "url": "https://hdl.handle.net/10411/GT8VBP",
+        "global_id": "hdl:10411/GT8VBP",
+        "description": "This dataverse presents the locations of organic crop farmers worldwide. The locations were obtained by collecting information from publicly available national registries, certifiers and documents on organic farming.",
+        "published_at": "2019-09-02T08:50:20Z",
+        "citationHtml": "Malek, Ziga; Tieskens, Koen; Verburg, Peter, 2019, \"Global spatial distribution of organic farmers\", <a href=\"https://hdl.handle.net/10411/GT8VBP\" target=\"_blank\">https://hdl.handle.net/10411/GT8VBP</a>, DataverseNL, V1",
+        "identifier_of_dataverse": "BETA",
+        "name_of_dataverse": "VU - Faculty of Science",
+        "citation": "Malek, Ziga; Tieskens, Koen; Verburg, Peter, 2019, \"Global spatial distribution of organic farmers\", https://hdl.handle.net/10411/GT8VBP, DataverseNL, V1",
+        "authors": [
+          "Malek, Ziga",
+          "Tieskens, Koen",
+          "Verburg, Peter"
+        ]
+      },
+      {
+        "name": "Mapping settlement systems in China and their change trajectories between 1990-2010",
+        "type": "dataset",
+        "url": "https://hdl.handle.net/10411/9BDZJQ",
+        "global_id": "hdl:10411/9BDZJQ",
+        "description": "For more details, visit our project website https://landbigdata.github.io/cscproject/",
+        "published_at": "2019-09-09T08:40:57Z",
+        "citationHtml": "Li, Mengmeng; van Vliet, Jasper; Ke, Xinli; Verburg, Peter, 2019, \"Mapping settlement systems in China and their change trajectories between 1990-2010\", <a href=\"https://hdl.handle.net/10411/9BDZJQ\" target=\"_blank\">https://hdl.handle.net/10411/9BDZJQ</a>, DataverseNL, V1",
+        "identifier_of_dataverse": "BETA",
+        "name_of_dataverse": "VU - Faculty of Science",
+        "citation": "Li, Mengmeng; van Vliet, Jasper; Ke, Xinli; Verburg, Peter, 2019, \"Mapping settlement systems in China and their change trajectories between 1990-2010\", https://hdl.handle.net/10411/9BDZJQ, DataverseNL, V1",
+        "authors": [
+          "Li, Mengmeng",
+          "van Vliet, Jasper",
+          "Ke, Xinli",
+          "Verburg, Peter"
+        ]
+      },
+      {
+        "name": "Administrative level 2 areas exposed to earthquakes (MMI ≥ VIII) and tropical cyclones between 1960 and 2016",
+        "type": "dataset",
+        "url": "https://hdl.handle.net/10411/NYLQWW",
+        "global_id": "hdl:10411/NYLQWW",
+        "description": "This dataset includes one file per hazard considered: tropical cyclones and earthquakes. Every file contains as first entries the name of the administrative level 2 exposed to the hazard. In the few cases where administrative level area 2 did not exist, we referred to the administrative level area 1. Each entry then contains the date at which the event occurred along with the ID of the event, as reported in the original datasets mentioned below. The date of the event is stored as a string with the following format: ‘year-month-day’. For earthquakes, we considered areas subjected to a Modified Mercalli Intensity (MMI) category VIII or higher using a circular radius dependent on the earthquake moment magnitude recorded by the USGS Comprehensive Earthquake Catalog (U.S. Geological Survey 2017). This relationship was derived based on the analysis of 6,320 raster files (USGS ShakeMap) produced by USGS for earthquakes with a moment magnitude of at least 5. Based on this analysis, we find the following: ln A = 2.106 M - 8.160 where A is the area subject to an MMI of category VIII or higher and M is the moment magnitude of the earthquake. We use equation 1 to create a buffer area around the epicenter for all reported earthquakes by the USGS with a moment magnitude higher than 5. We intersect this area with all administrative level 2 areas exposed to an earthquake intensity of category VIII or higher. The event ID refers to the event name as stored by the USGS. For the areas affected by tropical cyclones, we generated footprints of tropical cyclones when these were either classed as tropical storms or higher intensity by applying a buffer of 80 km both sides from the track, following the method in Tate et al. (2010). We used the IBTrACS dataset v03r10 (Knapp et al. 2010) to indicate the position of the center of the tropical cyclone. The event ID refers to the event name as stored in the IBTrACS dataset. References GADM. 2018. “GADM - GADM Database of Global Administrative Areas.” https://gadm.org/ (June 14, 2019). Knapp, Kenneth R et al. 2010. “THE INTERNATIONAL BEST TRACK ARCHIVE FOR CLIMATE STEWARDSHIP (IBTrACS) Unifying Tropical Cyclone Data.” Bulletin of the American Meteorological Society 91: 363–76. https://journals.ametsoc.org/doi/pdf/10.1175/2009BAMS2755.1. Tate, Eric, Susan L Cutter, and Melissa Berry. 2010. “Integrated Multihazard Mapping.” Environment and Planning B: Planning and Design 37: 646–63. http://journals.sagepub.com/doi/pdf/10.1068/b35157. U.S. Geological Survey. 2017. “ShakeMap - Earthquake Ground Motion and Shaking Intensity Maps.” https://earthquake.usgs.gov/data/shakemap/.",
+        "published_at": "2019-09-12T15:25:48Z",
+        "citationHtml": "Couasnon, Ana&iuml;s; de Ruiter, Marleen C., 2019, \"Administrative level 2 areas exposed to earthquakes (MMI &ge; VIII) and tropical cyclones between 1960 and 2016\", <a href=\"https://hdl.handle.net/10411/NYLQWW\" target=\"_blank\">https://hdl.handle.net/10411/NYLQWW</a>, DataverseNL, V1",
+        "identifier_of_dataverse": "BETA",
+        "name_of_dataverse": "VU - Faculty of Science",
+        "citation": "Couasnon, Anaïs; de Ruiter, Marleen C., 2019, \"Administrative level 2 areas exposed to earthquakes (MMI ≥ VIII) and tropical cyclones between 1960 and 2016\", https://hdl.handle.net/10411/NYLQWW, DataverseNL, V1",
+        "authors": [
+          "Couasnon, Anaïs",
+          "de Ruiter, Marleen C."
+        ]
+      },
+      {
+        "name": "Representativeness of AERONET and GAW aerosol observation sites",
+        "type": "dataset",
+        "url": "https://hdl.handle.net/10411/XDZD4A",
+        "global_id": "hdl:10411/XDZD4A",
+        "description": "A ranking of the spatial representativeness of AERONET and GAW sites, based on a high resolution global numerical simulation (OSSE).",
+        "published_at": "2019-09-21T08:56:43Z",
+        "citationHtml": "Schutgens, Nick, 2019, \"Representativeness of AERONET and GAW aerosol observation sites\", <a href=\"https://hdl.handle.net/10411/XDZD4A\" target=\"_blank\">https://hdl.handle.net/10411/XDZD4A</a>, DataverseNL, V1",
+        "identifier_of_dataverse": "BETA",
+        "name_of_dataverse": "VU - Faculty of Science",
+        "citation": "Schutgens, Nick, 2019, \"Representativeness of AERONET and GAW aerosol observation sites\", https://hdl.handle.net/10411/XDZD4A, DataverseNL, V1",
+        "authors": [
+          "Schutgens, Nick"
+        ]
+      },
+      {
+        "name": "Financial and Health Diaries 2012-2013: A year-long weekly panel of farming households in Nigeria and Kenya",
+        "type": "dataset",
+        "url": "https://hdl.handle.net/10411/AHWR9O",
+        "global_id": "hdl:10411/AHWR9O",
+        "description": "The Financial and Health Diaries capture high-detail high-frequency data on how low-income households in developing countries manage money and make spending choices around healthcare. The data provide detailed weekly information on individuals’ financial activities, health events and interactions with healthcare providers.",
+        "published_at": "2019-11-18T10:25:51Z",
+        "citationHtml": "Wendy Janssens; Berber Kramer; Marijn van der List; David Paper, 2019, \"Financial and Health Diaries 2012-2013: A year-long weekly panel of farming households in Nigeria and Kenya\", <a href=\"https://hdl.handle.net/10411/AHWR9O\" target=\"_blank\">https://hdl.handle.net/10411/AHWR9O</a>, DataverseNL, V1",
+        "identifier_of_dataverse": "SBE",
+        "name_of_dataverse": "VU - School of Business and Economics",
+        "citation": "Wendy Janssens; Berber Kramer; Marijn van der List; David Paper, 2019, \"Financial and Health Diaries 2012-2013: A year-long weekly panel of farming households in Nigeria and Kenya\", https://hdl.handle.net/10411/AHWR9O, DataverseNL, V1",
+        "authors": [
+          "Wendy Janssens",
+          "Berber Kramer",
+          "Marijn van der List",
+          "David Paper"
+        ]
+      },
+      {
+        "name": "Replication Data for: Drought resistance increases from the individual to the ecosystem level in highly diverse neotropical rain forest: a meta-analysis of leaf, tree and ecosystem responses to drought",
+        "type": "dataset",
+        "url": "https://hdl.handle.net/10411/41KALW",
+        "global_id": "hdl:10411/41KALW",
+        "description": "This file contains the replication data for: Drought resistance increases from the individual to the ecosystem level in highly diverse neotropical rain forest: a meta-analysis of leaf, tree and ecosystem responses to drought, currently under review in Biogeosciences Discussions",
+        "published_at": "2020-01-08T08:53:17Z",
+        "citationHtml": "Janssen, Thomas, 2020, \"Replication Data for: Drought resistance increases from the individual to the ecosystem level in highly diverse neotropical rain forest: a meta-analysis of leaf, tree and ecosystem responses to drought\", <a href=\"https://hdl.handle.net/10411/41KALW\" target=\"_blank\">https://hdl.handle.net/10411/41KALW</a>, DataverseNL, V1",
+        "identifier_of_dataverse": "BETA",
+        "name_of_dataverse": "VU - Faculty of Science",
+        "citation": "Janssen, Thomas, 2020, \"Replication Data for: Drought resistance increases from the individual to the ecosystem level in highly diverse neotropical rain forest: a meta-analysis of leaf, tree and ecosystem responses to drought\", https://hdl.handle.net/10411/41KALW, DataverseNL, V1",
+        "authors": [
+          "Janssen, Thomas"
+        ]
+      },
+      {
+        "name": "Particulate organic matter dynamics in a permafrost headwater stream and the Kolyma River mainstem",
+        "type": "dataset",
+        "url": "https://hdl.handle.net/10411/JJOZKK",
+        "global_id": "hdl:10411/JJOZKK",
+        "description": "Water samples for this study were collected at two sites in the vicinity of the town of Cherskiy: one representing the Kolyma mainstem (at 68.755 °N, 161.305 °E) and the other a small headwater stream called Y3 (watershed size ~17 km2), draining Yedoma-rich soils (sampling site at 68.759 °N, 161.448 °E). Surface water samples of 5-20 L were collected every 4-7 days from late May until late September/early October to cover the entire open-water season in 2013 and 2015, resulting in a total of 36 POM samples for the lower Kolyma mainstem and 35 POM samples for headwater stream Y3.",
+        "published_at": "2020-01-27T17:35:22Z",
+        "citationHtml": "Broeder, Lisa, 2020, \"Particulate organic matter dynamics in a permafrost headwater stream and the Kolyma River mainstem\", <a href=\"https://hdl.handle.net/10411/JJOZKK\" target=\"_blank\">https://hdl.handle.net/10411/JJOZKK</a>, DataverseNL, V1",
+        "identifier_of_dataverse": "BETA",
+        "name_of_dataverse": "VU - Faculty of Science",
+        "citation": "Broeder, Lisa, 2020, \"Particulate organic matter dynamics in a permafrost headwater stream and the Kolyma River mainstem\", https://hdl.handle.net/10411/JJOZKK, DataverseNL, V1",
+        "authors": [
+          "Broeder, Lisa"
+        ]
+      },
+      {
+        "name": "Replication Data for: Open-space preservation in the Netherlands: Planning, practice and prospects",
+        "type": "dataset",
+        "url": "https://hdl.handle.net/10411/HHFE9F",
+        "global_id": "hdl:10411/HHFE9F",
+        "description": "Open-space preservation is a planner's issue that is constantly debated, in particular on the success of the implemented instruments. We analysed the contribution of Dutch policies to open-space preservation by comparing actual land-use developments within different restrictive planning regimes. The Green Heart is the central open space within the ring of cities in the western part of the country. Protection of this area aimed at providing residents from the surrounding cities with opportunities for outdoor recreation at a short distance. The Buffer zones were designated in areas with a considerable urbanisation pressure and were intended to prevent specific cities from growing together into a solid urbanised belt, thus keeping separate cities recognisable as such in the landscape. In total, 10 Buffer zones have been designated, in size ranging from very small (3 hectares) to considerable (8700 hectares). Two relatively small zones are found in the heavily urbanised area near the city of Maastricht in the southern tip of the country. The others, in total claiming just over 20,000 hectares, are situated in the Randstad. The impact of these zones on urban development was first analysed in the related paper by Koomen, Dekkers and van Dijk (2008). In a subsequent paper we followed up on this analysis with other and more recent land-use data study the impact of changes in spatial planning and test the robustness of the results (Koomen and Dekkers, 2013). The relevant spatial data files are provided here as separate shapefiles that can be used in many GIS packages. The data uses the Dutch Rijksdriehoekstelsel_New (RD_New) projection system.",
+        "published_at": "2020-02-26T12:13:57Z",
+        "citationHtml": "Koomen, Eric, 2020, \"Replication Data for: Open-space preservation in the Netherlands: Planning, practice and prospects\", <a href=\"https://hdl.handle.net/10411/HHFE9F\" target=\"_blank\">https://hdl.handle.net/10411/HHFE9F</a>, DataverseNL, V1",
+        "identifier_of_dataverse": "SBE",
+        "name_of_dataverse": "VU - School of Business and Economics",
+        "citation": "Koomen, Eric, 2020, \"Replication Data for: Open-space preservation in the Netherlands: Planning, practice and prospects\", https://hdl.handle.net/10411/HHFE9F, DataverseNL, V1",
+        "authors": [
+          "Koomen, Eric"
+        ]
+      }
+    ],
+    "count_in_response": 36
+  }
+}
