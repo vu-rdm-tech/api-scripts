@@ -13,7 +13,7 @@ Usage::
 
 """
 
-import os, requests, json, time, random, xlsxwriter, pprint
+import os, requests, json, time, random, xlsxwriter, datetime, pprint
 
 def testAPI(token, url):
     """
@@ -101,14 +101,25 @@ def writeAuthorsToExcel(metadata, filename):
     xls = xlsxwriter.Workbook(filename)
     xls.nan_inf_to_errors = True
     fmt_head = xls.add_format({'bold': True, 'align': 'center'})
+    fmt_date = xls.add_format({'num_format': 'yyyy-m-d'})
 
     xldat = xls.add_worksheet('authors')
+    xlraw = xls.add_worksheet('raw_results')
     xldat.write_string(0, 0, 'Name', fmt_head)
     xldat.write_string(0, 1, 'Type', fmt_head)
     xldat.write_string(0, 2, 'Repository', fmt_head)
     xldat.write_string(0, 3, 'Count', fmt_head)
     xldat.write_string(0, 4, 'Affiliation', fmt_head)
-    xldat.write_string(0, 5, 'Last URI', fmt_head)
+    #xldat.write_string(0, 5, 'Last URI', fmt_head)
+
+    xlraw.write_string(0, 0, 'Name', fmt_head)
+    xlraw.write_string(0, 1, 'Type', fmt_head)
+    xlraw.write_string(0, 2, 'Repository', fmt_head)
+    xlraw.write_string(0, 3, 'Affiliation', fmt_head)
+    xlraw.write_string(0, 4, 'Date', fmt_head)
+    xlraw.write_string(0, 5, 'URI', fmt_head)
+
+
 
     authors = []
     author_cntr = {}
@@ -127,6 +138,7 @@ def writeAuthorsToExcel(metadata, filename):
                 author_types[a] = '{}'.format(metadata[r]['type'])
 
     cntr = 1
+    cntr2 = 1
     for r in metadata:
         for a in metadata[r]['authors']:
             if a not in authors:
@@ -135,9 +147,17 @@ def writeAuthorsToExcel(metadata, filename):
                 xldat.write_string(cntr, 2, 'zenodo')
                 xldat.write_number(cntr, 3, author_cntr[a])
                 xldat.write_string(cntr, 4, metadata[r]['query'])
-                xldat.write_url(cntr, 5, 'http://doi.org/{}'.format(r))
+                #xldat.write_url(cntr, 5, 'http://doi.org/{}'.format(r))
                 cntr += 1
-                authors.append(a)
+            authors.append(a)
+            xlraw.write_string(cntr2, 0, a)
+            xlraw.write_string(cntr2, 1, metadata[r]['type'])
+            xlraw.write_string(cntr2, 2, 'zenodo')
+            xlraw.write_string(cntr2, 3, metadata[r]['query'])
+            #xlraw.write_string(cntr2, 4, metadata[r]['pubdate'])
+            xlraw.write_datetime(cntr2, 4, datetime.datetime.strptime(metadata[r]['pubdate'], '%Y-%m-%d'), fmt_date)
+            xlraw.write_url(cntr2, 5, 'http://doi.org/{}'.format(r))
+            cntr2 += 1
     xls.close()
 
 
@@ -161,7 +181,7 @@ if __name__ == '__main__':
     timing = []
 
     # define some queries
-    queries = ["Vrije Universiteit Amsterdam", "VU University Amsterdam", "VU Amsterdam"]
+    queries = ["Vrije Universiteit Amsterdam", "VU University Amsterdam", "VU Amsterdam"] #, "VU", "VU Universiteit Amsterdam"]
     #queries = ["Vrije Universiteit Amsterdam"]
 
     # and hit Zenodo exporting results per query, seems to be no advantage to use more than 500 hits.
