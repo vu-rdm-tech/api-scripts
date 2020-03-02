@@ -52,7 +52,7 @@ def _store(data, filename):
         json.dump(data, f, indent=1)
 
 
-def get_records(query, data, affiliation_id=''):
+def get_records(query, data, affiliation_id='', max_author=1):
     '''
     Do the initial query, and loop through the pages. Append the records to data only if the first author affiliation contains VU or Vrije
 
@@ -69,12 +69,13 @@ def get_records(query, data, affiliation_id=''):
         d = _do_request(query=query, page=page, affiliation_id=affiliation_id)
         for record in d['data']:
             # check first author
-            c = record['attributes']['creators'][0]
-            # a bit of extra cleaning
-            for a in c['affiliation']:
-                if (a.lower().find('vu ') > -1 or a.lower().find('vrije') > -1) and (a.lower().find(
-                        'brussel') == -1 and a.lower().find('medical center') == -1):
-                    data[record['id']] = record
+            for n in [0,max_author-1]:
+                c = record['attributes']['creators'][n]
+                # a bit of extra cleaning
+                for a in c['affiliation']:
+                    if (a.lower().find('vu ') > -1 or a.lower().find('vrije') > -1) and (a.lower().find(
+                            'brussel') == -1 and a.lower().find('medical center') == -1):
+                        data[record['id']] = record
     return data
 
 
