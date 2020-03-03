@@ -29,4 +29,4 @@ def create_csv(json_file):
     print(pubcount)
 
 
-create_csv('datacite20200302.json')
+create_csv('datacite_software20200302.json')
