@@ -14,6 +14,7 @@ import time
 import json
 import requests, requests_cache
 
+# cache the responses in a sqlite database file
 requests_cache.install_cache(cache_name='datacite_requests_cache', allowable_methods=('GET', 'POST'))
 
 
@@ -82,7 +83,8 @@ def get_records(query, data, affiliation_id='', max_author=1, type="dataset"):
 
 
 today_str = datetime.now().strftime('%Y%m%d')
-for type in ['dataset','software']:
+#for type in ['dataset','software']:
+for type in ['']:
     data = {}
 
     # cast a wide net, we will filter later

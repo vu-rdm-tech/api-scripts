@@ -13,10 +13,10 @@ def create_csv(json_file):
     pubcount = {}
     with open(json_file.replace('.json', '.csv'), mode='w', newline='', encoding='utf-8') as datafile:
         w = csv.writer(datafile, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
-        w.writerow(['doi', 'name', 'affiliation', 'publisher'])
+        w.writerow(['doi', 'name', 'affiliation', 'publisher', 'type'])
         for id in data:
             record = data[id]
-
+            print(record['attributes']['types'])
             publisher = record['attributes']['publisher']
             if publisher in pubcount:
                 pubcount[publisher] = pubcount[publisher] + 1
@@ -25,8 +25,8 @@ def create_csv(json_file):
             c=record['attributes']['creators'][0]
             a=('; ').join(c['affiliation'])
             print(a)
-            w.writerow([id, c['name'], a, publisher])
+            w.writerow([id, c['name'], a, publisher, record['attributes']['types']['ris']])
     print(pubcount)
 
 
-create_csv('datacite_software20200302.json')
+create_csv('datacite_alltypes20200303.json')
