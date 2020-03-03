@@ -90,8 +90,8 @@ for type in ['dataset','software']:
     for affiliation in affs:
         query = f'creators.affiliation.name:{affiliation}'
         #data = get_records(query, data, max_author=3)
-        data = get_records(query, data, max_author=3, type=type)
+        data = get_records(query, data, max_author=1, type=type)
 
     # by ROR, although we should already have those
-    data = get_records('*', data, affiliation_id='https://ror.org/008xxew50', max_author=3, type=type)
+    data = get_records('*', data, affiliation_id='https://ror.org/008xxew50', max_author=1, type=type)
     _store(data, f'datacite_{type}{today_str}.json')
