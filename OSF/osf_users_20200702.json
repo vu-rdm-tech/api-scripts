@@ -1,0 +1,7123 @@
+{
+ "6czsq": {
+  "id": "6czsq",
+  "type": "users",
+  "attributes": {
+   "full_name": "Susanne Bruins",
+   "given_name": "Susanne",
+   "middle_names": "",
+   "family_name": "Bruins",
+   "suffix": "",
+   "date_registered": "2020-05-14T14:38:19.446451",
+   "active": true,
+   "timezone": "Etc/UTC",
+   "locale": "en_US",
+   "social": {
+    "ssrn": "",
+    "orcid": "",
+    "github": "",
+    "scholar": "",
+    "twitter": "BruinsSusanne",
+    "linkedIn": "",
+    "impactStory": "",
+    "baiduScholar": "",
+    "researchGate": "",
+    "researcherId": "",
+    "profileWebsites": [],
+    "academiaProfileID": "",
+    "academiaInstitution": ""
+   },
+   "employment": [
+    {
+     "title": "Research Assistant",
+     "endYear": "",
+     "ongoing": true,
+     "endMonth": 0,
+     "startYear": "2018",
+     "department": "Biological Psychology",
+     "startMonth": 9,
+     "institution": "Vrije Universiteit"
+    }
+   ],
+   "education": [
+    {
+     "degree": "RM Genes in Behaviour and Health",
+     "endYear": "",
+     "ongoing": true,
+     "endMonth": 0,
+     "startYear": "2018",
+     "department": "Biological Psychology",
+     "startMonth": 9,
+     "institution": "Vrije Universiteit"
+    }
+   ]
+  },
+  "relationships": {
+   "nodes": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/6czsq/nodes/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "groups": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/6czsq/groups/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "quickfiles": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/6czsq/quickfiles/?format=json",
+      "meta": {}
+     },
+     "upload": {
+      "href": "https://files.osf.io/v1/resources/2wrczuxdp6/providers/osfstorage/",
+      "meta": {}
+     },
+     "download": {
+      "href": "https://files.osf.io/v1/resources/2wrczuxdp6/providers/osfstorage/?zip=",
+      "meta": {}
+     }
+    }
+   },
+   "registrations": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/6czsq/registrations/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "institutions": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/6czsq/institutions/?format=json",
+      "meta": {}
+     },
+     "self": {
+      "href": "https://api.osf.io/v2/users/6czsq/relationships/institutions/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "preprints": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/6czsq/preprints/?format=json",
+      "meta": {}
+     }
+    }
+   }
+  },
+  "links": {
+   "html": "https://osf.io/6czsq/",
+   "profile_image": "https://secure.gravatar.com/avatar/5c33327c0e3437c6a3991b315f713a2e?d=identicon",
+   "self": "https://api.osf.io/v2/users/6czsq/"
+  },
+  "numberOfNodes": 1,
+  "numberOfRegistrations": 0,
+  "numberOfPreprints": 0
+ },
+ "3ewk8": {
+  "id": "3ewk8",
+  "type": "users",
+  "attributes": {
+   "full_name": "Gonzalo Francisco Palomo V\u00e9lez",
+   "given_name": "Gonzalo",
+   "middle_names": "Francisco",
+   "family_name": "Palomo V\u00e9lez",
+   "suffix": "",
+   "date_registered": "2016-10-18T09:44:24.931000",
+   "active": true,
+   "timezone": "Europe/Amsterdam",
+   "locale": "en_US",
+   "social": {
+    "ssrn": "",
+    "orcid": "",
+    "github": "",
+    "scholar": "",
+    "twitter": "",
+    "linkedIn": "",
+    "impactStory": "",
+    "baiduScholar": "",
+    "researchGate": "Gonzalo_Palomo-Velez",
+    "researcherId": "",
+    "profileWebsites": [],
+    "academiaProfileID": "",
+    "academiaInstitution": ""
+   },
+   "employment": [
+    {
+     "title": "PhD student",
+     "endYear": "",
+     "ongoing": true,
+     "endMonth": 0,
+     "startYear": "2016",
+     "department": "Social and Organizational Psychology Department",
+     "startMonth": 1,
+     "institution": "Vrije Universiteit"
+    }
+   ],
+   "education": []
+  },
+  "relationships": {
+   "nodes": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/3ewk8/nodes/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "groups": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/3ewk8/groups/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "quickfiles": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/3ewk8/quickfiles/?format=json",
+      "meta": {}
+     },
+     "upload": {
+      "href": "https://files.osf.io/v1/resources/b4grukwf7s/providers/osfstorage/",
+      "meta": {}
+     },
+     "download": {
+      "href": "https://files.osf.io/v1/resources/b4grukwf7s/providers/osfstorage/?zip=",
+      "meta": {}
+     }
+    }
+   },
+   "registrations": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/3ewk8/registrations/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "institutions": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/3ewk8/institutions/?format=json",
+      "meta": {}
+     },
+     "self": {
+      "href": "https://api.osf.io/v2/users/3ewk8/relationships/institutions/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "preprints": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/3ewk8/preprints/?format=json",
+      "meta": {}
+     }
+    }
+   }
+  },
+  "links": {
+   "html": "https://osf.io/3ewk8/",
+   "profile_image": "https://secure.gravatar.com/avatar/cfe74b046b6df53062c822d5da555ca3?d=identicon",
+   "self": "https://api.osf.io/v2/users/3ewk8/"
+  },
+  "numberOfNodes": 2,
+  "numberOfRegistrations": 4,
+  "numberOfPreprints": 0
+ },
+ "ktg2q": {
+  "id": "ktg2q",
+  "type": "users",
+  "attributes": {
+   "full_name": "Tingting Ji",
+   "given_name": "Tingting",
+   "middle_names": "",
+   "family_name": "Ji",
+   "suffix": "",
+   "date_registered": "2017-09-29T15:05:07.463850",
+   "active": true,
+   "timezone": "Europe/Berlin",
+   "locale": "en_US",
+   "social": {},
+   "employment": [
+    {
+     "title": "PhD Student",
+     "endYear": "",
+     "ongoing": true,
+     "endMonth": 0,
+     "startYear": "2014",
+     "department": "Department of Experimental and Applied Psychology",
+     "startMonth": 9,
+     "institution": "Vrije Universiteit Amsterdam"
+    }
+   ],
+   "education": []
+  },
+  "relationships": {
+   "nodes": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/ktg2q/nodes/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "groups": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/ktg2q/groups/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "quickfiles": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/ktg2q/quickfiles/?format=json",
+      "meta": {}
+     },
+     "upload": {
+      "href": "https://files.osf.io/v1/resources/c3zxvpfska/providers/osfstorage/",
+      "meta": {}
+     },
+     "download": {
+      "href": "https://files.osf.io/v1/resources/c3zxvpfska/providers/osfstorage/?zip=",
+      "meta": {}
+     }
+    }
+   },
+   "registrations": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/ktg2q/registrations/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "institutions": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/ktg2q/institutions/?format=json",
+      "meta": {}
+     },
+     "self": {
+      "href": "https://api.osf.io/v2/users/ktg2q/relationships/institutions/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "preprints": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/ktg2q/preprints/?format=json",
+      "meta": {}
+     }
+    }
+   }
+  },
+  "links": {
+   "html": "https://osf.io/ktg2q/",
+   "profile_image": "https://secure.gravatar.com/avatar/58897a89a5e8bd4986878216db84de44?d=identicon",
+   "self": "https://api.osf.io/v2/users/ktg2q/"
+  },
+  "numberOfNodes": 2,
+  "numberOfRegistrations": 2,
+  "numberOfPreprints": 0
+ },
+ "hbxa8": {
+  "id": "hbxa8",
+  "type": "users",
+  "attributes": {
+   "full_name": "Utz Weitzel",
+   "given_name": "Utz",
+   "middle_names": "",
+   "family_name": "Weitzel",
+   "suffix": "",
+   "date_registered": "2019-10-17T18:44:10.041760",
+   "active": true,
+   "timezone": "Etc/UTC",
+   "locale": "en_US",
+   "social": {
+    "ssrn": "425684",
+    "orcid": "0000-0003-0493-9333",
+    "github": "",
+    "scholar": "nqRlChQAAAAJ",
+    "twitter": "UtzWeitzel",
+    "linkedIn": "",
+    "impactStory": "",
+    "baiduScholar": "",
+    "researchGate": "",
+    "researcherId": "",
+    "profileWebsites": [
+     "https://research.vu.nl/en/persons/utz-weitzel",
+     "https://www.ru.nl/personen/weitzel-g/",
+     "https://utzweitzel.wordpress.com/"
+    ],
+    "academiaProfileID": "",
+    "academiaInstitution": ""
+   },
+   "employment": [
+    {
+     "title": "Professor of Experimental Finance",
+     "endYear": "",
+     "ongoing": true,
+     "endMonth": 0,
+     "startYear": "2019",
+     "department": "Finance",
+     "startMonth": 9,
+     "institution": "Vrije Universiteit Amsterdam"
+    },
+    {
+     "title": "Professor of Experimental and Behavioral Finance",
+     "endYear": "",
+     "ongoing": true,
+     "endMonth": 0,
+     "startYear": "2015",
+     "department": "Economics",
+     "startMonth": 9,
+     "institution": "Radboud University"
+    }
+   ],
+   "education": []
+  },
+  "relationships": {
+   "nodes": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/hbxa8/nodes/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "groups": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/hbxa8/groups/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "quickfiles": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/hbxa8/quickfiles/?format=json",
+      "meta": {}
+     },
+     "upload": {
+      "href": "https://files.osf.io/v1/resources/5gb4qc9swa/providers/osfstorage/",
+      "meta": {}
+     },
+     "download": {
+      "href": "https://files.osf.io/v1/resources/5gb4qc9swa/providers/osfstorage/?zip=",
+      "meta": {}
+     }
+    }
+   },
+   "registrations": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/hbxa8/registrations/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "institutions": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/hbxa8/institutions/?format=json",
+      "meta": {}
+     },
+     "self": {
+      "href": "https://api.osf.io/v2/users/hbxa8/relationships/institutions/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "preprints": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/hbxa8/preprints/?format=json",
+      "meta": {}
+     }
+    }
+   }
+  },
+  "links": {
+   "html": "https://osf.io/hbxa8/",
+   "profile_image": "https://secure.gravatar.com/avatar/6623ff959021d908b7b116f18f93dfab?d=identicon",
+   "self": "https://api.osf.io/v2/users/hbxa8/"
+  },
+  "numberOfNodes": 2,
+  "numberOfRegistrations": 0,
+  "numberOfPreprints": 0
+ },
+ "fc5vq": {
+  "id": "fc5vq",
+  "type": "users",
+  "attributes": {
+   "full_name": "Anne Huntjens",
+   "given_name": "Anne",
+   "middle_names": "",
+   "family_name": "Huntjens",
+   "suffix": "",
+   "date_registered": "2020-03-24T13:42:09.476076",
+   "active": true,
+   "timezone": "Etc/UTC",
+   "locale": "en_US",
+   "social": {
+    "ssrn": "",
+    "orcid": "0000-0002-0520-9212",
+    "github": "",
+    "scholar": "",
+    "twitter": "",
+    "linkedIn": "anne huntjens",
+    "impactStory": "",
+    "baiduScholar": "",
+    "researchGate": "",
+    "researcherId": "",
+    "profileWebsites": [],
+    "academiaProfileID": "",
+    "academiaInstitution": "vu.nl"
+   },
+   "employment": [
+    {
+     "title": "PhD",
+     "endYear": "",
+     "ongoing": true,
+     "endMonth": 0,
+     "startYear": "2018",
+     "department": "Department of Clinical Psychology van der Boechorststraat 7 Amsterdam 2018 BT Netherlands",
+     "startMonth": 9,
+     "institution": "Vrije Universiteit Amsterdam"
+    }
+   ],
+   "education": [
+    {
+     "degree": "PhD student",
+     "endYear": "",
+     "ongoing": true,
+     "endMonth": 0,
+     "startYear": "2018",
+     "department": "Department of Clinical Psychology van der Boechorststraat 7 Amsterdam 2018 BT Netherlands",
+     "startMonth": 9,
+     "institution": "Vrije Universiteit Amsterdam"
+    }
+   ]
+  },
+  "relationships": {
+   "nodes": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/fc5vq/nodes/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "groups": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/fc5vq/groups/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "quickfiles": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/fc5vq/quickfiles/?format=json",
+      "meta": {}
+     },
+     "upload": {
+      "href": "https://files.osf.io/v1/resources/k3tdxbq4sg/providers/osfstorage/",
+      "meta": {}
+     },
+     "download": {
+      "href": "https://files.osf.io/v1/resources/k3tdxbq4sg/providers/osfstorage/?zip=",
+      "meta": {}
+     }
+    }
+   },
+   "registrations": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/fc5vq/registrations/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "institutions": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/fc5vq/institutions/?format=json",
+      "meta": {}
+     },
+     "self": {
+      "href": "https://api.osf.io/v2/users/fc5vq/relationships/institutions/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "preprints": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/fc5vq/preprints/?format=json",
+      "meta": {}
+     }
+    }
+   }
+  },
+  "links": {
+   "html": "https://osf.io/fc5vq/",
+   "profile_image": "https://secure.gravatar.com/avatar/e44e1ee81bfc42e4275cf12960937354?d=identicon",
+   "self": "https://api.osf.io/v2/users/fc5vq/"
+  },
+  "numberOfNodes": 0,
+  "numberOfRegistrations": 1,
+  "numberOfPreprints": 0
+ },
+ "nvhwz": {
+  "id": "nvhwz",
+  "type": "users",
+  "attributes": {
+   "full_name": "Terence Daniel Dores Cruz",
+   "given_name": "Terence",
+   "middle_names": "Daniel",
+   "family_name": "Dores Cruz",
+   "suffix": "",
+   "date_registered": "2018-04-11T08:32:30.321630",
+   "active": true,
+   "timezone": "Europe/Amsterdam",
+   "locale": "en_US",
+   "social": {
+    "ssrn": "",
+    "orcid": "0000-0002-4792-8469",
+    "github": "",
+    "scholar": "w6RF6-0AAAAJ",
+    "twitter": "TDoresCruz",
+    "linkedIn": "in/terencecruz",
+    "impactStory": "",
+    "baiduScholar": "",
+    "researchGate": "Terence_Dores_Cruz",
+    "researcherId": "",
+    "profileWebsites": [
+     "https://terencedorescruz.com",
+     "https://research.vu.nl/en/persons/terence-dores-cruz"
+    ],
+    "academiaProfileID": "",
+    "academiaInstitution": ""
+   },
+   "employment": [
+    {
+     "title": "PhD Candidate",
+     "endYear": "",
+     "ongoing": true,
+     "endMonth": null,
+     "startYear": "2018",
+     "department": "Social Sciences / Organization Sciences",
+     "startMonth": 9,
+     "institution": "Vrije Universiteit Amsterdam"
+    }
+   ],
+   "education": [
+    {
+     "degree": "Research Master",
+     "endYear": "2018",
+     "ongoing": false,
+     "endMonth": 8,
+     "startYear": "2016",
+     "department": "Social and Organizational Psychology",
+     "startMonth": 9,
+     "institution": "Vrije Universiteit Amsterdam"
+    }
+   ]
+  },
+  "relationships": {
+   "nodes": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/nvhwz/nodes/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "groups": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/nvhwz/groups/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "quickfiles": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/nvhwz/quickfiles/?format=json",
+      "meta": {}
+     },
+     "upload": {
+      "href": "https://files.osf.io/v1/resources/7kn5u8xjqv/providers/osfstorage/",
+      "meta": {}
+     },
+     "download": {
+      "href": "https://files.osf.io/v1/resources/7kn5u8xjqv/providers/osfstorage/?zip=",
+      "meta": {}
+     }
+    }
+   },
+   "registrations": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/nvhwz/registrations/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "institutions": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/nvhwz/institutions/?format=json",
+      "meta": {}
+     },
+     "self": {
+      "href": "https://api.osf.io/v2/users/nvhwz/relationships/institutions/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "preprints": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/nvhwz/preprints/?format=json",
+      "meta": {}
+     }
+    }
+   }
+  },
+  "links": {
+   "html": "https://osf.io/nvhwz/",
+   "profile_image": "https://secure.gravatar.com/avatar/0e33ff217ee97483883240dc81351dc1?d=identicon",
+   "self": "https://api.osf.io/v2/users/nvhwz/"
+  },
+  "numberOfNodes": 5,
+  "numberOfRegistrations": 4,
+  "numberOfPreprints": 3
+ },
+ "nh537": {
+  "id": "nh537",
+  "type": "users",
+  "attributes": {
+   "full_name": "Rosanne van der Deijl",
+   "given_name": "Rosanne",
+   "middle_names": "Sietske",
+   "family_name": "Deijl",
+   "suffix": "van der",
+   "date_registered": "2015-06-09T13:42:17.788000",
+   "active": true,
+   "timezone": "Europe/Berlin",
+   "locale": "nl_nl",
+   "social": {},
+   "employment": [
+    {
+     "title": "Student",
+     "endYear": "",
+     "ongoing": true,
+     "endMonth": 0,
+     "startYear": "2012",
+     "department": "Amsterdam University College",
+     "startMonth": 9,
+     "institution": "Vrije Universiteit Amsterdam"
+    }
+   ],
+   "education": [
+    {
+     "degree": "Bachelor of Arts",
+     "endYear": "",
+     "ongoing": true,
+     "endMonth": 0,
+     "startYear": "2012",
+     "department": "Amsterdam University College",
+     "startMonth": 9,
+     "institution": "Vrije Universiteit Amsterdam"
+    }
+   ]
+  },
+  "relationships": {
+   "nodes": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/nh537/nodes/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "groups": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/nh537/groups/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "quickfiles": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/nh537/quickfiles/?format=json",
+      "meta": {}
+     },
+     "upload": {
+      "href": "https://files.osf.io/v1/resources/vhjy7arnpq/providers/osfstorage/",
+      "meta": {}
+     },
+     "download": {
+      "href": "https://files.osf.io/v1/resources/vhjy7arnpq/providers/osfstorage/?zip=",
+      "meta": {}
+     }
+    }
+   },
+   "registrations": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/nh537/registrations/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "institutions": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/nh537/institutions/?format=json",
+      "meta": {}
+     },
+     "self": {
+      "href": "https://api.osf.io/v2/users/nh537/relationships/institutions/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "preprints": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/nh537/preprints/?format=json",
+      "meta": {}
+     }
+    }
+   }
+  },
+  "links": {
+   "html": "https://osf.io/nh537/",
+   "profile_image": "https://secure.gravatar.com/avatar/c6f6a04a7cfd1027fff3b6bf54db02a6?d=identicon",
+   "self": "https://api.osf.io/v2/users/nh537/"
+  },
+  "numberOfNodes": 1,
+  "numberOfRegistrations": 0,
+  "numberOfPreprints": 0
+ },
+ "7zmvp": {
+  "id": "7zmvp",
+  "type": "users",
+  "attributes": {
+   "full_name": "Jurjen Broeke",
+   "given_name": "Jurjen",
+   "middle_names": "",
+   "family_name": "Broeke",
+   "suffix": "",
+   "date_registered": "2017-04-10T13:36:14.112899",
+   "active": true,
+   "timezone": "Europe/Amsterdam",
+   "locale": "en_US",
+   "social": {
+    "orcid": "0000-0002-4295-6938",
+    "github": "",
+    "scholar": "",
+    "twitter": "",
+    "linkedIn": "in/jurjen-broeke-7a2b9713",
+    "impactStory": "",
+    "baiduScholar": "",
+    "researchGate": "",
+    "researcherId": "",
+    "profileWebsites": [],
+    "academiaProfileID": "",
+    "academiaInstitution": ""
+   },
+   "employment": [
+    {
+     "title": "",
+     "endYear": "",
+     "ongoing": true,
+     "endMonth": 0,
+     "startYear": "2006",
+     "department": "Functional Genomics",
+     "startMonth": 3,
+     "institution": "Vrije Universiteit Amsterdam"
+    }
+   ],
+   "education": [
+    {
+     "degree": "PhD",
+     "endYear": "2011",
+     "ongoing": false,
+     "endMonth": 6,
+     "startYear": "2006",
+     "department": "Functional Genomics",
+     "startMonth": 3,
+     "institution": "Vrije Universiteit Amsterdam"
+    }
+   ]
+  },
+  "relationships": {
+   "nodes": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/7zmvp/nodes/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "groups": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/7zmvp/groups/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "quickfiles": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/7zmvp/quickfiles/?format=json",
+      "meta": {}
+     },
+     "upload": {
+      "href": "https://files.osf.io/v1/resources/rctjbvhqaw/providers/osfstorage/",
+      "meta": {}
+     },
+     "download": {
+      "href": "https://files.osf.io/v1/resources/rctjbvhqaw/providers/osfstorage/?zip=",
+      "meta": {}
+     }
+    }
+   },
+   "registrations": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/7zmvp/registrations/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "institutions": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/7zmvp/institutions/?format=json",
+      "meta": {}
+     },
+     "self": {
+      "href": "https://api.osf.io/v2/users/7zmvp/relationships/institutions/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "preprints": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/7zmvp/preprints/?format=json",
+      "meta": {}
+     }
+    }
+   }
+  },
+  "links": {
+   "html": "https://osf.io/7zmvp/",
+   "profile_image": "https://secure.gravatar.com/avatar/25a43f714f8bd32aa16cce8138fca163?d=identicon",
+   "self": "https://api.osf.io/v2/users/7zmvp/"
+  },
+  "numberOfNodes": 0,
+  "numberOfRegistrations": 0,
+  "numberOfPreprints": 0
+ },
+ "682xq": {
+  "id": "682xq",
+  "type": "users",
+  "attributes": {
+   "full_name": "Johanna Kleijn",
+   "given_name": "Johanna",
+   "middle_names": "",
+   "family_name": "Kleijn",
+   "suffix": "",
+   "date_registered": "2015-06-09T13:43:38.065000",
+   "active": true,
+   "timezone": "Europe/Berlin",
+   "locale": "en_US",
+   "social": {},
+   "employment": [
+    {
+     "title": "Student",
+     "endYear": "",
+     "ongoing": true,
+     "endMonth": 0,
+     "startYear": "2012",
+     "department": "Amsterdam University College",
+     "startMonth": 9,
+     "institution": "Vrije Universiteit Amsterdam"
+    }
+   ],
+   "education": [
+    {
+     "degree": "Bachelor",
+     "endYear": "",
+     "ongoing": true,
+     "endMonth": 0,
+     "startYear": "2012",
+     "department": "Amsterdam University College",
+     "startMonth": 9,
+     "institution": "Vrije Universiteit Amsterdam"
+    }
+   ]
+  },
+  "relationships": {
+   "nodes": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/682xq/nodes/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "groups": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/682xq/groups/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "quickfiles": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/682xq/quickfiles/?format=json",
+      "meta": {}
+     },
+     "upload": {
+      "href": "https://files.osf.io/v1/resources/znyt7vep2m/providers/osfstorage/",
+      "meta": {}
+     },
+     "download": {
+      "href": "https://files.osf.io/v1/resources/znyt7vep2m/providers/osfstorage/?zip=",
+      "meta": {}
+     }
+    }
+   },
+   "registrations": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/682xq/registrations/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "institutions": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/682xq/institutions/?format=json",
+      "meta": {}
+     },
+     "self": {
+      "href": "https://api.osf.io/v2/users/682xq/relationships/institutions/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "preprints": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/682xq/preprints/?format=json",
+      "meta": {}
+     }
+    }
+   }
+  },
+  "links": {
+   "html": "https://osf.io/682xq/",
+   "profile_image": "https://secure.gravatar.com/avatar/3648b839a6b6f066265ecc74608a7deb?d=identicon",
+   "self": "https://api.osf.io/v2/users/682xq/"
+  },
+  "numberOfNodes": 1,
+  "numberOfRegistrations": 0,
+  "numberOfPreprints": 0
+ },
+ "y26wb": {
+  "id": "y26wb",
+  "type": "users",
+  "attributes": {
+   "full_name": "Anne Tharner",
+   "given_name": "Anne",
+   "middle_names": "",
+   "family_name": "Tharner",
+   "suffix": "",
+   "date_registered": "2019-06-14T12:31:05.163279",
+   "active": true,
+   "timezone": "Etc/UTC",
+   "locale": "en_US",
+   "social": {
+    "ssrn": "",
+    "orcid": "0000-0001-7846-5762",
+    "github": "",
+    "scholar": "A Tharner",
+    "twitter": "",
+    "linkedIn": "",
+    "impactStory": "",
+    "baiduScholar": "",
+    "researchGate": "",
+    "researcherId": "",
+    "profileWebsites": [],
+    "academiaProfileID": "",
+    "academiaInstitution": ""
+   },
+   "employment": [
+    {
+     "title": "Assistant professor",
+     "endYear": "",
+     "ongoing": true,
+     "endMonth": 0,
+     "startYear": "2018",
+     "department": "Department of Behavior and Movement Sciences",
+     "startMonth": 1,
+     "institution": "Vrije Universiteit Amsterdam, The Netherlands"
+    }
+   ],
+   "education": []
+  },
+  "relationships": {
+   "nodes": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/y26wb/nodes/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "groups": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/y26wb/groups/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "quickfiles": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/y26wb/quickfiles/?format=json",
+      "meta": {}
+     },
+     "upload": {
+      "href": "https://files.osf.io/v1/resources/hewmkyns4x/providers/osfstorage/",
+      "meta": {}
+     },
+     "download": {
+      "href": "https://files.osf.io/v1/resources/hewmkyns4x/providers/osfstorage/?zip=",
+      "meta": {}
+     }
+    }
+   },
+   "registrations": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/y26wb/registrations/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "institutions": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/y26wb/institutions/?format=json",
+      "meta": {}
+     },
+     "self": {
+      "href": "https://api.osf.io/v2/users/y26wb/relationships/institutions/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "preprints": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/y26wb/preprints/?format=json",
+      "meta": {}
+     }
+    }
+   }
+  },
+  "links": {
+   "html": "https://osf.io/y26wb/",
+   "profile_image": "https://secure.gravatar.com/avatar/716a1e2c1120ed0f4a11dae8e79881dd?d=identicon",
+   "self": "https://api.osf.io/v2/users/y26wb/"
+  },
+  "numberOfNodes": 0,
+  "numberOfRegistrations": 1,
+  "numberOfPreprints": 0
+ },
+ "qeycn": {
+  "id": "qeycn",
+  "type": "users",
+  "attributes": {
+   "full_name": "Pamala Wiepking",
+   "given_name": "Pamala",
+   "middle_names": "",
+   "family_name": "Wiepking",
+   "suffix": "",
+   "date_registered": "2017-11-29T14:35:13.875138",
+   "active": true,
+   "timezone": "Europe/Amsterdam",
+   "locale": "en_US",
+   "social": {
+    "ssrn": "",
+    "orcid": "0000-0002-5813-8366",
+    "github": "",
+    "scholar": "q9jiuA0AAAAJ&amp;hl=nl",
+    "twitter": "pamalawi",
+    "linkedIn": "",
+    "impactStory": "",
+    "baiduScholar": "",
+    "researchGate": "",
+    "researcherId": "",
+    "profileWebsites": [
+     "https://philanthropy.iupui.edu/people-directory/wiepking-pamala.html"
+    ],
+    "academiaProfileID": "",
+    "academiaInstitution": ""
+   },
+   "employment": [
+    {
+     "title": "Visiting Stead Family Chair in International Philanthropy",
+     "endYear": "",
+     "ongoing": true,
+     "endMonth": 0,
+     "startYear": "2018",
+     "department": "Lilly Family School of Philanthropy",
+     "startMonth": 7,
+     "institution": "Indiana University"
+    },
+    {
+     "title": "Professor",
+     "endYear": "",
+     "ongoing": true,
+     "endMonth": 0,
+     "startYear": "2019",
+     "department": "Center for Philanthropic Studies",
+     "startMonth": 1,
+     "institution": "Vrije Universiteit Amsterdam"
+    }
+   ],
+   "education": [
+    {
+     "degree": "PhD",
+     "endYear": "2008",
+     "ongoing": false,
+     "endMonth": 4,
+     "startYear": "2004",
+     "department": "Department of Philanthropic Studies",
+     "startMonth": 5,
+     "institution": "Vrije Universiteit Amsterdam"
+    }
+   ]
+  },
+  "relationships": {
+   "nodes": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/qeycn/nodes/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "groups": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/qeycn/groups/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "quickfiles": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/qeycn/quickfiles/?format=json",
+      "meta": {}
+     },
+     "upload": {
+      "href": "https://files.osf.io/v1/resources/qn46yskju8/providers/osfstorage/",
+      "meta": {}
+     },
+     "download": {
+      "href": "https://files.osf.io/v1/resources/qn46yskju8/providers/osfstorage/?zip=",
+      "meta": {}
+     }
+    }
+   },
+   "registrations": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/qeycn/registrations/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "institutions": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/qeycn/institutions/?format=json",
+      "meta": {}
+     },
+     "self": {
+      "href": "https://api.osf.io/v2/users/qeycn/relationships/institutions/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "preprints": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/qeycn/preprints/?format=json",
+      "meta": {}
+     }
+    }
+   }
+  },
+  "links": {
+   "html": "https://osf.io/qeycn/",
+   "profile_image": "https://secure.gravatar.com/avatar/b9024570ead3ebb2dc7e4cadb1aa2b97?d=identicon",
+   "self": "https://api.osf.io/v2/users/qeycn/"
+  },
+  "numberOfNodes": 4,
+  "numberOfRegistrations": 2,
+  "numberOfPreprints": 0
+ },
+ "zbh2x": {
+  "id": "zbh2x",
+  "type": "users",
+  "attributes": {
+   "full_name": "Guido Van Koningsbruggen",
+   "given_name": "Guido",
+   "middle_names": "M.",
+   "family_name": "Van Koningsbruggen",
+   "suffix": "",
+   "date_registered": "2015-04-15T11:21:36.724000",
+   "active": true,
+   "timezone": "Europe/Amsterdam",
+   "locale": "en_US",
+   "social": {},
+   "employment": [
+    {
+     "title": "",
+     "endYear": "",
+     "ongoing": false,
+     "endMonth": null,
+     "startYear": "",
+     "department": "Communication Science",
+     "startMonth": null,
+     "institution": "Vrije Universiteit Amsterdam"
+    }
+   ],
+   "education": []
+  },
+  "relationships": {
+   "nodes": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/zbh2x/nodes/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "groups": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/zbh2x/groups/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "quickfiles": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/zbh2x/quickfiles/?format=json",
+      "meta": {}
+     },
+     "upload": {
+      "href": "https://files.osf.io/v1/resources/tr7pcbw3xn/providers/osfstorage/",
+      "meta": {}
+     },
+     "download": {
+      "href": "https://files.osf.io/v1/resources/tr7pcbw3xn/providers/osfstorage/?zip=",
+      "meta": {}
+     }
+    }
+   },
+   "registrations": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/zbh2x/registrations/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "institutions": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/zbh2x/institutions/?format=json",
+      "meta": {}
+     },
+     "self": {
+      "href": "https://api.osf.io/v2/users/zbh2x/relationships/institutions/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "preprints": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/zbh2x/preprints/?format=json",
+      "meta": {}
+     }
+    }
+   }
+  },
+  "links": {
+   "html": "https://osf.io/zbh2x/",
+   "profile_image": "https://secure.gravatar.com/avatar/546e708ae4d7047df21b36b73a8e7f3c?d=identicon",
+   "self": "https://api.osf.io/v2/users/zbh2x/"
+  },
+  "numberOfNodes": 10,
+  "numberOfRegistrations": 1,
+  "numberOfPreprints": 0
+ },
+ "tnkgp": {
+  "id": "tnkgp",
+  "type": "users",
+  "attributes": {
+   "full_name": "Leah B\u00fchrmann",
+   "given_name": "Leah",
+   "middle_names": "",
+   "family_name": "B\u00fchrmann",
+   "suffix": "",
+   "date_registered": "2019-06-19T07:48:45.944153",
+   "active": true,
+   "timezone": "Etc/UTC",
+   "locale": "en_US",
+   "social": {
+    "ssrn": "",
+    "orcid": "0000-0001-6957-4369",
+    "github": "",
+    "scholar": "",
+    "twitter": "LeahBuehrmann",
+    "linkedIn": "in/leah-b%C3%BChrmann-0ab295149/",
+    "impactStory": "",
+    "baiduScholar": "",
+    "researchGate": "",
+    "researcherId": "",
+    "profileWebsites": [],
+    "academiaProfileID": "",
+    "academiaInstitution": ""
+   },
+   "employment": [
+    {
+     "title": "PhD candidate",
+     "endYear": "",
+     "ongoing": true,
+     "endMonth": 0,
+     "startYear": "2018",
+     "department": "Clinical, Neuro-, &amp; Developmental Psychology",
+     "startMonth": 9,
+     "institution": "Vrije Universiteit Amsterdam"
+    }
+   ],
+   "education": []
+  },
+  "relationships": {
+   "nodes": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/tnkgp/nodes/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "groups": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/tnkgp/groups/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "quickfiles": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/tnkgp/quickfiles/?format=json",
+      "meta": {}
+     },
+     "upload": {
+      "href": "https://files.osf.io/v1/resources/dn5scvu3py/providers/osfstorage/",
+      "meta": {}
+     },
+     "download": {
+      "href": "https://files.osf.io/v1/resources/dn5scvu3py/providers/osfstorage/?zip=",
+      "meta": {}
+     }
+    }
+   },
+   "registrations": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/tnkgp/registrations/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "institutions": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/tnkgp/institutions/?format=json",
+      "meta": {}
+     },
+     "self": {
+      "href": "https://api.osf.io/v2/users/tnkgp/relationships/institutions/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "preprints": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/tnkgp/preprints/?format=json",
+      "meta": {}
+     }
+    }
+   }
+  },
+  "links": {
+   "html": "https://osf.io/tnkgp/",
+   "profile_image": "https://secure.gravatar.com/avatar/6a7dd91d956c7cc34620f0add0a846b3?d=identicon",
+   "self": "https://api.osf.io/v2/users/tnkgp/"
+  },
+  "numberOfNodes": 0,
+  "numberOfRegistrations": 1,
+  "numberOfPreprints": 0
+ },
+ "f3ude": {
+  "id": "f3ude",
+  "type": "users",
+  "attributes": {
+   "full_name": "Trynke Hoekstra",
+   "given_name": "Trynke",
+   "middle_names": "",
+   "family_name": "Hoekstra",
+   "suffix": "",
+   "date_registered": "2019-01-22T16:25:12.853134",
+   "active": true,
+   "timezone": "Etc/UTC",
+   "locale": "en_US",
+   "social": {
+    "ssrn": "",
+    "orcid": "0000-0002-0535-0056",
+    "github": "",
+    "scholar": "",
+    "twitter": "trynkehoekstra",
+    "linkedIn": "",
+    "impactStory": "",
+    "baiduScholar": "",
+    "researchGate": "",
+    "researcherId": "",
+    "profileWebsites": [
+     "https://research.vu.nl/en/persons/t-hoekstra"
+    ],
+    "academiaProfileID": "",
+    "academiaInstitution": ""
+   },
+   "employment": [
+    {
+     "title": "Assistant Professor",
+     "endYear": "",
+     "ongoing": true,
+     "endMonth": 0,
+     "startYear": "2017",
+     "department": "Health Sciences",
+     "startMonth": 1,
+     "institution": "Vrije Universiteit Amsterdam"
+    }
+   ],
+   "education": []
+  },
+  "relationships": {
+   "nodes": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/f3ude/nodes/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "groups": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/f3ude/groups/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "quickfiles": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/f3ude/quickfiles/?format=json",
+      "meta": {}
+     },
+     "upload": {
+      "href": "https://files.osf.io/v1/resources/57njswdtfr/providers/osfstorage/",
+      "meta": {}
+     },
+     "download": {
+      "href": "https://files.osf.io/v1/resources/57njswdtfr/providers/osfstorage/?zip=",
+      "meta": {}
+     }
+    }
+   },
+   "registrations": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/f3ude/registrations/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "institutions": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/f3ude/institutions/?format=json",
+      "meta": {}
+     },
+     "self": {
+      "href": "https://api.osf.io/v2/users/f3ude/relationships/institutions/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "preprints": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/f3ude/preprints/?format=json",
+      "meta": {}
+     }
+    }
+   }
+  },
+  "links": {
+   "html": "https://osf.io/f3ude/",
+   "profile_image": "https://secure.gravatar.com/avatar/8d8d49a8573a4ff55a21663428f70b07?d=identicon",
+   "self": "https://api.osf.io/v2/users/f3ude/"
+  },
+  "numberOfNodes": 2,
+  "numberOfRegistrations": 0,
+  "numberOfPreprints": 0
+ },
+ "49c7j": {
+  "id": "49c7j",
+  "type": "users",
+  "attributes": {
+   "full_name": "Margot Van de Weijer",
+   "given_name": "Margot",
+   "middle_names": "",
+   "family_name": "Van de Weijer",
+   "suffix": "",
+   "date_registered": "2019-05-08T12:54:29.037337",
+   "active": true,
+   "timezone": "Etc/UTC",
+   "locale": "en_US",
+   "social": {},
+   "employment": [
+    {
+     "title": "PhD student",
+     "endYear": "",
+     "ongoing": true,
+     "endMonth": 0,
+     "startYear": "2018",
+     "department": "Department of Biological Psychology",
+     "startMonth": 9,
+     "institution": "Vrije Universiteit Amsterdam"
+    }
+   ],
+   "education": []
+  },
+  "relationships": {
+   "nodes": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/49c7j/nodes/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "groups": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/49c7j/groups/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "quickfiles": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/49c7j/quickfiles/?format=json",
+      "meta": {}
+     },
+     "upload": {
+      "href": "https://files.osf.io/v1/resources/vafzn5jc4w/providers/osfstorage/",
+      "meta": {}
+     },
+     "download": {
+      "href": "https://files.osf.io/v1/resources/vafzn5jc4w/providers/osfstorage/?zip=",
+      "meta": {}
+     }
+    }
+   },
+   "registrations": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/49c7j/registrations/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "institutions": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/49c7j/institutions/?format=json",
+      "meta": {}
+     },
+     "self": {
+      "href": "https://api.osf.io/v2/users/49c7j/relationships/institutions/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "preprints": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/49c7j/preprints/?format=json",
+      "meta": {}
+     }
+    }
+   }
+  },
+  "links": {
+   "html": "https://osf.io/49c7j/",
+   "profile_image": "https://secure.gravatar.com/avatar/78a8fd643b524bc6dbcf39b730cc9e2f?d=identicon",
+   "self": "https://api.osf.io/v2/users/49c7j/"
+  },
+  "numberOfNodes": 1,
+  "numberOfRegistrations": 1,
+  "numberOfPreprints": 0
+ },
+ "b2jrv": {
+  "id": "b2jrv",
+  "type": "users",
+  "attributes": {
+   "full_name": "Jana Runze",
+   "given_name": "Jana",
+   "middle_names": "",
+   "family_name": "Runze",
+   "suffix": "",
+   "date_registered": "2019-09-23T10:15:43.019682",
+   "active": true,
+   "timezone": "Etc/UTC",
+   "locale": "en_US",
+   "social": {
+    "ssrn": "",
+    "orcid": "0000-0003-1792-3357",
+    "github": "",
+    "scholar": "",
+    "twitter": "",
+    "linkedIn": "in/jana-runze-aa6b0111b",
+    "impactStory": "",
+    "baiduScholar": "",
+    "researchGate": "",
+    "researcherId": "",
+    "profileWebsites": [
+     "https://research.vu.nl/en/persons/jana-runze"
+    ],
+    "academiaProfileID": "",
+    "academiaInstitution": ""
+   },
+   "employment": [
+    {
+     "title": "PhD Candidate",
+     "endYear": "",
+     "ongoing": true,
+     "endMonth": 0,
+     "startYear": "2019",
+     "department": "Faculty of Behavioural and Movement Sciences",
+     "startMonth": 8,
+     "institution": "Vrije Universiteit Amsterdam"
+    }
+   ],
+   "education": []
+  },
+  "relationships": {
+   "nodes": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/b2jrv/nodes/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "groups": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/b2jrv/groups/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "quickfiles": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/b2jrv/quickfiles/?format=json",
+      "meta": {}
+     },
+     "upload": {
+      "href": "https://files.osf.io/v1/resources/zsb2ynh6ua/providers/osfstorage/",
+      "meta": {}
+     },
+     "download": {
+      "href": "https://files.osf.io/v1/resources/zsb2ynh6ua/providers/osfstorage/?zip=",
+      "meta": {}
+     }
+    }
+   },
+   "registrations": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/b2jrv/registrations/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "institutions": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/b2jrv/institutions/?format=json",
+      "meta": {}
+     },
+     "self": {
+      "href": "https://api.osf.io/v2/users/b2jrv/relationships/institutions/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "preprints": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/b2jrv/preprints/?format=json",
+      "meta": {}
+     }
+    }
+   }
+  },
+  "links": {
+   "html": "https://osf.io/b2jrv/",
+   "profile_image": "https://secure.gravatar.com/avatar/23f8df38fe3f80435b277aa5110004a1?d=identicon",
+   "self": "https://api.osf.io/v2/users/b2jrv/"
+  },
+  "numberOfNodes": 1,
+  "numberOfRegistrations": 1,
+  "numberOfPreprints": 0
+ },
+ "bjx56": {
+  "id": "bjx56",
+  "type": "users",
+  "attributes": {
+   "full_name": "Jacek Buczny",
+   "given_name": "Jacek",
+   "middle_names": "",
+   "family_name": "Buczny",
+   "suffix": "",
+   "date_registered": "2016-10-21T21:00:27.306000",
+   "active": true,
+   "timezone": "Europe/Amsterdam",
+   "locale": "en_US",
+   "social": {
+    "ssrn": "",
+    "orcid": "0000-0002-4932-196X",
+    "github": "",
+    "scholar": "BZDeSiUAAAAJ",
+    "twitter": "",
+    "linkedIn": "",
+    "impactStory": "",
+    "baiduScholar": "",
+    "researchGate": "Jacek_Buczny",
+    "researcherId": "M-9071-2013",
+    "profileWebsites": [
+     "http://www.vupsy.nl/staff-members/jacek-buczny/"
+    ],
+    "academiaProfileID": "jacekbuczny",
+    "academiaInstitution": "swps"
+   },
+   "employment": [
+    {
+     "title": "Assistant Professor",
+     "endYear": "",
+     "ongoing": true,
+     "endMonth": null,
+     "startYear": "2019",
+     "department": "Experimental and Applied Psychology",
+     "startMonth": 1,
+     "institution": "Vrije Universiteit Amsterdam"
+    },
+    {
+     "title": "Lecturer",
+     "endYear": "2019",
+     "ongoing": false,
+     "endMonth": 1,
+     "startYear": "2015",
+     "department": "Experimental and Applied Psychology",
+     "startMonth": 3,
+     "institution": "Vrije Universiteit Amsterdam"
+    },
+    {
+     "title": "Assistant Professor",
+     "endYear": "",
+     "ongoing": true,
+     "endMonth": null,
+     "startYear": "2010",
+     "department": "Sopot",
+     "startMonth": 4,
+     "institution": "SWPS University of Social Sciences and Humanities"
+    }
+   ],
+   "education": [
+    {
+     "degree": "Ph.D.",
+     "endYear": "2010",
+     "ongoing": false,
+     "endMonth": 4,
+     "startYear": "2009",
+     "department": "Wroclaw",
+     "startMonth": 9,
+     "institution": "SWPS University of Social Sciences and Humanities"
+    }
+   ]
+  },
+  "relationships": {
+   "nodes": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/bjx56/nodes/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "groups": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/bjx56/groups/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "quickfiles": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/bjx56/quickfiles/?format=json",
+      "meta": {}
+     },
+     "upload": {
+      "href": "https://files.osf.io/v1/resources/durvkexfgb/providers/osfstorage/",
+      "meta": {}
+     },
+     "download": {
+      "href": "https://files.osf.io/v1/resources/durvkexfgb/providers/osfstorage/?zip=",
+      "meta": {}
+     }
+    }
+   },
+   "registrations": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/bjx56/registrations/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "institutions": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/bjx56/institutions/?format=json",
+      "meta": {}
+     },
+     "self": {
+      "href": "https://api.osf.io/v2/users/bjx56/relationships/institutions/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "preprints": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/bjx56/preprints/?format=json",
+      "meta": {}
+     }
+    }
+   }
+  },
+  "links": {
+   "html": "https://osf.io/bjx56/",
+   "profile_image": "https://secure.gravatar.com/avatar/f4db7b780f832ec7a413156d5459a2f5?d=identicon",
+   "self": "https://api.osf.io/v2/users/bjx56/"
+  },
+  "numberOfNodes": 6,
+  "numberOfRegistrations": 10,
+  "numberOfPreprints": 1
+ },
+ "2qpfg": {
+  "id": "2qpfg",
+  "type": "users",
+  "attributes": {
+   "full_name": "Sander Begeer",
+   "given_name": "Sander",
+   "middle_names": "",
+   "family_name": "Begeer",
+   "suffix": "",
+   "date_registered": "2019-05-13T13:35:04.114606",
+   "active": true,
+   "timezone": "Etc/UTC",
+   "locale": "en_US",
+   "social": {
+    "ssrn": "",
+    "orcid": "0000-0002-0572-6893",
+    "github": "",
+    "scholar": "L8A8MZIAAAAJ&amp;hl=nl",
+    "twitter": "SanderBegeer",
+    "linkedIn": "in/sanderbegeer/",
+    "impactStory": "",
+    "baiduScholar": "",
+    "researchGate": "Sander_Begeer",
+    "researcherId": "",
+    "profileWebsites": [
+     "http://www.nederlandsautismeregister.nl/english"
+    ],
+    "academiaProfileID": "",
+    "academiaInstitution": ""
+   },
+   "employment": [
+    {
+     "title": "Associate Professor",
+     "endYear": "",
+     "ongoing": true,
+     "endMonth": 0,
+     "startYear": "2005",
+     "department": "Department of Clinical- Neuro- and Developmental Psychology",
+     "startMonth": 1,
+     "institution": "Vrije Universiteit Amsterdam"
+    }
+   ],
+   "education": []
+  },
+  "relationships": {
+   "nodes": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/2qpfg/nodes/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "groups": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/2qpfg/groups/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "quickfiles": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/2qpfg/quickfiles/?format=json",
+      "meta": {}
+     },
+     "upload": {
+      "href": "https://files.osf.io/v1/resources/y8xafug59v/providers/osfstorage/",
+      "meta": {}
+     },
+     "download": {
+      "href": "https://files.osf.io/v1/resources/y8xafug59v/providers/osfstorage/?zip=",
+      "meta": {}
+     }
+    }
+   },
+   "registrations": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/2qpfg/registrations/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "institutions": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/2qpfg/institutions/?format=json",
+      "meta": {}
+     },
+     "self": {
+      "href": "https://api.osf.io/v2/users/2qpfg/relationships/institutions/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "preprints": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/2qpfg/preprints/?format=json",
+      "meta": {}
+     }
+    }
+   }
+  },
+  "links": {
+   "html": "https://osf.io/2qpfg/",
+   "profile_image": "https://secure.gravatar.com/avatar/4c7a04d3b5530e82b1501f74b37336aa?d=identicon",
+   "self": "https://api.osf.io/v2/users/2qpfg/"
+  },
+  "numberOfNodes": 4,
+  "numberOfRegistrations": 10,
+  "numberOfPreprints": 2
+ },
+ "rsvxw": {
+  "id": "rsvxw",
+  "type": "users",
+  "attributes": {
+   "full_name": "Ralph de Vries",
+   "given_name": "Ralph",
+   "middle_names": "",
+   "family_name": "de Vries",
+   "suffix": "",
+   "date_registered": "2018-04-23T07:28:52.933296",
+   "active": true,
+   "timezone": "Europe/Berlin",
+   "locale": "nl_NL",
+   "social": {
+    "ssrn": "",
+    "orcid": "0000-0002-2075-7495",
+    "github": "",
+    "scholar": "",
+    "twitter": "",
+    "linkedIn": "",
+    "impactStory": "",
+    "baiduScholar": "",
+    "researchGate": "",
+    "researcherId": "",
+    "profileWebsites": [],
+    "academiaProfileID": "",
+    "academiaInstitution": ""
+   },
+   "employment": [
+    {
+     "title": "Medical informationspecialist",
+     "endYear": "",
+     "ongoing": true,
+     "endMonth": 0,
+     "startYear": "1996",
+     "department": "UB VU Research Support",
+     "startMonth": 2,
+     "institution": "Vrije Universiteit Amsterdam"
+    }
+   ],
+   "education": []
+  },
+  "relationships": {
+   "nodes": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/rsvxw/nodes/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "groups": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/rsvxw/groups/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "quickfiles": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/rsvxw/quickfiles/?format=json",
+      "meta": {}
+     },
+     "upload": {
+      "href": "https://files.osf.io/v1/resources/tm8ckh6542/providers/osfstorage/",
+      "meta": {}
+     },
+     "download": {
+      "href": "https://files.osf.io/v1/resources/tm8ckh6542/providers/osfstorage/?zip=",
+      "meta": {}
+     }
+    }
+   },
+   "registrations": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/rsvxw/registrations/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "institutions": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/rsvxw/institutions/?format=json",
+      "meta": {}
+     },
+     "self": {
+      "href": "https://api.osf.io/v2/users/rsvxw/relationships/institutions/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "preprints": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/rsvxw/preprints/?format=json",
+      "meta": {}
+     }
+    }
+   }
+  },
+  "links": {
+   "html": "https://osf.io/rsvxw/",
+   "profile_image": "https://secure.gravatar.com/avatar/d0b2b9cc0b6cb3abfd04351c0822a326?d=identicon",
+   "self": "https://api.osf.io/v2/users/rsvxw/"
+  },
+  "numberOfNodes": 0,
+  "numberOfRegistrations": 0,
+  "numberOfPreprints": 1
+ },
+ "zpkdv": {
+  "id": "zpkdv",
+  "type": "users",
+  "attributes": {
+   "full_name": "Antoine J.J. Bracco Gartner",
+   "given_name": "Antoine",
+   "middle_names": "J. J.",
+   "family_name": "Bracco Gartner",
+   "suffix": "",
+   "date_registered": "2020-01-28T09:11:53.942951",
+   "active": true,
+   "timezone": "Etc/UTC",
+   "locale": "en_US",
+   "social": {
+    "ssrn": "",
+    "orcid": "0000-0001-6834-713X",
+    "github": "",
+    "scholar": "HVNU1asAAAAJ",
+    "twitter": "",
+    "linkedIn": "",
+    "impactStory": "",
+    "baiduScholar": "",
+    "researchGate": "Antoine_Bracco_Gartner",
+    "researcherId": "",
+    "profileWebsites": [
+     "https://research.vu.nl/en/persons/ajj-bracco-gartner"
+    ],
+    "academiaProfileID": "",
+    "academiaInstitution": ""
+   },
+   "employment": [
+    {
+     "title": "PhD student",
+     "endYear": "",
+     "ongoing": true,
+     "endMonth": 0,
+     "startYear": "2018",
+     "department": "Department of Earth Sciences",
+     "startMonth": null,
+     "institution": "Vrije Universiteit Amsterdam"
+    }
+   ],
+   "education": [
+    {
+     "degree": "MSc Earth Structure and Dynamics",
+     "endYear": "2018",
+     "ongoing": false,
+     "endMonth": null,
+     "startYear": "2015",
+     "department": "Department of Earth Sciences",
+     "startMonth": null,
+     "institution": "Universiteit Utrecht"
+    },
+    {
+     "degree": "MSc Earth Sciences",
+     "endYear": "2015",
+     "ongoing": false,
+     "endMonth": null,
+     "startYear": "2012",
+     "department": "Department of Earth Sciences",
+     "startMonth": null,
+     "institution": "Universiteit Utrecht"
+    }
+   ]
+  },
+  "relationships": {
+   "nodes": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/zpkdv/nodes/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "groups": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/zpkdv/groups/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "quickfiles": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/zpkdv/quickfiles/?format=json",
+      "meta": {}
+     },
+     "upload": {
+      "href": "https://files.osf.io/v1/resources/q96vpfzdbe/providers/osfstorage/",
+      "meta": {}
+     },
+     "download": {
+      "href": "https://files.osf.io/v1/resources/q96vpfzdbe/providers/osfstorage/?zip=",
+      "meta": {}
+     }
+    }
+   },
+   "registrations": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/zpkdv/registrations/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "institutions": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/zpkdv/institutions/?format=json",
+      "meta": {}
+     },
+     "self": {
+      "href": "https://api.osf.io/v2/users/zpkdv/relationships/institutions/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "preprints": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/zpkdv/preprints/?format=json",
+      "meta": {}
+     }
+    }
+   }
+  },
+  "links": {
+   "html": "https://osf.io/zpkdv/",
+   "profile_image": "https://secure.gravatar.com/avatar/33835e878853e7b39ee4cee76de3284f?d=identicon",
+   "self": "https://api.osf.io/v2/users/zpkdv/"
+  },
+  "numberOfNodes": 0,
+  "numberOfRegistrations": 0,
+  "numberOfPreprints": 0
+ },
+ "zdscq": {
+  "id": "zdscq",
+  "type": "users",
+  "attributes": {
+   "full_name": "Emiel van Miltenburg",
+   "given_name": "Emiel",
+   "middle_names": "",
+   "family_name": "van Miltenburg",
+   "suffix": "",
+   "date_registered": "2017-05-24T21:25:05.716588",
+   "active": true,
+   "timezone": "Europe/Amsterdam",
+   "locale": "en_US",
+   "social": {
+    "orcid": "0000-0002-7143-8961"
+   },
+   "employment": [
+    {
+     "title": "PhD candidate",
+     "endYear": "",
+     "ongoing": true,
+     "endMonth": 0,
+     "startYear": "2014",
+     "department": "Computational Lexicology &amp; Terminology Lab",
+     "startMonth": 5,
+     "institution": "Vrije Universiteit Amsterdam"
+    }
+   ],
+   "education": []
+  },
+  "relationships": {
+   "nodes": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/zdscq/nodes/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "groups": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/zdscq/groups/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "quickfiles": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/zdscq/quickfiles/?format=json",
+      "meta": {}
+     },
+     "upload": {
+      "href": "https://files.osf.io/v1/resources/qh5s6adjuc/providers/osfstorage/",
+      "meta": {}
+     },
+     "download": {
+      "href": "https://files.osf.io/v1/resources/qh5s6adjuc/providers/osfstorage/?zip=",
+      "meta": {}
+     }
+    }
+   },
+   "registrations": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/zdscq/registrations/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "institutions": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/zdscq/institutions/?format=json",
+      "meta": {}
+     },
+     "self": {
+      "href": "https://api.osf.io/v2/users/zdscq/relationships/institutions/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "preprints": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/zdscq/preprints/?format=json",
+      "meta": {}
+     }
+    }
+   }
+  },
+  "links": {
+   "html": "https://osf.io/zdscq/",
+   "profile_image": "https://secure.gravatar.com/avatar/2587c93aa48470a0684554bf28acb461?d=identicon",
+   "self": "https://api.osf.io/v2/users/zdscq/"
+  },
+  "numberOfNodes": 0,
+  "numberOfRegistrations": 6,
+  "numberOfPreprints": 0
+ },
+ "59pcs": {
+  "id": "59pcs",
+  "type": "users",
+  "attributes": {
+   "full_name": "Janneke Oostrom",
+   "given_name": "Janneke",
+   "middle_names": "Karina",
+   "family_name": "Oostrom",
+   "suffix": "",
+   "date_registered": "2016-11-21T09:22:03.565000",
+   "active": true,
+   "timezone": "Europe/Berlin",
+   "locale": "nl_NL",
+   "social": {},
+   "employment": [
+    {
+     "title": "Assistant Professor",
+     "endYear": "",
+     "ongoing": true,
+     "endMonth": 0,
+     "startYear": "2012",
+     "department": "",
+     "startMonth": 8,
+     "institution": "Vrije Universiteit Amsterdam"
+    }
+   ],
+   "education": [
+    {
+     "degree": "PhD",
+     "endYear": "2010",
+     "ongoing": false,
+     "endMonth": 10,
+     "startYear": "2007",
+     "department": "Faculty of Social Sciences",
+     "startMonth": 9,
+     "institution": "Erasmus University Rotterdam"
+    }
+   ]
+  },
+  "relationships": {
+   "nodes": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/59pcs/nodes/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "groups": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/59pcs/groups/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "quickfiles": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/59pcs/quickfiles/?format=json",
+      "meta": {}
+     },
+     "upload": {
+      "href": "https://files.osf.io/v1/resources/qb6u289sva/providers/osfstorage/",
+      "meta": {}
+     },
+     "download": {
+      "href": "https://files.osf.io/v1/resources/qb6u289sva/providers/osfstorage/?zip=",
+      "meta": {}
+     }
+    }
+   },
+   "registrations": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/59pcs/registrations/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "institutions": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/59pcs/institutions/?format=json",
+      "meta": {}
+     },
+     "self": {
+      "href": "https://api.osf.io/v2/users/59pcs/relationships/institutions/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "preprints": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/59pcs/preprints/?format=json",
+      "meta": {}
+     }
+    }
+   }
+  },
+  "links": {
+   "html": "https://osf.io/59pcs/",
+   "profile_image": "https://secure.gravatar.com/avatar/312e1a4170ea2383c2c791984f064f2e?d=identicon",
+   "self": "https://api.osf.io/v2/users/59pcs/"
+  },
+  "numberOfNodes": 1,
+  "numberOfRegistrations": 3,
+  "numberOfPreprints": 0
+ },
+ "v7pyr": {
+  "id": "v7pyr",
+  "type": "users",
+  "attributes": {
+   "full_name": "Tim Immerzeel",
+   "given_name": "Tim",
+   "middle_names": "",
+   "family_name": "Immerzeel",
+   "suffix": "",
+   "date_registered": "2015-11-10T18:09:35.219000",
+   "active": true,
+   "timezone": "Europe/Berlin",
+   "locale": "nl",
+   "social": {
+    "orcid": "0000-0002-5696-5149",
+    "github": "",
+    "scholar": "Tim Immerzeel",
+    "twitter": "timimmerzeel",
+    "linkedIn": "in/timimmerzeel",
+    "impactStory": "",
+    "researcherId": "M-5924-2014",
+    "profileWebsites": [
+     "http://www.timimmerzeel.nl",
+     "http://www.polpart.org"
+    ]
+   },
+   "employment": [
+    {
+     "title": "Postdoc",
+     "endYear": "",
+     "ongoing": true,
+     "endMonth": 0,
+     "startYear": "2014",
+     "department": "Sociology",
+     "startMonth": 9,
+     "institution": "Vrije Universiteit Amsterdam"
+    }
+   ],
+   "education": []
+  },
+  "relationships": {
+   "nodes": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/v7pyr/nodes/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "groups": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/v7pyr/groups/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "quickfiles": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/v7pyr/quickfiles/?format=json",
+      "meta": {}
+     },
+     "upload": {
+      "href": "https://files.osf.io/v1/resources/y3nj98dzrk/providers/osfstorage/",
+      "meta": {}
+     },
+     "download": {
+      "href": "https://files.osf.io/v1/resources/y3nj98dzrk/providers/osfstorage/?zip=",
+      "meta": {}
+     }
+    }
+   },
+   "registrations": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/v7pyr/registrations/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "institutions": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/v7pyr/institutions/?format=json",
+      "meta": {}
+     },
+     "self": {
+      "href": "https://api.osf.io/v2/users/v7pyr/relationships/institutions/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "preprints": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/v7pyr/preprints/?format=json",
+      "meta": {}
+     }
+    }
+   }
+  },
+  "links": {
+   "html": "https://osf.io/v7pyr/",
+   "profile_image": "https://secure.gravatar.com/avatar/fcc7d444bc6afcad0f2bb3c054f3c3e9?d=identicon",
+   "self": "https://api.osf.io/v2/users/v7pyr/"
+  },
+  "numberOfNodes": 1,
+  "numberOfRegistrations": 0,
+  "numberOfPreprints": 0
+ },
+ "frxgj": {
+  "id": "frxgj",
+  "type": "users",
+  "attributes": {
+   "full_name": "Mariet van Buuren",
+   "given_name": "Mariet",
+   "middle_names": "",
+   "family_name": "van Buuren",
+   "suffix": "",
+   "date_registered": "2019-04-12T12:35:01.706195",
+   "active": true,
+   "timezone": "Etc/UTC",
+   "locale": "en_US",
+   "social": {},
+   "employment": [
+    {
+     "title": "",
+     "endYear": "",
+     "ongoing": true,
+     "endMonth": null,
+     "startYear": "2017",
+     "department": "Department of Clinical, Neuro and Developmental Psychology, Faculty of Behavioral and Movement Science",
+     "startMonth": 1,
+     "institution": "Vrije Universiteit Amsterdam"
+    }
+   ],
+   "education": []
+  },
+  "relationships": {
+   "nodes": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/frxgj/nodes/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "groups": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/frxgj/groups/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "quickfiles": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/frxgj/quickfiles/?format=json",
+      "meta": {}
+     },
+     "upload": {
+      "href": "https://files.osf.io/v1/resources/a5x2gt38mq/providers/osfstorage/",
+      "meta": {}
+     },
+     "download": {
+      "href": "https://files.osf.io/v1/resources/a5x2gt38mq/providers/osfstorage/?zip=",
+      "meta": {}
+     }
+    }
+   },
+   "registrations": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/frxgj/registrations/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "institutions": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/frxgj/institutions/?format=json",
+      "meta": {}
+     },
+     "self": {
+      "href": "https://api.osf.io/v2/users/frxgj/relationships/institutions/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "preprints": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/frxgj/preprints/?format=json",
+      "meta": {}
+     }
+    }
+   }
+  },
+  "links": {
+   "html": "https://osf.io/frxgj/",
+   "profile_image": "https://secure.gravatar.com/avatar/c63a0148b00373addba30082649d9a0a?d=identicon",
+   "self": "https://api.osf.io/v2/users/frxgj/"
+  },
+  "numberOfNodes": 1,
+  "numberOfRegistrations": 2,
+  "numberOfPreprints": 2
+ },
+ "gm6va": {
+  "id": "gm6va",
+  "type": "users",
+  "attributes": {
+   "full_name": "John Stins",
+   "given_name": "John",
+   "middle_names": "",
+   "family_name": "Stins",
+   "suffix": "",
+   "date_registered": "2016-08-21T21:19:13.895000",
+   "active": true,
+   "timezone": "Europe/Berlin",
+   "locale": "nl_nl",
+   "social": {
+    "ssrn": "",
+    "orcid": "0000-0001-5251-5610",
+    "github": "",
+    "scholar": "",
+    "twitter": "JohnStins",
+    "linkedIn": "",
+    "impactStory": "",
+    "baiduScholar": "",
+    "researchGate": "",
+    "researcherId": "",
+    "profileWebsites": [
+     "http://www.johnstins.nl"
+    ],
+    "academiaProfileID": "",
+    "academiaInstitution": ""
+   },
+   "employment": [
+    {
+     "title": "Assistant professor",
+     "endYear": "",
+     "ongoing": true,
+     "endMonth": 0,
+     "startYear": "2002",
+     "department": "Dept. of Human Movement Sciences",
+     "startMonth": 5,
+     "institution": "Vrije Universiteit, Amsterdam"
+    }
+   ],
+   "education": []
+  },
+  "relationships": {
+   "nodes": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/gm6va/nodes/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "groups": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/gm6va/groups/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "quickfiles": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/gm6va/quickfiles/?format=json",
+      "meta": {}
+     },
+     "upload": {
+      "href": "https://files.osf.io/v1/resources/5qj7y4epm8/providers/osfstorage/",
+      "meta": {}
+     },
+     "download": {
+      "href": "https://files.osf.io/v1/resources/5qj7y4epm8/providers/osfstorage/?zip=",
+      "meta": {}
+     }
+    }
+   },
+   "registrations": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/gm6va/registrations/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "institutions": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/gm6va/institutions/?format=json",
+      "meta": {}
+     },
+     "self": {
+      "href": "https://api.osf.io/v2/users/gm6va/relationships/institutions/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "preprints": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/gm6va/preprints/?format=json",
+      "meta": {}
+     }
+    }
+   }
+  },
+  "links": {
+   "html": "https://osf.io/gm6va/",
+   "profile_image": "https://secure.gravatar.com/avatar/64e8f0cd654e371e29cb1349118702cc?d=identicon",
+   "self": "https://api.osf.io/v2/users/gm6va/"
+  },
+  "numberOfNodes": 1,
+  "numberOfRegistrations": 0,
+  "numberOfPreprints": 0
+ },
+ "gfsvh": {
+  "id": "gfsvh",
+  "type": "users",
+  "attributes": {
+   "full_name": "Carlo Schuengel",
+   "given_name": "Carlo",
+   "middle_names": "",
+   "family_name": "Schuengel",
+   "suffix": "",
+   "date_registered": "2017-04-09T21:00:21.937026",
+   "active": true,
+   "timezone": "Europe/Amsterdam",
+   "locale": "nl",
+   "social": {
+    "ssrn": "",
+    "orcid": "0000-0001-5501-3341",
+    "github": "",
+    "scholar": "",
+    "twitter": "CarloSchuengel",
+    "linkedIn": "",
+    "impactStory": "",
+    "baiduScholar": "",
+    "researchGate": "Carlo_Schuengel",
+    "researcherId": "A-7767-2008",
+    "profileWebsites": [
+     "https://research.vu.nl/en/persons/carlo-schuengel"
+    ],
+    "academiaProfileID": "",
+    "academiaInstitution": ""
+   },
+   "employment": [
+    {
+     "title": "Full Professor",
+     "endYear": "",
+     "ongoing": true,
+     "endMonth": 0,
+     "startYear": "1999",
+     "department": "Clinical Child and Family Studies",
+     "startMonth": 12,
+     "institution": "Vrije Universiteit Amsterdam"
+    }
+   ],
+   "education": [
+    {
+     "degree": "PhD",
+     "endYear": "1997",
+     "ongoing": false,
+     "endMonth": 11,
+     "startYear": "1992",
+     "department": "Child and Family Studies",
+     "startMonth": 11,
+     "institution": "Leiden University"
+    }
+   ]
+  },
+  "relationships": {
+   "nodes": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/gfsvh/nodes/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "groups": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/gfsvh/groups/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "quickfiles": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/gfsvh/quickfiles/?format=json",
+      "meta": {}
+     },
+     "upload": {
+      "href": "https://files.osf.io/v1/resources/p2smvyjg5b/providers/osfstorage/",
+      "meta": {}
+     },
+     "download": {
+      "href": "https://files.osf.io/v1/resources/p2smvyjg5b/providers/osfstorage/?zip=",
+      "meta": {}
+     }
+    }
+   },
+   "registrations": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/gfsvh/registrations/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "institutions": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/gfsvh/institutions/?format=json",
+      "meta": {}
+     },
+     "self": {
+      "href": "https://api.osf.io/v2/users/gfsvh/relationships/institutions/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "preprints": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/gfsvh/preprints/?format=json",
+      "meta": {}
+     }
+    }
+   }
+  },
+  "links": {
+   "html": "https://osf.io/gfsvh/",
+   "profile_image": "https://secure.gravatar.com/avatar/b0f152575e45ff4a1db8637f5367df19?d=identicon",
+   "self": "https://api.osf.io/v2/users/gfsvh/"
+  },
+  "numberOfNodes": 11,
+  "numberOfRegistrations": 4,
+  "numberOfPreprints": 2
+ },
+ "k3q4m": {
+  "id": "k3q4m",
+  "type": "users",
+  "attributes": {
+   "full_name": "docky duncan",
+   "given_name": "Dock",
+   "middle_names": "H",
+   "family_name": "Duncan",
+   "suffix": "",
+   "date_registered": "2019-11-21T11:37:54.491102",
+   "active": true,
+   "timezone": "Etc/UTC",
+   "locale": "en_US",
+   "social": {
+    "orcid": "0000-0002-0262-3573"
+   },
+   "employment": [
+    {
+     "title": "Promovendus",
+     "endYear": "",
+     "ongoing": true,
+     "endMonth": 0,
+     "startYear": "2019",
+     "department": "Facult. Behaviour and Movement Science - Subsection: Cognitive Psychology",
+     "startMonth": 10,
+     "institution": "Vrije Universiteit Amsterdam"
+    }
+   ],
+   "education": []
+  },
+  "relationships": {
+   "nodes": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/k3q4m/nodes/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "groups": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/k3q4m/groups/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "quickfiles": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/k3q4m/quickfiles/?format=json",
+      "meta": {}
+     },
+     "upload": {
+      "href": "https://files.osf.io/v1/resources/fmzebcp8qs/providers/osfstorage/",
+      "meta": {}
+     },
+     "download": {
+      "href": "https://files.osf.io/v1/resources/fmzebcp8qs/providers/osfstorage/?zip=",
+      "meta": {}
+     }
+    }
+   },
+   "registrations": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/k3q4m/registrations/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "institutions": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/k3q4m/institutions/?format=json",
+      "meta": {}
+     },
+     "self": {
+      "href": "https://api.osf.io/v2/users/k3q4m/relationships/institutions/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "preprints": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/k3q4m/preprints/?format=json",
+      "meta": {}
+     }
+    }
+   }
+  },
+  "links": {
+   "html": "https://osf.io/k3q4m/",
+   "profile_image": "https://secure.gravatar.com/avatar/1e0f7ab5d9ca4e2ec2e49252068e3c5d?d=identicon",
+   "self": "https://api.osf.io/v2/users/k3q4m/"
+  },
+  "numberOfNodes": 0,
+  "numberOfRegistrations": 0,
+  "numberOfPreprints": 0
+ },
+ "u4pzj": {
+  "id": "u4pzj",
+  "type": "users",
+  "attributes": {
+   "full_name": "Sander Bosch",
+   "given_name": "Sander",
+   "middle_names": "Erik",
+   "family_name": "Bosch",
+   "suffix": "",
+   "date_registered": "2017-05-24T09:42:23.672965",
+   "active": true,
+   "timezone": "Europe/Amsterdam",
+   "locale": "en_US",
+   "social": {
+    "ssrn": "",
+    "orcid": "0000-0001-6845-0911",
+    "github": "sebosch",
+    "scholar": "yLpaR48AAAAJ&amp;hl=nl",
+    "twitter": "bosch_se",
+    "linkedIn": "sander-erik-bosch",
+    "impactStory": "",
+    "baiduScholar": "",
+    "researchGate": "",
+    "researcherId": "C-2927-2013",
+    "profileWebsites": [
+     "https://sanderbosch.com"
+    ],
+    "academiaProfileID": "",
+    "academiaInstitution": ""
+   },
+   "employment": [
+    {
+     "title": "Open Science Coordinator",
+     "endYear": "",
+     "ongoing": true,
+     "endMonth": 0,
+     "startYear": "2020",
+     "department": "University Library, Research Support",
+     "startMonth": 2,
+     "institution": "Vrije Universiteit Amsterdam"
+    },
+    {
+     "title": "Project manager",
+     "endYear": "2020",
+     "ongoing": false,
+     "endMonth": 2,
+     "startYear": "2019",
+     "department": "University Library, Research Support",
+     "startMonth": 4,
+     "institution": "Vrije Universiteit Amsterdam"
+    },
+    {
+     "title": "Postdoctoral researcher",
+     "endYear": "2019",
+     "ongoing": false,
+     "endMonth": 1,
+     "startYear": "2015",
+     "department": "Artificial Intelligence, Donders Centre for Cognition",
+     "startMonth": 12,
+     "institution": "Radboud Universiteit Nijmegen"
+    }
+   ],
+   "education": [
+    {
+     "degree": "Dr.",
+     "endYear": "2015",
+     "ongoing": false,
+     "endMonth": 5,
+     "startYear": "2011",
+     "department": "Donders Centre for Cognitive Neuroimaging",
+     "startMonth": 3,
+     "institution": "Radboud University Nijmegen"
+    }
+   ]
+  },
+  "relationships": {
+   "nodes": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/u4pzj/nodes/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "groups": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/u4pzj/groups/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "quickfiles": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/u4pzj/quickfiles/?format=json",
+      "meta": {}
+     },
+     "upload": {
+      "href": "https://files.osf.io/v1/resources/4qjd2tcy6r/providers/osfstorage/",
+      "meta": {}
+     },
+     "download": {
+      "href": "https://files.osf.io/v1/resources/4qjd2tcy6r/providers/osfstorage/?zip=",
+      "meta": {}
+     }
+    }
+   },
+   "registrations": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/u4pzj/registrations/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "institutions": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/u4pzj/institutions/?format=json",
+      "meta": {}
+     },
+     "self": {
+      "href": "https://api.osf.io/v2/users/u4pzj/relationships/institutions/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "preprints": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/u4pzj/preprints/?format=json",
+      "meta": {}
+     }
+    }
+   }
+  },
+  "links": {
+   "html": "https://osf.io/u4pzj/",
+   "profile_image": "https://secure.gravatar.com/avatar/6d1782681a257e24c8a0c77b77148ee5?d=identicon",
+   "self": "https://api.osf.io/v2/users/u4pzj/"
+  },
+  "numberOfNodes": 3,
+  "numberOfRegistrations": 0,
+  "numberOfPreprints": 1
+ },
+ "awu8x": {
+  "id": "awu8x",
+  "type": "users",
+  "attributes": {
+   "full_name": "Ruben Laukkonen",
+   "given_name": "Ruben",
+   "middle_names": "",
+   "family_name": "Laukkonen",
+   "suffix": "Dr.",
+   "date_registered": "2016-08-04T02:59:20.956000",
+   "active": true,
+   "timezone": "Australia/Brisbane",
+   "locale": "en_US",
+   "social": {
+    "ssrn": "",
+    "orcid": "",
+    "github": "",
+    "scholar": "resSO-Oe1oAAAAJ&amp;hl=en",
+    "twitter": "rubenlaukkonen",
+    "linkedIn": "",
+    "impactStory": "",
+    "baiduScholar": "",
+    "researchGate": "",
+    "researcherId": "",
+    "profileWebsites": [
+     "https://rubenlaukkonen.com/",
+     "https://www.vupsy.nl/staff-members/ruben-laukkonen/"
+    ],
+    "academiaProfileID": "",
+    "academiaInstitution": ""
+   },
+   "employment": [
+    {
+     "title": "Postdoctoral Researcher",
+     "endYear": "",
+     "ongoing": true,
+     "endMonth": 0,
+     "startYear": "2018",
+     "department": "Cognitive Psychology",
+     "startMonth": 10,
+     "institution": "Vrije Universiteit Amsterdam"
+    }
+   ],
+   "education": []
+  },
+  "relationships": {
+   "nodes": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/awu8x/nodes/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "groups": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/awu8x/groups/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "quickfiles": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/awu8x/quickfiles/?format=json",
+      "meta": {}
+     },
+     "upload": {
+      "href": "https://files.osf.io/v1/resources/xgvz4b3nud/providers/osfstorage/",
+      "meta": {}
+     },
+     "download": {
+      "href": "https://files.osf.io/v1/resources/xgvz4b3nud/providers/osfstorage/?zip=",
+      "meta": {}
+     }
+    }
+   },
+   "registrations": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/awu8x/registrations/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "institutions": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/awu8x/institutions/?format=json",
+      "meta": {}
+     },
+     "self": {
+      "href": "https://api.osf.io/v2/users/awu8x/relationships/institutions/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "preprints": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/awu8x/preprints/?format=json",
+      "meta": {}
+     }
+    }
+   }
+  },
+  "links": {
+   "html": "https://osf.io/awu8x/",
+   "profile_image": "https://secure.gravatar.com/avatar/47518bdb8c1d3f2e1b48d51ed8520a5d?d=identicon",
+   "self": "https://api.osf.io/v2/users/awu8x/"
+  },
+  "numberOfNodes": 25,
+  "numberOfRegistrations": 67,
+  "numberOfPreprints": 5
+ },
+ "gmgnr": {
+  "id": "gmgnr",
+  "type": "users",
+  "attributes": {
+   "full_name": "Ewa Miedzobrodzka",
+   "given_name": "Ewa",
+   "middle_names": "",
+   "family_name": "Miedzobrodzka",
+   "suffix": "",
+   "date_registered": "2017-02-01T14:30:35.370000",
+   "active": true,
+   "timezone": "Europe/Amsterdam",
+   "locale": "en_US",
+   "social": {
+    "ssrn": "",
+    "orcid": "0000-0003-2637-7781",
+    "github": "",
+    "scholar": "sHoPy6AAAAAJ",
+    "twitter": "emiedzobrodzka",
+    "linkedIn": "",
+    "impactStory": "",
+    "baiduScholar": "",
+    "researchGate": "Ewa_Miedzobrodzka",
+    "researcherId": "",
+    "profileWebsites": [
+     "https://research.vu.nl/en/persons/ewa-miedzobrodzka"
+    ],
+    "academiaProfileID": "",
+    "academiaInstitution": ""
+   },
+   "employment": [
+    {
+     "title": "PhD Candidate",
+     "endYear": "",
+     "ongoing": true,
+     "endMonth": 0,
+     "startYear": "2015",
+     "department": "Department of Communication Science",
+     "startMonth": 9,
+     "institution": "Vrije Universiteit Amsterdam"
+    }
+   ],
+   "education": []
+  },
+  "relationships": {
+   "nodes": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/gmgnr/nodes/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "groups": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/gmgnr/groups/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "quickfiles": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/gmgnr/quickfiles/?format=json",
+      "meta": {}
+     },
+     "upload": {
+      "href": "https://files.osf.io/v1/resources/uxgdjpyk46/providers/osfstorage/",
+      "meta": {}
+     },
+     "download": {
+      "href": "https://files.osf.io/v1/resources/uxgdjpyk46/providers/osfstorage/?zip=",
+      "meta": {}
+     }
+    }
+   },
+   "registrations": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/gmgnr/registrations/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "institutions": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/gmgnr/institutions/?format=json",
+      "meta": {}
+     },
+     "self": {
+      "href": "https://api.osf.io/v2/users/gmgnr/relationships/institutions/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "preprints": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/gmgnr/preprints/?format=json",
+      "meta": {}
+     }
+    }
+   }
+  },
+  "links": {
+   "html": "https://osf.io/gmgnr/",
+   "profile_image": "https://secure.gravatar.com/avatar/ccf859c7b40f846dfcba6b27e1887d75?d=identicon",
+   "self": "https://api.osf.io/v2/users/gmgnr/"
+  },
+  "numberOfNodes": 6,
+  "numberOfRegistrations": 1,
+  "numberOfPreprints": 0
+ },
+ "w4e69": {
+  "id": "w4e69",
+  "type": "users",
+  "attributes": {
+   "full_name": "Elle van Heusden",
+   "given_name": "Elle",
+   "middle_names": "",
+   "family_name": "van Heusden",
+   "suffix": "",
+   "date_registered": "2016-05-04T09:05:37.369000",
+   "active": true,
+   "timezone": "Europe/Amsterdam",
+   "locale": "en_US",
+   "social": {
+    "ssrn": "",
+    "orcid": "0000-0001-9671-6983",
+    "github": "ellevanheusden",
+    "scholar": "LMjIJhUAAAAJ&amp;hl=en&amp;oi=ao",
+    "twitter": "",
+    "linkedIn": "",
+    "impactStory": "",
+    "baiduScholar": "",
+    "researchGate": "Elle_Van_Heusden",
+    "researcherId": "",
+    "profileWebsites": [],
+    "academiaProfileID": "",
+    "academiaInstitution": ""
+   },
+   "employment": [
+    {
+     "title": "PhD student",
+     "endYear": "",
+     "ongoing": true,
+     "endMonth": 0,
+     "startYear": "2018",
+     "department": "Cognitive Psychology",
+     "startMonth": 1,
+     "institution": "Vrije Universiteit Amsterdam"
+    }
+   ],
+   "education": []
+  },
+  "relationships": {
+   "nodes": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/w4e69/nodes/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "groups": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/w4e69/groups/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "quickfiles": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/w4e69/quickfiles/?format=json",
+      "meta": {}
+     },
+     "upload": {
+      "href": "https://files.osf.io/v1/resources/eu4s69ypg8/providers/osfstorage/",
+      "meta": {}
+     },
+     "download": {
+      "href": "https://files.osf.io/v1/resources/eu4s69ypg8/providers/osfstorage/?zip=",
+      "meta": {}
+     }
+    }
+   },
+   "registrations": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/w4e69/registrations/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "institutions": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/w4e69/institutions/?format=json",
+      "meta": {}
+     },
+     "self": {
+      "href": "https://api.osf.io/v2/users/w4e69/relationships/institutions/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "preprints": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/w4e69/preprints/?format=json",
+      "meta": {}
+     }
+    }
+   }
+  },
+  "links": {
+   "html": "https://osf.io/w4e69/",
+   "profile_image": "https://secure.gravatar.com/avatar/820808979e225bc87f8e4be6d062a32f?d=identicon",
+   "self": "https://api.osf.io/v2/users/w4e69/"
+  },
+  "numberOfNodes": 0,
+  "numberOfRegistrations": 0,
+  "numberOfPreprints": 0
+ },
+ "w5868": {
+  "id": "w5868",
+  "type": "users",
+  "attributes": {
+   "full_name": "G. Ranzini",
+   "given_name": "Giulia",
+   "middle_names": "",
+   "family_name": "Ranzini",
+   "suffix": "",
+   "date_registered": "2017-02-01T13:23:49.505000",
+   "active": true,
+   "timezone": "Etc/UTC",
+   "locale": "en_US",
+   "social": {
+    "orcid": "0000-0003-3454-8632"
+   },
+   "employment": [
+    {
+     "title": "Assistant Professor",
+     "endYear": "",
+     "ongoing": true,
+     "endMonth": 0,
+     "startYear": "2015",
+     "department": "Communication Science",
+     "startMonth": 1,
+     "institution": "Vrije Universiteit Amsterdam"
+    }
+   ],
+   "education": []
+  },
+  "relationships": {
+   "nodes": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/w5868/nodes/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "groups": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/w5868/groups/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "quickfiles": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/w5868/quickfiles/?format=json",
+      "meta": {}
+     },
+     "upload": {
+      "href": "https://files.osf.io/v1/resources/evyuqtr2gs/providers/osfstorage/",
+      "meta": {}
+     },
+     "download": {
+      "href": "https://files.osf.io/v1/resources/evyuqtr2gs/providers/osfstorage/?zip=",
+      "meta": {}
+     }
+    }
+   },
+   "registrations": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/w5868/registrations/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "institutions": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/w5868/institutions/?format=json",
+      "meta": {}
+     },
+     "self": {
+      "href": "https://api.osf.io/v2/users/w5868/relationships/institutions/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "preprints": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/w5868/preprints/?format=json",
+      "meta": {}
+     }
+    }
+   }
+  },
+  "links": {
+   "html": "https://osf.io/w5868/",
+   "profile_image": "https://secure.gravatar.com/avatar/fc66495d896ca7668cc56502be19cdf7?d=identicon",
+   "self": "https://api.osf.io/v2/users/w5868/"
+  },
+  "numberOfNodes": 2,
+  "numberOfRegistrations": 2,
+  "numberOfPreprints": 0
+ },
+ "2phsw": {
+  "id": "2phsw",
+  "type": "users",
+  "attributes": {
+   "full_name": "Nick Kluft",
+   "given_name": "Nick",
+   "middle_names": "",
+   "family_name": "Kluft",
+   "suffix": "",
+   "date_registered": "2018-03-05T11:57:07.873387",
+   "active": true,
+   "timezone": "America/Vancouver",
+   "locale": "en_GB",
+   "social": {
+    "ssrn": "",
+    "orcid": "0000-0001-6504-8724",
+    "github": "nickkluft",
+    "scholar": "",
+    "twitter": "Nick_Kluft",
+    "linkedIn": "nickkluft",
+    "impactStory": "",
+    "baiduScholar": "",
+    "researchGate": "Nick_Kluft",
+    "researcherId": "",
+    "profileWebsites": [],
+    "academiaProfileID": "",
+    "academiaInstitution": ""
+   },
+   "employment": [
+    {
+     "title": "PhD candidate",
+     "endYear": "",
+     "ongoing": true,
+     "endMonth": 0,
+     "startYear": "2014",
+     "department": "Department of Human Movement Sciences",
+     "startMonth": 12,
+     "institution": "Vrije Universiteit Amsterdam"
+    }
+   ],
+   "education": [
+    {
+     "degree": "Beng",
+     "endYear": "2012",
+     "ongoing": false,
+     "endMonth": 9,
+     "startYear": "2008",
+     "department": "Bewegingstechnologie",
+     "startMonth": 9,
+     "institution": "Haagse Hogeschool"
+    },
+    {
+     "degree": "Master of Science (MSc)",
+     "endYear": "2014",
+     "ongoing": false,
+     "endMonth": 11,
+     "startYear": "2012",
+     "department": "Department of Human Movement Sciences",
+     "startMonth": 9,
+     "institution": "Vrije Universiteit Amsterdam"
+    }
+   ]
+  },
+  "relationships": {
+   "nodes": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/2phsw/nodes/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "groups": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/2phsw/groups/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "quickfiles": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/2phsw/quickfiles/?format=json",
+      "meta": {}
+     },
+     "upload": {
+      "href": "https://files.osf.io/v1/resources/vqf3wteg25/providers/osfstorage/",
+      "meta": {}
+     },
+     "download": {
+      "href": "https://files.osf.io/v1/resources/vqf3wteg25/providers/osfstorage/?zip=",
+      "meta": {}
+     }
+    }
+   },
+   "registrations": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/2phsw/registrations/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "institutions": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/2phsw/institutions/?format=json",
+      "meta": {}
+     },
+     "self": {
+      "href": "https://api.osf.io/v2/users/2phsw/relationships/institutions/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "preprints": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/2phsw/preprints/?format=json",
+      "meta": {}
+     }
+    }
+   }
+  },
+  "links": {
+   "html": "https://osf.io/2phsw/",
+   "profile_image": "https://secure.gravatar.com/avatar/71e4bac44745cedc7fac1723da28e6bd?d=identicon",
+   "self": "https://api.osf.io/v2/users/2phsw/"
+  },
+  "numberOfNodes": 4,
+  "numberOfRegistrations": 1,
+  "numberOfPreprints": 0
+ },
+ "avxn2": {
+  "id": "avxn2",
+  "type": "users",
+  "attributes": {
+   "full_name": "Annike Bekius",
+   "given_name": "Annike",
+   "middle_names": "",
+   "family_name": "Bekius",
+   "suffix": "",
+   "date_registered": "2018-03-05T11:32:25.433731",
+   "active": true,
+   "timezone": "Europe/Amsterdam",
+   "locale": "en_US",
+   "social": {},
+   "employment": [
+    {
+     "title": "PhD",
+     "endYear": "",
+     "ongoing": true,
+     "endMonth": 0,
+     "startYear": "2016",
+     "department": "Human Movement Sciences",
+     "startMonth": 1,
+     "institution": "Vrije Universiteit Amsterdam"
+    }
+   ],
+   "education": [
+    {
+     "degree": "MSc.",
+     "endYear": "2015",
+     "ongoing": false,
+     "endMonth": 7,
+     "startYear": "2013",
+     "department": "Faculty of Science; Institute for Interdisciplinary Studies",
+     "startMonth": 9,
+     "institution": "University of Amsterdam"
+    }
+   ]
+  },
+  "relationships": {
+   "nodes": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/avxn2/nodes/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "groups": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/avxn2/groups/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "quickfiles": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/avxn2/quickfiles/?format=json",
+      "meta": {}
+     },
+     "upload": {
+      "href": "https://files.osf.io/v1/resources/j5wb2ratpu/providers/osfstorage/",
+      "meta": {}
+     },
+     "download": {
+      "href": "https://files.osf.io/v1/resources/j5wb2ratpu/providers/osfstorage/?zip=",
+      "meta": {}
+     }
+    }
+   },
+   "registrations": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/avxn2/registrations/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "institutions": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/avxn2/institutions/?format=json",
+      "meta": {}
+     },
+     "self": {
+      "href": "https://api.osf.io/v2/users/avxn2/relationships/institutions/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "preprints": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/avxn2/preprints/?format=json",
+      "meta": {}
+     }
+    }
+   }
+  },
+  "links": {
+   "html": "https://osf.io/avxn2/",
+   "profile_image": "https://secure.gravatar.com/avatar/3e6139d8be50b89964a97901c3bcdd8b?d=identicon",
+   "self": "https://api.osf.io/v2/users/avxn2/"
+  },
+  "numberOfNodes": 1,
+  "numberOfRegistrations": 0,
+  "numberOfPreprints": 0
+ },
+ "erp2d": {
+  "id": "erp2d",
+  "type": "users",
+  "attributes": {
+   "full_name": "Romy van den Heerik",
+   "given_name": "Romy",
+   "middle_names": "",
+   "family_name": "van den Heerik",
+   "suffix": "",
+   "date_registered": "2018-12-09T12:32:35.819050",
+   "active": true,
+   "timezone": "Etc/UTC",
+   "locale": "en_US",
+   "social": {
+    "orcid": "0000-0003-4652-2915"
+   },
+   "employment": [
+    {
+     "title": "Junior Lecturer",
+     "endYear": "",
+     "ongoing": true,
+     "endMonth": 0,
+     "startYear": "2018",
+     "department": "Humanities",
+     "startMonth": 9,
+     "institution": "Vrije Universiteit Amsterdam"
+    }
+   ],
+   "education": []
+  },
+  "relationships": {
+   "nodes": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/erp2d/nodes/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "groups": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/erp2d/groups/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "quickfiles": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/erp2d/quickfiles/?format=json",
+      "meta": {}
+     },
+     "upload": {
+      "href": "https://files.osf.io/v1/resources/983bu2ymg7/providers/osfstorage/",
+      "meta": {}
+     },
+     "download": {
+      "href": "https://files.osf.io/v1/resources/983bu2ymg7/providers/osfstorage/?zip=",
+      "meta": {}
+     }
+    }
+   },
+   "registrations": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/erp2d/registrations/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "institutions": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/erp2d/institutions/?format=json",
+      "meta": {}
+     },
+     "self": {
+      "href": "https://api.osf.io/v2/users/erp2d/relationships/institutions/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "preprints": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/erp2d/preprints/?format=json",
+      "meta": {}
+     }
+    }
+   }
+  },
+  "links": {
+   "html": "https://osf.io/erp2d/",
+   "profile_image": "https://secure.gravatar.com/avatar/1af29c76b526d2b3384910b09267600e?d=identicon",
+   "self": "https://api.osf.io/v2/users/erp2d/"
+  },
+  "numberOfNodes": 1,
+  "numberOfRegistrations": 0,
+  "numberOfPreprints": 0
+ },
+ "acgsw": {
+  "id": "acgsw",
+  "type": "users",
+  "attributes": {
+   "full_name": "Reubs Walsh",
+   "given_name": "Reubs",
+   "middle_names": "J",
+   "family_name": "Walsh",
+   "suffix": "",
+   "date_registered": "2019-04-12T12:24:01.158571",
+   "active": true,
+   "timezone": "Etc/UTC",
+   "locale": "en_US",
+   "social": {
+    "ssrn": "",
+    "orcid": "0000-0002-5592-7562",
+    "github": "",
+    "scholar": "uWG-1kYAAAAJ",
+    "twitter": "reubsjw",
+    "linkedIn": "",
+    "impactStory": "",
+    "baiduScholar": "",
+    "researchGate": "Reubs_Walsh",
+    "researcherId": "",
+    "profileWebsites": [
+     "https://research.vu.nl/en/persons/reubs-walsh",
+     "http://so-connect.net",
+     "http://tpathealth.org"
+    ],
+    "academiaProfileID": "ReubsWalsh",
+    "academiaInstitution": "v-u"
+   },
+   "employment": [
+    {
+     "title": "Promovendus",
+     "endYear": "",
+     "ongoing": true,
+     "endMonth": 0,
+     "startYear": "2016",
+     "department": "Clinical, Developmental, Neuro- Psychology",
+     "startMonth": 4,
+     "institution": "Vrije Universiteit Amsterdam"
+    }
+   ],
+   "education": [
+    {
+     "degree": "BA Physiological Sciences",
+     "endYear": "2013",
+     "ongoing": false,
+     "endMonth": 6,
+     "startYear": "2009",
+     "department": "Physiology, Anatomy and Genetics",
+     "startMonth": 10,
+     "institution": "University of Oxford (St Edmund Hall)"
+    },
+    {
+     "degree": "MSc Cognitive Neuroscience and Neuropsychology",
+     "endYear": "2016",
+     "ongoing": false,
+     "endMonth": 4,
+     "startYear": "2013",
+     "department": "Psychology",
+     "startMonth": 9,
+     "institution": "Birkbeck, University of London"
+    }
+   ]
+  },
+  "relationships": {
+   "nodes": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/acgsw/nodes/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "groups": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/acgsw/groups/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "quickfiles": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/acgsw/quickfiles/?format=json",
+      "meta": {}
+     },
+     "upload": {
+      "href": "https://files.osf.io/v1/resources/ryfe9w4kxq/providers/osfstorage/",
+      "meta": {}
+     },
+     "download": {
+      "href": "https://files.osf.io/v1/resources/ryfe9w4kxq/providers/osfstorage/?zip=",
+      "meta": {}
+     }
+    }
+   },
+   "registrations": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/acgsw/registrations/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "institutions": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/acgsw/institutions/?format=json",
+      "meta": {}
+     },
+     "self": {
+      "href": "https://api.osf.io/v2/users/acgsw/relationships/institutions/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "preprints": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/acgsw/preprints/?format=json",
+      "meta": {}
+     }
+    }
+   }
+  },
+  "links": {
+   "html": "https://osf.io/acgsw/",
+   "profile_image": "https://secure.gravatar.com/avatar/79e867226e3baf1f8b61c0a969dfd35c?d=identicon",
+   "self": "https://api.osf.io/v2/users/acgsw/"
+  },
+  "numberOfNodes": 1,
+  "numberOfRegistrations": 2,
+  "numberOfPreprints": 1
+ },
+ "upd9n": {
+  "id": "upd9n",
+  "type": "users",
+  "attributes": {
+   "full_name": "Simon Columbus",
+   "given_name": "Simon",
+   "middle_names": "",
+   "family_name": "Columbus",
+   "suffix": "",
+   "date_registered": "2015-02-23T16:47:08.004000",
+   "active": true,
+   "timezone": "Europe/Amsterdam",
+   "locale": "en_US",
+   "social": {
+    "orcid": "0000-0003-1546-955X",
+    "github": "simoncolumbus",
+    "scholar": "c-7tZ8QAAAAJ",
+    "twitter": "simoncolumbus",
+    "linkedIn": "167400329",
+    "impactStory": "",
+    "researcherId": "",
+    "profileWebsites": [
+     "http://simoncolumbus.com"
+    ]
+   },
+   "employment": [
+    {
+     "title": "Ph.D. Candidate",
+     "endYear": "",
+     "ongoing": true,
+     "endMonth": 0,
+     "startYear": "2016",
+     "department": "Dept. of Experimental and Applied Psychology",
+     "startMonth": 7,
+     "institution": "Vrije Universiteit Amsterdam"
+    }
+   ],
+   "education": [
+    {
+     "degree": "M.Sc. Psychology (Methodology and Statistics and Organisational Psychology)",
+     "endYear": "2016",
+     "ongoing": false,
+     "endMonth": 6,
+     "startYear": "2013",
+     "department": "Psychology",
+     "startMonth": 9,
+     "institution": "University of Amsterdam"
+    },
+    {
+     "degree": "BA Social Sciences (Psychology, Economics, and Information)",
+     "endYear": "2013",
+     "ongoing": false,
+     "endMonth": 7,
+     "startYear": "2010",
+     "department": "",
+     "startMonth": 9,
+     "institution": "Amsterdam University College"
+    },
+    {
+     "degree": "Exchange",
+     "endYear": "2012",
+     "ongoing": false,
+     "endMonth": 12,
+     "startYear": "2012",
+     "department": "",
+     "startMonth": 9,
+     "institution": "McGill University"
+    }
+   ]
+  },
+  "relationships": {
+   "nodes": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/upd9n/nodes/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "groups": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/upd9n/groups/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "quickfiles": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/upd9n/quickfiles/?format=json",
+      "meta": {}
+     },
+     "upload": {
+      "href": "https://files.osf.io/v1/resources/8bpyq9xdw6/providers/osfstorage/",
+      "meta": {}
+     },
+     "download": {
+      "href": "https://files.osf.io/v1/resources/8bpyq9xdw6/providers/osfstorage/?zip=",
+      "meta": {}
+     }
+    }
+   },
+   "registrations": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/upd9n/registrations/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "institutions": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/upd9n/institutions/?format=json",
+      "meta": {}
+     },
+     "self": {
+      "href": "https://api.osf.io/v2/users/upd9n/relationships/institutions/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "preprints": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/upd9n/preprints/?format=json",
+      "meta": {}
+     }
+    }
+   }
+  },
+  "links": {
+   "html": "https://osf.io/upd9n/",
+   "profile_image": "https://secure.gravatar.com/avatar/63879279ed318eaf75e8d0769d95bcb9?d=identicon",
+   "self": "https://api.osf.io/v2/users/upd9n/"
+  },
+  "numberOfNodes": 51,
+  "numberOfRegistrations": 22,
+  "numberOfPreprints": 6
+ },
+ "geu89": {
+  "id": "geu89",
+  "type": "users",
+  "attributes": {
+   "full_name": "Annelies Vredeveldt",
+   "given_name": "Annelies",
+   "middle_names": "",
+   "family_name": "Vredeveldt",
+   "suffix": "",
+   "date_registered": "2016-04-13T05:00:28.895000",
+   "active": true,
+   "timezone": "Europe/Amsterdam",
+   "locale": "en_US",
+   "social": {
+    "orcid": "0000-0003-1925-4062",
+    "github": "",
+    "scholar": "wgsTaQwAAAAJ&amp;hl=nl",
+    "twitter": "anneliesvrede",
+    "linkedIn": "in/anneliesvredeveldt",
+    "impactStory": "",
+    "baiduScholar": "",
+    "researchGate": "Annelies_Vredeveldt",
+    "researcherId": "",
+    "profileWebsites": [
+     "http://annelies.vredeveldt.com"
+    ],
+    "academiaProfileID": "AnneliesVredeveldt",
+    "academiaInstitution": "vu-nl"
+   },
+   "employment": [
+    {
+     "title": "Researchers",
+     "endYear": "",
+     "ongoing": true,
+     "endMonth": 0,
+     "startYear": "2013",
+     "department": "Department of Criminal Law and Criminology",
+     "startMonth": 11,
+     "institution": "Vrije Universiteit Amsterdam"
+    }
+   ],
+   "education": [
+    {
+     "degree": "Ph.D.",
+     "endYear": "2011",
+     "ongoing": false,
+     "endMonth": 12,
+     "startYear": "2008",
+     "department": "Department of Psychology",
+     "startMonth": 10,
+     "institution": "University of York"
+    },
+    {
+     "degree": "M.Sc.",
+     "endYear": "2008",
+     "ongoing": false,
+     "endMonth": 7,
+     "startYear": "2007",
+     "department": "Faculty of Psychology and Neuroscience",
+     "startMonth": 8,
+     "institution": "Maastricht University"
+    },
+    {
+     "degree": "B.A.",
+     "endYear": "2007",
+     "ongoing": false,
+     "endMonth": 5,
+     "startYear": "2004",
+     "department": "University College Utrecht",
+     "startMonth": 8,
+     "institution": "Utrecht University"
+    }
+   ]
+  },
+  "relationships": {
+   "nodes": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/geu89/nodes/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "groups": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/geu89/groups/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "quickfiles": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/geu89/quickfiles/?format=json",
+      "meta": {}
+     },
+     "upload": {
+      "href": "https://files.osf.io/v1/resources/cnsze4t9y6/providers/osfstorage/",
+      "meta": {}
+     },
+     "download": {
+      "href": "https://files.osf.io/v1/resources/cnsze4t9y6/providers/osfstorage/?zip=",
+      "meta": {}
+     }
+    }
+   },
+   "registrations": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/geu89/registrations/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "institutions": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/geu89/institutions/?format=json",
+      "meta": {}
+     },
+     "self": {
+      "href": "https://api.osf.io/v2/users/geu89/relationships/institutions/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "preprints": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/geu89/preprints/?format=json",
+      "meta": {}
+     }
+    }
+   }
+  },
+  "links": {
+   "html": "https://osf.io/geu89/",
+   "profile_image": "https://secure.gravatar.com/avatar/596ba5f550b21589185ec084ffdf5ffe?d=identicon",
+   "self": "https://api.osf.io/v2/users/geu89/"
+  },
+  "numberOfNodes": 1,
+  "numberOfRegistrations": 2,
+  "numberOfPreprints": 0
+ },
+ "irsyg": {
+  "id": "irsyg",
+  "type": "users",
+  "attributes": {
+   "full_name": "Philipp D. Koellinger",
+   "given_name": "Philipp",
+   "middle_names": "Daniel",
+   "family_name": "Koellinger",
+   "suffix": "",
+   "date_registered": "2014-05-30T08:55:16.395000",
+   "active": true,
+   "timezone": "Europe/Berlin",
+   "locale": "en_US",
+   "social": {
+    "orcid": "0000-0001-7413-0412",
+    "github": "pkoellinger",
+    "scholar": "https://scholar.google.nl/citations?user=Vksqk7sAAAAJ&amp;hl=en",
+    "twitter": "PKoellinger",
+    "linkedIn": "",
+    "impactStory": "",
+    "baiduScholar": "",
+    "researchGate": "",
+    "researcherId": "",
+    "profileWebsites": [
+     "http://www.philipp-koellinger.com"
+    ],
+    "academiaProfileID": "",
+    "academiaInstitution": ""
+   },
+   "employment": [
+    {
+     "title": "Professor of genoecomomics",
+     "endYear": "",
+     "ongoing": true,
+     "endMonth": 0,
+     "startYear": "2015",
+     "department": "",
+     "startMonth": 9,
+     "institution": "Vrije Universiteit Amsterdam"
+    }
+   ],
+   "education": []
+  },
+  "relationships": {
+   "nodes": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/irsyg/nodes/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "groups": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/irsyg/groups/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "quickfiles": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/irsyg/quickfiles/?format=json",
+      "meta": {}
+     },
+     "upload": {
+      "href": "https://files.osf.io/v1/resources/tbpdq9j6z3/providers/osfstorage/",
+      "meta": {}
+     },
+     "download": {
+      "href": "https://files.osf.io/v1/resources/tbpdq9j6z3/providers/osfstorage/?zip=",
+      "meta": {}
+     }
+    }
+   },
+   "registrations": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/irsyg/registrations/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "institutions": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/irsyg/institutions/?format=json",
+      "meta": {}
+     },
+     "self": {
+      "href": "https://api.osf.io/v2/users/irsyg/relationships/institutions/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "preprints": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/irsyg/preprints/?format=json",
+      "meta": {}
+     }
+    }
+   }
+  },
+  "links": {
+   "html": "https://osf.io/irsyg/",
+   "profile_image": "https://secure.gravatar.com/avatar/826379f725707cd9e851c2ec2a049c08?d=identicon",
+   "self": "https://api.osf.io/v2/users/irsyg/"
+  },
+  "numberOfNodes": 9,
+  "numberOfRegistrations": 4,
+  "numberOfPreprints": 0
+ },
+ "94qhg": {
+  "id": "94qhg",
+  "type": "users",
+  "attributes": {
+   "full_name": "Mirjam Oosterman",
+   "given_name": "Mirjam",
+   "middle_names": "",
+   "family_name": "Oosterman",
+   "suffix": "",
+   "date_registered": "2017-09-09T15:01:24.641460",
+   "active": true,
+   "timezone": "Etc/UTC",
+   "locale": "en_US",
+   "social": {
+    "orcid": "0000-0002-1487-4775"
+   },
+   "employment": [
+    {
+     "title": "Associate professor",
+     "endYear": "",
+     "ongoing": true,
+     "endMonth": 0,
+     "startYear": "2015",
+     "department": "Clinical Child &amp; Family Studies",
+     "startMonth": 3,
+     "institution": "Vrije Universiteit Amsterdam"
+    }
+   ],
+   "education": []
+  },
+  "relationships": {
+   "nodes": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/94qhg/nodes/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "groups": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/94qhg/groups/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "quickfiles": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/94qhg/quickfiles/?format=json",
+      "meta": {}
+     },
+     "upload": {
+      "href": "https://files.osf.io/v1/resources/jakgznvc8m/providers/osfstorage/",
+      "meta": {}
+     },
+     "download": {
+      "href": "https://files.osf.io/v1/resources/jakgznvc8m/providers/osfstorage/?zip=",
+      "meta": {}
+     }
+    }
+   },
+   "registrations": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/94qhg/registrations/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "institutions": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/94qhg/institutions/?format=json",
+      "meta": {}
+     },
+     "self": {
+      "href": "https://api.osf.io/v2/users/94qhg/relationships/institutions/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "preprints": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/94qhg/preprints/?format=json",
+      "meta": {}
+     }
+    }
+   }
+  },
+  "links": {
+   "html": "https://osf.io/94qhg/",
+   "profile_image": "https://secure.gravatar.com/avatar/5315f38c3f4bc6dc90d713a456cfd752?d=identicon",
+   "self": "https://api.osf.io/v2/users/94qhg/"
+  },
+  "numberOfNodes": 7,
+  "numberOfRegistrations": 3,
+  "numberOfPreprints": 1
+ },
+ "26qs8": {
+  "id": "26qs8",
+  "type": "users",
+  "attributes": {
+   "full_name": "Annika S. Nieper",
+   "given_name": "Annika",
+   "middle_names": "S.",
+   "family_name": "Nieper",
+   "suffix": "",
+   "date_registered": "2018-02-20T09:23:30.190414",
+   "active": true,
+   "timezone": "Europe/Berlin",
+   "locale": "en_US",
+   "social": {},
+   "employment": [
+    {
+     "title": "",
+     "endYear": "",
+     "ongoing": true,
+     "endMonth": 0,
+     "startYear": "2019",
+     "department": "",
+     "startMonth": 3,
+     "institution": "Vrije Universiteit Amsterdam"
+    }
+   ],
+   "education": [
+    {
+     "degree": "Research Master in Social Psychology",
+     "endYear": "2018",
+     "ongoing": false,
+     "endMonth": 8,
+     "startYear": "2016",
+     "department": "",
+     "startMonth": 9,
+     "institution": "Universiteit van Amsterdam"
+    }
+   ]
+  },
+  "relationships": {
+   "nodes": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/26qs8/nodes/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "groups": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/26qs8/groups/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "quickfiles": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/26qs8/quickfiles/?format=json",
+      "meta": {}
+     },
+     "upload": {
+      "href": "https://files.osf.io/v1/resources/4za2xehb5g/providers/osfstorage/",
+      "meta": {}
+     },
+     "download": {
+      "href": "https://files.osf.io/v1/resources/4za2xehb5g/providers/osfstorage/?zip=",
+      "meta": {}
+     }
+    }
+   },
+   "registrations": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/26qs8/registrations/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "institutions": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/26qs8/institutions/?format=json",
+      "meta": {}
+     },
+     "self": {
+      "href": "https://api.osf.io/v2/users/26qs8/relationships/institutions/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "preprints": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/26qs8/preprints/?format=json",
+      "meta": {}
+     }
+    }
+   }
+  },
+  "links": {
+   "html": "https://osf.io/26qs8/",
+   "profile_image": "https://secure.gravatar.com/avatar/e08c547bc9c83ce65e771cae5f07a80e?d=identicon",
+   "self": "https://api.osf.io/v2/users/26qs8/"
+  },
+  "numberOfNodes": 3,
+  "numberOfRegistrations": 2,
+  "numberOfPreprints": 0
+ },
+ "rcq5n": {
+  "id": "rcq5n",
+  "type": "users",
+  "attributes": {
+   "full_name": "B. Wang",
+   "given_name": "B.",
+   "middle_names": "",
+   "family_name": "Wang",
+   "suffix": "",
+   "date_registered": "2020-01-15T22:24:04.650009",
+   "active": true,
+   "timezone": "Etc/UTC",
+   "locale": "en_US",
+   "social": {
+    "orcid": "0000-0003-4262-0470"
+   },
+   "employment": [
+    {
+     "title": "PhD candidate",
+     "endYear": "",
+     "ongoing": true,
+     "endMonth": 0,
+     "startYear": "2019",
+     "department": "Faculty of Behavioural and Movement Sciences, Department of Experimental and Applied Psychology",
+     "startMonth": 11,
+     "institution": "Vrije Universiteit Amsterdam"
+    }
+   ],
+   "education": []
+  },
+  "relationships": {
+   "nodes": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/rcq5n/nodes/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "groups": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/rcq5n/groups/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "quickfiles": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/rcq5n/quickfiles/?format=json",
+      "meta": {}
+     },
+     "upload": {
+      "href": "https://files.osf.io/v1/resources/cvh7ysxu5n/providers/osfstorage/",
+      "meta": {}
+     },
+     "download": {
+      "href": "https://files.osf.io/v1/resources/cvh7ysxu5n/providers/osfstorage/?zip=",
+      "meta": {}
+     }
+    }
+   },
+   "registrations": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/rcq5n/registrations/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "institutions": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/rcq5n/institutions/?format=json",
+      "meta": {}
+     },
+     "self": {
+      "href": "https://api.osf.io/v2/users/rcq5n/relationships/institutions/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "preprints": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/rcq5n/preprints/?format=json",
+      "meta": {}
+     }
+    }
+   }
+  },
+  "links": {
+   "html": "https://osf.io/rcq5n/",
+   "profile_image": "https://secure.gravatar.com/avatar/bcef2726d0c512b15aa12bd36114a11c?d=identicon",
+   "self": "https://api.osf.io/v2/users/rcq5n/"
+  },
+  "numberOfNodes": 0,
+  "numberOfRegistrations": 2,
+  "numberOfPreprints": 0
+ },
+ "9jck3": {
+  "id": "9jck3",
+  "type": "users",
+  "attributes": {
+   "full_name": "Marie Spreckley",
+   "given_name": "Marie",
+   "middle_names": "",
+   "family_name": "Spreckley",
+   "suffix": "",
+   "date_registered": "2020-06-10T11:14:39.817398",
+   "active": true,
+   "timezone": "Etc/UTC",
+   "locale": "en_US",
+   "social": {},
+   "employment": [
+    {
+     "title": "PhD Candidate",
+     "endYear": "",
+     "ongoing": true,
+     "endMonth": 0,
+     "startYear": "2020",
+     "department": "Department of Health Sciences, Faculty of Science",
+     "startMonth": 1,
+     "institution": "Vrije Universiteit Amsterdam"
+    }
+   ],
+   "education": []
+  },
+  "relationships": {
+   "nodes": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/9jck3/nodes/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "groups": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/9jck3/groups/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "quickfiles": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/9jck3/quickfiles/?format=json",
+      "meta": {}
+     },
+     "upload": {
+      "href": "https://files.osf.io/v1/resources/gfkd3wymr4/providers/osfstorage/",
+      "meta": {}
+     },
+     "download": {
+      "href": "https://files.osf.io/v1/resources/gfkd3wymr4/providers/osfstorage/?zip=",
+      "meta": {}
+     }
+    }
+   },
+   "registrations": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/9jck3/registrations/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "institutions": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/9jck3/institutions/?format=json",
+      "meta": {}
+     },
+     "self": {
+      "href": "https://api.osf.io/v2/users/9jck3/relationships/institutions/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "preprints": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/9jck3/preprints/?format=json",
+      "meta": {}
+     }
+    }
+   }
+  },
+  "links": {
+   "html": "https://osf.io/9jck3/",
+   "profile_image": "https://secure.gravatar.com/avatar/c97223eb3836854bedcc977a91991e75?d=identicon",
+   "self": "https://api.osf.io/v2/users/9jck3/"
+  },
+  "numberOfNodes": 1,
+  "numberOfRegistrations": 1,
+  "numberOfPreprints": 0
+ },
+ "75d2n": {
+  "id": "75d2n",
+  "type": "users",
+  "attributes": {
+   "full_name": "Chris Vriend",
+   "given_name": "Chris",
+   "middle_names": "",
+   "family_name": "Vriend",
+   "suffix": "",
+   "date_registered": "2018-09-10T08:52:42.341783",
+   "active": true,
+   "timezone": "Etc/UTC",
+   "locale": "en_US",
+   "social": {
+    "ssrn": "",
+    "orcid": "0000-0003-3111-1304",
+    "github": "",
+    "scholar": "",
+    "twitter": "",
+    "linkedIn": "",
+    "impactStory": "",
+    "baiduScholar": "",
+    "researchGate": "",
+    "researcherId": "",
+    "profileWebsites": [
+     "https://research.vumc.nl/en/persons/chris-vriend",
+     "https://psychiatryamsterdam.nl/researcher/vriend-chris/"
+    ],
+    "academiaProfileID": "",
+    "academiaInstitution": ""
+   },
+   "employment": [
+    {
+     "title": "Assistant Professor",
+     "endYear": "",
+     "ongoing": true,
+     "endMonth": 0,
+     "startYear": "2016",
+     "department": "Anatomy &amp; Neurosciences  + Psychiatry",
+     "startMonth": 1,
+     "institution": "Amsterdam UMC, Vrije Universiteit Amsterdam"
+    }
+   ],
+   "education": []
+  },
+  "relationships": {
+   "nodes": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/75d2n/nodes/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "groups": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/75d2n/groups/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "quickfiles": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/75d2n/quickfiles/?format=json",
+      "meta": {}
+     },
+     "upload": {
+      "href": "https://files.osf.io/v1/resources/26xkvegrwq/providers/osfstorage/",
+      "meta": {}
+     },
+     "download": {
+      "href": "https://files.osf.io/v1/resources/26xkvegrwq/providers/osfstorage/?zip=",
+      "meta": {}
+     }
+    }
+   },
+   "registrations": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/75d2n/registrations/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "institutions": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/75d2n/institutions/?format=json",
+      "meta": {}
+     },
+     "self": {
+      "href": "https://api.osf.io/v2/users/75d2n/relationships/institutions/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "preprints": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/75d2n/preprints/?format=json",
+      "meta": {}
+     }
+    }
+   }
+  },
+  "links": {
+   "html": "https://osf.io/75d2n/",
+   "profile_image": "https://secure.gravatar.com/avatar/92cd3905cfdc91a5106fe29d384e997f?d=identicon",
+   "self": "https://api.osf.io/v2/users/75d2n/"
+  },
+  "numberOfNodes": 0,
+  "numberOfRegistrations": 4,
+  "numberOfPreprints": 0
+ },
+ "8y46q": {
+  "id": "8y46q",
+  "type": "users",
+  "attributes": {
+   "full_name": "Ricarda Florine Weiland",
+   "given_name": "Ricarda",
+   "middle_names": "Florine",
+   "family_name": "Weiland",
+   "suffix": "",
+   "date_registered": "2017-10-19T15:07:10.196190",
+   "active": true,
+   "timezone": "Europe/Amsterdam",
+   "locale": "en_US",
+   "social": {
+    "ssrn": "",
+    "orcid": "0000-0003-2677-9086",
+    "github": "",
+    "scholar": "",
+    "twitter": "",
+    "linkedIn": "in/ricarda-florine-weiland-2b304b134/",
+    "impactStory": "",
+    "baiduScholar": "",
+    "researchGate": "",
+    "researcherId": "",
+    "profileWebsites": [
+     "https://research.vu.nl/en/persons/ricarda-weiland"
+    ],
+    "academiaProfileID": "",
+    "academiaInstitution": ""
+   },
+   "employment": [
+    {
+     "title": "PhD candidate",
+     "endYear": "",
+     "ongoing": true,
+     "endMonth": 0,
+     "startYear": "2017",
+     "department": "Faculty of Behavior and Movement Sciences - Section Clinical Developmental Psychology",
+     "startMonth": 10,
+     "institution": "Vrije Universiteit Amsterdam, The Netherlands"
+    }
+   ],
+   "education": [
+    {
+     "degree": "B.Sc. Psychology",
+     "endYear": "2015",
+     "ongoing": false,
+     "endMonth": 9,
+     "startYear": "2012",
+     "department": "Psychology",
+     "startMonth": 10,
+     "institution": "Ruhr University Bochum, Germany"
+    },
+    {
+     "degree": "research M.Sc. Cognitive Neuroscience",
+     "endYear": "2017",
+     "ongoing": false,
+     "endMonth": 8,
+     "startYear": "2015",
+     "department": "Donders Institute for Brain, Cognition and Behavior",
+     "startMonth": 9,
+     "institution": "Radboud University Nijmegen, The Netherlands"
+    }
+   ]
+  },
+  "relationships": {
+   "nodes": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/8y46q/nodes/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "groups": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/8y46q/groups/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "quickfiles": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/8y46q/quickfiles/?format=json",
+      "meta": {}
+     },
+     "upload": {
+      "href": "https://files.osf.io/v1/resources/2uebsw6fcq/providers/osfstorage/",
+      "meta": {}
+     },
+     "download": {
+      "href": "https://files.osf.io/v1/resources/2uebsw6fcq/providers/osfstorage/?zip=",
+      "meta": {}
+     }
+    }
+   },
+   "registrations": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/8y46q/registrations/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "institutions": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/8y46q/institutions/?format=json",
+      "meta": {}
+     },
+     "self": {
+      "href": "https://api.osf.io/v2/users/8y46q/relationships/institutions/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "preprints": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/8y46q/preprints/?format=json",
+      "meta": {}
+     }
+    }
+   }
+  },
+  "links": {
+   "html": "https://osf.io/8y46q/",
+   "profile_image": "https://secure.gravatar.com/avatar/28be5f911fc1a6f8590f9559d787826c?d=identicon",
+   "self": "https://api.osf.io/v2/users/8y46q/"
+  },
+  "numberOfNodes": 0,
+  "numberOfRegistrations": 4,
+  "numberOfPreprints": 0
+ },
+ "e75g4": {
+  "id": "e75g4",
+  "type": "users",
+  "attributes": {
+   "full_name": "Jan-Willem van Prooijen",
+   "given_name": "Jan-Willem",
+   "middle_names": "",
+   "family_name": "van Prooijen",
+   "suffix": "",
+   "date_registered": "2017-09-25T14:28:45.160849",
+   "active": true,
+   "timezone": "Etc/UTC",
+   "locale": "en_US",
+   "social": {
+    "ssrn": "",
+    "orcid": "",
+    "github": "",
+    "scholar": "",
+    "twitter": "",
+    "linkedIn": "",
+    "impactStory": "",
+    "baiduScholar": "",
+    "researchGate": "",
+    "researcherId": "",
+    "profileWebsites": [
+     "http://www.janwillemvanprooijen.com"
+    ],
+    "academiaProfileID": "",
+    "academiaInstitution": ""
+   },
+   "employment": [
+    {
+     "title": "Associate Professor",
+     "endYear": "",
+     "ongoing": true,
+     "endMonth": 0,
+     "startYear": "2007",
+     "department": "Experimental and Applied Psychology",
+     "startMonth": 9,
+     "institution": "VU Amsterdam"
+    }
+   ],
+   "education": []
+  },
+  "relationships": {
+   "nodes": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/e75g4/nodes/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "groups": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/e75g4/groups/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "quickfiles": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/e75g4/quickfiles/?format=json",
+      "meta": {}
+     },
+     "upload": {
+      "href": "https://files.osf.io/v1/resources/5f8p2ysm3g/providers/osfstorage/",
+      "meta": {}
+     },
+     "download": {
+      "href": "https://files.osf.io/v1/resources/5f8p2ysm3g/providers/osfstorage/?zip=",
+      "meta": {}
+     }
+    }
+   },
+   "registrations": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/e75g4/registrations/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "institutions": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/e75g4/institutions/?format=json",
+      "meta": {}
+     },
+     "self": {
+      "href": "https://api.osf.io/v2/users/e75g4/relationships/institutions/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "preprints": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/e75g4/preprints/?format=json",
+      "meta": {}
+     }
+    }
+   }
+  },
+  "links": {
+   "html": "https://osf.io/e75g4/",
+   "profile_image": "https://secure.gravatar.com/avatar/a6b44fe21b076b66de1768d24f255e22?d=identicon",
+   "self": "https://api.osf.io/v2/users/e75g4/"
+  },
+  "numberOfNodes": 6,
+  "numberOfRegistrations": 16,
+  "numberOfPreprints": 1
+ },
+ "h4wue": {
+  "id": "h4wue",
+  "type": "users",
+  "attributes": {
+   "full_name": "Laura Weiss",
+   "given_name": "Laura",
+   "middle_names": "Anne",
+   "family_name": "Weiss",
+   "suffix": "",
+   "date_registered": "2017-11-08T13:56:30.030055",
+   "active": true,
+   "timezone": "Africa/Johannesburg",
+   "locale": "en_US",
+   "social": {
+    "ssrn": "",
+    "orcid": "0000-0002-1302-8729",
+    "github": "",
+    "scholar": "aZ-epMwAAAAJ&amp;hl=nl",
+    "twitter": "LauraAnneWeiss",
+    "linkedIn": "in/laura-weiss-de-boer-3b191450/",
+    "impactStory": "",
+    "baiduScholar": "",
+    "researchGate": "Laura_A_Weiss",
+    "researcherId": "",
+    "profileWebsites": [],
+    "academiaProfileID": "LauraWei\u1e9e",
+    "academiaInstitution": "nwu"
+   },
+   "employment": [
+    {
+     "title": "postdoctoral researcher",
+     "endYear": "",
+     "ongoing": true,
+     "endMonth": 0,
+     "startYear": "2020",
+     "department": "Criminal Law and Criminology",
+     "startMonth": 1,
+     "institution": "VU Amsterdam"
+    }
+   ],
+   "education": [
+    {
+     "degree": "PhD",
+     "endYear": null,
+     "ongoing": false,
+     "endMonth": null,
+     "startYear": null,
+     "department": "Psychology, Health &amp; Technology",
+     "startMonth": null,
+     "institution": "University of Twente"
+    }
+   ]
+  },
+  "relationships": {
+   "nodes": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/h4wue/nodes/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "groups": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/h4wue/groups/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "quickfiles": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/h4wue/quickfiles/?format=json",
+      "meta": {}
+     },
+     "upload": {
+      "href": "https://files.osf.io/v1/resources/6y3rnjmabt/providers/osfstorage/",
+      "meta": {}
+     },
+     "download": {
+      "href": "https://files.osf.io/v1/resources/6y3rnjmabt/providers/osfstorage/?zip=",
+      "meta": {}
+     }
+    }
+   },
+   "registrations": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/h4wue/registrations/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "institutions": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/h4wue/institutions/?format=json",
+      "meta": {}
+     },
+     "self": {
+      "href": "https://api.osf.io/v2/users/h4wue/relationships/institutions/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "preprints": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/h4wue/preprints/?format=json",
+      "meta": {}
+     }
+    }
+   }
+  },
+  "links": {
+   "html": "https://osf.io/h4wue/",
+   "profile_image": "https://secure.gravatar.com/avatar/ced0c6d9c62c1e2934060aea77773204?d=identicon",
+   "self": "https://api.osf.io/v2/users/h4wue/"
+  },
+  "numberOfNodes": 0,
+  "numberOfRegistrations": 0,
+  "numberOfPreprints": 0
+ },
+ "24unx": {
+  "id": "24unx",
+  "type": "users",
+  "attributes": {
+   "full_name": "Mickey Steijaert",
+   "given_name": "Mickey",
+   "middle_names": "",
+   "family_name": "Steijaert",
+   "suffix": "",
+   "date_registered": "2018-02-27T08:36:57.395783",
+   "active": true,
+   "timezone": "Europe/Amsterdam",
+   "locale": "nl_NL",
+   "social": {},
+   "employment": [
+    {
+     "title": "PhD Student",
+     "endYear": "",
+     "ongoing": true,
+     "endMonth": 0,
+     "startYear": "2019",
+     "department": "Political Communication",
+     "startMonth": 8,
+     "institution": "VU Amsterdam"
+    }
+   ],
+   "education": []
+  },
+  "relationships": {
+   "nodes": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/24unx/nodes/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "groups": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/24unx/groups/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "quickfiles": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/24unx/quickfiles/?format=json",
+      "meta": {}
+     },
+     "upload": {
+      "href": "https://files.osf.io/v1/resources/zck8vqt9jd/providers/osfstorage/",
+      "meta": {}
+     },
+     "download": {
+      "href": "https://files.osf.io/v1/resources/zck8vqt9jd/providers/osfstorage/?zip=",
+      "meta": {}
+     }
+    }
+   },
+   "registrations": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/24unx/registrations/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "institutions": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/24unx/institutions/?format=json",
+      "meta": {}
+     },
+     "self": {
+      "href": "https://api.osf.io/v2/users/24unx/relationships/institutions/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "preprints": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/24unx/preprints/?format=json",
+      "meta": {}
+     }
+    }
+   }
+  },
+  "links": {
+   "html": "https://osf.io/24unx/",
+   "profile_image": "https://secure.gravatar.com/avatar/90bc60fc121be2e98b4a6e16fb49c5d3?d=identicon",
+   "self": "https://api.osf.io/v2/users/24unx/"
+  },
+  "numberOfNodes": 2,
+  "numberOfRegistrations": 0,
+  "numberOfPreprints": 0
+ },
+ "9w86v": {
+  "id": "9w86v",
+  "type": "users",
+  "attributes": {
+   "full_name": "Tess Lankhuizen",
+   "given_name": "Tess",
+   "middle_names": "",
+   "family_name": "Lankhuizen",
+   "suffix": "",
+   "date_registered": "2019-02-15T15:01:30.444035",
+   "active": true,
+   "timezone": "Etc/UTC",
+   "locale": "en_US",
+   "social": {
+    "ssrn": "",
+    "orcid": "0000-0002-6099-8672",
+    "github": "",
+    "scholar": "",
+    "twitter": "",
+    "linkedIn": "",
+    "impactStory": "",
+    "baiduScholar": "",
+    "researchGate": "",
+    "researcherId": "",
+    "profileWebsites": [
+     "https://research.vu.nl/en/persons/tess-lankhuizen"
+    ],
+    "academiaProfileID": "",
+    "academiaInstitution": ""
+   },
+   "employment": [
+    {
+     "title": "PhD Candidate",
+     "endYear": "",
+     "ongoing": true,
+     "endMonth": 0,
+     "startYear": "2018",
+     "department": "Communication Science",
+     "startMonth": 10,
+     "institution": "VU Amsterdam"
+    }
+   ],
+   "education": [
+    {
+     "degree": "MA Cognition and Communication",
+     "endYear": "2017",
+     "ongoing": false,
+     "endMonth": 8,
+     "startYear": "2015",
+     "department": "Department of Media, Cognition, and Communication",
+     "startMonth": 9,
+     "institution": "University of Copenhagen"
+    },
+    {
+     "degree": "BA Liberal Arts and Science",
+     "endYear": "2013",
+     "ongoing": false,
+     "endMonth": 12,
+     "startYear": "2011",
+     "department": "Science and Social Science (Interdepartmental)",
+     "startMonth": 1,
+     "institution": "University College Roosevelt"
+    }
+   ]
+  },
+  "relationships": {
+   "nodes": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/9w86v/nodes/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "groups": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/9w86v/groups/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "quickfiles": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/9w86v/quickfiles/?format=json",
+      "meta": {}
+     },
+     "upload": {
+      "href": "https://files.osf.io/v1/resources/j7639g2kua/providers/osfstorage/",
+      "meta": {}
+     },
+     "download": {
+      "href": "https://files.osf.io/v1/resources/j7639g2kua/providers/osfstorage/?zip=",
+      "meta": {}
+     }
+    }
+   },
+   "registrations": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/9w86v/registrations/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "institutions": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/9w86v/institutions/?format=json",
+      "meta": {}
+     },
+     "self": {
+      "href": "https://api.osf.io/v2/users/9w86v/relationships/institutions/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "preprints": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/9w86v/preprints/?format=json",
+      "meta": {}
+     }
+    }
+   }
+  },
+  "links": {
+   "html": "https://osf.io/9w86v/",
+   "profile_image": "https://secure.gravatar.com/avatar/d2d5e252e289ac4d9b1cf3b226ed1db3?d=identicon",
+   "self": "https://api.osf.io/v2/users/9w86v/"
+  },
+  "numberOfNodes": 0,
+  "numberOfRegistrations": 0,
+  "numberOfPreprints": 0
+ },
+ "2zmga": {
+  "id": "2zmga",
+  "type": "users",
+  "attributes": {
+   "full_name": "Rene Bekkers",
+   "given_name": "Rene",
+   "middle_names": "",
+   "family_name": "Bekkers",
+   "suffix": "",
+   "date_registered": "2015-09-28T12:54:06.367000",
+   "active": true,
+   "timezone": "Europe/Amsterdam",
+   "locale": "nl_NL",
+   "social": {
+    "orcid": "0000-0002-4403-7222",
+    "github": "",
+    "scholar": "K4nsiugAAAAJ",
+    "twitter": "renebekkers",
+    "linkedIn": "in/rene-bekkers-6ab2162",
+    "impactStory": "",
+    "researcherId": "A-1862-2012",
+    "profileWebsites": [
+     "http://renebekkers.wordpress.com"
+    ]
+   },
+   "employment": [
+    {
+     "title": "Professor",
+     "endYear": "",
+     "ongoing": true,
+     "endMonth": null,
+     "startYear": "2013",
+     "department": "Center for Philanthropic Studies",
+     "startMonth": 1,
+     "institution": "VU Amsterdam"
+    }
+   ],
+   "education": []
+  },
+  "relationships": {
+   "nodes": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/2zmga/nodes/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "groups": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/2zmga/groups/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "quickfiles": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/2zmga/quickfiles/?format=json",
+      "meta": {}
+     },
+     "upload": {
+      "href": "https://files.osf.io/v1/resources/yx3t4hzsm8/providers/osfstorage/",
+      "meta": {}
+     },
+     "download": {
+      "href": "https://files.osf.io/v1/resources/yx3t4hzsm8/providers/osfstorage/?zip=",
+      "meta": {}
+     }
+    }
+   },
+   "registrations": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/2zmga/registrations/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "institutions": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/2zmga/institutions/?format=json",
+      "meta": {}
+     },
+     "self": {
+      "href": "https://api.osf.io/v2/users/2zmga/relationships/institutions/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "preprints": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/2zmga/preprints/?format=json",
+      "meta": {}
+     }
+    }
+   }
+  },
+  "links": {
+   "html": "https://osf.io/2zmga/",
+   "profile_image": "https://secure.gravatar.com/avatar/78c2db52b61f81e278aa44372ac8d0c3?d=identicon",
+   "self": "https://api.osf.io/v2/users/2zmga/"
+  },
+  "numberOfNodes": 42,
+  "numberOfRegistrations": 2,
+  "numberOfPreprints": 12
+ },
+ "vrkqf": {
+  "id": "vrkqf",
+  "type": "users",
+  "attributes": {
+   "full_name": "Dave Verkaik",
+   "given_name": "Dave",
+   "middle_names": "",
+   "family_name": "Verkaik",
+   "suffix": "",
+   "date_registered": "2015-03-12T12:22:40.545000",
+   "active": true,
+   "timezone": "Europe/Amsterdam",
+   "locale": "en_US",
+   "social": {
+    "orcid": "",
+    "github": "",
+    "scholar": "",
+    "twitter": "",
+    "linkedIn": "in/daveverkaik",
+    "impactStory": "",
+    "researcherId": "",
+    "profileWebsites": [
+     "http://www.giving.nl/staff/"
+    ]
+   },
+   "employment": [
+    {
+     "title": "Researcher",
+     "endYear": "",
+     "ongoing": true,
+     "endMonth": 0,
+     "startYear": "2014",
+     "department": "Center for Philanthropic Studies, Faculty of Social Sciences",
+     "startMonth": 9,
+     "institution": "VU University Amsterdam"
+    }
+   ],
+   "education": [
+    {
+     "degree": "MSc - Communication Sciences (Cum Laude)",
+     "endYear": "2015",
+     "ongoing": false,
+     "endMonth": 1,
+     "startYear": "2013",
+     "department": "Faculty of Social Sciences",
+     "startMonth": 9,
+     "institution": "VU University Amsterdam"
+    },
+    {
+     "degree": "12 ECTS in Marketing",
+     "endYear": "2015",
+     "ongoing": false,
+     "endMonth": 2,
+     "startYear": "2014",
+     "department": "Faculty of Economics and Business",
+     "startMonth": 9,
+     "institution": "VU University of Amsterdam"
+    },
+    {
+     "degree": "BSc - Communication Sciences (Cum Laude)",
+     "endYear": "2013",
+     "ongoing": false,
+     "endMonth": 7,
+     "startYear": "2010",
+     "department": "Faculty of Social Sciences",
+     "startMonth": 9,
+     "institution": "VU University Amsterdam"
+    }
+   ]
+  },
+  "relationships": {
+   "nodes": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/vrkqf/nodes/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "groups": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/vrkqf/groups/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "quickfiles": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/vrkqf/quickfiles/?format=json",
+      "meta": {}
+     },
+     "upload": {
+      "href": "https://files.osf.io/v1/resources/kb48cq2n5v/providers/osfstorage/",
+      "meta": {}
+     },
+     "download": {
+      "href": "https://files.osf.io/v1/resources/kb48cq2n5v/providers/osfstorage/?zip=",
+      "meta": {}
+     }
+    }
+   },
+   "registrations": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/vrkqf/registrations/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "institutions": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/vrkqf/institutions/?format=json",
+      "meta": {}
+     },
+     "self": {
+      "href": "https://api.osf.io/v2/users/vrkqf/relationships/institutions/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "preprints": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/vrkqf/preprints/?format=json",
+      "meta": {}
+     }
+    }
+   }
+  },
+  "links": {
+   "html": "https://osf.io/vrkqf/",
+   "profile_image": "https://secure.gravatar.com/avatar/099b3122414c26bb08a30a0a904e9127?d=identicon",
+   "self": "https://api.osf.io/v2/users/vrkqf/"
+  },
+  "numberOfNodes": 2,
+  "numberOfRegistrations": 0,
+  "numberOfPreprints": 0
+ },
+ "et2rm": {
+  "id": "et2rm",
+  "type": "users",
+  "attributes": {
+   "full_name": "Peter Vos",
+   "given_name": "Peter",
+   "middle_names": "",
+   "family_name": "Vos",
+   "suffix": "",
+   "date_registered": "2015-06-18T13:50:03.848000",
+   "active": true,
+   "timezone": "Europe/Berlin",
+   "locale": "en_US",
+   "social": {},
+   "employment": [
+    {
+     "title": "ICT Developer",
+     "endYear": "",
+     "ongoing": true,
+     "endMonth": 0,
+     "startYear": "2005",
+     "department": "University Library",
+     "startMonth": 7,
+     "institution": "VU University Amsterdam"
+    }
+   ],
+   "education": []
+  },
+  "relationships": {
+   "nodes": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/et2rm/nodes/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "groups": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/et2rm/groups/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "quickfiles": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/et2rm/quickfiles/?format=json",
+      "meta": {}
+     },
+     "upload": {
+      "href": "https://files.osf.io/v1/resources/7uzcny4bwq/providers/osfstorage/",
+      "meta": {}
+     },
+     "download": {
+      "href": "https://files.osf.io/v1/resources/7uzcny4bwq/providers/osfstorage/?zip=",
+      "meta": {}
+     }
+    }
+   },
+   "registrations": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/et2rm/registrations/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "institutions": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/et2rm/institutions/?format=json",
+      "meta": {}
+     },
+     "self": {
+      "href": "https://api.osf.io/v2/users/et2rm/relationships/institutions/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "preprints": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/et2rm/preprints/?format=json",
+      "meta": {}
+     }
+    }
+   }
+  },
+  "links": {
+   "html": "https://osf.io/et2rm/",
+   "profile_image": "https://secure.gravatar.com/avatar/582cac6b2bc89794a22ba2b2b97ff60b?d=identicon",
+   "self": "https://api.osf.io/v2/users/et2rm/"
+  },
+  "numberOfNodes": 1,
+  "numberOfRegistrations": 0,
+  "numberOfPreprints": 0
+ },
+ "8c6vt": {
+  "id": "8c6vt",
+  "type": "users",
+  "attributes": {
+   "full_name": "Allison Eden",
+   "given_name": "Allison",
+   "middle_names": "",
+   "family_name": "Eden",
+   "suffix": "",
+   "date_registered": "2015-03-09T15:22:46.145000",
+   "active": true,
+   "timezone": "Europe/Amsterdam",
+   "locale": "en_US",
+   "social": {},
+   "employment": [
+    {
+     "title": "Assistant Professor",
+     "endYear": "",
+     "ongoing": true,
+     "endMonth": 0,
+     "startYear": "2011",
+     "department": "Communication Science",
+     "startMonth": 8,
+     "institution": "VU University Amsterdam"
+    }
+   ],
+   "education": [
+    {
+     "degree": "PhD",
+     "endYear": "2011",
+     "ongoing": false,
+     "endMonth": 7,
+     "startYear": "2006",
+     "department": "Communication",
+     "startMonth": 8,
+     "institution": "Michigan State University"
+    },
+    {
+     "degree": "MA",
+     "endYear": "2006",
+     "ongoing": false,
+     "endMonth": 7,
+     "startYear": "2004",
+     "department": "Psychology",
+     "startMonth": 8,
+     "institution": "College of William and Mary"
+    }
+   ]
+  },
+  "relationships": {
+   "nodes": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/8c6vt/nodes/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "groups": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/8c6vt/groups/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "quickfiles": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/8c6vt/quickfiles/?format=json",
+      "meta": {}
+     },
+     "upload": {
+      "href": "https://files.osf.io/v1/resources/978uqtkp6s/providers/osfstorage/",
+      "meta": {}
+     },
+     "download": {
+      "href": "https://files.osf.io/v1/resources/978uqtkp6s/providers/osfstorage/?zip=",
+      "meta": {}
+     }
+    }
+   },
+   "registrations": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/8c6vt/registrations/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "institutions": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/8c6vt/institutions/?format=json",
+      "meta": {}
+     },
+     "self": {
+      "href": "https://api.osf.io/v2/users/8c6vt/relationships/institutions/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "preprints": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/8c6vt/preprints/?format=json",
+      "meta": {}
+     }
+    }
+   }
+  },
+  "links": {
+   "html": "https://osf.io/8c6vt/",
+   "profile_image": "https://secure.gravatar.com/avatar/c6468707d2560b13b3c72d0261bebdd8?d=identicon",
+   "self": "https://api.osf.io/v2/users/8c6vt/"
+  },
+  "numberOfNodes": 8,
+  "numberOfRegistrations": 4,
+  "numberOfPreprints": 0
+ },
+ "uw3ej": {
+  "id": "uw3ej",
+  "type": "users",
+  "attributes": {
+   "full_name": "Marieke Roskes",
+   "given_name": "Marieke",
+   "middle_names": "",
+   "family_name": "Roskes",
+   "suffix": "",
+   "date_registered": "2016-11-28T14:55:18.142000",
+   "active": true,
+   "timezone": "Europe/Berlin",
+   "locale": "nl_NL",
+   "social": {
+    "ssrn": "",
+    "orcid": "0000-0002-1961-5799",
+    "github": "",
+    "scholar": "",
+    "twitter": "",
+    "linkedIn": "",
+    "impactStory": "",
+    "baiduScholar": "",
+    "researchGate": "",
+    "researcherId": "G-1177-2013",
+    "profileWebsites": [],
+    "academiaProfileID": "",
+    "academiaInstitution": ""
+   },
+   "employment": [
+    {
+     "title": "",
+     "endYear": "",
+     "ongoing": true,
+     "endMonth": 0,
+     "startYear": "2018",
+     "department": "Department of Organization Sciences",
+     "startMonth": 11,
+     "institution": "VU University Amsterdam"
+    }
+   ],
+   "education": []
+  },
+  "relationships": {
+   "nodes": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/uw3ej/nodes/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "groups": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/uw3ej/groups/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "quickfiles": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/uw3ej/quickfiles/?format=json",
+      "meta": {}
+     },
+     "upload": {
+      "href": "https://files.osf.io/v1/resources/dvkfw6e4zn/providers/osfstorage/",
+      "meta": {}
+     },
+     "download": {
+      "href": "https://files.osf.io/v1/resources/dvkfw6e4zn/providers/osfstorage/?zip=",
+      "meta": {}
+     }
+    }
+   },
+   "registrations": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/uw3ej/registrations/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "institutions": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/uw3ej/institutions/?format=json",
+      "meta": {}
+     },
+     "self": {
+      "href": "https://api.osf.io/v2/users/uw3ej/relationships/institutions/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "preprints": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/uw3ej/preprints/?format=json",
+      "meta": {}
+     }
+    }
+   }
+  },
+  "links": {
+   "html": "https://osf.io/uw3ej/",
+   "profile_image": "https://secure.gravatar.com/avatar/ad5ee056a6943ff5236b7eb13235b10d?d=identicon",
+   "self": "https://api.osf.io/v2/users/uw3ej/"
+  },
+  "numberOfNodes": 6,
+  "numberOfRegistrations": 13,
+  "numberOfPreprints": 1
+ },
+ "5ckrt": {
+  "id": "5ckrt",
+  "type": "users",
+  "attributes": {
+   "full_name": "Ingmar de Vries",
+   "given_name": "Ingmar",
+   "middle_names": "Engbert Jacob",
+   "family_name": "de Vries",
+   "suffix": "",
+   "date_registered": "2014-11-03T11:10:40.762000",
+   "active": true,
+   "timezone": "Etc/UTC",
+   "locale": "en_US",
+   "social": {
+    "orcid": "0000-0002-0174-7320"
+   },
+   "employment": [
+    {
+     "title": "PhD candidate",
+     "endYear": "",
+     "ongoing": true,
+     "endMonth": 0,
+     "startYear": "2014",
+     "department": "Faculty of Psychology and Education",
+     "startMonth": 11,
+     "institution": "VU university Amsterdam"
+    }
+   ],
+   "education": [
+    {
+     "degree": "MSc. ",
+     "endYear": "2014",
+     "ongoing": false,
+     "endMonth": 10,
+     "startYear": "2009",
+     "department": "Faculty of Human Movement Sciences",
+     "startMonth": 9,
+     "institution": "VU University Amsterdam"
+    }
+   ]
+  },
+  "relationships": {
+   "nodes": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/5ckrt/nodes/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "groups": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/5ckrt/groups/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "quickfiles": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/5ckrt/quickfiles/?format=json",
+      "meta": {}
+     },
+     "upload": {
+      "href": "https://files.osf.io/v1/resources/8kx7zwatue/providers/osfstorage/",
+      "meta": {}
+     },
+     "download": {
+      "href": "https://files.osf.io/v1/resources/8kx7zwatue/providers/osfstorage/?zip=",
+      "meta": {}
+     }
+    }
+   },
+   "registrations": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/5ckrt/registrations/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "institutions": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/5ckrt/institutions/?format=json",
+      "meta": {}
+     },
+     "self": {
+      "href": "https://api.osf.io/v2/users/5ckrt/relationships/institutions/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "preprints": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/5ckrt/preprints/?format=json",
+      "meta": {}
+     }
+    }
+   }
+  },
+  "links": {
+   "html": "https://osf.io/5ckrt/",
+   "profile_image": "https://secure.gravatar.com/avatar/654fcb0e938a57053e47edef7e1b4c91?d=identicon",
+   "self": "https://api.osf.io/v2/users/5ckrt/"
+  },
+  "numberOfNodes": 2,
+  "numberOfRegistrations": 0,
+  "numberOfPreprints": 0
+ },
+ "6fcye": {
+  "id": "6fcye",
+  "type": "users",
+  "attributes": {
+   "full_name": "Andrea Povelato",
+   "given_name": "Andrea",
+   "middle_names": "",
+   "family_name": "Povelato",
+   "suffix": "",
+   "date_registered": "2019-12-24T11:05:22.714081",
+   "active": true,
+   "timezone": "Etc/UTC",
+   "locale": "en_US",
+   "social": {
+    "ssrn": "",
+    "orcid": "",
+    "github": "",
+    "scholar": "",
+    "twitter": "andreapovelato",
+    "linkedIn": "in/andreapovelato/",
+    "impactStory": "",
+    "baiduScholar": "",
+    "researchGate": "",
+    "researcherId": "",
+    "profileWebsites": [
+     "https://www.startupgrind.com/u/mzfgpb/#/about"
+    ],
+    "academiaProfileID": "",
+    "academiaInstitution": ""
+   },
+   "employment": [
+    {
+     "title": "Mentor",
+     "endYear": "",
+     "ongoing": true,
+     "endMonth": 0,
+     "startYear": "2019",
+     "department": "",
+     "startMonth": 10,
+     "institution": "University and Free Lance"
+    }
+   ],
+   "education": []
+  },
+  "relationships": {
+   "nodes": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/6fcye/nodes/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "groups": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/6fcye/groups/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "quickfiles": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/6fcye/quickfiles/?format=json",
+      "meta": {}
+     },
+     "upload": {
+      "href": "https://files.osf.io/v1/resources/heapb2wg9t/providers/osfstorage/",
+      "meta": {}
+     },
+     "download": {
+      "href": "https://files.osf.io/v1/resources/heapb2wg9t/providers/osfstorage/?zip=",
+      "meta": {}
+     }
+    }
+   },
+   "registrations": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/6fcye/registrations/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "institutions": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/6fcye/institutions/?format=json",
+      "meta": {}
+     },
+     "self": {
+      "href": "https://api.osf.io/v2/users/6fcye/relationships/institutions/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "preprints": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/6fcye/preprints/?format=json",
+      "meta": {}
+     }
+    }
+   }
+  },
+  "links": {
+   "html": "https://osf.io/6fcye/",
+   "profile_image": "https://secure.gravatar.com/avatar/0bfd569f06f3a0f05126506e449c8d6b?d=identicon",
+   "self": "https://api.osf.io/v2/users/6fcye/"
+  },
+  "numberOfNodes": 3,
+  "numberOfRegistrations": 0,
+  "numberOfPreprints": 0
+ },
+ "ma8kj": {
+  "id": "ma8kj",
+  "type": "users",
+  "attributes": {
+   "full_name": "Anna Kristina Nishen",
+   "given_name": "Anna",
+   "middle_names": "Kristina",
+   "family_name": "Nishen",
+   "suffix": "",
+   "date_registered": "2019-02-13T08:15:33.913231",
+   "active": true,
+   "timezone": "Etc/UTC",
+   "locale": "en_US",
+   "social": {},
+   "employment": [
+    {
+     "title": "Wissenschaftliche Mitarbeiterin",
+     "endYear": "",
+     "ongoing": true,
+     "endMonth": 0,
+     "startYear": "2019",
+     "department": "Heterogeneity and Education",
+     "startMonth": 9,
+     "institution": "Free University Berlin"
+    }
+   ],
+   "education": [
+    {
+     "degree": "Research Master Behavioural Science",
+     "endYear": "2019",
+     "ongoing": false,
+     "endMonth": 8,
+     "startYear": "2017",
+     "department": "Behavioural Science Institute",
+     "startMonth": 9,
+     "institution": "Radboud University"
+    },
+    {
+     "degree": "B.Sc. Psychology",
+     "endYear": "2017",
+     "ongoing": false,
+     "endMonth": 6,
+     "startYear": "2013",
+     "department": "Psychology",
+     "startMonth": 9,
+     "institution": "University of Mannheim"
+    }
+   ]
+  },
+  "relationships": {
+   "nodes": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/ma8kj/nodes/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "groups": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/ma8kj/groups/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "quickfiles": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/ma8kj/quickfiles/?format=json",
+      "meta": {}
+     },
+     "upload": {
+      "href": "https://files.osf.io/v1/resources/afbhmqd348/providers/osfstorage/",
+      "meta": {}
+     },
+     "download": {
+      "href": "https://files.osf.io/v1/resources/afbhmqd348/providers/osfstorage/?zip=",
+      "meta": {}
+     }
+    }
+   },
+   "registrations": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/ma8kj/registrations/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "institutions": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/ma8kj/institutions/?format=json",
+      "meta": {}
+     },
+     "self": {
+      "href": "https://api.osf.io/v2/users/ma8kj/relationships/institutions/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "preprints": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/ma8kj/preprints/?format=json",
+      "meta": {}
+     }
+    }
+   }
+  },
+  "links": {
+   "html": "https://osf.io/ma8kj/",
+   "profile_image": "https://secure.gravatar.com/avatar/5902a64aaec7de680b8cc110c93d6ecd?d=identicon",
+   "self": "https://api.osf.io/v2/users/ma8kj/"
+  },
+  "numberOfNodes": 0,
+  "numberOfRegistrations": 4,
+  "numberOfPreprints": 0
+ },
+ "xupfv": {
+  "id": "xupfv",
+  "type": "users",
+  "attributes": {
+   "full_name": "Felix Molter",
+   "given_name": "Felix",
+   "middle_names": "",
+   "family_name": "Molter",
+   "suffix": "",
+   "date_registered": "2014-11-10T19:25:17.671000",
+   "active": true,
+   "timezone": "Europe/Berlin",
+   "locale": "en_GB",
+   "social": {
+    "ssrn": "",
+    "orcid": "0000-0002-3283-1090",
+    "github": "moltaire",
+    "scholar": "ZmZ8N6QAAAAJ",
+    "twitter": "moltaire",
+    "linkedIn": "",
+    "impactStory": "",
+    "baiduScholar": "",
+    "researchGate": "",
+    "researcherId": "",
+    "profileWebsites": [],
+    "academiaProfileID": "",
+    "academiaInstitution": ""
+   },
+   "employment": [
+    {
+     "title": "",
+     "endYear": "",
+     "ongoing": false,
+     "endMonth": null,
+     "startYear": null,
+     "department": "",
+     "startMonth": null,
+     "institution": "Free University Berlin"
+    }
+   ],
+   "education": []
+  },
+  "relationships": {
+   "nodes": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/xupfv/nodes/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "groups": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/xupfv/groups/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "quickfiles": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/xupfv/quickfiles/?format=json",
+      "meta": {}
+     },
+     "upload": {
+      "href": "https://files.osf.io/v1/resources/6dpmfueqj8/providers/osfstorage/",
+      "meta": {}
+     },
+     "download": {
+      "href": "https://files.osf.io/v1/resources/6dpmfueqj8/providers/osfstorage/?zip=",
+      "meta": {}
+     }
+    }
+   },
+   "registrations": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/xupfv/registrations/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "institutions": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/xupfv/institutions/?format=json",
+      "meta": {}
+     },
+     "self": {
+      "href": "https://api.osf.io/v2/users/xupfv/relationships/institutions/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "preprints": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/xupfv/preprints/?format=json",
+      "meta": {}
+     }
+    }
+   }
+  },
+  "links": {
+   "html": "https://osf.io/xupfv/",
+   "profile_image": "https://secure.gravatar.com/avatar/a78551ce8388373635dfd3ce0446e9d5?d=identicon",
+   "self": "https://api.osf.io/v2/users/xupfv/"
+  },
+  "numberOfNodes": 0,
+  "numberOfRegistrations": 0,
+  "numberOfPreprints": 1
+ },
+ "a39sb": {
+  "id": "a39sb",
+  "type": "users",
+  "attributes": {
+   "full_name": "Albert van Eck",
+   "given_name": "Albert",
+   "middle_names": "",
+   "family_name": "van Eck",
+   "suffix": "",
+   "date_registered": "2017-08-30T10:15:03.648160",
+   "active": true,
+   "timezone": "Africa/Johannesburg",
+   "locale": "en_US",
+   "social": {
+    "ssrn": "",
+    "orcid": "",
+    "github": "",
+    "scholar": "vanecka",
+    "twitter": "",
+    "linkedIn": "vanecka",
+    "impactStory": "",
+    "baiduScholar": "",
+    "researchGate": "Albert_Eck",
+    "researcherId": "",
+    "profileWebsites": [],
+    "academiaProfileID": "",
+    "academiaInstitution": ""
+   },
+   "employment": [
+    {
+     "title": "Director",
+     "endYear": "",
+     "ongoing": true,
+     "endMonth": 0,
+     "startYear": "2003",
+     "department": "High Performance Computing Unit",
+     "startMonth": 10,
+     "institution": "University of the Free State"
+    }
+   ],
+   "education": [
+    {
+     "degree": "BSc. Hons: IT Management",
+     "endYear": "2010",
+     "ongoing": false,
+     "endMonth": 11,
+     "startYear": "2001",
+     "department": "Computer Sciences",
+     "startMonth": 1,
+     "institution": "University of the Free State"
+    }
+   ]
+  },
+  "relationships": {
+   "nodes": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/a39sb/nodes/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "groups": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/a39sb/groups/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "quickfiles": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/a39sb/quickfiles/?format=json",
+      "meta": {}
+     },
+     "upload": {
+      "href": "https://files.osf.io/v1/resources/ykgfnewrta/providers/osfstorage/",
+      "meta": {}
+     },
+     "download": {
+      "href": "https://files.osf.io/v1/resources/ykgfnewrta/providers/osfstorage/?zip=",
+      "meta": {}
+     }
+    }
+   },
+   "registrations": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/a39sb/registrations/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "institutions": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/a39sb/institutions/?format=json",
+      "meta": {}
+     },
+     "self": {
+      "href": "https://api.osf.io/v2/users/a39sb/relationships/institutions/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "preprints": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/a39sb/preprints/?format=json",
+      "meta": {}
+     }
+    }
+   }
+  },
+  "links": {
+   "html": "https://osf.io/a39sb/",
+   "profile_image": "https://secure.gravatar.com/avatar/1768e7f3dc2c4add15bd451f36e9a232?d=identicon",
+   "self": "https://api.osf.io/v2/users/a39sb/"
+  },
+  "numberOfNodes": 0,
+  "numberOfRegistrations": 0,
+  "numberOfPreprints": 0
+ },
+ "839rq": {
+  "id": "839rq",
+  "type": "users",
+  "attributes": {
+   "full_name": "Markus",
+   "given_name": "Markus",
+   "middle_names": "Arlindo",
+   "family_name": "Monteiro",
+   "suffix": "",
+   "date_registered": "2020-05-28T07:20:51.259656",
+   "active": true,
+   "timezone": "Etc/UTC",
+   "locale": "en_US",
+   "social": {},
+   "employment": [
+    {
+     "title": "Junior lecturer",
+     "endYear": "",
+     "ongoing": true,
+     "endMonth": 0,
+     "startYear": "2019",
+     "department": "Agricultural economics",
+     "startMonth": 7,
+     "institution": "University of the free state"
+    }
+   ],
+   "education": []
+  },
+  "relationships": {
+   "nodes": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/839rq/nodes/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "groups": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/839rq/groups/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "quickfiles": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/839rq/quickfiles/?format=json",
+      "meta": {}
+     },
+     "upload": {
+      "href": "https://files.osf.io/v1/resources/k4v9arj362/providers/osfstorage/",
+      "meta": {}
+     },
+     "download": {
+      "href": "https://files.osf.io/v1/resources/k4v9arj362/providers/osfstorage/?zip=",
+      "meta": {}
+     }
+    }
+   },
+   "registrations": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/839rq/registrations/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "institutions": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/839rq/institutions/?format=json",
+      "meta": {}
+     },
+     "self": {
+      "href": "https://api.osf.io/v2/users/839rq/relationships/institutions/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "preprints": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/839rq/preprints/?format=json",
+      "meta": {}
+     }
+    }
+   }
+  },
+  "links": {
+   "html": "https://osf.io/839rq/",
+   "profile_image": "https://secure.gravatar.com/avatar/b2fcddbdeb15ed136514a4fc2aed2fda?d=identicon",
+   "self": "https://api.osf.io/v2/users/839rq/"
+  },
+  "numberOfNodes": 0,
+  "numberOfRegistrations": 0,
+  "numberOfPreprints": 0
+ },
+ "jmy96": {
+  "id": "jmy96",
+  "type": "users",
+  "attributes": {
+   "full_name": "Lisa Rothmann",
+   "given_name": "Lisa",
+   "middle_names": "Ann",
+   "family_name": "Rothmann",
+   "suffix": "Mrs.",
+   "date_registered": "2019-07-31T19:39:37.092939",
+   "active": true,
+   "timezone": "Etc/UTC",
+   "locale": "en_US",
+   "social": {
+    "ssrn": "",
+    "orcid": "0000-0002-3489-866",
+    "github": "LisaRothmann",
+    "scholar": "McUDm0AAAAAJ&amp;hl=en",
+    "twitter": "LandbouLisa",
+    "linkedIn": "lisaannrothmann/",
+    "impactStory": "",
+    "baiduScholar": "",
+    "researchGate": "",
+    "researcherId": "",
+    "profileWebsites": [],
+    "academiaProfileID": "",
+    "academiaInstitution": ""
+   },
+   "employment": [
+    {
+     "title": "Lecturer",
+     "endYear": "",
+     "ongoing": true,
+     "endMonth": 0,
+     "startYear": "2018",
+     "department": "Plant Sciences",
+     "startMonth": 4,
+     "institution": "University of the Free State"
+    }
+   ],
+   "education": [
+    {
+     "degree": "PhD (Plant Disease Epidemiology)",
+     "endYear": "",
+     "ongoing": true,
+     "endMonth": null,
+     "startYear": "2015",
+     "department": "Plant Sciences: Plant Pathology",
+     "startMonth": 7,
+     "institution": "University of the Free State"
+    }
+   ]
+  },
+  "relationships": {
+   "nodes": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/jmy96/nodes/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "groups": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/jmy96/groups/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "quickfiles": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/jmy96/quickfiles/?format=json",
+      "meta": {}
+     },
+     "upload": {
+      "href": "https://files.osf.io/v1/resources/jr4umpd62f/providers/osfstorage/",
+      "meta": {}
+     },
+     "download": {
+      "href": "https://files.osf.io/v1/resources/jr4umpd62f/providers/osfstorage/?zip=",
+      "meta": {}
+     }
+    }
+   },
+   "registrations": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/jmy96/registrations/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "institutions": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/jmy96/institutions/?format=json",
+      "meta": {}
+     },
+     "self": {
+      "href": "https://api.osf.io/v2/users/jmy96/relationships/institutions/?format=json",
+      "meta": {}
+     }
+    }
+   },
+   "preprints": {
+    "links": {
+     "related": {
+      "href": "https://api.osf.io/v2/users/jmy96/preprints/?format=json",
+      "meta": {}
+     }
+    }
+   }
+  },
+  "links": {
+   "html": "https://osf.io/jmy96/",
+   "profile_image": "https://secure.gravatar.com/avatar/e2a153fd7e98b85fd4eb4043cb6f6840?d=identicon",
+   "self": "https://api.osf.io/v2/users/jmy96/"
+  },
+  "numberOfNodes": 12,
+  "numberOfRegistrations": 0,
+  "numberOfPreprints": 0
+ }
+}
