@@ -27,6 +27,7 @@ except ApiException as e:
 
 import os
 import requests
+import copy
 import json
 import time
 import random
@@ -60,6 +61,8 @@ def fugshareFilterCopiedResults(db):
     real_res = 0
     fake_res = 0
     fail_res = 0
+    db2 = copy.deepcopy(db)
+
     for r in db:
         try:
             if db[r]['url_public_html'].startswith('https://figshare.com'):
@@ -67,14 +70,13 @@ def fugshareFilterCopiedResults(db):
             else:
                 fake_res += 1
                 fake_results.append(r)
+                null = db2.pop(r)
         except:
             fail_res += 1
             fail_results.append(r)
-        print('***\nReal {}\nFake {}\n***\n'.format(real_res, fake_res))
-    print(fake_results)
-    for id in fake_results:
-        a = db.pop(id)
-    return db
+    print('***\nReal {}\nFake {}\nFail {}\n***\n'.format(real_res, fake_res, fail_res))
+    return db2
+
 
 def addToDB(db, res):
     for r in res:
@@ -83,6 +85,45 @@ def addToDB(db, res):
         else:
             print('Duplicate id: {}'.format(db['id']))
     return db
+
+def printDB(db):
+    for r in db:
+        try:
+            public_url = db[r]['url_public_html']
+            url = db[r]['url']
+        except:
+            public_url = url = db[r]['url']
+
+        print('{}\n{}\n{}\n'.format(db[r]['title'], url, public_url))
+
+def getAuthorsFromRecords(db):
+    output = {}
+    for r in db:
+        print(r)
+        try:
+            public_url = db[r]['url_public_html']
+            url = db[r]['url']
+        except:
+            public_url = url = db[r]['url']
+
+        print('{}\n{}\n{}\n'.format(db[r]['title'], url, public_url))
+        output[r] = {'title' : db[r]['title'],
+                     'url' : url,
+                     'public_url' : public_url,
+                     'authors' : [],
+                     'citation' : '',
+                     'json' : ''
+        }
+        params = {'access_token' : FIGSHARE_API_KEY}
+        res2 = requests.get(url, params)
+        print(res2.status_code)
+        rec = res2.json()
+        del res2
+        output[r]['citation'] = rec['citation']
+        for aut in rec['authors']:
+            output[r]['authors'].append((aut['full_name'], aut['orcid_id']))
+        output[r]['json'] = rec
+    return output
 
 
 
@@ -119,19 +160,16 @@ if __name__ == '__main__':
     res = fugshareFilterCopiedResults(db)
 
 
-    pprint.pprint(res)
+    printDB(db)
+    print('\nNumber of results: {}\n'.format(len(db)))
+
+    printDB(res)
     print('\nNumber of real results: {}\n'.format(len(res)))
 
+    data = getAuthorsFromRecords(res)
+    pprint.pprint(data)
 
-    for r in db:
-        try:
-            public_url = db[r]['url_public_html']
-            url = db[r]['url']
-        except:
-            public_url = url = db[r]['url']
-
-        print('{}\n{}\n{}\n'.format(db[r]['title'], url, public_url))
-
-
-    url = "https://api.figshare.com/v2/articles/5106808"
-    requests.get(url, params={})
+    for d in data:
+        print('\n{}'.format(data[d]['title']))
+        for a in data[d]['authors']:
+            print('\t{}, {}'.format(a[0], a[1]))
