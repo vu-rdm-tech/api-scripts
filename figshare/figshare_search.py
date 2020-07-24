@@ -98,6 +98,8 @@ def printDB(db):
 
 def getAuthorsFromRecords(db):
     output = {}
+    raw = []
+    auth_ids = []
     for r in db:
         print(r)
         try:
@@ -127,11 +129,13 @@ def getAuthorsFromRecords(db):
         output[r]['categories'] = [a['title'] for a in rec['categories']]
         output[r]['description'] = rec['description']
         output[r]['date'] = rec['created_date']
+        raw.append(rec)
         for aut in rec['authors']:
-            output[r]['authors'].append((aut['full_name'], aut['orcid_id']))
+            output[r]['authors'].append((aut['full_name'], aut['orcid_id'], aut['id']))
+            auth_ids.append(aut['id'])
         #output[r]['json'] = rec
         output[r]['json'] = {}
-    return output
+    return output, raw, auth_ids
 
 
 def writeToExcel(db, filename):
@@ -151,11 +155,12 @@ def writeToExcel(db, filename):
     xldat.write_string(0, 1, 'Orcid', fmt_head)
     xldat.write_string(0, 2, 'Email', fmt_head)
     xldat.write_string(0, 3, 'Id', fmt_head)
-    xldat.write_string(0, 4, 'Title', fmt_head)
-    xldat.write_string(0, 5, 'Citation', fmt_head)
-    xldat.write_string(0, 6, 'Description', fmt_head)
-    xldat.write_string(0, 7, 'Categories', fmt_head)
-    xldat.write_string(0, 8, 'Date', fmt_head)
+    xldat.write_string(0, 4, 'url', fmt_head)
+    xldat.write_string(0, 5, 'Title', fmt_head)
+    xldat.write_string(0, 6, 'Citation', fmt_head)
+    xldat.write_string(0, 7, 'Description', fmt_head)
+    xldat.write_string(0, 8, 'Categories', fmt_head)
+    xldat.write_string(0, 9, 'Date', fmt_head)
 
     row = 1
     for d in data:
@@ -165,11 +170,12 @@ def writeToExcel(db, filename):
             xldat.write_string(row, 0, a[0])
             xldat.write_string(row, 1, a[1])
             xldat.write_string(row, 3, str(d))
-            xldat.write_string(row, 4, data[d]['title'])
-            xldat.write_string(row, 5, data[d]['citation'])
-            xldat.write_string(row, 6, data[d]['description'])
-            xldat.write_string(row, 7, ','.join(data[d]['categories']))
-            xldat.write_string(row, 8, data[d]['date'])
+            xldat.write_url(row, 4, data[d]['public_url'])
+            xldat.write_string(row, 5, data[d]['title'])
+            xldat.write_string(row, 6, data[d]['citation'])
+            xldat.write_string(row, 7, data[d]['description'])
+            xldat.write_string(row, 8, ','.join(data[d]['categories']))
+            xldat.write_string(row, 9, data[d]['date'])
             row += 1
     xls.close()
 
@@ -207,17 +213,29 @@ if __name__ == '__main__':
     res = fugshareFilterCopiedResults(db)
 
 
-    printDB(db)
+    #printDB(db)
     print('\nNumber of results: {}\n'.format(len(db)))
 
-    printDB(res)
+    #printDB(res)
     print('\nNumber of real results: {}\n'.format(len(res)))
 
-    data = getAuthorsFromRecords(res)
+    data, raw, auth_ids = getAuthorsFromRecords(res)
     pprint.pprint(data)
 
-    with open(os.path.join(raw_data_path, 'raw_data.json'), 'w') as F:
-        json.dump(data, F, indent=1)
-
+    with open(os.path.join(raw_data_path, 'unfiltered_data.json'), 'w') as F0:
+        json.dump(getAuthorsFromRecords(db)[1], F0, indent=1)
+    with open(os.path.join(raw_data_path, 'raw_data.json'), 'w') as F1:
+        json.dump(raw, F1, indent=1)
+    with open(os.path.join(raw_data_path, 'processed_data.json'), 'w') as F2:
+        json.dump(data, F2, indent=1)
 
     writeToExcel(data, 'figshare_data.xlsx')
+
+    # dump author details
+    authordump = {}
+    for idA in auth_ids:
+        urlA = 'https://api.figshare.com/v2/account/authors/{}'.format(idA)
+        authordump[idA] = requests.get(urlA, {'access_token' : FIGSHARE_API_KEY}).json()
+
+    with open(os.path.join(raw_data_path, 'author_dump.json'), 'w') as F3:
+        json.dump(authordump, F3, indent=1)
