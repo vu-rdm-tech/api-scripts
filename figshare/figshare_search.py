@@ -112,7 +112,11 @@ def getAuthorsFromRecords(db):
                      'public_url' : public_url,
                      'authors' : [],
                      'citation' : '',
+                     'categories' : [],
+                     'description' : '',
+                     'date' : '',
                      'json' : ''
+
         }
         params = {'access_token' : FIGSHARE_API_KEY}
         res2 = requests.get(url, params)
@@ -120,11 +124,54 @@ def getAuthorsFromRecords(db):
         rec = res2.json()
         del res2
         output[r]['citation'] = rec['citation']
+        output[r]['categories'] = [a['title'] for a in rec['categories']]
+        output[r]['description'] = rec['description']
+        output[r]['date'] = rec['created_date']
         for aut in rec['authors']:
             output[r]['authors'].append((aut['full_name'], aut['orcid_id']))
-        output[r]['json'] = rec
+        #output[r]['json'] = rec
+        output[r]['json'] = {}
     return output
 
+
+def writeToExcel(db, filename):
+    """
+    Write authors to Excel spreadsheet
+
+    """
+    if not filename.endswith('.xlsx'):
+        filename += '.xlsx'
+    xls = xlsxwriter.Workbook(filename)
+    xls.nan_inf_to_errors = True
+    fmt_head = xls.add_format({'bold': True, 'align': 'center'})
+    fmt_date = xls.add_format({'num_format': 'yyyy-m-d'})
+
+    xldat = xls.add_worksheet('authors')
+    xldat.write_string(0, 0, 'Name', fmt_head)
+    xldat.write_string(0, 1, 'Orcid', fmt_head)
+    xldat.write_string(0, 2, 'Email', fmt_head)
+    xldat.write_string(0, 3, 'Id', fmt_head)
+    xldat.write_string(0, 4, 'Title', fmt_head)
+    xldat.write_string(0, 5, 'Citation', fmt_head)
+    xldat.write_string(0, 6, 'Description', fmt_head)
+    xldat.write_string(0, 7, 'Categories', fmt_head)
+    xldat.write_string(0, 8, 'Date', fmt_head)
+
+    row = 1
+    for d in data:
+        print('\n{}'.format(data[d]['title']))
+        for a in data[d]['authors']:
+            print('\t{}, {}'.format(a[0], a[1]))
+            xldat.write_string(row, 0, a[0])
+            xldat.write_string(row, 1, a[1])
+            xldat.write_string(row, 3, str(d))
+            xldat.write_string(row, 4, data[d]['title'])
+            xldat.write_string(row, 5, data[d]['citation'])
+            xldat.write_string(row, 6, data[d]['description'])
+            xldat.write_string(row, 7, ','.join(data[d]['categories']))
+            xldat.write_string(row, 8, data[d]['date'])
+            row += 1
+    xls.close()
 
 
 if __name__ == '__main__':
@@ -169,7 +216,8 @@ if __name__ == '__main__':
     data = getAuthorsFromRecords(res)
     pprint.pprint(data)
 
-    for d in data:
-        print('\n{}'.format(data[d]['title']))
-        for a in data[d]['authors']:
-            print('\t{}, {}'.format(a[0], a[1]))
+    with open(os.path.join(raw_data_path, 'raw_data.json'), 'w') as F:
+        json.dump(data, F, indent=1)
+
+
+    writeToExcel(data, 'figshare_data.xlsx')
