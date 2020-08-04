@@ -7,11 +7,14 @@ def generate_header():
         """
 <html><body>
  <h2>Long list of tools and descriptions</h2>
+
+<!--
  <div id="d_header">
   <p>
 DO NOT EDIT THIS TEXT, use the tools and data file in the &quot;tool_descriptions&quot; folder on our <a href="https://github.com/vu-rdm-tech/api-scripts">api-script</a> repository to regenerate this section.<br/>
   </p>
  </div>
+-->
 
  <div id="d_body">
 {}
@@ -28,7 +31,15 @@ def write_to_file(idata, filename):
     with open(idata, 'r') as F:
         data = csv.DictReader(F, dialect='excel-tab')
         for row in data:
-            body += '<h3><a href="{}">{}</a> ({})</h3>\n'.format(row['URI'], row['Name'], row['Priority'])
+            display_uri = row['URI'].replace('https://', '').replace('http://', '')
+            display_uri = display_uri.split('/')[0]
+            if display_uri.endswith("/"):
+                display_uri = display_uri[:-1]
+            body += '<h3>{} (<a href="{}">{}</a>)</h3>\n'.format(row['Name'], row['URI'], display_uri)
+            keyword = row['Keyword']
+            if keyword != '':
+                keyword = '({})'.format(keyword)
+            body += "<h4>Priority: {} {}</h4>".format(row['Priority'], keyword)
             if row['Description'] == 'Empty':
                 body += '<p>\n<strong>TODO:</strong> <a href={}>{}</a>\n</p>\n'.format(row['URI'], row['URI'])
             else:
