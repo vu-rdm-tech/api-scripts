@@ -5,7 +5,20 @@ import pprint
 def generate_header():
     output =\
         """
-<html><body>
+<html>
+<head>
+<style>
+ table {
+   background: AliceBlue;
+ }
+ td {
+   border: 1px solid white;
+   font-family: sans-serif;
+ }
+</style>
+</head>
+
+<body>
  <h2>Long list of tools and descriptions</h2>
 
 <!--
@@ -17,24 +30,21 @@ DO NOT EDIT THIS TEXT, use the tools and data file in the &quot;tool_description
 -->
 
  <div id="d_body">
-{}
- </div>
- <br/>
-</body></html>
 
         """
     return output
 
 def write_to_file(idata, filename):
-    doc = generate_header()
-    body = ''
+    body = generate_header()
     with open(idata, 'r') as F:
         data = csv.DictReader(F, dialect='excel-tab')
-        body += '<p>\n'
-        idx = '<ol>\n'
+        idx = '<table style="width:70% ">\n'
+        cntr = 1
         for row in data:
-            idx += ' <li><a href="#tool_{}">{}</a></li>\n'.format(row['Name'].replace(' ', ''), row['Name'])
-        idx += '</ol>\n'
+            idx += ' <tr><td align="center">{}</td><td align="left"><a href="#tool_{}">{}</a>.</td>'.format(cntr, row['Name'].replace(' ', ''), row['Name'])
+            idx += '<td>{} ...</td></tr>\n'.format(row['Description'][:100])
+            cntr += 1
+        idx += '</table>\n'
         body += idx
         body += '</p>\n'
         F.seek(0)
@@ -61,8 +71,9 @@ def write_to_file(idata, filename):
 
 
             body += '<hr/>\n'
+    body +="</div>\n<br/>\n</body>\n</html>\n"
     with open(filename, 'w') as F2:
-        F2.write(doc.format(body))
+        F2.write(body)
 
 if __name__ == '__main__':
     cDir = os.path.dirname(os.path.abspath(os.sys.argv[0]))
