@@ -49,7 +49,6 @@ def get_all():
 
         for item in items:
             name = item['name']['text'][0]['value']
-            print(name)
             term = item['type']['term']['text'][0]['value']
 
             uuid = item['uuid']
@@ -57,7 +56,6 @@ def get_all():
             if 'parents' in item:
                 for parent in item['parents']:
                     parents.append(parent['uuid'])
-
             list[uuid]={}
             list[uuid]['name']=name
             list[uuid]['term']=term
@@ -66,16 +64,16 @@ def get_all():
 
     return list
 
-list = get_all()
+def find_children(list, uuid):
+    children=[]
+    for cuuid, v in list.items():
+        if uuid in v['parents']:
+            children.append({'uuid': cuuid, 'name': list[cuuid]['name'], 'term': list[cuuid]['term']})
+    return children
 
+list = get_all()
 for uuid, v in list.items():
-    list[uuid]['parent_names']=[]
-    for parent in v['parents']:
-        try:
-            list[uuid]['parent_names'].append(list[parent]['name'])
-        except:
-            #print(parent, 'does not exist?')
-            pass
+    list[uuid]['children'] = find_children(list, uuid)
 
 _store(list, 'pure_ou.json')
 
