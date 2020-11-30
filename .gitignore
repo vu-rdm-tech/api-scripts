@@ -135,3 +135,6 @@ dmypy.json
 
 # Brett exclusions
 run.bat
+
+# Peter exclusions
+config.py
