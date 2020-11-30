@@ -138,3 +138,4 @@ run.bat
 
 # Peter exclusions
 config.py
+*.sqlite
