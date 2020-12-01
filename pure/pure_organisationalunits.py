@@ -71,11 +71,23 @@ def find_children(list, uuid):
             children.append({'uuid': cuuid, 'name': list[cuuid]['name'], 'term': list[cuuid]['term']})
     return children
 
+
+def get_children(uuid):
+    print(list[uuid]['name'])
+    tmp={}
+    tmp['uuid']=uuid
+    tmp['name']=list[uuid]['name']
+    tmp['term']=list[uuid]['term']
+    tmp['children'] = [get_children(child['uuid']) for child in list[uuid]['children']]
+    return tmp
+
+
 list = get_all()
 for uuid, v in list.items():
     list[uuid]['children'] = find_children(list, uuid)
 
-_store(list, 'pure_ou.json')
+tree=get_children('971a8f57-d401-4e8b-9b1a-a1b97e46e0ea')
+_store(tree, 'pure_ou.json')
 
 
 
