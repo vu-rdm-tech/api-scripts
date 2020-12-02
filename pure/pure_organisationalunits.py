@@ -50,19 +50,24 @@ def get_all():
         data = json.loads(res.content)
         items = data['items']
 
-        for item in items:
-            name = item['name']['text'][0]['value']
-            term = item['type']['term']['text'][0]['value']
+        # "period": {
+        #         "startDate": "1970-01-01T11:00:00.000+0000",
+        #         "endDate": "2015-05-31T10:00:00.000+0000"
+        #       },
 
-            uuid = item['uuid']
-            parents = []
-            if 'parents' in item:
-                for parent in item['parents']:
-                    parents.append(parent['uuid'])
-            list[uuid] = {}
-            list[uuid]['name'] = name
-            list[uuid]['term'] = term
-            list[uuid]['parents'] = parents
+        for item in items:
+            if 'endDate' not in item['period']:  # ou no longer exists
+                name = item['name']['text'][0]['value']
+                term = item['type']['term']['text'][0]['value']
+                uuid = item['uuid']
+                parents = []
+                if 'parents' in item:
+                    for parent in item['parents']:
+                        parents.append(parent['uuid'])
+                list[uuid] = {}
+                list[uuid]['name'] = name
+                list[uuid]['term'] = term
+                list[uuid]['parents'] = parents
 
     return list
 
@@ -76,15 +81,9 @@ def find_children(list, uuid):
 
 
 def get_children2(uuid, level):
-    # exclude old faculties
-    if uuid not in ["96be95a2-a0bf-4215-a165-c6e5b8d40c4e", "21aaf5eb-92d9-4add-99e4-7596bec789c7",
-                    "85f96a6e-4a7b-4564-baff-208cd7933121"]:
-        level = level + 1
-        tmpstr = ("\t" * level) + " " + list[uuid]['name'] + " (" + list[uuid]['term'] + ")\n"
-        print(tmpstr)
-        tmpstr = tmpstr + ("").join([get_children2(child['uuid'], level) for child in list[uuid]['children']])
-    else:
-        tmpstr=''
+    level = level + 1
+    tmpstr = ("\t" * level) + " " + list[uuid]['name'] + " (" + list[uuid]['term'] + ")\n"
+    tmpstr = tmpstr + ("").join([get_children2(child['uuid'], level) for child in list[uuid]['children']])
     return tmpstr
 
 
