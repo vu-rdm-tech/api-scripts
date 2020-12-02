@@ -1499,6 +1499,31 @@
      ]
     },
     {
+     "uuid": "96be95a2-a0bf-4215-a165-c6e5b8d40c4e",
+     "name": "Faculty of Human Movement Sciences",
+     "term": "Faculty",
+     "children": [
+      {
+       "uuid": "5973a744-dacd-4a3a-a6e8-a3f3e9976e32",
+       "name": "Kinesiology",
+       "term": "Subdepartment",
+       "children": []
+      },
+      {
+       "uuid": "04ee1ef9-7ac3-4660-b57e-c37c9d6cef9c",
+       "name": "Movement Behavior",
+       "term": "Subdepartment",
+       "children": []
+      },
+      {
+       "uuid": "089607d5-f4dc-4bfe-bd09-db28c1d9dd27",
+       "name": "Teacher training",
+       "term": "Subdepartment",
+       "children": []
+      }
+     ]
+    },
+    {
      "uuid": "22c53d3b-6f13-4faf-a041-ff93b1ba42a5",
      "name": "Faculty of Religion and Theology",
      "term": "Faculty",
@@ -1863,6 +1888,586 @@
         {
          "uuid": "b8e393d2-9018-4f29-b8f3-2a6ce3521382",
          "name": "Philosophy, Politics and Economics",
+         "term": "Subdepartment",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "uuid": "21aaf5eb-92d9-4add-99e4-7596bec789c7",
+     "name": "Faculty of Sciences",
+     "term": "Faculty",
+     "children": [
+      {
+       "uuid": "0161489e-e245-40c8-a888-9b3799723332",
+       "name": "Mathematics",
+       "term": "Department",
+       "children": [
+        {
+         "uuid": "2bcc2c82-4159-42c8-94b4-4daf6273da7f",
+         "name": "Geometry",
+         "term": "Subdepartment",
+         "children": []
+        },
+        {
+         "uuid": "28eda7bd-4a82-4a17-9f8a-7d5b906ad5a9",
+         "name": "Mathematical Analysis",
+         "term": "Subdepartment",
+         "children": []
+        },
+        {
+         "uuid": "b959767f-b480-48ac-8f33-6301af9cc738",
+         "name": "Stochastics",
+         "term": "Subdepartment",
+         "children": []
+        }
+       ]
+      },
+      {
+       "uuid": "3e92ebf0-09b2-4b92-b522-d25a102a6cb9",
+       "name": "Physics and Astronomy",
+       "term": "Department",
+       "children": [
+        {
+         "uuid": "5c27f237-2b30-40d5-8a05-ace53d4bb179",
+         "name": "Theoretical Physics",
+         "term": "Subdepartment",
+         "children": []
+        },
+        {
+         "uuid": "eca748cb-b4cb-4975-88d7-55ee047b40d7",
+         "name": "(Astro)-Particles Physics",
+         "term": "Subdepartment",
+         "children": []
+        },
+        {
+         "uuid": "fd9b226f-2c1b-41a5-b694-c0b098b3b307",
+         "name": "Physical Computer Science",
+         "term": "Subdepartment",
+         "children": []
+        },
+        {
+         "uuid": "7b151d8f-950e-4d63-915b-a7365635807d",
+         "name": "Photo Conversion Materials",
+         "term": "Subdepartment",
+         "children": []
+        },
+        {
+         "uuid": "a45ac492-7032-48c4-bd4c-39b1414f2825",
+         "name": "Atoms, Molecules, Lasers",
+         "term": "Subdepartment",
+         "children": [
+          {
+           "uuid": "5be777fa-f256-4207-b3c0-d65f473aac97",
+           "name": "ARCNL",
+           "term": "Subdepartment",
+           "children": []
+          }
+         ]
+        },
+        {
+         "uuid": "6d40dfc9-6fea-4509-8bd8-eee3f058237b",
+         "name": "Student Lab and Education",
+         "term": "Subdepartment",
+         "children": []
+        },
+        {
+         "uuid": "11d8d827-784e-4193-b9a4-2ba8c70c956f",
+         "name": "Biophysics Photosynthesis/Energy",
+         "term": "Subdepartment",
+         "children": []
+        },
+        {
+         "uuid": "ae8edcbc-7a06-4cc6-a327-d9850e99a0d9",
+         "name": "Physics of Living Systems",
+         "term": "Subdepartment",
+         "children": []
+        },
+        {
+         "uuid": "f76c5236-14d1-4623-934e-5f83147a8862",
+         "name": "History and Social Aspects of Science",
+         "term": "Department",
+         "children": []
+        },
+        {
+         "uuid": "c08a4893-574c-4ead-8217-be316afcd8b2",
+         "name": "Biophotonics and Medical Imaging",
+         "term": "Subdepartment",
+         "children": []
+        }
+       ]
+      },
+      {
+       "uuid": "74303367-65e2-4589-ab05-0ebd0f0ef0fd",
+       "name": "Chemistry and Pharmaceutical Sciences",
+       "term": "Department",
+       "children": [
+        {
+         "uuid": "3f7d5927-d0f0-439d-9bd6-f33997997052",
+         "name": "BioAnalytical Chemistry",
+         "term": "Subdepartment",
+         "children": []
+        },
+        {
+         "uuid": "4dd315c0-d1b4-4996-97de-e360d1e1d661",
+         "name": "Biochemistry and Molecular Biology",
+         "term": "Subdepartment",
+         "children": []
+        },
+        {
+         "uuid": "1b8a723e-0ba4-4c69-8dbe-21a03ff74b7a",
+         "name": "Medicinal chemistry",
+         "term": "Subdepartment",
+         "children": []
+        },
+        {
+         "uuid": "52c985bf-69d5-4b47-9f11-a059d0a27de5",
+         "name": "Physical Chemistry",
+         "term": "Subdepartment",
+         "children": []
+        },
+        {
+         "uuid": "c8ac8543-8a13-4d6c-a826-7a0d25218de9",
+         "name": "Theoretical Chemistry",
+         "term": "Subdepartment",
+         "children": []
+        },
+        {
+         "uuid": "c66d135c-0936-43b1-8b65-5d17c2824bab",
+         "name": "Organic Chemistry",
+         "term": "Subdepartment",
+         "children": []
+        },
+        {
+         "uuid": "e94f7f77-7c16-4acd-861f-f773325d0c9b",
+         "name": "Science & Business Innovation",
+         "term": "Subdepartment",
+         "children": []
+        },
+        {
+         "uuid": "3f7bc560-e116-4b83-b499-418556afbb8a",
+         "name": "Molecular and Computational Toxicology",
+         "term": "Subdepartment",
+         "children": []
+        },
+        {
+         "uuid": "455d5ba4-ba3e-49ef-99b5-cf7fba052926",
+         "name": "Innovations in Human Health & Life Sciences",
+         "term": "Subdepartment",
+         "children": []
+        }
+       ]
+      },
+      {
+       "uuid": "b2350150-6d19-43b4-a1ed-626514bae8a1",
+       "name": "Computer Science",
+       "term": "Department",
+       "children": [
+        {
+         "uuid": "82fb8767-5af9-42ee-bd95-dd706c13434e",
+         "name": "Business Web and Media",
+         "term": "Subdepartment",
+         "children": []
+        },
+        {
+         "uuid": "23563190-45cd-4b0b-b2d8-2dcfe428c9c6",
+         "name": "Bioinformatics",
+         "term": "Subdepartment",
+         "children": []
+        },
+        {
+         "uuid": "7415df1c-66af-40e4-b569-10575f53992a",
+         "name": "Computer Systems",
+         "term": "Subdepartment",
+         "children": []
+        },
+        {
+         "uuid": "01ccd9cf-c330-449b-9fc8-2b97e1b85bd9",
+         "name": "Information Management and Software Engineering",
+         "term": "Subdepartment",
+         "children": []
+        },
+        {
+         "uuid": "f0abeac2-0240-465e-9212-996bef1c8af7",
+         "name": "Artificial intelligence",
+         "term": "Subdepartment",
+         "children": []
+        },
+        {
+         "uuid": "c0b13eca-b1e7-4b71-a37e-0a9f1538a59d",
+         "name": "Theoretical Computer Science",
+         "term": "Subdepartment",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "uuid": "85f96a6e-4a7b-4564-baff-208cd7933121",
+     "name": "Faculty of Earth and Life Sciences",
+     "term": "Faculty",
+     "children": [
+      {
+       "uuid": "557fd2e5-8223-48a3-bd90-3e94a2fce921",
+       "name": "Center for Neurogenomics and Cognitive Research",
+       "term": "Department",
+       "children": [
+        {
+         "uuid": "4e5c2395-8eb2-4ba7-87ba-2e0b66b6efea",
+         "name": "Molecular and Cellular Neurobiology",
+         "term": "Subdepartment",
+         "children": []
+        },
+        {
+         "uuid": "2d03964c-2917-4769-93aa-56fe22a4d40d",
+         "name": "Integrative Neurophysiology",
+         "term": "Subdepartment",
+         "children": []
+        },
+        {
+         "uuid": "c6086987-5bca-4c8e-8bad-b17423e6fad3",
+         "name": "Functional Genomics",
+         "term": "Subdepartment",
+         "children": []
+        },
+        {
+         "uuid": "26f4a185-b319-4ba7-9a5e-9d345c1759ac",
+         "name": "Developmental and Behavioral Neurobiology",
+         "term": "Subdepartment",
+         "children": []
+        },
+        {
+         "uuid": "c86618d0-8bb0-4eb3-b042-3114769132a8",
+         "name": "Complex Trait Genetics",
+         "term": "Subdepartment",
+         "children": []
+        }
+       ]
+      },
+      {
+       "uuid": "36f18968-5745-4511-a473-732fbf39bd33",
+       "name": "Athena Institute",
+       "term": "Department",
+       "children": [
+        {
+         "uuid": "fdc1ab48-35bd-4254-aaf0-a51916b0c15b",
+         "name": "Science and Society",
+         "term": "Subdepartment",
+         "children": []
+        },
+        {
+         "uuid": "5dd684d2-5bc0-4690-b25d-eeb1cffde44b",
+         "name": "Science Communication",
+         "term": "Subdepartment",
+         "children": []
+        },
+        {
+         "uuid": "ea6f038b-78c3-4740-9f58-8924c1da80a4",
+         "name": "Health & Life",
+         "term": "Subdepartment",
+         "children": []
+        }
+       ]
+      },
+      {
+       "uuid": "4e69fc08-92d1-48a0-8cfa-41181f1422be",
+       "name": "Health Sciences",
+       "term": "Department",
+       "children": [
+        {
+         "uuid": "c5790e69-161f-4882-aa2c-c8f6054a3401",
+         "name": "Nutrition and Health",
+         "term": "Subdepartment",
+         "children": []
+        },
+        {
+         "uuid": "790a9be8-2201-45d7-b294-4b18aae2bcec",
+         "name": "Health Economics and Health Technology Assessment",
+         "term": "Subdepartment",
+         "children": []
+        },
+        {
+         "uuid": "b2cd8c32-8459-4b00-b6ed-a4afa07a9de7",
+         "name": "Methodology and Applied Biostatistics",
+         "term": "Subdepartment",
+         "children": []
+        },
+        {
+         "uuid": "4e751d7a-0aaf-4443-ad80-6b6bf0166257",
+         "name": "Prevention and Public Health",
+         "term": "Subdepartment",
+         "children": []
+        },
+        {
+         "uuid": "d45c046a-1cc9-4a0b-a893-f021886ef29e",
+         "name": "Infectious Diseases",
+         "term": "Subdepartment",
+         "children": []
+        },
+        {
+         "uuid": "8a0dccaa-866d-424e-8e92-87d0f9889f4a",
+         "name": "Youth and Lifestyle",
+         "term": "Subdepartment",
+         "children": []
+        }
+       ]
+      },
+      {
+       "uuid": "f0e71d86-17f5-4734-a5af-353e3ed8164d",
+       "name": "Kars Group (Geo- and Bioarchaeology)",
+       "term": "Department",
+       "children": [
+        {
+         "uuid": "5a0a147c-4fc3-4e42-ad88-98613d2d7636",
+         "name": "Geoarchaeology",
+         "term": "Subdepartment",
+         "children": []
+        }
+       ]
+      },
+      {
+       "uuid": "522b6196-5cff-4070-aa49-bd75de1a4922",
+       "name": "CIMO",
+       "term": "Department",
+       "children": []
+      },
+      {
+       "uuid": "67f17685-3286-45d6-bc73-541c02c8bc01",
+       "name": "Climate Centre",
+       "term": "Department",
+       "children": []
+      },
+      {
+       "uuid": "5cb9db79-5115-44b0-91de-f72e23d7c4fb",
+       "name": "AGCI",
+       "term": "Department",
+       "children": []
+      },
+      {
+       "uuid": "3cd748de-0648-4e85-942c-dc30c733b7db",
+       "name": "Institute of Earth Sciences",
+       "term": "Department",
+       "children": []
+      },
+      {
+       "uuid": "2f1c348d-a092-4407-a2b2-71beba417b65",
+       "name": "Environment and Health",
+       "term": "Department",
+       "children": [
+        {
+         "uuid": "e33ace55-6e7a-44ec-9db4-3df431a108d1",
+         "name": "E&H: Environmental Chemistry and Toxicology",
+         "term": "Subdepartment",
+         "children": []
+        },
+        {
+         "uuid": "61beef2f-ed31-46df-9276-8dd5d1c82cdf",
+         "name": "E&H: Environmental Bioanalytical Chemistry",
+         "term": "Subdepartment",
+         "children": []
+        },
+        {
+         "uuid": "e6a8a113-073c-4369-b31c-2f4b0771bfca",
+         "name": "E&H: Environmental Health and Toxicology",
+         "term": "Subdepartment",
+         "children": []
+        }
+       ]
+      },
+      {
+       "uuid": "ec3e3fde-b1a7-401d-a7e4-51e7844fe679",
+       "name": "Earth Sciences",
+       "term": "Department",
+       "children": [
+        {
+         "uuid": "5af660c4-88f2-4d12-bc29-6563bdf55e9c",
+         "name": "Earth and Climate",
+         "term": "Subdepartment",
+         "children": []
+        },
+        {
+         "uuid": "8cd44e38-b35c-4922-ba6a-c3a0e6ecbe16",
+         "name": "Geology and Geochemistry",
+         "term": "Subdepartment",
+         "children": []
+        },
+        {
+         "uuid": "76e4ace8-daed-47d1-8d71-5ee69303c936",
+         "name": "Dynamic Earth and Resources",
+         "term": "Subdepartment",
+         "children": []
+        },
+        {
+         "uuid": "5fc0d350-dfc7-4e9a-8692-e4ffa67350c5",
+         "name": "Climate Change and Landscape Dynamics",
+         "term": "Subdepartment",
+         "children": []
+        },
+        {
+         "uuid": "472b6fd5-84d4-4c2d-bd08-4ad21ed7e799",
+         "name": "Marine Biogeology",
+         "term": "Subdepartment",
+         "children": []
+        },
+        {
+         "uuid": "341e274d-1a02-4e27-aacc-1d3ad1aaf1c2",
+         "name": "Sedimentology",
+         "term": "Subdepartment",
+         "children": []
+        },
+        {
+         "uuid": "83ef11a4-026b-42c6-a783-b7e38fbce023",
+         "name": "Tectonics",
+         "term": "Subdepartment",
+         "children": []
+        },
+        {
+         "uuid": "8dc44ebb-5297-4174-8ebb-8e76d4744d3a",
+         "name": "Petrology",
+         "term": "Subdepartment",
+         "children": []
+        },
+        {
+         "uuid": "4bac3ccf-26e4-4d17-a3e9-3bfdeffc47e2",
+         "name": "Isotope Geochemistry",
+         "term": "Subdepartment",
+         "children": []
+        },
+        {
+         "uuid": "08171581-90fd-488e-89d7-7f4f27148a99",
+         "name": "Hydrology and Geo-environmental sciences",
+         "term": "Subdepartment",
+         "children": []
+        },
+        {
+         "uuid": "8195b894-0c52-4c6c-a365-c85456244a34",
+         "name": "ISES",
+         "term": "Subdepartment",
+         "children": []
+        }
+       ]
+      },
+      {
+       "uuid": "f0a8f62d-21e9-4072-8277-9418427fe802",
+       "name": "Institute for Environmental Studies",
+       "term": "Department",
+       "children": [
+        {
+         "uuid": "4d9532ac-ee13-42af-8cc2-2e20b9683608",
+         "name": "Earth and Economy",
+         "term": "Department",
+         "children": []
+        },
+        {
+         "uuid": "b3582bfb-36c2-4ecf-be38-5bc6ce237077",
+         "name": "Environmental Economics",
+         "term": "Subdepartment",
+         "children": []
+        },
+        {
+         "uuid": "e546291d-c89d-4332-9493-a29c6c9442a2",
+         "name": "Chemistry and Biology",
+         "term": "Subdepartment",
+         "children": []
+        },
+        {
+         "uuid": "77b2d448-a2a6-4035-841c-7c4719eca49b",
+         "name": "Environmental Policy Analysis",
+         "term": "Subdepartment",
+         "children": []
+        },
+        {
+         "uuid": "7be3cfcf-0d4c-426c-9eb9-587783cfe468",
+         "name": "Spatial analysis & Decision Support",
+         "term": "Subdepartment",
+         "children": []
+        },
+        {
+         "uuid": "90700a26-ca90-4c1a-abe3-6e22c53720fe",
+         "name": "Water and Climate Risk",
+         "term": "Subdepartment",
+         "children": []
+        },
+        {
+         "uuid": "b9954224-f905-45c6-941f-855caf8b827d",
+         "name": "Environmental Geography (former)",
+         "term": "Subdepartment",
+         "children": []
+        },
+        {
+         "uuid": "91ebfb16-6048-4ee2-b600-0006a32c6ec5",
+         "name": "Environmental Geography",
+         "term": "Subdepartment",
+         "children": []
+        }
+       ]
+      },
+      {
+       "uuid": "a7f4755d-73ba-4349-af09-3099c7c8bc67",
+       "name": "Molecular Cell Biology",
+       "term": "Department",
+       "children": [
+        {
+         "uuid": "da6fc220-53f4-43ba-bfda-f6ac78939505",
+         "name": "Ecology and Plant Physiology",
+         "term": "Subdepartment",
+         "children": []
+        },
+        {
+         "uuid": "33aa49a4-af66-4d5a-b72a-f6278d35fd4e",
+         "name": "Theoretical Life Sciences",
+         "term": "Subdepartment",
+         "children": []
+        },
+        {
+         "uuid": "bfb8e93d-424a-42d9-b73e-b07c5fd625ce",
+         "name": "Structural Biology",
+         "term": "Subdepartment",
+         "children": []
+        },
+        {
+         "uuid": "eba3b4d4-1283-4f91-814f-563dfa568230",
+         "name": "Molecular Microbiology",
+         "term": "Subdepartment",
+         "children": []
+        },
+        {
+         "uuid": "7485b358-f4b7-45b9-9857-4f9c278d745c",
+         "name": "Developmental Genetics",
+         "term": "Subdepartment",
+         "children": []
+        },
+        {
+         "uuid": "a650e1c5-aa24-41d8-90fc-92e72c20b8c9",
+         "name": "Molecular Cell Physiology",
+         "term": "Subdepartment",
+         "children": []
+        },
+        {
+         "uuid": "7f177615-b298-4312-91f3-49563e10aaea",
+         "name": "Systems Bioinformatics",
+         "term": "Subdepartment",
+         "children": []
+        }
+       ]
+      },
+      {
+       "uuid": "88865d82-e66d-49eb-aee8-d26cbf4e4a7d",
+       "name": "Ecological Science",
+       "term": "Department",
+       "children": [
+        {
+         "uuid": "e1ec6d9c-6e0f-4010-a2eb-d66669f6c489",
+         "name": "Animal Ecology",
+         "term": "Subdepartment",
+         "children": []
+        },
+        {
+         "uuid": "f072f4a8-fe29-49ac-81dd-2732479279ef",
+         "name": "Systems Ecology",
          "term": "Subdepartment",
          "children": []
         }

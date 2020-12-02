@@ -4,9 +4,10 @@ from pure.config import PURE_APIKEY, PURE_USERNAME, PURE_PASSWORD, PURE_ORGANISA
 import requests
 import requests_cache
 
-#https://research.vu.nl/ws/api/518/api-docs/index.html#!/organisational45units/listOrganisationalUnits
+# https://research.vu.nl/ws/api/518/api-docs/index.html#!/organisational45units/listOrganisationalUnits
 
 requests_cache.install_cache(cache_name='pure_ou_requests_cache', allowable_methods=('GET', 'POST'))
+
 
 def _store(data, filename):
     '''
@@ -19,11 +20,13 @@ def _store(data, filename):
     with open(filename, 'w') as f:
         json.dump(data, f, indent=1)
 
+
 def _do_postrequest(data, size=10, offset=0):
     headers = {"Content-Type": "application/json", 'Accept': 'application/json'}
     payload = {'apiKey': PURE_APIKEY, 'size': size, 'offset': offset}
 
-    res = requests.post(PURE_ORGANISATIONALUNITS_URL, headers=headers, params=payload, data=data, auth=(PURE_USERNAME, PURE_PASSWORD))
+    res = requests.post(PURE_ORGANISATIONALUNITS_URL, headers=headers, params=payload, data=data,
+                        auth=(PURE_USERNAME, PURE_PASSWORD))
     try:
         cached = res.from_cache
     except:
@@ -35,12 +38,12 @@ def _do_postrequest(data, size=10, offset=0):
 
 
 def get_all():
-    reqJSON = '{}' # seems to be enough to get all
+    reqJSON = '{}'  # seems to be enough to get all
     res, cached = _do_postrequest(data=reqJSON, size=1, offset=0)
     data = json.loads(res.content)
     count = data['count']
 
-    list={}
+    list = {}
     size = 10
     for offset in range(0, count, size):
         res, cached = _do_postrequest(data=reqJSON, size=size, offset=offset)
@@ -52,33 +55,39 @@ def get_all():
             term = item['type']['term']['text'][0]['value']
 
             uuid = item['uuid']
-            parents=[]
+            parents = []
             if 'parents' in item:
                 for parent in item['parents']:
                     parents.append(parent['uuid'])
-            list[uuid]={}
-            list[uuid]['name']=name
-            list[uuid]['term']=term
-            list[uuid]['parents']=parents
-
+            list[uuid] = {}
+            list[uuid]['name'] = name
+            list[uuid]['term'] = term
+            list[uuid]['parents'] = parents
 
     return list
 
+
 def find_children(list, uuid):
-    children=[]
+    children = []
     for cuuid, v in list.items():
         if uuid in v['parents']:
             children.append({'uuid': cuuid, 'name': list[cuuid]['name'], 'term': list[cuuid]['term']})
     return children
 
 
+def get_children2(uuid, level):
+    level=level+1
+    tmpstr = ("\t" * level) + " " + list[uuid]['name'] + " (" + list[uuid]['term'] + ")\n"
+    print(tmpstr)
+    tmpstr = tmpstr + ("").join([get_children2(child['uuid'], level) for child in list[uuid]['children']])
+    return tmpstr
+
 def get_children(uuid):
-    print(list[uuid]['name'])
-    tmp={}
-    tmp['uuid']=uuid
-    tmp['name']=list[uuid]['name']
-    tmp['term']=list[uuid]['term']
-    tmp['children'] = [get_children(child['uuid']) for child in list[uuid]['children']]
+    tmp = {}
+    tmp['uuid'] = uuid
+    tmp['name'] = list[uuid]['name']
+    tmp['term'] = list[uuid]['term']
+    tmp['children']= [get_children(child['uuid']) for child in list[uuid]['children']]
     return tmp
 
 
@@ -86,9 +95,9 @@ list = get_all()
 for uuid, v in list.items():
     list[uuid]['children'] = find_children(list, uuid)
 
-tree=get_children('971a8f57-d401-4e8b-9b1a-a1b97e46e0ea')
+tree = get_children('971a8f57-d401-4e8b-9b1a-a1b97e46e0ea')
+text = get_children2('971a8f57-d401-4e8b-9b1a-a1b97e46e0ea',-1)
+print(text)
 _store(tree, 'pure_ou.json')
-
-
-
-
+with open('pure_list.txt', 'w') as f:
+    f.write(text)
