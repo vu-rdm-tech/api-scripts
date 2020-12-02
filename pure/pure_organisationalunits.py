@@ -76,18 +76,24 @@ def find_children(list, uuid):
 
 
 def get_children2(uuid, level):
-    level=level+1
-    tmpstr = ("\t" * level) + " " + list[uuid]['name'] + " (" + list[uuid]['term'] + ")\n"
-    print(tmpstr)
-    tmpstr = tmpstr + ("").join([get_children2(child['uuid'], level) for child in list[uuid]['children']])
+    # exclude old faculties
+    if uuid not in ["96be95a2-a0bf-4215-a165-c6e5b8d40c4e", "21aaf5eb-92d9-4add-99e4-7596bec789c7",
+                    "85f96a6e-4a7b-4564-baff-208cd7933121"]:
+        level = level + 1
+        tmpstr = ("\t" * level) + " " + list[uuid]['name'] + " (" + list[uuid]['term'] + ")\n"
+        print(tmpstr)
+        tmpstr = tmpstr + ("").join([get_children2(child['uuid'], level) for child in list[uuid]['children']])
+    else:
+        tmpstr=''
     return tmpstr
+
 
 def get_children(uuid):
     tmp = {}
     tmp['uuid'] = uuid
     tmp['name'] = list[uuid]['name']
     tmp['term'] = list[uuid]['term']
-    tmp['children']= [get_children(child['uuid']) for child in list[uuid]['children']]
+    tmp['children'] = [get_children(child['uuid']) for child in list[uuid]['children']]
     return tmp
 
 
@@ -96,7 +102,7 @@ for uuid, v in list.items():
     list[uuid]['children'] = find_children(list, uuid)
 
 tree = get_children('971a8f57-d401-4e8b-9b1a-a1b97e46e0ea')
-text = get_children2('971a8f57-d401-4e8b-9b1a-a1b97e46e0ea',-1)
+text = get_children2('971a8f57-d401-4e8b-9b1a-a1b97e46e0ea', -1)
 print(text)
 _store(tree, 'pure_ou.json')
 with open('pure_list.txt', 'w') as f:
