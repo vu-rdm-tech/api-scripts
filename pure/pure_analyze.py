@@ -1,4 +1,4 @@
-import os, json, pprint
+import os, json, pprint, collections
 cDir = os.path.dirname(os.path.abspath(os.sys.argv[0]))
 
 data_file = ''
@@ -61,26 +61,30 @@ if __name__ == '__main__':
     searchkey = 'term'
 
     # custom replacements, can be empty
-    custom_repl = {'Mathematics' : 'Maths',
-                   'Philosophy' : 'Phil',
-                   'Sociology' : 'Socio',
-                   'Accounting' : 'Acc',
-                   'Finance' : 'Fin',
-                   'Marketing' : 'Mrk',
-                   'Economics' : 'Econ',
-                   'LaserLaB' : 'Laser',
-                   '(WHO)' : '',
-                   'of' : '',
-                   '!' : '',
-                   '-' : '',
-                   '_' : '',
-                   '(' : '',
-                   ')' : '',
-                   '&' : 'and',
-                   '+' : '',
-                   'and' : ' ',
-                   'for' : ''
-                   }
+    custom_repl = collections.OrderedDict(
+        {'Mathematics' : 'Maths',
+         'Philosophy' : 'Phil',
+         'Sociology' : 'Socio',
+         'Accounting' : 'Acc',
+         'Finance' : 'Fin',
+         'Marketing' : 'Mrk',
+         'Economics' : 'Econ',
+         'LaserLaB' : 'Laser',
+         '!' : '',
+         '-' : '',
+         '_' : '',
+         '(' : '',
+         ')' : '',
+         '+' : '',
+         '&' : 'and',
+         ' (WHO) ' : ' ',
+         ' for ' : ' ',
+         ' of ' : ' ',
+         ' and ' : ' ',
+         }
+        )
+
+    print(custom_repl.items())
 
     find_all(orgdata, expressions, searchkey, custom_repl, output)
 
