@@ -135,6 +135,8 @@ dmypy.json
 
 # Brett exclusions
 run.bat
+api-scripts.wpr
+api-scripts.wpu
 
 # Peter exclusions
 config.py
