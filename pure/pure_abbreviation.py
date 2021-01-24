@@ -22,22 +22,41 @@ import os, json, pprint, collections
 # These need to be defined and passed into the module methods
 # using my current defaults - bgoli
 
+expressions = ['Department', 'Research Institute']
+searchkey = 'term'
+
+# store output here, keys must include expressions as dictionaries and
+# and a single 'Acronymns' list.
 output = {'Department' : {},
           'Research Institute' : {},
           'Acronymns' : [],
           }
 
-expressions = ['Department', 'Research Institute']
-
-searchkey = 'term'
-
-orgdata = None
-
 # custom replacements, can be empty
 custom_repl = collections.OrderedDict(
-    {
+    {'Mathematics' : 'Maths',
+     'Philosophy' : 'Phil',
+     'Sociology' : 'Socio',
+     'Accounting' : 'Acc',
+     'Finance' : 'Fin',
+     'Marketing' : 'Mrk',
+     'Economics' : 'Econ',
+     'LaserLaB' : 'Laser',
+     '!' : '',
+     '-' : '',
+     '_' : '',
+     '(' : '',
+     ')' : '',
+     '+' : '',
+     '&' : 'and',
+     ' (WHO) ' : ' ',
+     ' for ' : ' ',
+     ' of ' : ' ',
+     ' and ' : ' ',
+     }
+    )
 
-
+#print(custom_repl.items())
 
 def find_all(branch, expr, key, acro_repl, out):
     for e in branch:
@@ -88,42 +107,6 @@ if __name__ == '__main__':
 
     with open(os.path.join(cDir, 'pure_ou.json'), 'r') as F:
         orgdata = json.load(F)
-
-    #pprint.pprint(orgdata)
-    output = {'Department' : {},
-              'Research Institute' : {},
-              'Acronymns' : [],
-              }
-
-    expressions = ['Department', 'Research Institute']
-
-    searchkey = 'term'
-
-    # custom replacements, can be empty
-    custom_repl = collections.OrderedDict(
-        {'Mathematics' : 'Maths',
-         'Philosophy' : 'Phil',
-         'Sociology' : 'Socio',
-         'Accounting' : 'Acc',
-         'Finance' : 'Fin',
-         'Marketing' : 'Mrk',
-         'Economics' : 'Econ',
-         'LaserLaB' : 'Laser',
-         '!' : '',
-         '-' : '',
-         '_' : '',
-         '(' : '',
-         ')' : '',
-         '+' : '',
-         '&' : 'and',
-         ' (WHO) ' : ' ',
-         ' for ' : ' ',
-         ' of ' : ' ',
-         ' and ' : ' ',
-         }
-        )
-
-    print(custom_repl.items())
 
     find_all(orgdata, expressions, searchkey, custom_repl, output)
 
