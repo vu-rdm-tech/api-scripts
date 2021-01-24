@@ -1,15 +1,43 @@
+"""
+# These need to be defined and passed into the module methods
+
+expressions = ['Department', 'Research Institute']
+searchkey = 'term'
+
+output = {'Department' : {},
+          'Research Institute' : {},
+          'Acronymns' : [],
+          }
+
+# custom replacements, can be empty
+custom_repl = collections.OrderedDict({})
+
+# needs to be loaded from Peter's org data file
+orgdata = None
+
+"""
+
 import os, json, pprint, collections
-cDir = os.path.dirname(os.path.abspath(os.sys.argv[0]))
 
-data_file = ''
-data_path = os.path.join(cDir, 'data')
-if not os.path.exists(data_path):
-    os.makedirs(data_path)
+# These need to be defined and passed into the module methods
+# using my current defaults - bgoli
 
-with open(os.path.join(cDir, 'pure_ou.json'), 'r') as F:
-    orgdata = json.load(F)
+output = {'Department' : {},
+          'Research Institute' : {},
+          'Acronymns' : [],
+          }
 
-#pprint.pprint(orgdata)
+expressions = ['Department', 'Research Institute']
+
+searchkey = 'term'
+
+orgdata = None
+
+# custom replacements, can be empty
+custom_repl = collections.OrderedDict(
+    {
+
+
 
 def find_all(branch, expr, key, acro_repl, out):
     for e in branch:
@@ -51,6 +79,17 @@ def acronize(words, replacements, duplicate=False):
 
 
 if __name__ == '__main__':
+    cDir = os.path.dirname(os.path.abspath(os.sys.argv[0]))
+
+    data_file = ''
+    #data_path = os.path.join(cDir, 'data')
+    #if not os.path.exists(data_path):
+        #os.makedirs(data_path)
+
+    with open(os.path.join(cDir, 'pure_ou.json'), 'r') as F:
+        orgdata = json.load(F)
+
+    #pprint.pprint(orgdata)
     output = {'Department' : {},
               'Research Institute' : {},
               'Acronymns' : [],
