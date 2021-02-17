@@ -34,7 +34,7 @@ output = {'Department' : {},
 
 # custom replacements, can be empty
 custom_repl = collections.OrderedDict(
-    {'Mathematics' : 'Maths',
+    {'Mathematics' : 'Math',
      'Philosophy' : 'Phil',
      'Sociology' : 'Socio',
      'Accounting' : 'Acc',
