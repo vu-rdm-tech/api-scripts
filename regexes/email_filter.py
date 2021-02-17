@@ -21,6 +21,8 @@ for r in range(set_size_small):
         '{}{}@vu.nl'.format(rand_letter_string(3), random.randint(100, 999))
     )
 for r in range(set_size_small):
+    test_vu_emails.append('{}@vu.nl'.format(rand_letter_string(10)))
+for r in range(set_size_small):
     test_vunet_ids.append(
         '{}{}'.format(rand_letter_string(3), random.randint(100, 999))
     )
@@ -43,12 +45,11 @@ for r in range(set_size_large):
 
 # regex
 
-no_vu_email_1 = '[a-z{3}0-9{3}\@]+[^vu][\.][a-zA-Z0-9]+|[a-z]{3}[0-9]{3}[^\@]'
-no_vu_email_2 = '^[a-z]{3}[0-9]{3}$|^[a-z]{3}[0-9]{3}\@[^(vu\.)][a-zA-Z0-9\.]+$'
-no_vu_email_3 = '^[a-z]{3}[0-9]{3}$|^(?![a-z]{3}[0-9]{3}\@vu\.nl$)'
+no_vu_email_1 = '^[a-z]{3}[0-9]{3}$|^(?![a-z]{3}[0-9]{3}\@vu\.nl$)'
+no_vu_email_2 = '^[a-z]{3}[0-9]{3}$|^(?!\w*\@vu\.nl$)'
 
 
-nve = re.compile(no_vu_email_3)
+nve = re.compile(no_vu_email_2)
 
 for pid in test_vunet_ids:
     r = re.match(nve, pid)
