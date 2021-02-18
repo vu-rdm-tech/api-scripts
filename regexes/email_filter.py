@@ -37,6 +37,8 @@ for r in range(set_size_large):
         )
     )
 
+# pathalogical cases
+test_nonvunet_id_emails.insert(0, 'abc900@vu.nl.com')
 
 # print(test_vu_emails)
 # print(test_vunet_ids)
@@ -46,17 +48,20 @@ for r in range(set_size_large):
 # regex
 
 no_vu_email_1 = '^[a-z]{3}[0-9]{3}$|^(?![a-z]{3}[0-9]{3}\@vu\.nl$)'
-no_vu_email_2 = '^[a-z]{3}[0-9]{3}$|^(?!\w*\@vu\.nl$)'
+no_vu_email_2 = '^[a-z]{3}[0-9]{3}$|^(?!\w*\@vu\.nl$)'  # brett
+no_vu_email_3 = '^([a-z]{3}[0-9]{3}|.+@(?!vu\.nl).+\..+)$'  # peter
 
 
-nve = re.compile(no_vu_email_2)
+nve = re.compile(no_vu_email_3)
 
 for pid in test_vunet_ids:
     r = re.match(nve, pid)
     print('{}: {}'.format(pid, r is not None))
+print('\n')
 for pid in test_vu_emails:
     r = re.match(nve, pid)
     print('{}: {}'.format(pid, r is not None))
+print('\n')
 for pid in test_nonvunet_id_emails:
     r = re.match(nve, pid)
     print('{}: {}'.format(pid, r is not None))
