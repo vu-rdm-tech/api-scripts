@@ -4,7 +4,9 @@ import re, string, random
 def rand_letter_string(n=3):
     a = []
     for _ in range(n):
-        a.extend(string.ascii_lowercase[random.randint(0, 24)])
+        a.extend(
+            string.ascii_lowercase[random.randint(0, len(string.ascii_lowercase) - 1)]
+        )
     return ''.join(a)
 
 
