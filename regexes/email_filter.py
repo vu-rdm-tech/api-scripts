@@ -1,3 +1,14 @@
+"""
+Title:
+Author: Brett G. Olivier
+
+Usage:
+
+
+(C) Brett G. Olivier, VU Amsterdam, 2021. Licenced for use under the GNU GPL 3.0
+
+"""
+
 import re, string, random
 
 

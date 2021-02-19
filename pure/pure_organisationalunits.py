@@ -1,12 +1,30 @@
+"""
+Title:
+Author: Brett G. Olivier
+
+Usage::
+
+
+(C) Brett G. Olivier, VU Amsterdam, 2021. Licenced for use under the GNU GPL 3.0
+
+"""
+
 import json
 
-from pure.config import PURE_APIKEY, PURE_USERNAME, PURE_PASSWORD, PURE_ORGANISATIONALUNITS_URL
+from pure.config import (
+    PURE_APIKEY,
+    PURE_USERNAME,
+    PURE_PASSWORD,
+    PURE_ORGANISATIONALUNITS_URL,
+)
 import requests
 import requests_cache
 
 # https://research.vu.nl/ws/api/518/api-docs/index.html#!/organisational45units/listOrganisationalUnits
 
-requests_cache.install_cache(cache_name='pure_ou_requests_cache', allowable_methods=('GET', 'POST'))
+requests_cache.install_cache(
+    cache_name='pure_ou_requests_cache', allowable_methods=('GET', 'POST')
+)
 
 
 def _store(data, filename):
@@ -25,8 +43,13 @@ def _do_postrequest(data, size=10, offset=0):
     headers = {"Content-Type": "application/json", 'Accept': 'application/json'}
     payload = {'apiKey': PURE_APIKEY, 'size': size, 'offset': offset}
 
-    res = requests.post(PURE_ORGANISATIONALUNITS_URL, headers=headers, params=payload, data=data,
-                        auth=(PURE_USERNAME, PURE_PASSWORD))
+    res = requests.post(
+        PURE_ORGANISATIONALUNITS_URL,
+        headers=headers,
+        params=payload,
+        data=data,
+        auth=(PURE_USERNAME, PURE_PASSWORD),
+    )
     try:
         cached = res.from_cache
     except:
@@ -76,14 +99,24 @@ def find_children(list, uuid):
     children = []
     for cuuid, v in list.items():
         if uuid in v['parents']:
-            children.append({'uuid': cuuid, 'name': list[cuuid]['name'], 'term': list[cuuid]['term']})
+            children.append(
+                {
+                    'uuid': cuuid,
+                    'name': list[cuuid]['name'],
+                    'term': list[cuuid]['term'],
+                }
+            )
     return children
 
 
 def get_children2(uuid, level):
     level = level + 1
-    tmpstr = ("\t" * level) + " " + list[uuid]['name'] + " (" + list[uuid]['term'] + ")\n"
-    tmpstr = tmpstr + ("").join([get_children2(child['uuid'], level) for child in list[uuid]['children']])
+    tmpstr = (
+        ("\t" * level) + " " + list[uuid]['name'] + " (" + list[uuid]['term'] + ")\n"
+    )
+    tmpstr = tmpstr + ("").join(
+        [get_children2(child['uuid'], level) for child in list[uuid]['children']]
+    )
     return tmpstr
 
 
