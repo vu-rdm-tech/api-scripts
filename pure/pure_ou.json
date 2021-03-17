@@ -4,361 +4,35 @@
  "term": "University",
  "children": [
   {
-   "uuid": "214a0ac4-580a-4b04-b8ee-08523735b84d",
-   "name": "VU Faculty Research",
+   "uuid": "036ae621-449a-4a1b-8a2e-c26e22c294a6",
+   "name": "VU - Other Units",
    "term": "Hierarchy",
    "children": [
     {
-     "uuid": "7cb44e7b-20d7-4a98-8d0c-73b60972002b",
-     "name": "Research Programmes - Theology",
-     "term": "Research Programme",
-     "children": [
-      {
-       "uuid": "045a4cfe-8935-49cc-baab-4a7a1d61f00f",
-       "name": "Connecting Religious Identities and Diversities",
-       "term": "Research Programme",
-       "children": [
-        {
-         "uuid": "530f940b-9712-4724-9526-9dce7697578b",
-         "name": "Texts and Traditions",
-         "term": "Department",
-         "children": []
-        },
-        {
-         "uuid": "bf19dfee-a4e1-4d74-8a19-0f6bcffb55e5",
-         "name": "Beliefs and Practices",
-         "term": "Department",
-         "children": []
-        }
-       ]
-      }
-     ]
+     "uuid": "f48c4c8a-42b5-4e13-aabc-244a8d383d42",
+     "name": "University Library",
+     "term": "Department",
+     "children": []
     },
     {
-     "uuid": "47c5e4d9-85f5-4a1d-b673-ede0aa568a46",
-     "name": "Research Programmes - Science",
-     "term": "Research Programme",
-     "children": [
-      {
-       "uuid": "a8bb090c-fd5f-4c52-8361-451979c6efd9",
-       "name": "Research Programmes - Computer Science",
-       "term": "Research Programme",
-       "children": [
-        {
-         "uuid": "e7116b80-bf1a-4b8d-9018-2615e3edaa88",
-         "name": "Business Web and Media",
-         "term": "Research Programme",
-         "children": [
-          {
-           "uuid": "a12d2159-5819-4077-a8fb-34df7de33207",
-           "name": "Business & Web",
-           "term": "Research Programme",
-           "children": []
-          },
-          {
-           "uuid": "a6763936-9a7e-4b98-968d-bb3cce12f957",
-           "name": "Intelligent Information Systems",
-           "term": "Research Programme",
-           "children": []
-          }
-         ]
-        },
-        {
-         "uuid": "8ba258a7-f34e-47f4-8a8f-7e684049c4ae",
-         "name": "Bio Informatics (IBIVU)",
-         "term": "Research Programme",
-         "children": [
-          {
-           "uuid": "4b046ab7-f9f7-4d6f-9983-7a0d169f4eec",
-           "name": "Integrative Bioinformatics",
-           "term": "Research Programme",
-           "children": []
-          },
-          {
-           "uuid": "9f37af93-6aa3-49b5-8583-6d15eb541034",
-           "name": "Systems Bioinformatics",
-           "term": "Research Programme",
-           "children": []
-          }
-         ]
-        },
-        {
-         "uuid": "fb9a6709-05a2-47c7-b62d-9bc9be4122a6",
-         "name": "Computer Systems",
-         "term": "Research Programme",
-         "children": [
-          {
-           "uuid": "c1fc9949-5c36-4a7a-8d5c-e784a4516513",
-           "name": "High Performance Distributed Computing",
-           "term": "Research Programme",
-           "children": []
-          },
-          {
-           "uuid": "292cebc8-9c46-42b2-9312-5d9ba90e5d0b",
-           "name": "Distributed Computer Systems",
-           "term": "Research Programme",
-           "children": []
-          },
-          {
-           "uuid": "785f17bb-16c2-42d8-847a-6cab59e23458",
-           "name": "Secure and Liable Computer Systems",
-           "term": "Research Programme",
-           "children": []
-          },
-          {
-           "uuid": "e11224ea-dbbf-472e-85ef-bb29dff79e6e",
-           "name": "Intelligent Interactive Distributed Systems",
-           "term": "Research Programme",
-           "children": []
-          },
-          {
-           "uuid": "a812b086-004b-4884-bf31-79b2040559ef",
-           "name": "Systems and Network Security",
-           "term": "Research Programme",
-           "children": []
-          },
-          {
-           "uuid": "2d37c8af-f8a4-4d7f-897e-579ae2401438",
-           "name": "Massivizing Computer Systems",
-           "term": "Research Programme",
-           "children": []
-          }
-         ]
-        },
-        {
-         "uuid": "f9eedf26-791e-42f2-935a-db67add7c793",
-         "name": "Information Management & Software Engineering",
-         "term": "Research Programme",
-         "children": [
-          {
-           "uuid": "abb63b4e-33cb-4095-a437-a702d1c5ab6e",
-           "name": "Software Engineering",
-           "term": "Research Programme",
-           "children": []
-          },
-          {
-           "uuid": "ea349224-9a7e-4fde-8464-9e775a6b3e84",
-           "name": "Software & Services",
-           "term": "Research Programme",
-           "children": []
-          },
-          {
-           "uuid": "9c947a67-9864-4c5f-bc88-a78643b41c43",
-           "name": "Information Systems",
-           "term": "Research Programme",
-           "children": []
-          },
-          {
-           "uuid": "72702a92-267c-4122-af73-ea0752201123",
-           "name": "Business Informatica",
-           "term": "Research Programme",
-           "children": []
-          }
-         ]
-        },
-        {
-         "uuid": "9cc5637e-3b4c-4d22-94bb-39879f1a644b",
-         "name": "Artificial Intelligence (section level)",
-         "term": "Research Programme",
-         "children": [
-          {
-           "uuid": "0029e493-c9ec-4f11-82e0-6ef52996bbbf",
-           "name": "Behavioural Informatics",
-           "term": "Research Programme",
-           "children": []
-          },
-          {
-           "uuid": "33060b8d-1c03-463f-8e35-7a892ba62e71",
-           "name": "Computational Intelligence",
-           "term": "Research Programme",
-           "children": []
-          },
-          {
-           "uuid": "721b8f43-46a7-4d4b-8f73-54561723348c",
-           "name": "Knowledge Representation and Reasoning",
-           "term": "Research Programme",
-           "children": []
-          }
-         ]
-        },
-        {
-         "uuid": "42ab2b5e-640d-4749-a8db-3546c2b27fea",
-         "name": "Theoretical Computer Science",
-         "term": "Research Programme",
-         "children": []
-        }
-       ]
-      }
-     ]
-    },
-    {
-     "uuid": "0c805a79-8506-4fbf-9e10-ae887ab366a8",
-     "name": "Research Programmes - Humanities",
-     "term": "Research Programme",
-     "children": [
-      {
-       "uuid": "6012ba67-e34b-4ba3-b41f-72fecbd0e9aa",
-       "name": "Research Programmes - Philosophy",
-       "term": "Research Programme",
-       "children": [
-        {
-         "uuid": "b0ca235f-bd02-4a7d-a578-b004927e1b68",
-         "name": "Research in Historical Philosophy",
-         "term": "Research Programme",
-         "children": []
-        },
-        {
-         "uuid": "dc55f10b-97c8-4de1-885c-24ead02921a2",
-         "name": "Research in Practical Philosophy",
-         "term": "Research Programme",
-         "children": []
-        },
-        {
-         "uuid": "85b2c76a-4917-4f03-a294-f239c6106b87",
-         "name": "Research in Theoretical Philosophy",
-         "term": "Research Programme",
-         "children": []
-        }
-       ]
-      }
-     ]
-    },
-    {
-     "uuid": "139a05ce-bfc6-42ff-81a8-bb40cd2eaf25",
-     "name": "Research Programmes - Social Sciences",
-     "term": "Research Programme",
-     "children": [
-      {
-       "uuid": "3540501e-c447-4c7e-a044-6d94416df6e4",
-       "name": "Other Research in Social Sciences",
-       "term": "Research Programme",
-       "children": []
-      },
-      {
-       "uuid": "67e5c438-0e2b-4f6f-b1a1-457f9f87fa1d",
-       "name": "Multi-layered governance in EUrope and beyond (MLG)",
-       "term": "Research Programme",
-       "children": []
-      },
-      {
-       "uuid": "0cd9d9ff-9f1e-4290-94db-45a15832509e",
-       "name": "New Public Governance (NPG)",
-       "term": "Research Programme",
-       "children": []
-      },
-      {
-       "uuid": "cf574e2e-f2a2-458b-8dc1-aeb39e810bfe",
-       "name": "Communication Choices, Content and Consequences (CCCC)",
-       "term": "Research Programme",
-       "children": []
-      },
-      {
-       "uuid": "32b56324-2a3d-4674-8f74-0c5570501ad5",
-       "name": "Organization & Processes of Organizing in Society (OPOS)",
-       "term": "Research Programme",
-       "children": []
-      },
-      {
-       "uuid": "26c9bfe1-19e3-4976-8e98-f60bb2ff3abd",
-       "name": "Participating in Society (PARIS)",
-       "term": "Research Programme",
-       "children": [
-        {
-         "uuid": "48888f04-d26a-4a33-9c06-a7971030106e",
-         "name": "Civil Society and Philantropy (CSPh)",
-         "term": "Research Programme",
-         "children": []
-        },
-        {
-         "uuid": "8be32a48-12e4-474f-8af3-b34a1c006d9d",
-         "name": "Social Change and Conflict (SCC)",
-         "term": "Research Programme",
-         "children": []
-        },
-        {
-         "uuid": "23a6dd8b-35c0-431f-89df-66bbd455e5d8",
-         "name": "The Social Context of Aging (SoCA)",
-         "term": "Research Programme",
-         "children": []
-        },
-        {
-         "uuid": "1dd6848b-67f3-4215-aebc-f16bfb9ba029",
-         "name": "Social Inequality and the Life Course (SILC)",
-         "term": "Research Programme",
-         "children": []
-        },
-        {
-         "uuid": "6a3c8b06-07a5-4a32-89f6-6049df851587",
-         "name": "Identities, Diversity and Inclusion (IDI)",
-         "term": "Research Programme",
-         "children": []
-        }
-       ]
-      },
-      {
-       "uuid": "b808ef15-c05a-45cb-a066-71171eb1f0ed",
-       "name": "Mobilities, Beliefs and Belonging: Confronting Global Inequalities and Insecurities (MOBB)",
-       "term": "Research Programme",
-       "children": []
-      }
-     ]
-    },
-    {
-     "uuid": "9168f514-fa79-46a9-b0d8-57cd6fa0d661",
-     "name": "Research Programmes - Law",
-     "term": "Research Programme",
-     "children": [
-      {
-       "uuid": "aeb7b457-5b62-4858-b3a0-9b8a26aaf03d",
-       "name": "Amsterdam Centre for Family Law",
-       "term": "Research Programme",
-       "children": []
-      },
-      {
-       "uuid": "9a303b7b-ebd5-4a34-96c7-e4ec4e5d6bdf",
-       "name": "Public Contract Law",
-       "term": "Research Programme",
-       "children": []
-      },
-      {
-       "uuid": "2e914118-34d8-468f-a89d-b2ba49c38656",
-       "name": "Fundamental Rights, Regulation and Responsible Government",
-       "term": "Research Programme",
-       "children": []
-      },
-      {
-       "uuid": "9d503b58-f2e0-4f25-bc78-b31bac19bd2e",
-       "name": "Non-programmatic Research - Law",
-       "term": "Research Programme",
-       "children": []
-      },
-      {
-       "uuid": "a5cdf03b-57da-4049-9980-b5fd52d86a5a",
-       "name": "Empirical and Normative Studies",
-       "term": "Research Programme",
-       "children": []
-      },
-      {
-       "uuid": "93a0c7e0-d4cb-4c47-a4d3-7e54b809cb30",
-       "name": "Boundaries of Law",
-       "term": "Research Programme",
-       "children": []
-      },
-      {
-       "uuid": "15ad9b12-8fa6-46bd-9e4f-d7aa45414e27",
-       "name": "Migration Law",
-       "term": "Research Programme",
-       "children": []
-      },
-      {
-       "uuid": "e792a90d-6f10-49a7-929e-3e97b8636df8",
-       "name": "Law, Markets and Behavior",
-       "term": "Research Programme",
-       "children": []
-      }
-     ]
+     "uuid": "a69d3acd-0824-49f0-86ab-2353dccc5f61",
+     "name": "Centre for International Cooperation",
+     "term": "Research Centre",
+     "children": []
     }
    ]
+  },
+  {
+   "uuid": "7e9cffd2-a88e-4929-a53e-b677d8451ee5",
+   "name": "Executive board Vrije Universiteit",
+   "term": "Department",
+   "children": []
+  },
+  {
+   "uuid": "214a0ac4-580a-4b04-b8ee-08523735b84d",
+   "name": "VU Faculty Research",
+   "term": "Hierarchy",
+   "children": []
   },
   {
    "uuid": "f075247a-9984-4af5-9eba-771d18eea1c7",
@@ -405,118 +79,19 @@
      "uuid": "9d043155-6a8f-41f0-9868-313f1d0ce29f",
      "name": "LaserLaB",
      "term": "Research Institute",
-     "children": [
-      {
-       "uuid": "47810025-d0e6-4bba-9b6c-6fee634c563f",
-       "name": "LaserLaB - Analytical Chemistry and Spectroscopy",
-       "term": "Research Programme",
-       "children": []
-      },
-      {
-       "uuid": "16d5da1d-9e20-469c-aff1-8707bc2925c3",
-       "name": "LaserLaB - Biophotonics and Microscopy",
-       "term": "Research Programme",
-       "children": []
-      },
-      {
-       "uuid": "d3ecf32d-a519-47c7-a104-61cd7679d763",
-       "name": "LaserLaB - Energy",
-       "term": "Research Programme",
-       "children": []
-      },
-      {
-       "uuid": "78708821-4f5b-4ac3-9264-344cc5c54eac",
-       "name": "LaserLaB - Light and Tissue",
-       "term": "Research Programme",
-       "children": []
-      },
-      {
-       "uuid": "74cfa4c9-3214-4965-9d42-7942521cbd43",
-       "name": "LaserLaB - Molecular Biophysics",
-       "term": "Research Programme",
-       "children": []
-      },
-      {
-       "uuid": "f6dc864c-e480-46ed-85a1-15781816dc31",
-       "name": "LaserLaB - Physics of Light",
-       "term": "Research Programme",
-       "children": []
-      }
-     ]
+     "children": []
     },
     {
      "uuid": "023f04de-757d-45bf-9717-3064697ace8f",
      "name": "LEARN!",
      "term": "Research Institute",
-     "children": [
-      {
-       "uuid": "dd2fdd1d-18db-4627-b1ec-15e6d0837274",
-       "name": "LEARN! - Child rearing",
-       "term": "Research Programme",
-       "children": []
-      },
-      {
-       "uuid": "55a3324e-72f8-4d02-bce3-0dbd24f0eb44",
-       "name": "LEARN! - Motivation for lifelong learning",
-       "term": "Research Programme",
-       "children": []
-      },
-      {
-       "uuid": "e58cbb5d-c59c-4498-ba56-d6a9f460d47d",
-       "name": "LEARN! - Educational neuroscience, learning and development",
-       "term": "Research Programme",
-       "children": []
-      },
-      {
-       "uuid": "5ef511f0-731f-4b59-ab0f-349b74274b82",
-       "name": "LEARN! - Educational governance, identity and diversity",
-       "term": "Research Programme",
-       "children": []
-      },
-      {
-       "uuid": "44fa4a12-bab0-4d55-83cc-2d343f6bbe97",
-       "name": "LEARN! - Learning sciences",
-       "term": "Research Programme",
-       "children": []
-      }
-     ]
+     "children": []
     },
     {
      "uuid": "51239477-513e-427c-ba49-1d7c41e44f62",
      "name": "Amsterdam Movement Sciences",
      "term": "Research Institute",
-     "children": [
-      {
-       "uuid": "4afe6cd2-3209-44b2-889a-d067a6ef2924",
-       "name": "AMS - Sports",
-       "term": "Research Programme",
-       "children": []
-      },
-      {
-       "uuid": "b710a716-3960-434e-beeb-021a1ffc4a36",
-       "name": "AMS - Musculoskeletal Health",
-       "term": "Research Programme",
-       "children": []
-      },
-      {
-       "uuid": "08210791-2ae1-476a-93df-bde604fe4fb8",
-       "name": "AMS - Tissue Function & Regeneration",
-       "term": "Research Programme",
-       "children": []
-      },
-      {
-       "uuid": "0540645f-7df4-492e-b515-6cb126668d76",
-       "name": "AMS - Ageing & Vitality",
-       "term": "Research Programme",
-       "children": []
-      },
-      {
-       "uuid": "780b42e5-a17d-44b7-892a-6a053141f71e",
-       "name": "AMS - Rehabilitation & Development",
-       "term": "Research Programme",
-       "children": []
-      }
-     ]
+     "children": []
     },
     {
      "uuid": "99b2d74c-9bde-43ff-939c-c05056f56ded",
@@ -528,62 +103,7 @@
      "uuid": "02985b80-f2a3-45ba-8c67-fbca743b9a48",
      "name": "Amsterdam Neuroscience",
      "term": "Research Institute",
-     "children": [
-      {
-       "uuid": "d976bcef-25d4-43b9-a576-ab70ca8d6472",
-       "name": "Amsterdam Neuroscience - Brain Imaging",
-       "term": "Research Programme",
-       "children": []
-      },
-      {
-       "uuid": "5ca6999a-3a51-48dd-8304-9c0baa44b76a",
-       "name": "Amsterdam Neuroscience - Complex Trait Genetics",
-       "term": "Research Programme",
-       "children": []
-      },
-      {
-       "uuid": "e31b928b-605c-479e-9491-5aced68bea6e",
-       "name": "Amsterdam Neuroscience - Systems & Network Neuroscience",
-       "term": "Research Programme",
-       "children": []
-      },
-      {
-       "uuid": "67cb7fbe-8bda-4c2e-a3df-b7553190700a",
-       "name": "Amsterdam Neuroscience - Cellular & Molecular Mechanisms",
-       "term": "Research Programme",
-       "children": []
-      },
-      {
-       "uuid": "b6c151e3-0aa4-4492-a492-47f3025cf04a",
-       "name": "Amsterdam Neuroscience - Neurodegeneration",
-       "term": "Research Programme",
-       "children": []
-      },
-      {
-       "uuid": "d81b44de-51db-44f6-8be4-e09bdf4225f3",
-       "name": "Amsterdam Neuroscience - Neuroinfection & -inflammation",
-       "term": "Research Programme",
-       "children": []
-      },
-      {
-       "uuid": "c3458536-1993-49f7-ad41-c61727dd5e74",
-       "name": "Amsterdam Neuroscience - Neurovascular Disorders",
-       "term": "Research Programme",
-       "children": []
-      },
-      {
-       "uuid": "430c8a70-951c-47fa-808f-6bef09b76891",
-       "name": "Amsterdam Neuroscience - Compulsivity, Impulsivity & Attention",
-       "term": "Research Programme",
-       "children": []
-      },
-      {
-       "uuid": "5c111de1-7c7e-4524-95d3-4089d9c4394c",
-       "name": "Amsterdam Neuroscience - Mood, Anxiety, Psychosis, Stress & Sleep",
-       "term": "Research Programme",
-       "children": []
-      }
-     ]
+     "children": []
     },
     {
      "uuid": "2f2ac642-599b-4e45-a4a2-3898cdeafb4a",
@@ -613,56 +133,7 @@
      "uuid": "a6c17b44-1656-438e-91f6-f6ecfeed9b99",
      "name": "Amsterdam Public Health",
      "term": "Research Institute",
-     "children": [
-      {
-       "uuid": "fbe9c999-2004-4016-98c5-337d122a254b",
-       "name": "APH - Health Behaviors & Chronic Diseases",
-       "term": "Research Programme",
-       "children": []
-      },
-      {
-       "uuid": "d318c4c1-4a99-43d4-bef2-b4174821c44b",
-       "name": "APH - Mental Health",
-       "term": "Research Programme",
-       "children": []
-      },
-      {
-       "uuid": "87068a0a-cabb-4b7f-8e84-bfbbfcc61e64",
-       "name": "APH - Societal Participation & Health",
-       "term": "Research Programme",
-       "children": []
-      },
-      {
-       "uuid": "1b69476e-1a1d-4cc1-bd84-299deb896d1c",
-       "name": "APH - Global Health",
-       "term": "Research Programme",
-       "children": []
-      },
-      {
-       "uuid": "1a13c5d5-09c4-4bff-b363-759debedfdc4",
-       "name": "APH - Methodology",
-       "term": "Research Programme",
-       "children": []
-      },
-      {
-       "uuid": "c7201fbe-9b51-4bfb-987b-755604b7adaf",
-       "name": "APH - Aging & Later Life",
-       "term": "Research Programme",
-       "children": []
-      },
-      {
-       "uuid": "e60a403d-5539-4ecd-8599-59840768bfc1",
-       "name": "APH - Quality of Care",
-       "term": "Research Programme",
-       "children": []
-      },
-      {
-       "uuid": "14edb2f6-732e-4b1f-befe-a051e3e1dfbc",
-       "name": "APH - Personalized Medicine",
-       "term": "Research Programme",
-       "children": []
-      }
-     ]
+     "children": []
     },
     {
      "uuid": "5fe5d922-2d6a-45da-a762-968ca7559174",
@@ -734,14 +205,7 @@
        "uuid": "85c66ee1-e1c4-4b3a-8f91-bf0ac46964a4",
        "name": "VU Business School",
        "term": "Department",
-       "children": [
-        {
-         "uuid": "ca4d811a-b5a5-4aed-96c1-b2a9207f4326",
-         "name": "PGO Zijlstra Center",
-         "term": "Subdepartment",
-         "children": []
-        }
-       ]
+       "children": []
       },
       {
        "uuid": "0cab4518-55b4-410e-b2ee-6d9e5c6726ef",
@@ -821,150 +285,31 @@
        "uuid": "888a4e3c-f321-48fe-a5cf-79961d2f6f71",
        "name": "Human Movement Sciences",
        "term": "Department",
-       "children": [
-        {
-         "uuid": "8a679a4f-2624-4016-8089-211a1258c2c3",
-         "name": "Neuromechanics",
-         "term": "Subdepartment",
-         "children": []
-        },
-        {
-         "uuid": "5e32604f-4d44-400f-a8b4-6a08f2a78741",
-         "name": "Physiology",
-         "term": "Subdepartment",
-         "children": []
-        },
-        {
-         "uuid": "9df7f783-3303-44fb-ae86-d3d84125f1b1",
-         "name": "Coordination Dynamics",
-         "term": "Subdepartment",
-         "children": []
-        },
-        {
-         "uuid": "71b2fae6-5f93-49b5-ae5f-108a66048907",
-         "name": "Motor learning & Performance",
-         "term": "Subdepartment",
-         "children": []
-        },
-        {
-         "uuid": "6d1d1b18-a9f2-484b-a00d-6748356c8e2b",
-         "name": "Sensorimotor Control",
-         "term": "Subdepartment",
-         "children": []
-        }
-       ]
+       "children": []
       },
       {
        "uuid": "72703ffa-e76b-430b-b8df-b25a3d34a84e",
        "name": "Educational and Family Studies",
        "term": "Department",
-       "children": [
-        {
-         "uuid": "d816e402-0f6d-41d3-a994-f05f3ae35cd1",
-         "name": "Educational Studies",
-         "term": "Subdepartment",
-         "children": []
-        },
-        {
-         "uuid": "151dceb1-fadb-40c0-95fb-f19c18e8f3c7",
-         "name": "Clinical Child and Family Studies",
-         "term": "Subdepartment",
-         "children": []
-        },
-        {
-         "uuid": "fd7b580c-6bfa-419d-ac80-d3dd76cd7a27",
-         "name": "Research and Theory in Education",
-         "term": "Subdepartment",
-         "children": []
-        },
-        {
-         "uuid": "de82af21-0f35-4927-bc9d-b99a04a02827",
-         "name": "Educational Neuroscience",
-         "term": "Subdepartment",
-         "children": []
-        },
-        {
-         "uuid": "159053e3-b828-43f4-b431-991771aca879",
-         "name": "Methods and Statistics",
-         "term": "Subdepartment",
-         "children": []
-        }
-       ]
+       "children": []
       },
       {
        "uuid": "09ff2bc7-18e5-4c5d-a92c-1d5d708b0ed7",
        "name": "Clinical, Neuro- & Developmental Psychology",
        "term": "Department",
-       "children": [
-        {
-         "uuid": "46b5a865-9934-4653-a3b7-57060f81c949",
-         "name": "Clinical Psychology",
-         "term": "Subdepartment",
-         "children": []
-        },
-        {
-         "uuid": "829dd50f-f9b6-4475-955f-2e45469a49c7",
-         "name": "Clinical Developmental Psychology",
-         "term": "Subdepartment",
-         "children": []
-        },
-        {
-         "uuid": "308d4529-743d-4315-bdb1-a6466a6cb8c5",
-         "name": "Clinical Neuropsychology",
-         "term": "Subdepartment",
-         "children": []
-        }
-       ]
+       "children": []
       },
       {
        "uuid": "0136e8cb-5bb7-499a-af40-70d68a77f01d",
        "name": "Academic Center for Education, Sport and Health",
        "term": "Department",
-       "children": [
-        {
-         "uuid": "b6766c4c-bfe2-4945-bd14-f669ae61f8d0",
-         "name": "Team Higher Education",
-         "term": "Subdepartment",
-         "children": []
-        },
-        {
-         "uuid": "560428a0-45b7-4b94-bca4-08da79f37126",
-         "name": "Team Secondary Education",
-         "term": "Subdepartment",
-         "children": []
-        },
-        {
-         "uuid": "1f886dd3-6fba-431e-b7b9-2289c043c9b1",
-         "name": "Team Special Educational Needs",
-         "term": "Subdepartment",
-         "children": []
-        }
-       ]
+       "children": []
       },
       {
        "uuid": "ede652bb-fdee-4118-8f43-6f8b73a9f9a5",
        "name": "Experimental and Applied Psychology",
        "term": "Department",
-       "children": [
-        {
-         "uuid": "5c220f3f-727d-4be3-88f9-43b3188e2ef2",
-         "name": "Cognitive Psychology",
-         "term": "Subdepartment",
-         "children": []
-        },
-        {
-         "uuid": "cbd46c4e-9dca-424e-a1cc-b1fc99a0ff22",
-         "name": "Social Psychology",
-         "term": "Subdepartment",
-         "children": []
-        },
-        {
-         "uuid": "e25067f6-77f7-422e-9783-e111df0a2e4a",
-         "name": "Organizational Psychology",
-         "term": "Subdepartment",
-         "children": []
-        }
-       ]
+       "children": []
       },
       {
        "uuid": "ce7c6e44-836d-404a-b39e-5e7af9ba5c0a",
@@ -1002,175 +347,37 @@
        "uuid": "95fb34fd-2898-4d4f-acb7-dc4528ebecb2",
        "name": "Dutch Private Law",
        "term": "Department",
-       "children": [
-        {
-         "uuid": "a8b9086c-8497-4f93-b7b2-a30bb6559714",
-         "name": "Property Law",
-         "term": "Subdepartment",
-         "children": []
-        },
-        {
-         "uuid": "6219bee9-5a7e-4aa6-a131-ba2152f5a42e",
-         "name": "Family Law and the Law of Persons",
-         "term": "Subdepartment",
-         "children": []
-        },
-        {
-         "uuid": "3b82a58e-8ccf-4066-9402-d416a9a709eb",
-         "name": "Company and Legal Personality Law",
-         "term": "Subdepartment",
-         "children": []
-        },
-        {
-         "uuid": "46ed66f5-1b35-46c3-8bd0-5317a2f61b48",
-         "name": "Liability Law",
-         "term": "Subdepartment",
-         "children": []
-        },
-        {
-         "uuid": "d75bf461-7bd4-4940-b913-ab3d561d2c29",
-         "name": "International Private Law",
-         "term": "Subdepartment",
-         "children": []
-        },
-        {
-         "uuid": "9e60ff0c-b7c9-4cbd-8c6f-69b21515d58a",
-         "name": "Intellectual Property Law",
-         "term": "Subdepartment",
-         "children": []
-        },
-        {
-         "uuid": "df916f0e-acb8-4653-a067-b964b517df7e",
-         "name": "Corporate Law",
-         "term": "Subdepartment",
-         "children": []
-        },
-        {
-         "uuid": "d68a2928-ae09-443a-a737-9bff89c7a92d",
-         "name": "Law of Civil procedure",
-         "term": "Subdepartment",
-         "children": []
-        }
-       ]
+       "children": []
       },
       {
        "uuid": "72723075-5423-4fb5-a543-2d67af2d3f61",
        "name": "Legal Theory and Legal History",
        "term": "Department",
-       "children": [
-        {
-         "uuid": "b5a439e7-a320-4969-8301-ee74ae98d7c6",
-         "name": "Legal Theory",
-         "term": "Subdepartment",
-         "children": []
-        },
-        {
-         "uuid": "14f444f0-c808-49a6-b075-7e142dd60449",
-         "name": "Legal History",
-         "term": "Subdepartment",
-         "children": []
-        }
-       ]
+       "children": []
       },
       {
        "uuid": "53b270c3-d3e7-4c80-9b56-14e58581a0b8",
        "name": "Transnational Legal Studies",
        "term": "Department",
-       "children": [
-        {
-         "uuid": "4bf3885a-8122-4224-94e5-d8cfbe55820d",
-         "name": "Public International Law",
-         "term": "Subdepartment",
-         "children": []
-        },
-        {
-         "uuid": "2b7f1cd4-8651-4fde-bb61-4c7f710b492d",
-         "name": "EU Law",
-         "term": "Subdepartment",
-         "children": []
-        },
-        {
-         "uuid": "467dcd96-9d41-492a-b8ef-7d065c30be59",
-         "name": "Internet Law",
-         "term": "Subdepartment",
-         "children": []
-        },
-        {
-         "uuid": "d45297cd-427d-4c6e-8e82-0533f3c7f289",
-         "name": "International Private Law",
-         "term": "Subdepartment",
-         "children": []
-        }
-       ]
+       "children": []
       },
       {
        "uuid": "b0fea01f-555f-4fd9-ad84-c3578d23e312",
        "name": "Constitutional and Administrative Law",
        "term": "Department",
-       "children": [
-        {
-         "uuid": "7d0860d1-bd56-4e96-85cc-fc041c841faf",
-         "name": "Pension Law",
-         "term": "Subdepartment",
-         "children": []
-        },
-        {
-         "uuid": "8599ff07-ac02-4d90-86e9-01d63a2caca7",
-         "name": "Constitutional and Administrative Law",
-         "term": "Subdepartment",
-         "children": []
-        },
-        {
-         "uuid": "345934ad-8e51-4fdc-9471-2b35044ebe38",
-         "name": "Social Law",
-         "term": "Subdepartment",
-         "children": []
-        },
-        {
-         "uuid": "ddaa6479-b4d9-4bba-bac5-9ff6030417b6",
-         "name": "Migration Law",
-         "term": "Subdepartment",
-         "children": []
-        }
-       ]
+       "children": []
       },
       {
        "uuid": "3fa0829f-277b-44fa-a08b-831f31e9223a",
        "name": "Criminal Law and Criminology",
        "term": "Department",
-       "children": [
-        {
-         "uuid": "6fb81613-968b-4a7d-80b3-a99032ffeb7f",
-         "name": "Criminal Law",
-         "term": "Subdepartment",
-         "children": []
-        },
-        {
-         "uuid": "ccabbdd2-7c91-4fbc-9aba-02460d81eedb",
-         "name": "Criminology",
-         "term": "Subdepartment",
-         "children": []
-        }
-       ]
+       "children": []
       },
       {
        "uuid": "1d61536c-fd0f-442d-9a65-a657fc8240fe",
        "name": "Notary and Tax Law",
        "term": "Department",
-       "children": [
-        {
-         "uuid": "5d207586-71c8-46ba-b764-dde7ef022373",
-         "name": "Tax Law",
-         "term": "Subdepartment",
-         "children": []
-        },
-        {
-         "uuid": "862763f3-d904-4873-9d6f-89c2587e83b6",
-         "name": "Notary Law",
-         "term": "Subdepartment",
-         "children": []
-        }
-       ]
+       "children": []
       }
      ]
     },
@@ -1183,102 +390,33 @@
        "uuid": "8093f930-e09a-4698-a035-8312942c7b2d",
        "name": "Art and Culture, History, Antiquity",
        "term": "Department",
-       "children": [
-        {
-         "uuid": "eeffd39d-4d16-405c-8133-856080aca53f",
-         "name": "Antiquity and Archeology",
-         "term": "Subdepartment",
-         "children": []
-        },
-        {
-         "uuid": "addfeaae-61df-4bf6-9cf5-0032c6a6ddbe",
-         "name": "Art and Culture",
-         "term": "Subdepartment",
-         "children": []
-        },
-        {
-         "uuid": "30e74c35-ad0c-4904-908b-527399e17939",
-         "name": "History",
-         "term": "Subdepartment",
-         "children": []
-        }
-       ]
+       "children": []
       },
       {
        "uuid": "59d7a7a7-ddd2-4097-9647-add9b26c6106",
        "name": "Language, Literature and Communication",
        "term": "Department",
-       "children": [
-        {
-         "uuid": "316ccd3d-9747-438f-808a-40f389e9b00c",
-         "name": "Language",
-         "term": "Subdepartment",
-         "children": []
-        },
-        {
-         "uuid": "821bf948-c54e-4ddb-b1dc-1c2c5d8b6021",
-         "name": "Communication",
-         "term": "Subdepartment",
-         "children": []
-        },
-        {
-         "uuid": "c4360078-ca0f-4a0f-83f3-f441ad12a4cd",
-         "name": "Literature",
-         "term": "Subdepartment",
-         "children": []
-        }
-       ]
+       "children": []
       },
       {
        "uuid": "817c16cf-0950-4c0b-bb9d-bf878d225d77",
        "name": "Philosophy",
        "term": "Department",
-       "children": [
-        {
-         "uuid": "9a496cbd-30dc-458f-a05d-45e4c61322e9",
-         "name": "Ethics",
-         "term": "Subdepartment",
-         "children": []
-        },
-        {
-         "uuid": "835035b6-e1f3-4927-8400-9d2e2c6b1b83",
-         "name": "Epistemology and Metaphysics",
-         "term": "Subdepartment",
-         "children": []
-        },
-        {
-         "uuid": "596f4544-5f97-43cc-8430-dbd3a682bf1f",
-         "name": "Logic and Philosophy of the Cognitive Sciences",
-         "term": "Subdepartment",
-         "children": []
-        },
-        {
-         "uuid": "33096ec2-0e20-4565-a2c1-771013bbf02e",
-         "name": "History of Modern Philosophy",
-         "term": "Subdepartment",
-         "children": []
-        },
-        {
-         "uuid": "b74d3c58-3ebb-44ac-8b85-ec29c21b68b3",
-         "name": "Ancient, Patristic and Medieval Philosophy",
-         "term": "Subdepartment",
-         "children": []
-        },
-        {
-         "uuid": "4c2397f9-0b65-463e-a9d3-5884e18b3334",
-         "name": "Filosofie van cultuur, politiek en organisatie",
-         "term": "Subdepartment",
-         "children": []
-        },
-        {
-         "uuid": "b8e393d2-9018-4f29-b8f3-2a6ce3521382",
-         "name": "Philosophy, Politics and Economics",
-         "term": "Subdepartment",
-         "children": []
-        }
-       ]
+       "children": []
       }
      ]
+    },
+    {
+     "uuid": "bef9c4a8-0122-44b2-b933-8c87afeb203e",
+     "name": "VUmc - School of Medical Sciences",
+     "term": "Faculty",
+     "children": []
+    },
+    {
+     "uuid": "285ff4a7-3374-4d4a-aa33-7df75536ef21",
+     "name": "ACTA - Dentistry",
+     "term": "Faculty",
+     "children": []
     },
     {
      "uuid": "90f1765a-f5d9-4820-b2b0-0c7882b628df",
@@ -1297,58 +435,9 @@
        "term": "Department",
        "children": [
         {
-         "uuid": "eca748cb-b4cb-4975-88d7-55ee047b40d7",
-         "name": "(Astro)-Particles Physics",
-         "term": "Subdepartment",
-         "children": []
-        },
-        {
-         "uuid": "7b151d8f-950e-4d63-915b-a7365635807d",
-         "name": "Photo Conversion Materials",
-         "term": "Subdepartment",
-         "children": []
-        },
-        {
-         "uuid": "a45ac492-7032-48c4-bd4c-39b1414f2825",
-         "name": "Atoms, Molecules, Lasers",
-         "term": "Subdepartment",
-         "children": [
-          {
-           "uuid": "5be777fa-f256-4207-b3c0-d65f473aac97",
-           "name": "ARCNL",
-           "term": "Subdepartment",
-           "children": []
-          }
-         ]
-        },
-        {
-         "uuid": "6d40dfc9-6fea-4509-8bd8-eee3f058237b",
-         "name": "Student Lab and Education",
-         "term": "Subdepartment",
-         "children": []
-        },
-        {
-         "uuid": "11d8d827-784e-4193-b9a4-2ba8c70c956f",
-         "name": "Biophysics Photosynthesis/Energy",
-         "term": "Subdepartment",
-         "children": []
-        },
-        {
-         "uuid": "ae8edcbc-7a06-4cc6-a327-d9850e99a0d9",
-         "name": "Physics of Living Systems",
-         "term": "Subdepartment",
-         "children": []
-        },
-        {
          "uuid": "f76c5236-14d1-4623-934e-5f83147a8862",
          "name": "History and Social Aspects of Science",
          "term": "Department",
-         "children": []
-        },
-        {
-         "uuid": "c08a4893-574c-4ead-8217-be316afcd8b2",
-         "name": "Biophotonics and Medical Imaging",
-         "term": "Subdepartment",
          "children": []
         }
        ]
@@ -1357,124 +446,19 @@
        "uuid": "74303367-65e2-4589-ab05-0ebd0f0ef0fd",
        "name": "Chemistry and Pharmaceutical Sciences",
        "term": "Department",
-       "children": [
-        {
-         "uuid": "3f7d5927-d0f0-439d-9bd6-f33997997052",
-         "name": "BioAnalytical Chemistry",
-         "term": "Subdepartment",
-         "children": []
-        },
-        {
-         "uuid": "1b8a723e-0ba4-4c69-8dbe-21a03ff74b7a",
-         "name": "Medicinal chemistry",
-         "term": "Subdepartment",
-         "children": []
-        },
-        {
-         "uuid": "c8ac8543-8a13-4d6c-a826-7a0d25218de9",
-         "name": "Theoretical Chemistry",
-         "term": "Subdepartment",
-         "children": []
-        },
-        {
-         "uuid": "c66d135c-0936-43b1-8b65-5d17c2824bab",
-         "name": "Organic Chemistry",
-         "term": "Subdepartment",
-         "children": []
-        },
-        {
-         "uuid": "e94f7f77-7c16-4acd-861f-f773325d0c9b",
-         "name": "Science & Business Innovation",
-         "term": "Subdepartment",
-         "children": []
-        },
-        {
-         "uuid": "3f7bc560-e116-4b83-b499-418556afbb8a",
-         "name": "Molecular and Computational Toxicology",
-         "term": "Subdepartment",
-         "children": []
-        },
-        {
-         "uuid": "455d5ba4-ba3e-49ef-99b5-cf7fba052926",
-         "name": "Innovations in Human Health & Life Sciences",
-         "term": "Subdepartment",
-         "children": []
-        }
-       ]
+       "children": []
       },
       {
        "uuid": "b2350150-6d19-43b4-a1ed-626514bae8a1",
        "name": "Computer Science",
        "term": "Department",
-       "children": [
-        {
-         "uuid": "82fb8767-5af9-42ee-bd95-dd706c13434e",
-         "name": "Business Web and Media",
-         "term": "Subdepartment",
-         "children": []
-        },
-        {
-         "uuid": "23563190-45cd-4b0b-b2d8-2dcfe428c9c6",
-         "name": "Bioinformatics",
-         "term": "Subdepartment",
-         "children": []
-        },
-        {
-         "uuid": "7415df1c-66af-40e4-b569-10575f53992a",
-         "name": "Computer Systems",
-         "term": "Subdepartment",
-         "children": []
-        },
-        {
-         "uuid": "01ccd9cf-c330-449b-9fc8-2b97e1b85bd9",
-         "name": "Information Management and Software Engineering",
-         "term": "Subdepartment",
-         "children": []
-        },
-        {
-         "uuid": "f0abeac2-0240-465e-9212-996bef1c8af7",
-         "name": "Artificial intelligence",
-         "term": "Subdepartment",
-         "children": []
-        },
-        {
-         "uuid": "c0b13eca-b1e7-4b71-a37e-0a9f1538a59d",
-         "name": "Theoretical Computer Science",
-         "term": "Subdepartment",
-         "children": []
-        }
-       ]
+       "children": []
       },
       {
        "uuid": "557fd2e5-8223-48a3-bd90-3e94a2fce921",
        "name": "Center for Neurogenomics and Cognitive Research",
        "term": "Department",
-       "children": [
-        {
-         "uuid": "4e5c2395-8eb2-4ba7-87ba-2e0b66b6efea",
-         "name": "Molecular and Cellular Neurobiology",
-         "term": "Subdepartment",
-         "children": []
-        },
-        {
-         "uuid": "2d03964c-2917-4769-93aa-56fe22a4d40d",
-         "name": "Integrative Neurophysiology",
-         "term": "Subdepartment",
-         "children": []
-        },
-        {
-         "uuid": "c6086987-5bca-4c8e-8bad-b17423e6fad3",
-         "name": "Functional Genomics",
-         "term": "Subdepartment",
-         "children": []
-        },
-        {
-         "uuid": "c86618d0-8bb0-4eb3-b042-3114769132a8",
-         "name": "Complex Trait Genetics",
-         "term": "Subdepartment",
-         "children": []
-        }
-       ]
+       "children": []
       },
       {
        "uuid": "36f18968-5745-4511-a473-732fbf39bd33",
@@ -1486,194 +470,43 @@
        "uuid": "4e69fc08-92d1-48a0-8cfa-41181f1422be",
        "name": "Health Sciences",
        "term": "Department",
-       "children": [
-        {
-         "uuid": "c5790e69-161f-4882-aa2c-c8f6054a3401",
-         "name": "Nutrition and Health",
-         "term": "Subdepartment",
-         "children": []
-        },
-        {
-         "uuid": "790a9be8-2201-45d7-b294-4b18aae2bcec",
-         "name": "Health Economics and Health Technology Assessment",
-         "term": "Subdepartment",
-         "children": []
-        },
-        {
-         "uuid": "b2cd8c32-8459-4b00-b6ed-a4afa07a9de7",
-         "name": "Methodology and Applied Biostatistics",
-         "term": "Subdepartment",
-         "children": []
-        },
-        {
-         "uuid": "4e751d7a-0aaf-4443-ad80-6b6bf0166257",
-         "name": "Prevention and Public Health",
-         "term": "Subdepartment",
-         "children": []
-        },
-        {
-         "uuid": "d45c046a-1cc9-4a0b-a893-f021886ef29e",
-         "name": "Infectious Diseases",
-         "term": "Subdepartment",
-         "children": []
-        },
-        {
-         "uuid": "8a0dccaa-866d-424e-8e92-87d0f9889f4a",
-         "name": "Youth and Lifestyle",
-         "term": "Subdepartment",
-         "children": []
-        }
-       ]
+       "children": []
       },
       {
        "uuid": "f0e71d86-17f5-4734-a5af-353e3ed8164d",
        "name": "Kars Group (Geo- and Bioarchaeology)",
        "term": "Department",
-       "children": [
-        {
-         "uuid": "5a0a147c-4fc3-4e42-ad88-98613d2d7636",
-         "name": "Geoarchaeology",
-         "term": "Subdepartment",
-         "children": []
-        }
-       ]
+       "children": []
       },
       {
        "uuid": "2f1c348d-a092-4407-a2b2-71beba417b65",
        "name": "Environment and Health",
        "term": "Department",
-       "children": [
-        {
-         "uuid": "e33ace55-6e7a-44ec-9db4-3df431a108d1",
-         "name": "E&H: Environmental Chemistry and Toxicology",
-         "term": "Subdepartment",
-         "children": []
-        },
-        {
-         "uuid": "61beef2f-ed31-46df-9276-8dd5d1c82cdf",
-         "name": "E&H: Environmental Bioanalytical Chemistry",
-         "term": "Subdepartment",
-         "children": []
-        },
-        {
-         "uuid": "e6a8a113-073c-4369-b31c-2f4b0771bfca",
-         "name": "E&H: Environmental Health and Toxicology",
-         "term": "Subdepartment",
-         "children": []
-        }
-       ]
+       "children": []
       },
       {
        "uuid": "ec3e3fde-b1a7-401d-a7e4-51e7844fe679",
        "name": "Earth Sciences",
        "term": "Department",
-       "children": [
-        {
-         "uuid": "5af660c4-88f2-4d12-bc29-6563bdf55e9c",
-         "name": "Earth and Climate",
-         "term": "Subdepartment",
-         "children": []
-        },
-        {
-         "uuid": "8cd44e38-b35c-4922-ba6a-c3a0e6ecbe16",
-         "name": "Geology and Geochemistry",
-         "term": "Subdepartment",
-         "children": []
-        }
-       ]
+       "children": []
       },
       {
        "uuid": "f0a8f62d-21e9-4072-8277-9418427fe802",
        "name": "Institute for Environmental Studies",
        "term": "Department",
-       "children": [
-        {
-         "uuid": "b3582bfb-36c2-4ecf-be38-5bc6ce237077",
-         "name": "Environmental Economics",
-         "term": "Subdepartment",
-         "children": []
-        },
-        {
-         "uuid": "e546291d-c89d-4332-9493-a29c6c9442a2",
-         "name": "Chemistry and Biology",
-         "term": "Subdepartment",
-         "children": []
-        },
-        {
-         "uuid": "77b2d448-a2a6-4035-841c-7c4719eca49b",
-         "name": "Environmental Policy Analysis",
-         "term": "Subdepartment",
-         "children": []
-        },
-        {
-         "uuid": "90700a26-ca90-4c1a-abe3-6e22c53720fe",
-         "name": "Water and Climate Risk",
-         "term": "Subdepartment",
-         "children": []
-        },
-        {
-         "uuid": "91ebfb16-6048-4ee2-b600-0006a32c6ec5",
-         "name": "Environmental Geography",
-         "term": "Subdepartment",
-         "children": []
-        }
-       ]
+       "children": []
       },
       {
        "uuid": "a7f4755d-73ba-4349-af09-3099c7c8bc67",
        "name": "Molecular Cell Biology",
        "term": "Department",
-       "children": [
-        {
-         "uuid": "33aa49a4-af66-4d5a-b72a-f6278d35fd4e",
-         "name": "Theoretical Life Sciences",
-         "term": "Subdepartment",
-         "children": []
-        },
-        {
-         "uuid": "bfb8e93d-424a-42d9-b73e-b07c5fd625ce",
-         "name": "Structural Biology",
-         "term": "Subdepartment",
-         "children": []
-        },
-        {
-         "uuid": "eba3b4d4-1283-4f91-814f-563dfa568230",
-         "name": "Molecular Microbiology",
-         "term": "Subdepartment",
-         "children": []
-        },
-        {
-         "uuid": "a650e1c5-aa24-41d8-90fc-92e72c20b8c9",
-         "name": "Molecular Cell Physiology",
-         "term": "Subdepartment",
-         "children": []
-        },
-        {
-         "uuid": "7f177615-b298-4312-91f3-49563e10aaea",
-         "name": "Systems Bioinformatics",
-         "term": "Subdepartment",
-         "children": []
-        }
-       ]
+       "children": []
       },
       {
        "uuid": "88865d82-e66d-49eb-aee8-d26cbf4e4a7d",
        "name": "Ecological Science",
        "term": "Department",
-       "children": [
-        {
-         "uuid": "e1ec6d9c-6e0f-4010-a2eb-d66669f6c489",
-         "name": "Animal Ecology",
-         "term": "Subdepartment",
-         "children": []
-        },
-        {
-         "uuid": "f072f4a8-fe29-49ac-81dd-2732479279ef",
-         "name": "Systems Ecology",
-         "term": "Subdepartment",
-         "children": []
-        }
-       ]
+       "children": []
       }
      ]
     }
