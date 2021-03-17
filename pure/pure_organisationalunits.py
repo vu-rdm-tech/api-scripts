@@ -1,30 +1,12 @@
-"""
-Title:
-Author: Brett G. Olivier
-
-Usage::
-
-
-(C) Brett G. Olivier, VU Amsterdam, 2021. Licenced for use under the GNU GPL 3.0
-
-"""
-
 import json
 
-from pure.config import (
-    PURE_APIKEY,
-    PURE_USERNAME,
-    PURE_PASSWORD,
-    PURE_ORGANISATIONALUNITS_URL,
-)
+from pure.config import PURE_APIKEY, PURE_USERNAME, PURE_PASSWORD, PURE_ORGANISATIONALUNITS_URL
 import requests
 import requests_cache
 
 # https://research.vu.nl/ws/api/518/api-docs/index.html#!/organisational45units/listOrganisationalUnits
 
-requests_cache.install_cache(
-    cache_name='pure_ou_requests_cache', allowable_methods=('GET', 'POST')
-)
+requests_cache.install_cache(cache_name='pure_ou_requests_cache', allowable_methods=('GET', 'POST'))
 
 
 def _store(data, filename):
@@ -43,13 +25,8 @@ def _do_postrequest(data, size=10, offset=0):
     headers = {"Content-Type": "application/json", 'Accept': 'application/json'}
     payload = {'apiKey': PURE_APIKEY, 'size': size, 'offset': offset}
 
-    res = requests.post(
-        PURE_ORGANISATIONALUNITS_URL,
-        headers=headers,
-        params=payload,
-        data=data,
-        auth=(PURE_USERNAME, PURE_PASSWORD),
-    )
+    res = requests.post(PURE_ORGANISATIONALUNITS_URL, headers=headers, params=payload, data=data,
+                        auth=(PURE_USERNAME, PURE_PASSWORD))
     try:
         cached = res.from_cache
     except:
@@ -87,11 +64,11 @@ def get_all():
                 if 'parents' in item:
                     for parent in item['parents']:
                         parents.append(parent['uuid'])
-                list[uuid] = {}
-                list[uuid]['name'] = name
-                list[uuid]['term'] = term
-                list[uuid]['parents'] = parents
-
+                if (term not in ['Research Programme', 'Subdepartment']):
+                    list[uuid] = {}
+                    list[uuid]['name'] = name
+                    list[uuid]['term'] = term
+                    list[uuid]['parents'] = parents
     return list
 
 
@@ -99,33 +76,23 @@ def find_children(list, uuid):
     children = []
     for cuuid, v in list.items():
         if uuid in v['parents']:
-            children.append(
-                {
-                    'uuid': cuuid,
-                    'name': list[cuuid]['name'],
-                    'term': list[cuuid]['term'],
-                }
-            )
+            children.append({'uuid': cuuid, 'name': list[cuuid]['name'], 'term': list[cuuid]['term']})
     return children
 
 
-def get_children2(uuid, level):
+def create_text_tree(uuid, level):
     level = level + 1
-    tmpstr = (
-        ("\t" * level) + " " + list[uuid]['name'] + " (" + list[uuid]['term'] + ")\n"
-    )
-    tmpstr = tmpstr + ("").join(
-        [get_children2(child['uuid'], level) for child in list[uuid]['children']]
-    )
+    tmpstr = ("\t" * level) + " " + list[uuid]['name'] + " (" + list[uuid]['term'] + ")\n"
+    tmpstr = tmpstr + ("").join([create_text_tree(child['uuid'], level) for child in list[uuid]['children']])
     return tmpstr
 
 
-def get_children(uuid):
+def create_dict_tree(uuid):
     tmp = {}
     tmp['uuid'] = uuid
     tmp['name'] = list[uuid]['name']
     tmp['term'] = list[uuid]['term']
-    tmp['children'] = [get_children(child['uuid']) for child in list[uuid]['children']]
+    tmp['children'] = [create_dict_tree(child['uuid']) for child in list[uuid]['children']]
     return tmp
 
 
@@ -133,9 +100,9 @@ list = get_all()
 for uuid, v in list.items():
     list[uuid]['children'] = find_children(list, uuid)
 
-tree = get_children('971a8f57-d401-4e8b-9b1a-a1b97e46e0ea')
-text = get_children2('971a8f57-d401-4e8b-9b1a-a1b97e46e0ea', -1)
-print(text)
+tree = create_dict_tree('971a8f57-d401-4e8b-9b1a-a1b97e46e0ea')
+text = create_text_tree('971a8f57-d401-4e8b-9b1a-a1b97e46e0ea', -1)
+
 _store(tree, 'pure_ou.json')
 with open('pure_list.txt', 'w') as f:
     f.write(text)
