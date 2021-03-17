@@ -124,3 +124,9 @@ if __name__ == '__main__':
     pprint.pprint(output)
     with open('abbreviations.json', 'w') as F:
         json.dump(output, F, indent=' ')
+
+    # to copy into a google sheet that feeds the form.
+    for dep in output['Department']:
+        print(f'{dep} ({output["Department"][dep]})')
+    for r in output['Research Institute']:
+        print(f'{r} ({output["Research Institute"][r]})')

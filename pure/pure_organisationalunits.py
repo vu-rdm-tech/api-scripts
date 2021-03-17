@@ -6,7 +6,7 @@ import requests_cache
 
 # https://research.vu.nl/ws/api/518/api-docs/index.html#!/organisational45units/listOrganisationalUnits
 
-requests_cache.install_cache(cache_name='pure_ou_requests_cache', allowable_methods=('GET', 'POST'))
+#requests_cache.install_cache(cache_name='pure_ou_requests_cache', allowable_methods=('GET', 'POST'))
 
 
 def _store(data, filename):
