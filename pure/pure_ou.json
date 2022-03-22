@@ -267,12 +267,6 @@
        "name": "Political Science and Public Administration",
        "term": "Department",
        "children": []
-      },
-      {
-       "uuid": "dc21edee-5bb4-41dd-abdc-e8e685bb07a2",
-       "name": "Social Science - Education",
-       "term": "Department",
-       "children": []
       }
      ]
     },
@@ -414,9 +408,28 @@
     },
     {
      "uuid": "285ff4a7-3374-4d4a-aa33-7df75536ef21",
-     "name": "ACTA - Dentistry",
+     "name": "Faculty of Dentistry (ACTA)",
      "term": "Faculty",
-     "children": []
+     "children": [
+      {
+       "uuid": "183ae721-3ca7-4f17-8a53-586033b596ae",
+       "name": "Oral Infections and Inflammation (OII)",
+       "term": "Department",
+       "children": []
+      },
+      {
+       "uuid": "1041ab2e-a143-412f-846b-9a65235ac95d",
+       "name": "Oral Regenerative Medicine (ORM)",
+       "term": "Department",
+       "children": []
+      },
+      {
+       "uuid": "0c574707-7da7-4e24-9349-7261ea2f8538",
+       "name": "OWI (ACTA)",
+       "term": "Department",
+       "children": []
+      }
+     ]
     },
     {
      "uuid": "90f1765a-f5d9-4820-b2b0-0c7882b628df",
